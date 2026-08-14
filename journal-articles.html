@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Journal and Newspaper Articles</title>
+<style>
+:root {
+ --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e;
+ --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2;
+}
+* { box-sizing:border-box; }
+body {
+ margin:0; background:var(--paper); color:var(--ink);
+ font-family:Georgia,"Times New Roman",serif; line-height:1.55;
+}
+.site-header { background:var(--navy); color:white; border-bottom:5px solid var(--gold); }
+.header-inner { max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }
+.site-title { margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }
+.site-subtitle { margin:.55rem 0 0; color:#e5dfd2; }
+nav { background:var(--navy-dark); }
+.nav-inner { max-width:1180px; margin:auto; padding:0 1rem; }
+.nav-list { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }
+.nav-list a {
+ display:block; padding:.85rem .95rem; color:white; text-decoration:none;
+ font-family:Arial,Helvetica,sans-serif; font-size:.82rem; text-transform:uppercase;
+}
+.nav-list a:hover { background:var(--gold); }
+main { max-width:1180px; margin:auto; padding:2.5rem 1.5rem 4rem; }
+.breadcrumb {
+ font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+ color:var(--muted); margin-bottom:1.5rem;
+}
+.breadcrumb a { color:var(--navy); }
+h2 {
+ color:var(--navy); font-size:2rem; font-weight:normal;
+ border-bottom:2px solid var(--gold); padding-bottom:.35rem; margin:0 0 1rem;
+}
+.intro { max-width:900px; margin-bottom:2rem; }
+.panel-grid {
+ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+ gap:1rem;
+}
+.panel {
+ display:block; background:white; border:1px solid var(--line);
+ border-top:4px solid var(--gold); padding:1.25rem 1.2rem;
+ text-decoration:none; min-height:110px;
+}
+.panel:hover { background:#faf8f3; }
+.panel h3 {
+ margin:0; color:var(--navy); font-size:1.15rem; font-weight:normal;
+}
+.back-link { margin-top:1.6rem; font-family:Arial,Helvetica,sans-serif; }
+.back-link a { color:var(--navy); }
+footer {
+ background:var(--navy-dark); color:#d9dde0; text-align:center;
+ padding:1.5rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+}
+.panel.pending{cursor:default}.panel.pending:hover{background:white}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+<h1 class="site-title">Journal and Newspaper Articles</h1>
+<p class="site-subtitle">The Captain Bob Chessum Memorial Naval History Collection</p>
+</div></header>
+<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Arms Control Archive</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Museum Ship Reports</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+</ul></div></nav>
+<main>
+<div class="breadcrumb">
+<a href="index.html">Home</a> /
+<a href="library.html">Library</a> /
+Journal and Newspaper Articles
+</div>
+<section class="intro">
+<h2>Journal and Newspaper Articles</h2>
+<p>Journal and Newspaper articles relating to Naval Arms Control and/or Naval History.</p>
+</section>
+<div class="panel-grid">
+<a class="panel" href="post-war-articles.html"><h3>Post-War Articles</h3></a>
+<a class="panel" href="contemporary-articles.html"><h3>Contemporary Articles (up to approximately the end of World War II)</h3></a>
+<a class="panel" href="london-times-articles.html"><h3>Articles from the London Times</h3></a>
+<div class="panel pending"><h3>Articles from the Washington Post</h3></div>
+<div class="panel pending"><h3>Articles from the New York Times</h3></div>
+</div>
+<p class="back-link"><a href="library.html">← Back to Library</a></p>
+</main>
+<footer>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+</body>
+</html>
