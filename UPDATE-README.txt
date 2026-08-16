@@ -1,17 +1,29 @@
-DC-NAVAL-HISTORY.COM - BATCH UPDATE 2
-Prepared 14 August 2026
+DC-NAVAL-HISTORY.COM - BATCH 3 UPDATE
+Prepared: 16 August 2026
 
 HOW TO APPLY
-Copy all files from this package into the root of the local dc-naval-history repository, allowing files with the same names to be replaced. Then commit the changes in GitHub Desktop and Push origin.
+1. Extract this ZIP.
+2. Copy all extracted HTML files into the root of your local dc-naval-history repository.
+3. Allow Windows to replace files with the same names.
+4. Do not delete the /files folder or any other files.
+5. Open GitHub Desktop, review the Changes list, Commit to main, then Push origin.
 
-MAIN CHANGES
-- Home page: updated Facebook and LinkedIn contact links.
-- Journal and Newspaper Articles: activated Washington Post panel and added Washington Post article page.
-- Treaties: added breadcrumbs to all 38 treaty sub-pages and clarified duplicate Preparatory Commission and Geneva Naval Conference labels.
-- Great Lakes draft treaties: added footnote [1] and [2] links.
-- Treaty/source pages: added requested NAA/University of Wisconsin source links and replaced the Rome Naval Conference source text.
-- Preparatory Commission conference page: added CMD2888 and CMD3211 at the start of the second table.
-- Museum Ship Reports: restored lost paragraph boundaries on 73 affected report pages.
-- Warship Export Case Studies: removed stray .n on Argentina page and removed the requested Patria sentence from The Penstemon and the Inconstant.
-- Admiralty Publications: changed TNA Ref to ADM 275/19? for CB 1515(8), CB 1515(16), and CB 1515(23).
-- Links: added American Naval Records Society and Battleship Texas panels.
+KEY CHANGES
+- Top navigation label changed site-wide from 'Arms Control Archive' to 'Documents'.
+- Homepage meta description added for search-engine snippets.
+- Document Archive panel text updated for Admiralty Publications and Command Papers.
+- New York Times searchable/sortable article page added and linked from Journal and Newspaper Articles.
+- Museum Ship Report corrections for Abtao, Royal Malaysian Navy Museum, Museo Navale de la Nacion, Brazilian Navy Cultural Centre, Museo Maritimo Nacional, Royal Brunei Armed Forces Museum, Corregidor and Singaporean Navy Museum.
+- Corregidor page uses the approved revised photograph/text sequence.
+- Admiralty Publications TNA references updated for the supplied list; BR 853 year changed to 1943.
+- 16 new Book List entries added and the table re-sorted by author.
+
+NEW YORK TIMES RECORDS
+1,114
+
+ADMIRALTY PUBLICATIONS REQUESTED REF UPDATES
+43 distinct publications requested; all 43 matched. 44 table rows were updated because BR 1806 appears twice in the existing table.
+Missing: None
+
+GLOBAL MENU PAGES UPDATED
+251
