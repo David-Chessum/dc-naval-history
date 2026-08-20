@@ -1,16 +1,26 @@
-DC Naval History website update: all website changes prepared after the final Batch 4 specific-only package of 18 August 2026.
+DC-NAVAL-HISTORY.COM - BATCH 6 (CORRECTED)
+Prepared: 20 August 2026
 
-Deploy these files over the corresponding files on the website.
+Scope:
+This package contains ONLY changes made after the checkpoint message:
+"OK I see I have confused things by giving instructions in two separate threads,
+and the last update was done in another thread."
 
-Included:
-- admiralty-publications.html — latest Admiralty Publications update prepared after Batch 4.
-- command-papers.html — latest Command Papers update prepared after Batch 4.
-- links.html — latest Links page update prepared after Batch 4.
-- argentina-presidente-sarmiento-uruguay-buenos-aires.html — new/revised museum ship report.
-- denmark-springeren-marine-museum-aalborg.html — new/revised museum report.
-- denmark-danish-naval-base-copenhagen.html — new/revised museum report.
-- denmark-danish-war-museum-copenhagen.html — new museum report.
-- naval-arms-control.html — updated Naval Arms Control Document Archive landing page with new CB/OU/BR matrix panel.
-- cb-ou-br-cross-reference-matrix.html — new searchable/filterable CB/OU/BR Cross Reference Matrix page.
+All earlier changes are excluded because they were already included in Batch 5.
 
-This package excludes intermediate review/v2 drafts and includes the latest version of each logical page prepared since Batch 4.
+Included pages:
+- book-list.html
+- denmark-bangsbo-bunkermuseum.html
+- denmark-cold-war-museum-stevnsfort.html
+- denmark-danish-naval-base-copenhagen.html
+- denmark-danish-war-museum-copenhagen.html
+- denmark-hantsholm-bunkermuseum.html
+- denmark-sea-war-museum-jutland-thyboron.html
+- denmark-springeren-marine-museum-aalborg.html
+- denmark-tirpitz-museum-oksby.html
+- estonia-eesti-meremuseum-tallinn.html
+
+Total HTML files: 10
+QA issues detected: 0
+
+No QA issues detected.
