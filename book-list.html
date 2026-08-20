@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Book List</title><style>body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#fff;color:#222}.wrap{max-width:1200px;margin:0 auto;padding:28px 24px 48px}h1{margin:0 0 22px;font-size:2rem}table{width:100%;border-collapse:collapse;font-size:15px}th,td{border:1px solid #777;padding:8px 10px;text-align:left;vertical-align:top}th{background:#e7e7e7;font-weight:700;position:sticky;top:0}tbody tr:nth-child(even){background:#fafafa}td:nth-child(3){white-space:nowrap;width:90px}td:nth-child(2){width:210px}td:nth-child(4){width:230px}@media(max-width:700px){.wrap{padding:16px 10px}table{font-size:13px}th,td{padding:6px}}
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Book List</title><style>
+:root { --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e; --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2; }
+*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.55}
+.site-header{background:var(--navy);color:white;border-bottom:5px solid var(--gold)} .header-inner{max-width:1180px;margin:auto;padding:2.3rem 1.5rem 1.9rem}.site-title{margin:0;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.55rem 0 0;color:#e5dfd2}
+nav{background:var(--navy-dark)}.nav-inner{max-width:1180px;margin:auto;padding:0 1rem}.nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}.nav-list a{display:block;padding:.85rem .95rem;color:white;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;text-transform:uppercase}.nav-list a:hover{background:var(--gold)}
+main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}.breadcrumb a{color:var(--navy)}h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1rem}.intro{max-width:900px;margin-bottom:1.5rem}
+.controls{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;margin:1.25rem 0}.controls label{font-family:Arial,Helvetica,sans-serif;font-weight:bold;color:var(--navy)}#search{flex:1;min-width:260px;max-width:560px;padding:.7rem .8rem;border:1px solid #a9a397;background:white;font-size:1rem}.count{font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
+.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{padding:.65rem .7rem;text-align:left;vertical-align:top;border-bottom:1px solid #e3ded4}th{position:sticky;top:0;background:var(--navy);color:white;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;letter-spacing:.02em}th.sortable{padding:0}th.sortable button{width:100%;border:0;background:transparent;color:white;text-align:left;padding:.65rem .7rem;font:inherit;cursor:pointer}th.sortable button:hover,th.sortable button:focus{background:var(--gold);outline:none}.sort-indicator{float:right;margin-left:.4rem}tbody tr:nth-child(even){background:#faf8f3}tbody tr:hover{background:#f1eadc}td:nth-child(1){min-width:300px}td:nth-child(2){min-width:150px}td:nth-child(3){min-width:180px}td:nth-child(4){min-width:115px;white-space:nowrap}td:nth-child(5),td:nth-child(6){white-space:nowrap}.no-results{display:none;padding:1rem;font-family:Arial,Helvetica,sans-serif;color:var(--muted)}
+.back-link{margin-top:1.6rem;font-family:Arial,Helvetica,sans-serif}.back-link a{color:var(--navy)}footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem}@media(max-width:650px){main{padding:1.8rem .8rem 3rem}.header-inner{padding-left:1rem;padding-right:1rem}table{font-size:.86rem}}
+
+.controls{margin-bottom:1.5rem}
+.table-meta{display:flex;justify-content:space-between;align-items:center;width:100%}
+.page-size{margin-left:auto;text-align:right}
+
+/* Book List-specific styles */
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#fff;color:#222}.wrap{max-width:1200px;margin:0 auto;padding:28px 24px 48px}h1{margin:0 0 22px;font-size:2rem}table{width:100%;border-collapse:collapse;font-size:15px}th,td{border:1px solid #777;padding:8px 10px;text-align:left;vertical-align:top}th{background:#e7e7e7;font-weight:700;position:sticky;top:0}tbody tr:nth-child(even){background:#fafafa}td:nth-child(3){white-space:nowrap;width:90px}td:nth-child(2){width:210px}td:nth-child(4){width:230px}@media(max-width:700px){.wrap{padding:16px 10px}table{font-size:13px}th,td{padding:6px}}
 .controls{margin:0 0 1.1rem;padding:1rem;background:#f7f4ee;border:1px solid #d8d2c8;border-radius:6px;font-family:Arial,Helvetica,sans-serif}
 .controls-row{display:grid;grid-template-columns:minmax(220px,2fr) minmax(150px,1fr) minmax(130px,.8fr) auto;gap:.8rem;align-items:end}
 .filter-grid{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:.8rem;margin-top:.8rem}
@@ -42,9 +57,9 @@ body{color:var(--ink);background:var(--paper)}
 nav{background:var(--navy-dark)}
 .nav-list a{color:#fff}
 .nav-list a:hover,.nav-list a:focus{background:var(--gold)}
-.breadcrumb{color:var(--muted)}
-.breadcrumb a{color:var(--navy)}
-main h1,main h2{color:var(--navy);border-bottom-color:var(--gold)}
+
+
+main h1,main 
 .controls{background:var(--panel);border-color:var(--line)}
 .controls label{color:var(--navy)}
 .controls input,.controls select{background:#fff;color:var(--ink);border-color:#aeb5ba}
@@ -68,7 +83,20 @@ main h1,main h2{color:var(--navy);border-bottom-color:var(--gold)}
 #bookTable tbody tr:hover{background:#f0eadf}
 .back-link a{color:var(--navy)}
 footer{background:var(--navy-dark);color:#d9dde0}
-</style></head><body><main class="wrap"><h1>Book List</h1>
+
+/* Standard page title / breadcrumb / footer treatment */
+
+
+
+
+
+
+
+
+h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1rem}
+.breadcrumb{font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}
+.breadcrumb a{color:var(--navy)}
+</style></head><body><nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="naval-arms-control.html">Arms Control Archive</a></li><li><a href="publications.html">Publications</a></li><li><a href="tables.html">Tables</a></li><li><a href="links.html">Links</a></li><li><a href="library.html">Library</a></li><li><a href="museum-ship-reports.html">Museum Ship Reports</a></li><li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li></ul></div></nav><header class="site-header"><div class="header-inner"><h1 class="site-title">Book List</h1><p class="site-subtitle">The Captain Bob Chessum Memorial Naval History Collection</p></div></header><main class="wrap"><div class="breadcrumb"><a href="index.html">Home</a> / <a href="library.html">Library</a> / Book List</div><h2>Book List</h2>
 <section aria-label="Book list controls" class="controls">
 <div class="controls-row">
 <label>Search all fields
@@ -282,4 +310,4 @@ document.getElementById("lastPage").addEventListener("click",()=>{
 });
 
 render();
-</script></body></html>
+</script><footer><p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p><p><em>Ego sum nauta</em></p></footer></body></html>

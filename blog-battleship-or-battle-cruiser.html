@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Battleship or Battle Cruiser?</title>
+<style>
+:root{
+  --navy:#17324d;
+  --navy-dark:#102638;
+  --gold:#b08b3e;
+  --paper:#f5f1e8;
+  --ink:#242424;
+  --muted:#5f6770;
+  --line:#d5cfc2;
+  --white:#ffffff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.65;
+}
+.site-header{
+  background:var(--navy);
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:2.3rem 1.5rem 1.9rem;
+}
+.site-title{
+  margin:0;
+  font-size:clamp(1.9rem,3.6vw,3rem);
+  font-weight:normal;
+}
+.site-subtitle{
+  margin:.55rem 0 0;
+  color:#e5dfd2;
+}
+nav{background:var(--navy-dark)}
+.nav-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1rem;
+}
+.nav-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+}
+.nav-list a{
+  display:block;
+  padding:.85rem .95rem;
+  color:#fff;
+  text-decoration:none;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.82rem;
+  text-transform:uppercase;
+}
+.nav-list a:hover,
+.nav-list a:focus{
+  background:var(--gold);
+  outline:none;
+}
+main{
+  max-width:1180px;
+  margin:0 auto;
+  padding:2.5rem 1.5rem 4rem;
+}
+.breadcrumb{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.85rem;
+  color:var(--muted);
+  margin-bottom:1.5rem;
+}
+.breadcrumb a{color:var(--navy)}
+h2{
+  color:var(--navy);
+  font-size:2rem;
+  font-weight:normal;
+  border-bottom:2px solid var(--gold);
+  padding-bottom:.35rem;
+  margin:0 0 1.2rem;
+}
+.lead{
+  font-size:1.18rem;
+  color:#38424a;
+}
+.library-intro{
+  max-width:900px;
+  margin-bottom:2.2rem;
+}
+.access-box{
+  background:#fff;
+  border:1px solid var(--line);
+  border-left:5px solid var(--gold);
+  padding:1.5rem 1.7rem;
+  margin:2rem 0 2.5rem;
+}
+.access-box h3{
+  color:var(--navy);
+  margin:0 0 .7rem;
+  font-size:1.35rem;
+  font-weight:normal;
+}
+.access-box p:last-child{margin-bottom:0}
+.access-box a{color:var(--navy)}
+.library-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:1.2rem;
+}
+.library-card{
+  display:flex;
+  flex-direction:column;
+  min-height:190px;
+  padding:1.45rem;
+  background:#fff;
+  border:1px solid var(--line);
+  border-top:5px solid var(--navy);
+  color:var(--ink);
+  text-decoration:none;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.library-card:hover,
+.library-card:focus{
+  transform:translateY(-3px);
+  box-shadow:0 7px 18px rgba(0,0,0,.10);
+  outline:none;
+}
+.library-card h3{
+  margin:0 0 .55rem;
+  color:var(--navy);
+  font-size:1.3rem;
+  font-weight:normal;
+}
+.library-card p{
+  margin:0;
+  color:var(--muted);
+}
+.card-link{
+  margin-top:auto;
+  padding-top:1rem;
+  color:var(--navy);
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.82rem;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+footer{
+  background:var(--navy-dark);
+  color:#d9dde0;
+  text-align:center;
+  padding:1.5rem;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.85rem;
+}
+@media(max-width:700px){
+  .nav-list a{padding:.7rem .65rem;font-size:.72rem}
+}
+
+.blog-article{max-width:900px}
+.blog-article p{margin:0 0 1.15rem}
+.ship-example{margin:.35rem 0 .35rem 2rem}
+</style>
+</head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+<h1 class="site-title">Battleship or Battle Cruiser?</h1>
+<p class="site-subtitle">Blog</p>
+</div>
+</header>
+<nav aria-label="Main navigation">
+<div class="nav-inner">
+<ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Arms Control Archive</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Museum Ship Reports</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="blog.html">Blog</a></li></ul>
+</div>
+</nav>
+<main><div class="breadcrumb"><a href="index.html">Home</a> / <a href="blog.html">Blog</a> / Battleship or Battle Cruiser?</div><article class="blog-article"><h2>Battleship or Battle Cruiser?</h2><p>I wish I had a dollar for every time I have seen a battleship vs battle cruiser definition argument on the Internet – usually revolving around what class a particular ship is – most commonly <em>Scharnhorst </em>and <em>Gneisenau.  </em></p><p>Another frequent and related argument is whether the <em>Alaska </em>class Large Cruisers might have been battle cruisers. Nobody seems to get upset when you refer to a German WW1 <em>Grosse Kreuzer </em>(i.e. large cruiser) as a battle cruiser but do the same thing with the <em>Alaska</em> class and you are bound to trigger a vigorous response!</p><p>It never fails to surprise me how many individuals are prepared to make emphatic statements one way or the other on these two issues, argue black and blue that they are right, and sneer at anyone who isn’t smart enough to understand their logic.</p><p>The problem of course, is that ship classifications are not like the taxonomy of species. You can divide pets into ‘cats’, ‘dogs’, ‘budgerigars’, ‘ferrets’ etc with certainty because these are all discrete groups with universally agreed unambiguous definitions.  Ship classes are different. Ships can be built with any imaginable combination of features, and any division into categories (except for binary characteristics like a submarine’s ability to submerge) will inevitably be arbitrary, subjective, and personal to the individual making the classification.  </p><p>Take as an example the following two characteristic sets for a World 1 warship:</p><p class="ship-example">Ship A: 12-12” guns, 21 knots, 12-inch belt armour.</p><p class="ship-example">Ship G: 12-12” guns, 27 knots, 6-inch belt armour.</p><p>Now most observers would look at these two ships and say that Ship A was a battleship, while Ship G was a battle cruiser – and they won’t get any argument from me.</p><p>But now consider a range of intermediate designs B through to F. Each successive design gains a knot of speed, and loses and inch of belt armour: i.e.</p><p class="ship-example">Ship B: 12-12” guns, 22 knots, 11-inch belt armour.</p><p class="ship-example">Ship C: 12-12” guns, 23 knots, 10-inch belt armour.</p><p class="ship-example">Ship D: 12-12” guns, 24 knots, 9-inch belt armour.</p><p class="ship-example">Ship E: 12-12” guns, 25 knots, 8-inch belt armour.</p><p class="ship-example">Ship F: 12-12” guns, 26 knots, 7-inch belt armour.</p><p>Now ask which of these are battleships, and which are battle cruisers?  It’s like asking when a kitten becomes a cat. Different people might draw the line at different places, depending upon how they personally define the two terms.  But wherever you draw the line, look at the ships immediately above and below the line – are they really a different type of ship from each other?  And if you think that was easy, now consider increments/decrements of 1/10th of a knot, and 1/10th of an inch of belt armour. Wherever you draw your line, you are going to be putting virtually identical ships either side of your line into different categories – which is clearly absurd.</p><p>So what is my answer? I work on the basis that class names are relatively arbitrary, and I am generally happy just to use the classifications that the owners chose. So if the French want to call <em>Dunkerque </em>a battleship, or the Americans want to call <em>Alaska</em> a large cruiser, I’m happy to go with that.  The only exceptions to this are (1) patently absurd classifications like the Soviet <em>Kiev</em> class which were clearly carriers and not ASW cruisers, and (2) instances where countries just choose to use a term differently to everyone else – like the US after WW2 using the term ‘Frigate’ to refer to ships larger than destroyers (at least until 1975 when they finally came around and reclassified them as either cruisers or destroyers, and started using the term Frigate for what they had previously called ‘destroyer escorts’.</p></article><p class="back-link"><a href="blog.html">← Back to Blog</a></p></main>
+<footer>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+</body>
+</html>
