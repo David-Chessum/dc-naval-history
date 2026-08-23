@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Search | Naval History Research</title>
+<style>
+:root{
+  --navy:#17324d;
+  --navy-dark:#102638;
+  --gold:#b08b3e;
+  --paper:#f5f1e8;
+  --ink:#242424;
+  --muted:#5f6770;
+  --line:#d5cfc2;
+  --white:#ffffff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.65;
+}
+.site-header{
+  background:var(--navy);
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:2.3rem 1.5rem 1.9rem;
+}
+.site-title{
+  margin:0;
+  font-size:clamp(1.9rem,3.6vw,3rem);
+  font-weight:normal;
+}
+.site-subtitle{
+  margin:.55rem 0 0;
+  color:#e5dfd2;
+}
+nav{background:var(--navy-dark)}
+.nav-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1rem;
+}
+.nav-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+}
+.nav-list a{
+  display:block;
+  padding:.85rem .95rem;
+  color:#fff;
+  text-decoration:none;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.82rem;
+  text-transform:uppercase;
+}
+.nav-list a:hover,
+.nav-list a:focus{
+  background:var(--gold);
+  outline:none;
+}
+main{
+  max-width:1180px;
+  margin:0 auto;
+  padding:2.5rem 1.5rem 4rem;
+}
+.breadcrumb{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.85rem;
+  color:var(--muted);
+  margin-bottom:1.5rem;
+}
+.breadcrumb a{color:var(--navy)}
+h2{
+  color:var(--navy);
+  font-size:2rem;
+  font-weight:normal;
+  border-bottom:2px solid var(--gold);
+  padding-bottom:.35rem;
+  margin:0 0 1.2rem;
+}
+.lead{
+  font-size:1.18rem;
+  color:#38424a;
+}
+.library-intro{
+  max-width:900px;
+  margin-bottom:2.2rem;
+}
+.access-box{
+  background:#fff;
+  border:1px solid var(--line);
+  border-left:5px solid var(--gold);
+  padding:1.5rem 1.7rem;
+  margin:2rem 0 2.5rem;
+}
+.access-box h3{
+  color:var(--navy);
+  margin:0 0 .7rem;
+  font-size:1.35rem;
+  font-weight:normal;
+}
+.access-box p:last-child{margin-bottom:0}
+.access-box a{color:var(--navy)}
+.library-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:1.2rem;
+}
+.library-card{
+  display:flex;
+  flex-direction:column;
+  min-height:190px;
+  padding:1.45rem;
+  background:#fff;
+  border:1px solid var(--line);
+  border-top:5px solid var(--navy);
+  color:var(--ink);
+  text-decoration:none;
+  transition:transform .15s ease,box-shadow .15s ease;
+}
+.library-card:hover,
+.library-card:focus{
+  transform:translateY(-3px);
+  box-shadow:0 7px 18px rgba(0,0,0,.10);
+  outline:none;
+}
+.library-card h3{
+  margin:0 0 .55rem;
+  color:var(--navy);
+  font-size:1.3rem;
+  font-weight:normal;
+}
+.library-card p{
+  margin:0;
+  color:var(--muted);
+}
+.card-link{
+  margin-top:auto;
+  padding-top:1rem;
+  color:var(--navy);
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.82rem;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+footer{
+  background:var(--navy-dark);
+  color:#d9dde0;
+  text-align:center;
+  padding:1.5rem;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.85rem;
+}
+@media(max-width:700px){
+  .nav-list a{padding:.7rem .65rem;font-size:.72rem}
+}
+
+.footer-links{margin:.15rem 0 .65rem}
+.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+
+.update-card{margin:1rem 0 1.25rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-radius:8px;background:#fff}
+.update-card h3{margin-top:0}
+.update-card p:last-child{margin-bottom:0}
+.event-card{margin-bottom:2rem}
+.updates-list{margin-bottom:1.5rem}
+
+.update-date{margin:-.35rem 0 .65rem;color:#6b6258;font-size:.92rem;font-weight:600}
+
+.site-search-form{margin:1.25rem 0 1.5rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-radius:8px;background:#fff}
+.site-search-form label{display:block;font-weight:700;margin:.45rem 0}
+.site-search-row{display:flex;gap:.6rem;margin-bottom:.9rem}
+.site-search-row input{flex:1;min-width:0;padding:.7rem .8rem;border:1px solid #aeb7bf;border-radius:4px;font-size:1rem}
+.site-search-row button{padding:.7rem 1.1rem;border:0;border-radius:4px;background:#244f73;color:#fff;font-weight:700;cursor:pointer}
+
+.search-summary{font-weight:700;margin:1rem 0}
+.search-result{padding:1rem 0;border-top:1px solid #d6d0c5}
+.search-result h2{font-size:1.15rem;margin:0 0 .25rem}
+.search-result p{margin:.3rem 0}
+.search-section{font-size:.9rem;color:#6b6258;font-weight:600}
+.search-result mark{background:#fff0a8;padding:0 .08rem}
+@media(max-width:640px){.site-search-row{display:block}.site-search-row input,.site-search-row button{width:100%;box-sizing:border-box}.site-search-row button{margin-top:.5rem}}
+
+.site-search-sections{margin:.75rem 0 0;padding:.85rem 1rem;border:1px solid #d6d0c5;border-radius:6px;background:#faf9f6}
+.site-search-sections legend{font-weight:700;padding:0 .35rem}
+.section-checkbox{display:block;font-weight:400 !important;margin:.35rem 0 !important}
+.section-checkbox input{margin-right:.35rem}
+
+.table-match-group{margin:.7rem 0 .15rem;padding:.65rem .8rem;background:#f7f5f0;border-left:3px solid #75899b}
+.table-match-heading{font-weight:700;margin:0 0 .45rem !important}
+.table-match-row{padding:.4rem 0;border-top:1px solid #ddd6ca;line-height:1.45}
+.table-match-row:first-of-type{border-top:0}
+.table-field{display:inline}
+.field-sep{color:#948a7d;padding:0 .15rem}
+.more-table-matches{font-style:italic;color:#625b53;margin:.45rem 0 0 !important}
+</style>
+<meta content="Search the Naval History of Interwar Naval Arms Control website by page title and page content." name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/search.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="Search | Naval History Research" property="og:title"/><meta content="Search the Naval History of Interwar Naval Arms Control website by page title and page content." property="og:description"/><meta content="https://dc-naval-history.com/search.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="Search | Naval History Research" name="twitter:title"/><meta content="Search the Naval History of Interwar Naval Arms Control website by page title and page content." name="twitter:description"/></head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+<h1 class="site-title">Search</h1>
+<p class="site-subtitle">Search the site</p>
+</div>
+</header>
+<nav aria-label="Main navigation">
+<div class="nav-inner">
+<ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Documents</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Museum Ship Reports</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul>
+</div>
+</nav>
+<main><div class="breadcrumb"><a href="index.html">Home</a> › Search</div><h1>Search</h1><p>Search page titles, page text and the contents of research tables across this website. Table matches are grouped under the page in which the matching records appear.</p><form class="site-search-form" id="siteSearchForm" role="search"><label for="siteSearchInput">Search this site</label><div class="site-search-row"><input autocomplete="off" id="siteSearchInput" placeholder="Enter a name, ship, treaty, place or subject…" type="search"/><button type="submit">Search</button></div><fieldset class="site-search-sections" id="siteSearchSections"><legend>Limit results to</legend><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Document Archive"/> Document Archive</label><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Tables"/> Tables</label><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Museum Ship Reports"/> Museum Ship Reports</label><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Second-Hand Warship Export Case Studies"/> Second-Hand Warship Export Case Studies</label><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Library"/> Library</label><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Blog"/> Blog</label><label class="section-checkbox"><input checked="checked" name="section" type="checkbox" value="Naval History Research"/> Other Naval History Research</label></fieldset></form><p class="search-summary" id="searchSummary"></p><div class="search-results" id="searchResults"></div></main>
+<footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+<script src="search-index.js"></script><script>
+(function(){
+  const input = document.getElementById('siteSearchInput');
+  const sectionBoxes = Array.from(document.querySelectorAll('#siteSearchSections input[name="section"]'));
+  const form = document.getElementById('siteSearchForm');
+  const results = document.getElementById('searchResults');
+  const summary = document.getElementById('searchSummary');
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+  }
+  function escapeRegExp(s){
+    return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  }
+  function tokens(q){
+    return q.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  }
+  function selectedSections(){
+    return sectionBoxes.filter(cb => cb.checked).map(cb => cb.value);
+  }
+  function includesAll(text, terms){
+    const hay = text.toLowerCase();
+    return terms.every(t => hay.includes(t));
+  }
+  function scoreText(title, text, terms){
+    const tt = title.toLowerCase();
+    const tx = text.toLowerCase();
+    let score = 0;
+    for (const t of terms){
+      if (tt === t) score += 100;
+      else if (tt.includes(t)) score += 30;
+      const count = Math.min(8, (tx.match(new RegExp(escapeRegExp(t),'g')) || []).length);
+      score += count;
+    }
+    if (terms.every(t => tt.includes(t))) score += 40;
+    return score;
+  }
+  function highlight(s, terms){
+    let out = escapeHtml(s);
+    for (const t of terms){
+      const re = new RegExp('(' + escapeRegExp(t) + ')','ig');
+      out = out.replace(re,'<mark>$1</mark>');
+    }
+    return out;
+  }
+  function snippet(text, terms){
+    const lower = text.toLowerCase();
+    let pos = -1;
+    for (const t of terms){
+      const p = lower.indexOf(t);
+      if (p >= 0 && (pos < 0 || p < pos)) pos = p;
+    }
+    if (pos < 0) pos = 0;
+    const start = Math.max(0, pos - 90);
+    const end = Math.min(text.length, pos + 240);
+    let s = (start > 0 ? '…' : '') + text.slice(start,end) + (end < text.length ? '…' : '');
+    return highlight(s, terms);
+  }
+  function rowDisplay(row, terms){
+    const preferred = row.fields.slice(0,6);
+    return preferred.map(([k,v]) =>
+      '<span class="table-field"><strong>' + escapeHtml(k) + ':</strong> ' + highlight(v,terms) + '</span>'
+    ).join(' <span class="field-sep">·</span> ');
+  }
+
+  function run(){
+    const q = input.value.trim();
+    const terms = tokens(q);
+    const chosen = selectedSections();
+
+    const url = new URL(window.location.href);
+    if (q) url.searchParams.set('q', q); else url.searchParams.delete('q');
+    url.searchParams.delete('section');
+    if (chosen.length !== sectionBoxes.length){
+      chosen.forEach(s => url.searchParams.append('section', s));
+    }
+    history.replaceState(null,'',url);
+
+    if (!q){
+      summary.textContent = '';
+      results.innerHTML = '<p>Enter a search term above.</p>';
+      return;
+    }
+    if (!chosen.length){
+      summary.textContent = 'No sections selected.';
+      results.innerHTML = '<p>Please select at least one section to search.</p>';
+      return;
+    }
+
+    const idx = window.SITE_SEARCH_INDEX || {pages:[],rows:[]};
+
+    const pageMatches = idx.pages.filter(rec =>
+      chosen.includes(rec.section) &&
+      includesAll(rec.title + ' ' + rec.text, terms)
+    ).map(rec => ({
+      rec,
+      score: scoreText(rec.title, rec.text, terms)
+    }));
+
+    const rowMatches = idx.rows.filter(rec =>
+      chosen.includes(rec.section) &&
+      includesAll(rec.parent + ' ' + rec.text, terms)
+    ).map(rec => ({
+      rec,
+      score: scoreText(rec.parent, rec.text, terms)
+    }));
+
+    const groups = new Map();
+
+    function getGroup(url, title, section){
+      if (!groups.has(url)){
+        groups.set(url, {url,title,section,page:null,rows:[],score:0});
+      }
+      return groups.get(url);
+    }
+
+    pageMatches.forEach(x => {
+      const g = getGroup(x.rec.url, x.rec.title, x.rec.section);
+      g.page = x.rec;
+      g.score = Math.max(g.score, x.score + 10);
+    });
+
+    rowMatches.forEach(x => {
+      const g = getGroup(x.rec.url, x.rec.parent, x.rec.section);
+      g.rows.push(x.rec);
+      g.score = Math.max(g.score, x.score);
+    });
+
+    const grouped = Array.from(groups.values()).sort((a,b) =>
+      b.score - a.score || a.title.localeCompare(b.title)
+    );
+
+    summary.textContent =
+      grouped.length + (grouped.length === 1 ? ' matching page' : ' matching pages') +
+      ' for "' + q + '"' +
+      (rowMatches.length ? ' (' + rowMatches.length.toLocaleString() + ' matching table records)' : '');
+
+    if (!grouped.length){
+      results.innerHTML = '<p>No matching pages or table records were found. Try fewer or broader search terms.</p>';
+      return;
+    }
+
+    results.innerHTML = grouped.slice(0,100).map(g => {
+      let body = '';
+      if (g.page){
+        body += '<p>' + snippet(g.page.text,terms) + '</p>';
+      }
+      if (g.rows.length){
+        const rows = g.rows.slice(0,5);
+        body += '<div class="table-match-group">';
+        body += '<p class="table-match-heading">' +
+          g.rows.length.toLocaleString() +
+          (g.rows.length === 1 ? ' matching table record' : ' matching table records') +
+          '</p>';
+        body += rows.map(r =>
+          '<div class="table-match-row">' + rowDisplay(r,terms) + '</div>'
+        ).join('');
+        if (g.rows.length > 5){
+          body += '<p class="more-table-matches">+' + (g.rows.length - 5).toLocaleString() + ' more matching records on this page.</p>';
+        }
+        body += '</div>';
+      }
+
+      return `
+        <article class="search-result">
+          <h2><a href="${g.url}">${escapeHtml(g.title)}</a></h2>
+          <p class="search-section">${escapeHtml(g.section)}</p>
+          ${body}
+        </article>
+      `;
+    }).join('');
+  }
+
+  form.addEventListener('submit', e => { e.preventDefault(); run(); });
+  sectionBoxes.forEach(cb => cb.addEventListener('change', run));
+
+  const params = new URLSearchParams(window.location.search);
+  input.value = params.get('q') || '';
+  const requestedSections = params.getAll('section');
+  if (requestedSections.length){
+    sectionBoxes.forEach(cb => cb.checked = requestedSections.includes(cb.value));
+  } else {
+    sectionBoxes.forEach(cb => cb.checked = true);
+  }
+  run();
+})();
+</script></body>
+</html>
