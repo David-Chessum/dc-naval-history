@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Articles from the London Times</title><style>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Articles from the London Times | Naval History Research</title><style>
 :root { --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e; --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2; }
 *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.55}
 .site-header{background:var(--navy);color:white;border-bottom:5px solid var(--gold)} .header-inner{max-width:1180px;margin:auto;padding:2.3rem 1.5rem 1.9rem}.site-title{margin:0;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.55rem 0 0;color:#e5dfd2}
@@ -13,9 +13,13 @@ main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-fa
 .controls{margin-bottom:1.5rem}
 .table-meta{display:flex;justify-content:space-between;align-items:center;width:100%}
 .page-size{margin-left:auto;text-align:right}
-</style></head><body>
+
+.footer-links{margin:.15rem 0 .65rem}
+.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+</style><meta content="Articles from The Times relating to Naval Arms Control and/or Naval History." name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/london-times-articles.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="Articles from the London Times | Naval History Research" property="og:title"/><meta content="Articles from The Times relating to Naval Arms Control and/or Naval History." property="og:description"/><meta content="https://dc-naval-history.com/london-times-articles.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="Articles from the London Times | Naval History Research" name="twitter:title"/><meta content="Articles from The Times relating to Naval Arms Control and/or Naval History." name="twitter:description"/></head><body>
 <header class="site-header"><div class="header-inner"><h1 class="site-title">Articles from the London Times</h1><p class="site-subtitle">The Captain Bob Chessum Memorial Naval History Collection</p></div></header>
-<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="naval-arms-control.html">Arms Control Archive</a></li><li><a href="publications.html">Publications</a></li><li><a href="tables.html">Tables</a></li><li><a href="links.html">Links</a></li><li><a href="library.html">Library</a></li><li><a href="museum-ship-reports.html">Museum Ship Reports</a></li><li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li></ul></div></nav>
+<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="naval-arms-control.html">Arms Control Archive</a></li><li><a href="publications.html">Publications</a></li><li><a href="tables.html">Tables</a></li><li><a href="links.html">Links</a></li><li><a href="library.html">Library</a></li><li><a href="museum-ship-reports.html">Museum Ship Reports</a></li><li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul></div></nav>
 <main><div class="breadcrumb"><a href="index.html">Home</a> / <a href="library.html">Library</a> / <a href="journal-articles.html">Journal and Newspaper Articles</a> / Articles from the London Times</div>
 <section class="intro"><h2>Articles from the London Times</h2><p>Articles from The Times relating to Naval Arms Control and/or Naval History.</p></section>
 <section aria-label="London Times article controls" class="controls">
@@ -23,8 +27,6 @@ main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-fa
 <label>Search all Article Titles
     <input id="globalSearch" placeholder="Search article titles..." type="search"/>
 </label>
-
-
 <button id="clearFilters" type="button">Clear filters</button>
 </div>
 <div class="filter-grid" style="grid-template-columns:repeat(2,minmax(180px,1fr));">
@@ -54,7 +56,7 @@ main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-fa
 <button aria-label="Next page" id="nextPage" type="button">›</button>
 <button aria-label="Last page" id="lastPage" type="button">»</button>
 </div><p class="back-link"><a href="journal-articles.html">← Back to Journal and Newspaper Articles</a></p></main>
-<footer><p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p><p><em>Ego sum nauta</em></p></footer>
+<footer><p class="footer-links"><a href="contact.html">Contact</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p><p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p><p><em>Ego sum nauta</em></p></footer>
 <script>
 const tbody=document.querySelector('#articles tbody'); const search=document.getElementById('search'); const count=document.getElementById('count'); const noResults=document.getElementById('noResults'); let sortCol=-1, sortAsc=true;
 function visibleRows(){return Array.from(tbody.rows).filter(r=>r.style.display!=='none')}
