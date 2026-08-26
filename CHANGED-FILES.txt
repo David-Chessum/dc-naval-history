@@ -1,14 +1,13 @@
-BATCH 20 - CHANGED FILES
+BATCH 21 - CHANGED FILES
 26 August 2026
-REGENERATED FINAL VERSION
 
-index.html	397625 bytes
-naval-arms-control.html	9298 bytes
-national-archives-australia-files.html	1091273 bytes
-whats-new.html	10229 bytes
-foreign-relations-united-states.html	16476 bytes
-tna-adm-files.html	596202 bytes
-warships-for-spain.html	12715 bytes
+index.html	397645 bytes
+naval-arms-control.html	9109 bytes
+national-archives-australia-files.html	1091454 bytes
+admiralty-board-minutes.html	547872 bytes
+tna-adm-files.html	596177 bytes
+whats-new.html	10459 bytes
+search-index-comprehensive-v2.js	14811799 bytes
 
-README-BATCH-20.txt
+README-BATCH-21.txt
 CHANGED-FILES.txt

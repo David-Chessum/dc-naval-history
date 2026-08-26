@@ -30,9 +30,9 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
 .intro-text ul{margin:.4rem 0 1.2rem 1.4rem;padding-left:1.2rem}
 .intro-text li{margin:.35rem 0}
 .draft-note{padding:1rem 1.2rem;background:#fff7df;border:1px solid #d8c38e;font-family:Arial,Helvetica,sans-serif;font-size:.95rem}
-.controls{background:var(--panel);border:1px solid var(--line);padding:1rem 1.1rem;margin:1.4rem 0 1rem}
-.controls-row{display:grid;grid-template-columns:minmax(260px,2fr) minmax(170px,1fr) minmax(130px,.7fr) auto;gap:.8rem;align-items:end}
-.filter-grid{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:.75rem;margin-top:.9rem}
+.controls{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.15rem 1.25rem;margin:1.4rem 0 1rem}
+.control-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.9rem 1rem;align-items:end}
+.search-wide{grid-column:span 2}
 label{display:block;font-family:Arial,Helvetica,sans-serif;font-size:.78rem;font-weight:bold;color:var(--navy);text-transform:uppercase;letter-spacing:.02em}
 input,select,button{font:inherit}
 input[type="search"],input[type="text"],select{width:100%;margin-top:.28rem;padding:.58rem .62rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:.9rem}
@@ -66,13 +66,14 @@ a.cell-link{color:var(--navy);word-break:break-all}
 .back-link a{color:var(--navy)}
 footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}
 @media(max-width:900px){
-  .controls-row{grid-template-columns:1fr 1fr}
-  .filter-grid{grid-template-columns:1fr 1fr}
+  .control-grid{grid-template-columns:1fr 1fr}
+  .search-wide{grid-column:span 2}
 }
 @media(max-width:600px){
   .nav-list a{padding:.7rem .65rem;font-size:.72rem}
   main{padding:1.8rem .8rem 3rem}
-  .controls-row,.filter-grid{grid-template-columns:1fr}
+  .control-grid{grid-template-columns:1fr}
+  .search-wide{grid-column:span 1}
 }
 
 .tna-table th:nth-child(1), .tna-table td:nth-child(1){width:16%;white-space:nowrap}
@@ -112,7 +113,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 <p>If you can provide corrections, or would like to discuss exchanging copies of archival material, I would be pleased to hear from you. Please use the <a href="contact.html">Contact page</a>.</p>
 </section><section class="controls">
 <div class="control-grid">
-<label>Search title
+<label class="search-wide">Search title
       <input id="globalSearch" placeholder="Search title..." type="text"/>
 </label>
 <label>Sort by
