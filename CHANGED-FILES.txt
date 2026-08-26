@@ -1,3 +1,14 @@
-publications.html
-warship-export-case-studies.html
-warships-for-spain.html
+BATCH 20 - CHANGED FILES
+26 August 2026
+REGENERATED FINAL VERSION
+
+index.html	397625 bytes
+naval-arms-control.html	9298 bytes
+national-archives-australia-files.html	1091273 bytes
+whats-new.html	10229 bytes
+foreign-relations-united-states.html	16476 bytes
+tna-adm-files.html	596202 bytes
+warships-for-spain.html	12715 bytes
+
+README-BATCH-20.txt
+CHANGED-FILES.txt

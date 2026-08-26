@@ -68,40 +68,29 @@ footer {
  background:var(--navy-dark); color:#d9dde0; text-align:center;
  padding:1.5rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
 }
-
-.frus-controls{background:#fff;border:1px solid var(--line,#d8d1c2);padding:1rem 1.15rem;margin:1rem 0 1.25rem;}
-.frus-controls h2{margin:0 0 .8rem;}
-.frus-controls-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:.8rem 1rem;align-items:end;}
-.frus-controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:.9rem;margin-bottom:.25rem;}
-.frus-controls input,.frus-controls select{width:100%;box-sizing:border-box;padding:.5rem .6rem;font:inherit;border:1px solid #bfc5ca;background:#fff;}
-.frus-results-count{margin:.8rem 0 0;font-family:Arial,Helvetica,sans-serif;font-size:.9rem;}
-.frus-pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif;}
-.frus-pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer;font:inherit;}
-.frus-pagination button[disabled]{opacity:.45;cursor:default;}
-@media(max-width:760px){.frus-controls-grid{grid-template-columns:1fr;}}
 </style>
 </head>
 <body>
 <header class="site-header"><div class="header-inner">
 <h1 class="site-title">Foreign Relations of the United States</h1>
-<p class="site-subtitle">Naval Arms Control Document Archive</p>
+<p class="site-subtitle">Naval History Document Archive</p>
 </div></header>
-<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
+<nav aria-label="Main navigation">
+<div class="nav-inner">
+<ul class="nav-list">
 <li><a href="index.html">Home</a></li>
-<li><a href="naval-arms-control.html">Arms Control Archive</a></li>
+<li><a href="naval-arms-control.html">Documents</a></li>
 <li><a href="publications.html">Publications</a></li>
 <li><a href="tables.html">Tables</a></li>
 <li><a href="links.html">Links</a></li>
 <li><a href="library.html">Library</a></li>
 <li><a href="museum-ship-reports.html">Museum Ship Reports</a></li>
 <li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
-</ul></div></nav>
-<main>
-<div class="breadcrumb">
-<a href="index.html">Home</a> /
-<a href="naval-arms-control.html">Naval Arms Control Document Archive</a> /
-Foreign Relations of the United States
+<li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul>
 </div>
+</nav>
+<main>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / Foreign Relations of the United States</div>
 <section class="intro">
 <h2>Foreign Relations of the United States</h2>
 <p>The Foreign Relations of the United States (FRUS) series is the official documentary historical record of major U.S. foreign policy decisions and significant diplomatic activity, that have been declassified and edited for publication. The series is produced by the State Department's Office of the Historian.</p>
@@ -109,7 +98,7 @@ Foreign Relations of the United States
 <p>The following table identifies chapters from the FRUS Volumes that are relevant to my area of research.</p>
 </section>
 <div class="table-wrap">
-<section aria-label="Search Filter" class="frus-controls"><h2>Search / Filter</h2><div class="frus-controls-grid"><div><label for="frus-search">Search by Chapter Title</label><input id="frus-search" placeholder="Search Chapter Title" type="search"/></div><div><label for="frus-year">Filter by Year</label><input id="frus-year" type="text" placeholder="e.g. 1922"/></div><div><label for="frus-title">Filter by Chapter Title</label><input id="frus-title" type="text" placeholder="Contains..."/></div><div><label for="frus-page-size">Entries per page</label><select id="frus-page-size"><option value="25">25</option><option selected="" value="50">50</option><option value="100">100</option><option value="250">250</option></select></div></div><div class="frus-results-count" id="frus-results-count"></div></section><table>
+<table>
 <thead><tr><th>Year</th><th>Volume</th><th>Chapter Title</th><th>Pages</th></tr></thead>
 <tbody>
 <tr><td>1919</td><td>PPC 5</td><td>Naval Action in the event of non-signature by enemy powers of the Treaties of Peace</td><td>533-536</td></tr>
@@ -186,42 +175,13 @@ Foreign Relations of the United States
 <tr><td>The Soviet Union, 1933-1936</td><td></td><td>Efforts by Soviet Agencies to Purchase Warships, Naval Armament, and other War Materials in the United States</td><td>670-708</td></tr>
 <tr><td>The Soviet Union, 1933-1936</td><td></td><td>Efforts by Soviet Agencies to Purchase Warships, Naval Armament, and other War Materials in the United States</td><td>869-903</td></tr>
 </tbody>
-</table><div class="frus-pagination"><button id="frus-prev" type="button">Previous</button><span id="frus-page-info"></span><button id="frus-next" type="button">Next</button></div>
+</table>
 </div>
-<p class="back-link"><a href="naval-arms-control.html">← Back to Naval Arms Control Document Archive</a></p>
+<p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
 </main>
-<footer>
+<footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
 <p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
 <p><em>Ego sum nauta</em></p>
 </footer>
-<script>
-(function(){
- const table=document.querySelector('table'), tbody=table.tBodies[0];
- const rows=[...tbody.rows], search=document.getElementById('frus-search');
- const fy=document.getElementById('frus-year'), ft=document.getElementById('frus-title');
- const ps=document.getElementById('frus-page-size'), count=document.getElementById('frus-results-count');
- const prev=document.getElementById('frus-prev'), next=document.getElementById('frus-next'), info=document.getElementById('frus-page-info');
- const YEAR=0, TITLE=2; let page=1;
- const txt=(r,i)=>(r.cells[i]?.textContent||'').trim();
- function filtered(){
-   const q=search.value.trim().toLowerCase();
-   const yearFilter=fy.value.trim().toLowerCase();
-   const titleFilter=ft.value.trim().toLowerCase();
-   return rows.filter(r=>(!q||txt(r,TITLE).toLowerCase().includes(q))&&(!yearFilter||txt(r,YEAR).toLowerCase().includes(yearFilter))&&(!titleFilter||txt(r,TITLE).toLowerCase().includes(titleFilter)))
-     .sort((a,b)=>txt(a,YEAR).localeCompare(txt(b,YEAR),undefined,{numeric:true,sensitivity:'base'}));
- }
- function render(reset=false){
-   if(reset) page=1; const v=filtered(), size=parseInt(ps.value,10)||50, pages=Math.max(1,Math.ceil(v.length/size));
-   if(page>pages) page=pages; rows.forEach(r=>r.style.display='none');
-   v.slice((page-1)*size,page*size).forEach(r=>{r.style.display='';tbody.appendChild(r);});
-   count.textContent=v.length+' of '+rows.length+' records shown'; info.textContent='Page '+page+' of '+pages;
-   prev.disabled=page<=1; next.disabled=page>=pages;
- }
- [search,fy,ft].forEach(e=>e.addEventListener('input',()=>render(true)));
- ps.addEventListener('change',()=>render(true));
- prev.addEventListener('click',()=>{if(page>1){page--;render();}});
- next.addEventListener('click',()=>{page++;render();});
- render(true);
-})();
-</script></body>
+</body>
 </html>
