@@ -1,17 +1,14 @@
-BATCH 23 - CHANGED FILES
-26 August 2026
+BATCH 24 - CHANGED FILES
+27 August 2026
 
-academic-theses.html	144044 bytes
-post-war-articles.html	1079327 bytes
-journal-articles.html	6556 bytes
-library.html	7636 bytes
-publications.html	30224 bytes
-tables.html	7804 bytes
-links.html	12622 bytes
-museum-ship-reports.html	22437 bytes
-contact.html	6475 bytes
-blog.html	6323 bytes
-brunei-royal-brunei-armed-forces-museum.html	1588199 bytes
+national-archives-australia-files.html	1040785 bytes
+academic-theses.html	144897 bytes
+canadian-destroyers.html	14908 bytes
+warship-export-case-studies.html	37214 bytes
+whats-new.html	10779 bytes
+index.html	397650 bytes
+search.html	15946 bytes
+search-index-comprehensive-v4.js	14810671 bytes
 
-README-BATCH-23.txt
+README-BATCH-24.txt
 CHANGED-FILES.txt
