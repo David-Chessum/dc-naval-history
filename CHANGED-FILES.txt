@@ -1,14 +1,56 @@
-BATCH 24 - CHANGED FILES
-27 August 2026
+BATCH 26 - CHANGED FILES
+28 August 2026
 
-national-archives-australia-files.html	1040785 bytes
-academic-theses.html	144897 bytes
-canadian-destroyers.html	14908 bytes
-warship-export-case-studies.html	37214 bytes
-whats-new.html	10779 bytes
-index.html	397650 bytes
+README-BATCH-26.txt	1538 bytes
+doctrine-files/CruiserDoctrine1.pdf	6254410 bytes
+doctrine-files/CruiserDoctrine2.pdf	5859254 bytes
+doctrine-files/CruiserDoctrine3.pdf	669842 bytes
+doctrine-files/Diversion Attack Force Doctrine 1.pdf	7889396 bytes
+doctrine-files/Diversion Attack Force Doctrine 3.pdf	1991538 bytes
+doctrine-files/Diversion Attack Force Doctrine 4.pdf	1690145 bytes
+doctrine-files/Naval Operations Plans and Orders 1941-1944 Recovered from CA Nachi.pdf	7609445 bytes
+doctrine-files/ijn-air-combat-regulations-sho-part-1.pdf	2622877 bytes
+doctrine-files/ijn-air-combat-regulations-sho-part-2.pdf	2308404 bytes
+doctrine-files/ijn-air-combat-regulations-sho-part-3.pdf	2196020 bytes
+doctrine-files/ijn-battle-lessons-torpedoes-1944.pdf	66449929 bytes
+doctrine-files/ijn-battleship-cruiser-doctrine-dickson-part-1.pdf	6161896 bytes
+doctrine-files/ijn-battleship-cruiser-doctrine-dickson-part-2.pdf	5756667 bytes
+doctrine-files/ijn-battleship-cruiser-doctrine-dickson-part-3.pdf	9600074 bytes
+doctrine-files/ijn-carrier-division-4-doctrine-appendix-4.pdf	7000736 bytes
+doctrine-files/ijn-carrier-division-4-doctrine-part-1.pdf	4386496 bytes
+doctrine-files/ijn-carrier-division-4-doctrine-part-2.pdf	1441226 bytes
+doctrine-files/ijn-carrier-division-4-doctrine-part-3.pdf	4860328 bytes
+doctrine-files/ijn-carrier-division-4-doctrine-part-4.pdf	1329622 bytes
+doctrine-files/ijn-combined-fleet-doctrine-1943-part-1.pdf	7055020 bytes
+doctrine-files/ijn-combined-fleet-doctrine-1943-part-2.pdf	7338932 bytes
+doctrine-files/ijn-combined-fleet-doctrine-1943-part-3.pdf	7428326 bytes
+doctrine-files/ijn-combined-fleet-doctrine-1943-part-4.pdf	7590495 bytes
+doctrine-files/ijn-combined-fleet-doctrine-1943-part-5.pdf	6817371 bytes
+doctrine-files/ijn-combined-fleet-doctrine-1943-part-6.pdf	3896528 bytes
+doctrine-files/ijn-diversion-attack-force-doctrine-part-2.pdf	7941647 bytes
+doctrine-files/ijn-memorandum-on-combined-fleet-orders.pdf	5654838 bytes
+doctrine-files/ijn-night-operations-force-doctrine-1944.pdf	11619033 bytes
+doctrine-files/usf-10a-pacific-fleet-supplement-1944-part-1.pdf	2023042 bytes
+doctrine-files/usf-10a-pacific-fleet-supplement-1944-part-2.pdf	1619537 bytes
+doctrine-files/usf-16-current-tactical-orders-battleships-part-1.pdf	3479930 bytes
+doctrine-files/usf-16-current-tactical-orders-battleships-part-2.pdf	1713867 bytes
+doctrine-files/usf-16-current-tactical-orders-battleships-part-3.pdf	2381668 bytes
+doctrine-files/usf-17-current-doctrine-battleships-part-1.pdf	2064717 bytes
+doctrine-files/usf-17-current-doctrine-battleships-part-2.pdf	416130 bytes
+doctrine-files/usf-20-current-tactical-orders-cruisers-part-1.pdf	2059556 bytes
+doctrine-files/usf-20-current-tactical-orders-cruisers-part-2.pdf	1495565 bytes
+doctrine-files/usf-21-current-doctrine-cruisers-part-1.pdf	1039206 bytes
+doctrine-files/usf-21-current-doctrine-cruisers-part-2.pdf	1533207 bytes
+doctrine-files/usf-21-current-doctrine-cruisers-part-3.pdf	682489 bytes
+doctrine-files/usf-21-current-doctrine-cruisers-part-4.pdf	604005 bytes
+doctrine-files/usn-battleship-cruiser-doctrine-dickson-part-1.pdf	4979669 bytes
+doctrine-files/usn-battleship-cruiser-doctrine-dickson-part-2.pdf	6376998 bytes
+hulks-for-canada.html	485549 bytes
+ijn-usn-doctrine-files.html	15336 bytes
+index.html	397666 bytes
+naval-arms-control.html	9350 bytes
+sale-of-coast-defence-ship-deodoro.html	2253801 bytes
+search-index-comprehensive-v5.js	14815155 bytes
 search.html	15946 bytes
-search-index-comprehensive-v4.js	14810671 bytes
-
-README-BATCH-24.txt
-CHANGED-FILES.txt
+the-transfer-of-hma-submarines-oxley-and-otway-to-great-britain.html	88297 bytes
+whats-new.html	11220 bytes

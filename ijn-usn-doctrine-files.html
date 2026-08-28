@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IJN/USN Doctrine Files | Naval History Document Archive</title>
+<style>
+:root{--navy:#17324d;--navy-dark:#102638;--gold:#b08b3e;--paper:#f5f1e8;--ink:#242424;--muted:#5f6770;--line:#d5cfc2;--white:#fff;--panel:#ffffff;--focus:#0b6fa4}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.6}
+.site-header{background:var(--navy);color:#fff;border-bottom:5px solid var(--gold)}
+.header-inner{max-width:1380px;margin:0 auto;padding:2.3rem 1.5rem 1.9rem}
+.site-title{margin:0;font-size:clamp(1.8rem,3.6vw,3rem);font-weight:normal;line-height:1.15}
+.site-subtitle{margin:.65rem 0 0;color:#e5dfd2}
+nav{background:var(--navy-dark)}
+.nav-inner{max-width:1380px;margin:0 auto;padding:0 1rem}
+.nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}
+.nav-list a{display:block;padding:.85rem .95rem;color:#fff;text-decoration:none;font-family:Arial,sans-serif;font-size:.82rem;text-transform:uppercase}
+.nav-list a:hover,.nav-list a:focus{background:var(--gold);outline:none}
+main{max-width:1380px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+.breadcrumb{font-family:Arial,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}
+.breadcrumb a{color:var(--navy)}
+h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1.2rem}
+.intro-text{max-width:1050px;margin-bottom:1.6rem}
+.intro-text a{color:var(--navy)}
+
+.research-feedback{margin:2rem 0 1.25rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#fff}
+.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem;border:0;padding:0}
+.research-feedback p{margin:0;line-height:1.55}
+.research-feedback a{color:var(--navy)}
+
+.controls{background:var(--panel);border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.15rem 1.25rem;margin:1.4rem 0 1rem}
+.control-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.9rem 1rem;align-items:end}
+.search-wide{grid-column:span 2}
+.controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-size:.78rem;font-weight:bold;color:var(--navy);text-transform:uppercase;letter-spacing:.02em}
+.controls input,.controls select,.controls button{width:100%;margin-top:.28rem;padding:.58rem .62rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink);font:inherit;font-family:Arial,Helvetica,sans-serif;font-size:.9rem}
+.controls button{cursor:pointer;background:var(--navy);color:#fff;border-color:var(--navy);font-weight:bold}
+.controls button:hover{background:var(--navy-dark)}
+.controls input:focus,.controls select:focus,.controls button:focus{outline:2px solid var(--focus);outline-offset:1px}
+
+.table-meta{display:flex;justify-content:space-between;gap:1rem;align-items:center;margin:.85rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted);flex-wrap:wrap}
+.page-size{display:flex;align-items:center;gap:.45rem}
+.page-size select{width:auto;margin:0;padding:.35rem .45rem}
+
+.table-wrap{overflow:auto;border:1px solid var(--line);background:#fff;max-height:72vh}
+table{width:100%;border-collapse:collapse;min-width:1050px;font-size:.91rem}
+thead th{position:sticky;top:0;z-index:2;background:var(--navy);color:#fff;padding:.72rem .65rem;border-right:1px solid #39526a;text-align:left;font-family:Arial,Helvetica,sans-serif;font-size:.79rem;letter-spacing:.02em}
+tbody td{padding:.64rem .65rem;border-top:1px solid var(--line);vertical-align:top}
+tbody tr:nth-child(even){background:#faf8f3}
+tbody tr:hover{background:#f0eadf}
+td.date{width:140px;white-space:nowrap}
+td.minute{width:110px;white-space:nowrap}
+td.subject{min-width:520px}
+td.ref{width:150px;white-space:nowrap}
+.empty{color:#8a8a8a}
+
+.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
+.pagination button{min-width:2.35rem;padding:.45rem .6rem}
+.pagination button[disabled]{opacity:.45;cursor:default}
+.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
+.back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
+.back-link a{color:var(--navy)}
+
+
+.document-section{margin:2rem 0 2.4rem}
+.document-section h3{color:var(--navy);font-size:1.45rem;font-weight:normal;border-bottom:1px solid var(--gold);padding-bottom:.3rem;margin:0 0 1rem}
+.document-list{list-style:none;margin:0;padding:0}
+.document-item{background:#fff;border:1px solid var(--line);border-left:4px solid var(--navy);padding:.9rem 1rem;margin:.7rem 0}
+.document-item.indented-document{margin-left:2rem}
+.document-title{font-weight:bold}
+.part-links{margin-top:.35rem;font-family:Arial,Helvetica,sans-serif;font-size:.9rem;line-height:1.7}
+.part-links a{color:var(--navy)}
+.pending{color:var(--muted);font-style:italic}
+.note{font-size:.9rem;color:var(--muted);margin-top:.35rem}
+
+footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}
+.footer-links{margin:.15rem 0 .65rem}
+.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+
+@media(max-width:900px){
+  .control-grid{grid-template-columns:1fr 1fr}
+  .search-wide{grid-column:span 2}
+}
+@media(max-width:600px){
+  .nav-list a{padding:.7rem .65rem;font-size:.72rem}
+  main{padding:1.8rem .8rem 3rem}
+  .control-grid{grid-template-columns:1fr}
+  .search-wide{grid-column:span 1}
+}
+</style>
+<meta content="Japanese and United States Navy doctrine and tactical documents from the collection of David Dickson." name="description"/>
+<link href="https://dc-naval-history.com/ijn-usn-doctrine-files.html" rel="canonical"/>
+</head>
+<body>
+<header class="site-header">
+<div class="header-inner">
+<h1 class="site-title">IJN/USN Doctrine Files</h1>
+<p class="site-subtitle">Naval History Document Archive</p>
+</div>
+</header>
+<nav aria-label="Main navigation">
+<div class="nav-inner">
+<ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Documents</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Museum Ship Reports</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="blog.html">Blog</a></li>
+</ul>
+</div>
+</nav>
+<main>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / IJN/USN Doctrine Files</div>
+<h2>IJN/USN Doctrine Files</h2>
+<section class="intro-text">
+<p>W. David Dickson has been called “the foremost Western expert on Japanese naval doctrine and carrier design” and was also an authority on communications and tactics. He was the author of <em>The Battle of the Philippine Sea</em>, and co-edited <em>On Seas Contested</em>, and <em>To Crown the Waves</em>. David passed away in 2017, and is missed by those in the naval history community who knew him.</p>
+<p>The following documents are from David’s collection.</p>
+</section>
+<section class="document-section">
+<h3>Japanese Navy Documents</h3>
+<ul class="document-list">
+<li class="document-item">
+<div class="document-title"><a href="doctrine-files/Naval Operations Plans and Orders 1941-1944 Recovered from CA Nachi.pdf" rel="noopener" target="_blank">Naval Operations Plans and Orders 1941-1944 Recovered from CA Nachi</a></div>
+</li>
+<li class="document-item indented-document">
+<div class="document-title">Air Combat Regulations for SHO Operations</div>
+<div class="part-links">
+<a href="doctrine-files/ijn-air-combat-regulations-sho-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/ijn-air-combat-regulations-sho-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/ijn-air-combat-regulations-sho-part-3.pdf" rel="noopener" target="_blank">Part 3</a>
+</div>
+</li>
+<li class="document-item indented-document">
+<div class="document-title">Carrier Division 4 Doctrine</div>
+<div class="part-links">
+<a href="doctrine-files/ijn-carrier-division-4-doctrine-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/ijn-carrier-division-4-doctrine-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/ijn-carrier-division-4-doctrine-part-3.pdf" rel="noopener" target="_blank">Part 3</a>,
+<a href="doctrine-files/ijn-carrier-division-4-doctrine-part-4.pdf" rel="noopener" target="_blank">Part 4</a>,
+<a href="doctrine-files/ijn-carrier-division-4-doctrine-appendix-4.pdf" rel="noopener" target="_blank">Appendix 4</a>
+</div>
+</li>
+<li class="document-item indented-document">
+<div class="document-title">Combined Fleet Doctrine (1943)</div>
+<div class="part-links">
+<a href="doctrine-files/ijn-combined-fleet-doctrine-1943-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/ijn-combined-fleet-doctrine-1943-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/ijn-combined-fleet-doctrine-1943-part-3.pdf" rel="noopener" target="_blank">Part 3</a>,
+<a href="doctrine-files/ijn-combined-fleet-doctrine-1943-part-4.pdf" rel="noopener" target="_blank">Part 4</a>,
+<a href="doctrine-files/ijn-combined-fleet-doctrine-1943-part-5.pdf" rel="noopener" target="_blank">Part 5</a>,
+<a href="doctrine-files/ijn-combined-fleet-doctrine-1943-part-6.pdf" rel="noopener" target="_blank">Part 6</a>
+</div>
+</li>
+<li class="document-item indented-document">
+<div class="document-title">Cruiser Division Doctrine (1944)</div>
+<div class="part-links">
+<a href="doctrine-files/CruiserDoctrine1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/CruiserDoctrine2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/CruiserDoctrine3.pdf" rel="noopener" target="_blank">Part 3</a>
+</div>
+</li>
+<li class="document-item indented-document">
+<div class="document-title">Diversion Attack Force Doctrine</div>
+<div class="part-links">
+<a href="doctrine-files/Diversion Attack Force Doctrine 1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/ijn-diversion-attack-force-doctrine-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/Diversion Attack Force Doctrine 3.pdf" rel="noopener" target="_blank">Part 3</a>,
+<a href="doctrine-files/Diversion Attack Force Doctrine 4.pdf" rel="noopener" target="_blank">Part 4</a>
+</div>
+</li>
+<li class="document-item indented-document">
+<div class="document-title"><a href="doctrine-files/ijn-night-operations-force-doctrine-1944.pdf" rel="noopener" target="_blank">Night Operations Force Doctrine (1 Jan 1944)</a></div>
+</li>
+<li class="document-item">
+<div class="document-title"><a href="doctrine-files/ijn-battle-lessons-torpedoes-1944.pdf" rel="noopener" target="_blank">Battle Lessons Learned in the Greater East Asian War (Torpedoes)</a></div>
+</li>
+<li class="document-item">
+<div class="document-title"><a href="doctrine-files/ijn-memorandum-on-combined-fleet-orders.pdf" rel="noopener" target="_blank">Memorandum on Combined Fleet Orders</a></div>
+</li>
+<li class="document-item">
+<div class="document-title">Battleship and Cruiser Doctrine, Imperial Japanese Navy, by W.D. Dickson</div>
+<div class="part-links">
+<a href="doctrine-files/ijn-battleship-cruiser-doctrine-dickson-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/ijn-battleship-cruiser-doctrine-dickson-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/ijn-battleship-cruiser-doctrine-dickson-part-3.pdf" rel="noopener" target="_blank">Part 3</a>
+</div>
+</li>
+</ul>
+</section>
+<section class="document-section">
+<h3>United States Navy Documents</h3>
+<ul class="document-list">
+<li class="document-item"><div class="document-title">U.S.F. 10(A) – Pacific Fleet Supplement (1944)</div>
+<div class="part-links">
+<a href="doctrine-files/usf-10a-pacific-fleet-supplement-1944-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/usf-10a-pacific-fleet-supplement-1944-part-2.pdf" rel="noopener" target="_blank">Part 2</a>
+</div>
+</li>
+<li class="document-item">
+<div class="document-title">U.S.F. 16. Current Tactical Orders. Battleships (June 1938)</div>
+<div class="part-links">
+<a href="doctrine-files/usf-16-current-tactical-orders-battleships-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/usf-16-current-tactical-orders-battleships-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/usf-16-current-tactical-orders-battleships-part-3.pdf" rel="noopener" target="_blank">Part 3</a>
+</div>
+</li>
+<li class="document-item">
+<div class="document-title">U.S.F. 17. Current Doctrine. Battleships (October 1938)</div>
+<div class="part-links">
+<a href="doctrine-files/usf-17-current-doctrine-battleships-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/usf-17-current-doctrine-battleships-part-2.pdf" rel="noopener" target="_blank">Part 2</a>
+</div>
+</li>
+<li class="document-item">
+<div class="document-title">U.S.F. 20. Current Tactical Orders. Cruisers (1941)</div>
+<div class="part-links">
+<a href="doctrine-files/usf-20-current-tactical-orders-cruisers-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/usf-20-current-tactical-orders-cruisers-part-2.pdf" rel="noopener" target="_blank">Part 2</a>
+</div>
+</li>
+<li class="document-item">
+<div class="document-title">U.S.F. 21. Current Doctrine. Cruisers (1941)</div>
+<div class="part-links">
+<a href="doctrine-files/usf-21-current-doctrine-cruisers-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/usf-21-current-doctrine-cruisers-part-2.pdf" rel="noopener" target="_blank">Part 2</a>,
+<a href="doctrine-files/usf-21-current-doctrine-cruisers-part-3.pdf" rel="noopener" target="_blank">Part 3</a>,
+<a href="doctrine-files/usf-21-current-doctrine-cruisers-part-4.pdf" rel="noopener" target="_blank">Part 4</a>
+</div>
+</li>
+<li class="document-item">
+<div class="document-title">Tactical Orders and Doctrine, Battleships and Cruisers, U.S. Navy, by W.D. Dickson</div>
+<div class="part-links">
+<a href="doctrine-files/usn-battleship-cruiser-doctrine-dickson-part-1.pdf" rel="noopener" target="_blank">Part 1</a>,
+<a href="doctrine-files/usn-battleship-cruiser-doctrine-dickson-part-2.pdf" rel="noopener" target="_blank">Part 2</a>
+</div>
+</li>
+</ul>
+</section>
+<p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
+</main>
+<footer>
+<p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p>
+<p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+</body>
+</html>
