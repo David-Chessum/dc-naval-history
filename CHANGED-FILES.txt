@@ -1,6 +1,9 @@
-CHANGED-FILES - Batch 30
+CHANGED-FILES - Batch 31
 
 academic-theses.html
-theses-wanted.html
-book-list.html
+national-archives-australia-files.html
+navy-records-society-volumes.html
+naval-arms-control.html
+whats-new.html
+index.html
 README.txt
