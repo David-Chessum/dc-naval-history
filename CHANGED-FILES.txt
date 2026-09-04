@@ -1,20 +1,3 @@
-Batch 33 changes
-
-- Personal Papers source correction: regenerated all 315 entries from the corrected spreadsheet supplied on 4 September 2026.
-- National Archives of Australia Files: standardised the main navigation and footer.
-- Naval History Document Archive: reorganised the page into four subject groupings and added a Personal Papers panel.
-- Personal Papers: added a new searchable and filterable index of 315 personal-paper holdings, alphabetically sorted by name, with a corrections and additions help box.
-- Command Papers: changed “these lists” to “this list” in the corrections and additions help box.
-- What's New: added the 4 September 2026 Personal Papers update at the top of Recent Updates.
-- Home page: added “4 September 2026 - Personal Papers” at the top of What's New and removed the oldest displayed item.
-- Site search: regenerated as search-index-comprehensive-v8.js to incorporate content changes since v7, including the new Personal Papers index and the previously added Navy Records Society, NAA, academic thesis, book, journal and article updates; search.html now loads v8.
-
-Deployment files:
-- command-papers.html
-- index.html
-- national-archives-australia-files.html
-- naval-arms-control.html
-- personal-papers.html
-- search-index-comprehensive-v8.js
-- search.html
-- whats-new.html
+academic-theses.html
+theses-wanted.html
+contemporary-articles.html
