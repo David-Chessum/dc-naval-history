@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shipbuilders Records | Naval History Document Archive</title>
+<style>
+:root{--navy:#17324d;--navy-dark:#102638;--gold:#b08b3e;--paper:#f5f1e8;--ink:#242424;--muted:#5f6770;--line:#d5cfc2;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.65}
+.site-header{background:var(--navy);color:#fff;border-bottom:5px solid var(--gold)}
+.header-inner{max-width:1180px;margin:0 auto;padding:2.3rem 1.5rem 1.9rem}
+.site-title{margin:0;font-size:clamp(1.8rem,3.6vw,3rem);font-weight:normal;line-height:1.15}
+.site-subtitle{margin:.65rem 0 0;color:#e5dfd2}
+nav{background:var(--navy-dark)}
+.nav-inner{max-width:1180px;margin:0 auto;padding:0 1rem}
+.nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}
+.nav-list a{display:block;padding:.85rem .95rem;color:#fff;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;text-transform:uppercase}
+.nav-list a:hover,.nav-list a:focus{background:var(--gold);outline:none}
+main{max-width:1400px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+.breadcrumb{font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}
+.breadcrumb a{color:var(--navy)}
+h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1.2rem}
+.controls{margin:1.6rem 0 1rem;padding:1rem;background:#fff;border:1px solid var(--line);border-radius:6px;font-family:Arial,Helvetica,sans-serif}
+.controls-row{display:grid;grid-template-columns:minmax(280px,2fr) auto;gap:.8rem;align-items:end}
+.filter-grid{display:grid;grid-template-columns:repeat(4,minmax(170px,1fr));gap:.8rem;margin-top:.8rem}
+.controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}
+.controls input,.controls button,.page-size select,.pagination button{font:inherit}
+.controls input{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.5rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}
+.controls button,.pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}
+.controls button:hover,.pagination button:hover:not([disabled]){background:var(--navy-dark)}
+.table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
+.page-size{margin-left:auto;text-align:right;white-space:nowrap}
+.table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;table-layout:fixed}
+thead th{background:var(--navy);color:#fff;text-align:left;padding:.8rem .7rem;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;text-transform:uppercase}
+tbody td{vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid #e6e0d4;overflow-wrap:anywhere}
+tbody tr:nth-child(even){background:#faf8f3}
+tbody tr:hover{background:#f0eadf}
+th:nth-child(1),td:nth-child(1){width:31%}
+th:nth-child(2),td:nth-child(2){width:31%}
+th:nth-child(3),td:nth-child(3){width:18%}
+th:nth-child(4),td:nth-child(4){width:10%}
+th:nth-child(5),td:nth-child(5){width:10%}
+.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
+.pagination button[disabled]{opacity:.45;cursor:default}
+.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
+.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}
+.research-feedback h3{margin:0 0 .55rem;color:var(--navy);font-size:1.15rem}
+.research-feedback p{margin:0;line-height:1.55}
+.research-feedback a{color:var(--navy)}
+.back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
+.back-link a{color:var(--navy)}
+footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}
+.footer-links{margin:.15rem 0 .65rem}
+.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+@media(max-width:900px){.filter-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:700px){.nav-list a{padding:.7rem .65rem;font-size:.72rem}main{padding-top:1.8rem}.controls-row,.filter-grid{grid-template-columns:1fr}.table-meta{align-items:flex-start;flex-direction:column}.page-size{margin-left:0;text-align:left}}
+</style>
+<meta content="Table recording the location of holdings of shipbuilding or other naval industry records." name="description"/>
+<meta content="index,follow" name="robots"/>
+<link href="https://dc-naval-history.com/shipbuilders-records.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/>
+<meta content="Shipbuilders Records | Naval History Document Archive" property="og:title"/>
+<meta content="Table recording the location of holdings of shipbuilding or other naval industry records." property="og:description"/>
+<meta content="https://dc-naval-history.com/shipbuilders-records.html" property="og:url"/>
+<meta content="summary" name="twitter:card"/>
+</head>
+<body>
+<header class="site-header"><div class="header-inner">
+<h1 class="site-title">Shipbuilders Records</h1>
+<p class="site-subtitle">Naval History Document Archive</p>
+</div></header>
+
+<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Documents</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Naval Museums</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="blog.html">Blog</a></li>
+</ul></div></nav>
+
+<main>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / Shipbuilders Records</div>
+<h2>Shipbuilders Records</h2>
+<p>This table records the location of holdings of shipbuilding or other naval industry records.</p>
+
+<section class="research-feedback">
+<h3>Corrections and additions welcome</h3>
+<p>This is currently only a preliminary list. Feedback identifying additional holdings of shipbuilders records would be most welcome. Please use the <a href="contact.html">Contact</a> page.</p>
+</section>
+
+<section aria-label="Shipbuilders records search and filters" class="controls">
+<div class="controls-row">
+<label>Search
+<input id="globalSearch" placeholder="Search all fields..." type="search"/>
+</label>
+<button id="clearFilters" type="button">Clear filters</button>
+</div>
+<div class="filter-grid">
+<label>Filter Name
+<input id="filterName" placeholder="Contains..." type="text"/>
+</label>
+<label>Filter Institution
+<input id="filterInstitution" placeholder="Contains..." type="text"/>
+</label>
+<label>Filter Location
+<input id="filterLocation" placeholder="Contains..." type="text"/>
+</label>
+<label>Filter Country
+<input id="filterCountry" placeholder="Contains..." type="text"/>
+</label>
+</div>
+</section>
+
+<div class="table-meta">
+<div aria-live="polite" id="resultCount"></div>
+<div class="page-size">
+<label for="pageSize">Rows per page</label>
+<select id="pageSize">
+<option>25</option>
+<option selected>50</option>
+<option>100</option>
+<option value="0">All</option>
+</select>
+</div>
+</div>
+
+<div class="table-wrap">
+<table id="shipbuildersRecordsTable">
+<thead><tr>
+<th>Name</th>
+<th>Institution</th>
+<th>Location</th>
+<th>Country</th>
+<th>State</th>
+</tr></thead>
+<tbody id="shipbuildersRecordsBody"></tbody>
+</table>
+</div>
+
+<div class="pagination">
+<button aria-label="First page" id="firstPage" type="button">«</button>
+<button aria-label="Previous page" id="prevPage" type="button">‹</button>
+<span class="page-status" id="pageStatus"></span>
+<button aria-label="Next page" id="nextPage" type="button">›</button>
+<button aria-label="Last page" id="lastPage" type="button">»</button>
+</div>
+
+
+
+<p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
+</main>
+
+<footer>
+<p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p>
+<p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+
+<script>
+const DATA = [{"Name": "Armstrong & Whitworth", "Institution": "Tyne and Wear Archive ", "Location": "Newcastle-upon-Tyne", "Country": "UK", "State": ""}, {"Name": "Bethlehem Steel", "Institution": "Hagley Museum", "Location": "Wilmington", "Country": "USA", "State": "DE"}, {"Name": "Bethlehem Steel", "Institution": "Baltimore Museum of Industry", "Location": "Baltimore", "Country": "USA", "State": "MD"}, {"Name": "Cammell Laird", "Institution": "Wirrall Archives", "Location": "Birkenhead", "Country": "UK", "State": ""}, {"Name": "Elswick Ordnance Company", "Institution": "Tyne and Wear Archive ", "Location": "Newcastle-upon-Tyne", "Country": "UK", "State": ""}, {"Name": "Garden Island Dockyard", "Institution": "National Archives of Australia", "Location": "Sydney", "Country": "Australia", "State": ""}, {"Name": "Harland & Wolff", "Institution": "Public Record Office of Northern Ireland", "Location": "Belfast", "Country": "UK", "State": ""}, {"Name": "John Brown", "Institution": "University of Glasgow Archives", "Location": "Glasgow", "Country": "UK", "State": ""}, {"Name": "Priddy's Hard Naval Ordnance   archive", "Institution": "Hampshire Archives", "Location": "Hampshire", "Country": "UK", "State": ""}, {"Name": "UK Metal Industries", "Institution": "Newcastle University (Marine Technology Special Collection)", "Location": "Newcastle", "Country": "UK", "State": ""}, {"Name": "Vickers Photograph Collection", "Institution": "The Dock Museum", "Location": "Cumbria", "Country": "UK", "State": ""}];
+
+const body = document.getElementById("shipbuildersRecordsBody");
+const globalSearch = document.getElementById("globalSearch");
+const filterName = document.getElementById("filterName");
+const filterInstitution = document.getElementById("filterInstitution");
+const filterLocation = document.getElementById("filterLocation");
+const filterCountry = document.getElementById("filterCountry");
+const pageSize = document.getElementById("pageSize");
+const resultCount = document.getElementById("resultCount");
+const pageStatus = document.getElementById("pageStatus");
+let currentPage = 1;
+
+function norm(v) {
+  return String(v ?? "").toLowerCase().trim();
+}
+
+function filteredData() {
+  const q = norm(globalSearch.value);
+  const fn = norm(filterName.value);
+  const fi = norm(filterInstitution.value);
+  const fl = norm(filterLocation.value);
+  const fc = norm(filterCountry.value);
+
+  return DATA.filter(r =>
+    (!q || [r.Name,r.Institution,r.Location,r.Country,r.State].some(v => norm(v).includes(q))) &&
+    (!fn || norm(r.Name).includes(fn)) &&
+    (!fi || norm(r.Institution).includes(fi)) &&
+    (!fl || norm(r.Location).includes(fl)) &&
+    (!fc || norm(r.Country).includes(fc))
+  );
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+function render() {
+  const rows = filteredData();
+  const size = Number(pageSize.value);
+  const pages = size === 0 ? 1 : Math.max(1, Math.ceil(rows.length / size));
+  currentPage = Math.min(currentPage, pages);
+  const start = size === 0 ? 0 : (currentPage - 1) * size;
+  const shown = size === 0 ? rows : rows.slice(start, start + size);
+
+  body.innerHTML = shown.map(r => `<tr>
+<td>${escapeHtml(r.Name)}</td>
+<td>${r.Name === "Bethlehem Steel" && r.Institution === "Baltimore Museum of Industry"
+? '<a href="https://www.thebmi.org/exhibits/bethlehem-steel-ship-plans-collection/" target="_blank" rel="noopener">Baltimore Museum of Industry</a>'
+: escapeHtml(r.Institution)}</td>
+<td>${escapeHtml(r.Location)}</td>
+<td>${escapeHtml(r.Country)}</td>
+<td>${escapeHtml(r.State)}</td>
+</tr>`).join("");
+
+  resultCount.textContent = `${rows.length} entr${rows.length === 1 ? "y" : "ies"} found`;
+  pageStatus.textContent = `Page ${currentPage} of ${pages}`;
+  document.getElementById("firstPage").disabled = currentPage <= 1;
+  document.getElementById("prevPage").disabled = currentPage <= 1;
+  document.getElementById("nextPage").disabled = currentPage >= pages;
+  document.getElementById("lastPage").disabled = currentPage >= pages;
+}
+
+[globalSearch, filterName, filterInstitution, filterLocation, filterCountry].forEach(el =>
+  el.addEventListener("input", () => { currentPage = 1; render(); })
+);
+pageSize.addEventListener("change", () => { currentPage = 1; render(); });
+document.getElementById("clearFilters").addEventListener("click", () => {
+  globalSearch.value = "";
+  filterName.value = "";
+  filterInstitution.value = "";
+  filterLocation.value = "";
+  filterCountry.value = "";
+  currentPage = 1;
+  render();
+});
+document.getElementById("firstPage").addEventListener("click", () => { currentPage = 1; render(); });
+document.getElementById("prevPage").addEventListener("click", () => { if(currentPage > 1) currentPage--; render(); });
+document.getElementById("nextPage").addEventListener("click", () => { currentPage++; render(); });
+document.getElementById("lastPage").addEventListener("click", () => {
+  const size = Number(pageSize.value);
+  const count = filteredData().length;
+  currentPage = size === 0 ? 1 : Math.max(1, Math.ceil(count / size));
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
