@@ -1,14 +1,25 @@
-Batch 37 changes
+Batch 38 changed files
 
-- Personal Papers: updated Amery and Clarke entries; added 37 Churchill Archives Centre entries; retained alphabetical sorting.
-- Aircraft Carrier Kiev, Tianjin: added postscript noting PLAN Chongqing has joined the collection.
-- Technik Museum, Speyer: added Visited date 27 Oct 2018.
-- Deutsches Museum, Munich: added Visited date 30 October 2018.
-- Peenemunde Historic Ships: added Visited date 7 September 2025.
-- Reykjavik Maritime Museum / Odinn: added Visited date 10 August 2025.
-- Museo Storico Navale, Venice: added Visited dates 14 April 2014 and 14 Sep 2025.
-- Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milan: added 17 Sep 2025 to existing Visited date.
-- Museo Navale, La Spezia: added Visited date 15 Sep 2025.
-- Galata Museo del Mare, Genoa: added Visited date 16 Sep 2025.
-- Dutch Navy Museum in Den Helder: added Visited date 18 April 2023.
-- Site search: refreshed Personal Papers records and advanced search index to v10.
+Naval Museums:
+- norway-royal-norwegian-navy-museum-horten.html
+- united-kingdom-royal-navy-submarine-museum.html
+- poland-kolobrzeski-skannen-morski-museum.html
+- norway-alta-oslo.html
+- poland-blyskawica-gdynia.html
+- poland-gdynia-naval-museum.html
+- sweden-malmo-technic-museum-u-3.html
+- sweden-swedish-navy-museum-karlskrona.html
+- sweden-maritmuseum-gothenburg.html
+- united-kingdom-chatham-historic-dockyard.html
+- united-kingdom-d-day-story-lct-7074.html
+- united-kingdom-medusa-ml-1387.html
+- australia-submarine-otway-holbrook.html
+
+Personal Papers / Search:
+- personal-papers.html
+- search-index-comprehensive-v11.js
+- search.html
+
+Documentation:
+- README.txt
+- CHANGED-FILES.txt
