@@ -1,16 +1,7 @@
-DC Naval History - Batch 39 (Revised)
-Deployment date: 7 September 2026
+DC Naval History - Batch 40
 
-Upload all files in this package to the website root, replacing files of the same name.
-
-Summary:
-- Updated Museo Storico Navale, Venice report: corrected Dandolo spelling, italicisation and photograph placement, and added a paragraph break after “the three sites:”.
-- Expanded Links page with seven new resources and revised two existing panel labels.
-- Added Hathi Trust access note to the Royal Navy Navy Lists page.
-- Added U.S. Naval Technical Mission to Japan as an external Document Archive resource.
-- Revised the Naval Museums introductory heading/text and added links to NavWeaps and Preserved Warships.
-- Added the new Preserved Warships page with 508 records, search/filter controls, pagination and a default of 50 rows.
-- Added Preserved Warships entries to What's New and the Home page.
-- Generated comprehensive site search index v12, including all 508 Preserved Warships table records.
-
-This revised package supersedes the earlier Batch 39 package, which was not deployed.
+Changes
+- Book List: added L. Lind, The Navy Day by Day. Historic Naval Events in Australia and Abroad (Kangaroo Press, 1996).
+- Post-War Articles: added D. Visser, “Anglo-South African Relations, and the Erebus Scheme, 1936-1939”, Scientia Militaria, Vol. 35, No. 1 (2007), pp. 68-92.
+- CB/OU/BR Cross Reference Matrix: corrected BR913(13) to BR 913(13) and removed the duplicated BR 20(2) entry.
+- Generated comprehensive site search index v13 and updated search.html for the Batch 40 changes.
