@@ -1,7 +1,11 @@
-DC Naval History - Batch 40
+Batch 41 deployment package
+Date: 11 September 2026
 
-Changes
-- Book List: added L. Lind, The Navy Day by Day. Historic Naval Events in Australia and Abroad (Kangaroo Press, 1996).
-- Post-War Articles: added D. Visser, “Anglo-South African Relations, and the Erebus Scheme, 1936-1939”, Scientia Militaria, Vol. 35, No. 1 (2007), pp. 68-92.
-- CB/OU/BR Cross Reference Matrix: corrected BR913(13) to BR 913(13) and removed the duplicated BR 20(2) entry.
-- Generated comprehensive site search index v13 and updated search.html for the Batch 40 changes.
+Changes included:
+- Academic Theses: added seven records; corrected Todd title to “Statesmen”; standardised all “Kings College, London” entries to “King's College, London”.
+- Theses wanted: standardised all “Kings College, London” entries to “King's College, London”.
+- Post-War Articles: added two Canadian Military History articles.
+- Preparatory Commission for the Disarmament Conference: added section headings; renamed the House of Commons Command Papers section; standardised CMD3757; added a Year column; added 37 UK Cabinet Documents with hyperlinks on titles; added the standard corrections-and-additions box; and positioned C.P. 336(30) immediately before CID 889-B.
+- Site search: generated comprehensive search index v14 and updated search.html.
+
+Search index totals: 272 pages, 36780 table records.
