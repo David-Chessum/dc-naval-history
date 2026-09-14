@@ -1,7 +1,4 @@
-national-archives-australia-files.html
-naval-arms-control.html
 uk-cabinet-papers.html
-whats-new.html
-index.html
-search-index-comprehensive-v15.js
+london-times-articles.html
+search-index-comprehensive-v16.js
 search.html
