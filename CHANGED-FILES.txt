@@ -1,4 +1,8 @@
-uk-cabinet-papers.html
-london-times-articles.html
-search-index-comprehensive-v16.js
-search.html
+national-archives-australia-files.html
+japan-yasakuni-shrine-tokyo.html
+yasakuni-shrine-kaiten.jpg
+naval-header-graphic.png
+museum-ship-reports.html
+preserved-warships.html
+whats-new.html
+index.html

@@ -1,9 +1,10 @@
-Batch 43 deployment package
+Batch 44 deployment package
 Date: 15 September 2026
 
 Changes included:
-- United Kingdom Cabinet Papers: added 207 GT/CP records, with GT papers ordered before CP papers; appended 90 WP (39) and WP (40) records at the bottom of the table; extended the year filter to 1940.
-- Articles from the London Times: added the Times Digital Archive access note; replaced the previous controls with the standard filter box containing only Filter by Title and Filter by Author; removed sort controls from the table headings.
-- Site search: generated comprehensive search index v16 and updated search.html. All 791 United Kingdom Cabinet Papers table records are indexed.
-
-Search index totals: 273 pages, 37571 table records.
+- National Archives of Australia Files: changed Digital Copy to linked "Available" entries for barcodes 396068, 399017 and 345394.
+- Added a new Yasakuni Shrine Naval Museum report, using the new branded site header, standard navigation and standard footer.
+- Naval Museums: linked Yasakuni Shrine from the Japan panel.
+- Preserved Warships: applied the new branded header and page-title treatment; corrected Georg Thiele and Maiale link columns; added Shinyo entries for the Australian War Memorial and Battleship Memorial Park; added museum website links for those entries and the related M-14/M21 and Hunley entries; updated both Yasakuni Shrine records with DC Naval History report links and official museum website links.
+- What's New: added the 15 September 2026 Yasakuni Shrine Museum Report entry.
+- Home page: added 15 September 2026 - Yasakuni Shrine to the What's New panel and removed Navy Records Society Volumes from the five-item list.
