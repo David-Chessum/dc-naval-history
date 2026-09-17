@@ -1,8 +1,27 @@
-national-archives-australia-files.html
-japan-yasakuni-shrine-tokyo.html
-yasakuni-shrine-kaiten.jpg
-naval-header-graphic.png
-museum-ship-reports.html
-preserved-warships.html
-whats-new.html
-index.html
+BATCH 45 - CHANGED FILES
+
+HTML
+- index.html
+- japan-yamato-museum-kure.html
+- japan-yasakuni-shrine-tokyo.html
+- museum-ship-reports.html
+- national-archives-australia-files.html
+- preserved-warships.html
+- whats-new.html
+
+IMAGE ASSETS
+- naval-header-image-b.png
+- DSCN5464.JPG
+- DSCN5478.JPG
+- DSCN5479.JPG
+- DSCN5484.JPG
+- DSCN5485.JPG
+- DSCN5486.JPG
+- DSCN5487.JPG
+- DSCN5503.JPG
+- DSCN5513.JPG
+- DSCN5516.JPG
+
+DOCUMENTATION
+- README.txt
+- CHANGED-FILES.txt
