@@ -1,15 +1,16 @@
-Batch 47 changed files
+Batch 48 changed files
 
-cb-ou-br-cross-reference-matrix.html
-national-archives-australia-files.html
-post-war-articles.html
-publications.html
-files/too-few-too-costly.pdf
-journal-articles.html
-naval-review-index.html
-whats-new.html
-index.html
-search.html
-search-index-comprehensive-v18.js
-README.txt
-CHANGED-FILES.txt
+- foreign-relations-united-states.html
+- index.html
+- links.html
+- naval-arms-control.html
+- search-index-comprehensive-v19.js
+- search.html
+- us-naval-technical-mission-europe.html
+- usn-general-board-hearings.html
+- usn-general-board-papers.html
+- whats-new.html
+
+Batch 48 revision, 20 September 2026:
+- Foreign Relations of the United States: Filter by Chapter Title now displays "Enter keyword".
+- USN Technical Mission to Europe: Filter by Title now displays "Enter keyword".
