@@ -1,13 +1,15 @@
-Batch 46 changed files
-======================
+Batch 47 changed files
+
+cb-ou-br-cross-reference-matrix.html
 national-archives-australia-files.html
-book-list.html
-admiralty-publications.html
+post-war-articles.html
+publications.html
+files/too-few-too-costly.pdf
+journal-articles.html
+naval-review-index.html
 whats-new.html
-japan-yamato-museum-kure.html
-washington-post-articles.html
-new-york-times-articles.html
+index.html
 search.html
-search-index-comprehensive-v17.js
+search-index-comprehensive-v18.js
 README.txt
 CHANGED-FILES.txt
