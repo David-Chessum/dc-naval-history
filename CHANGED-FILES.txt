@@ -1,16 +1,30 @@
-Batch 48 changed files
+BATCH 49 - CHANGED FILES
 
-- foreign-relations-united-states.html
-- index.html
-- links.html
-- naval-arms-control.html
-- search-index-comprehensive-v19.js
-- search.html
-- us-naval-technical-mission-europe.html
-- usn-general-board-hearings.html
-- usn-general-board-papers.html
-- whats-new.html
+links.html
+- Added Royal Navy Research Archive to the Naval History, Warship and Technical Reference section.
 
-Batch 48 revision, 20 September 2026:
-- Foreign Relations of the United States: Filter by Chapter Title now displays "Enter keyword".
-- USN Technical Mission to Europe: Filter by Title now displays "Enter keyword".
+national-archives-australia-files.html
+- Barcode 1191359: Digital Copy changed to Available and linked to its RecordSearch digital image page.
+
+academic-theses.html
+- Added McLean, DM, The last cruel winter: RCN support groups and the U-boat schnorkel offensive (1992).
+
+theses-wanted.html
+- Removed the McLean thesis transferred to Academic Theses.
+
+personal-papers.html
+- Updated Admiral Sir William Christopher Pakenham's holdings to include Sea Power Centre Australia, Canberra and Australia.
+
+cb-ou-br-cross-reference-matrix.html
+- Added Sea Power Centre Australia to the requested existing holdings.
+- Renamed Storehouse manual as The Storehouse Manual.
+- Removed (1961 reprint). from the 1958 Naval War Manual title.
+- Removed ammunition from Introduction to naval gunnery ammunition.
+- For the 1953 Naval Electrical Pocket Book, Sea Power Centre Australia is included only on BR 157, not BR 153/53.
+- Added 12 new publication records supplied by the site owner.
+
+search.html
+- Updated to load comprehensive search index v20.
+
+search-index-comprehensive-v20.js
+- Refreshed Batch 49 page/table search data.
