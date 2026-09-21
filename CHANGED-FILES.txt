@@ -1,30 +1,25 @@
-BATCH 49 - CHANGED FILES
+BATCH 50 - CHANGED FILES
 
-links.html
-- Added Royal Navy Research Archive to the Naval History, Warship and Technical Reference section.
+book-list.html
+- Added Australia's Odin Class Submariners by NC Smith (2019).
 
-national-archives-australia-files.html
-- Barcode 1191359: Digital Copy changed to Available and linked to its RecordSearch digital image page.
+contemporary-articles.html
+- Changed the first table heading to Headline/Title.
+- Changed the fourth table heading to Issue.
+- Added three articles concerning HMAS Albatross.
 
-academic-theses.html
-- Added McLean, DM, The last cruel winter: RCN support groups and the U-boat schnorkel offensive (1992).
+post-war-articles.html
+- Added two articles concerning HMAS Albatross.
 
-theses-wanted.html
-- Removed the McLean thesis transferred to Academic Theses.
+admiralty-publications.html
+- Added seven publication and cross-reference records: BR 49, BR 257(1), BR 943, OU 5456/33 and three NN publications.
 
-personal-papers.html
-- Updated Admiral Sir William Christopher Pakenham's holdings to include Sea Power Centre Australia, Canberra and Australia.
-
-cb-ou-br-cross-reference-matrix.html
-- Added Sea Power Centre Australia to the requested existing holdings.
-- Renamed Storehouse manual as The Storehouse Manual.
-- Removed (1961 reprint). from the 1958 Naval War Manual title.
-- Removed ammunition from Introduction to naval gunnery ammunition.
-- For the 1953 Naval Electrical Pocket Book, Sea Power Centre Australia is included only on BR 157, not BR 153/53.
-- Added 12 new publication records supplied by the site owner.
+tna-adm-files.html
+- Added ADM 186/321 and ADM 234/57.
 
 search.html
-- Updated to load comprehensive search index v20.
+- Updated to load comprehensive search index v21.
 
-search-index-comprehensive-v20.js
-- Refreshed Batch 49 page/table search data.
+search-index-comprehensive-v21.js
+- Refreshed the comprehensive search data for all five changed indexed pages.
+- Search coverage remains 277 pages and now contains 41,059 indexed table rows.
