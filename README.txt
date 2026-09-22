@@ -1,11 +1,12 @@
-DC Naval History - Batch 51 Deployment Package
-Date: 22 September 2026
+DC Naval History Website - Batch 52
+Date: 23 September 2026
 
-Deploy all files in this ZIP to the website root, replacing files of the same name.
+This deployment package builds on the successfully deployed Batch 51 baseline.
 
-This is the complete authoritative Batch 51 package, based on the deployed Batch 50 baseline. It consolidates all Batch 51 changes and supersedes the individual draft pages produced during the batch.
+Summary
+-------
+The National Archives of Australia table entry for barcode 480673 now identifies the digital copy as available and links directly to the digitised file in NAA RecordSearch.
 
-Search index
-- Version: v22
-- Indexed pages: 278
-- Indexed table rows: 41,062
+The comprehensive search index has been refreshed from v22 to v23. It contains 278 pages and 41,062 indexed table rows.
+
+Deploy all files in this ZIP to the website root, replacing files with matching names. The superseded search-index-comprehensive-v22.js may be removed after deployment if it is no longer referenced.

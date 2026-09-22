@@ -1,37 +1,22 @@
-BATCH 51 - CHANGED FILES
+DC Naval History Website - Batch 52
+Date: 23 September 2026
 
-australia-AWM-treloar-centre.html
-- Added a new visit report for the Australian War Memorial Treloar Centre.
-- Added seven photographs of the Shinyo launch and other naval exhibits.
-- Added links to the Australian War Memorial and its Shinyo 3D Treasures page.
+CHANGED DEPLOYMENT FILES
+------------------------
 
-20260921_130023.jpg
-20260921_130035.jpg
-20260921_130801.jpg
-20260921_131237.jpg
-20260921_131342.jpg
-20260921_131448.jpg
-20260921_131851.jpg
-- Added photographs used by the Treloar Centre report.
-
-museum-ship-reports.html
-- Added the Australian War Memorial Treloar Centre to the Australia panel.
-
-preserved-warships.html
-- Corrected the Australian War Memorial midget submarine entry so its links appear in the appropriate columns.
-- Added a DC Naval History report link for the Australian War Memorial Shinyo explosive motor boat.
-
-whats-new.html
-- Added the Australian War Memorial Treloar Centre report as the latest update.
-
-index.html
-- Added the Australian War Memorial Treloar Centre report to the home-page What's New panel.
-- Removed Naval Review Index from the five-item home-page update list.
+national-archives-australia-files.html
+  - For barcode 480673, changed Digital Copy to "Available".
+  - Added a link to the corresponding digitised file in NAA RecordSearch.
 
 search.html
-- Updated to load comprehensive search index v22.
+  - Updated the comprehensive search index reference from v22 to v23.
 
-search-index-comprehensive-v22.js
-- Added the Australian War Memorial Treloar Centre report.
-- Refreshed the indexed content for the home, What's New, Naval Museum Reports and Preserved Warships pages.
-- Search coverage now includes 278 pages and 41,062 indexed table rows.
+search-index-comprehensive-v23.js
+  - Refreshed comprehensive search index.
+  - Contains 278 pages and 41,062 indexed table rows.
+
+PACKAGE DOCUMENTATION
+---------------------
+
+README.txt
+CHANGED-FILES.txt
