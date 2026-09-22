@@ -1,25 +1,37 @@
-BATCH 50 - CHANGED FILES
+BATCH 51 - CHANGED FILES
 
-book-list.html
-- Added Australia's Odin Class Submariners by NC Smith (2019).
+australia-AWM-treloar-centre.html
+- Added a new visit report for the Australian War Memorial Treloar Centre.
+- Added seven photographs of the Shinyo launch and other naval exhibits.
+- Added links to the Australian War Memorial and its Shinyo 3D Treasures page.
 
-contemporary-articles.html
-- Changed the first table heading to Headline/Title.
-- Changed the fourth table heading to Issue.
-- Added three articles concerning HMAS Albatross.
+20260921_130023.jpg
+20260921_130035.jpg
+20260921_130801.jpg
+20260921_131237.jpg
+20260921_131342.jpg
+20260921_131448.jpg
+20260921_131851.jpg
+- Added photographs used by the Treloar Centre report.
 
-post-war-articles.html
-- Added two articles concerning HMAS Albatross.
+museum-ship-reports.html
+- Added the Australian War Memorial Treloar Centre to the Australia panel.
 
-admiralty-publications.html
-- Added seven publication and cross-reference records: BR 49, BR 257(1), BR 943, OU 5456/33 and three NN publications.
+preserved-warships.html
+- Corrected the Australian War Memorial midget submarine entry so its links appear in the appropriate columns.
+- Added a DC Naval History report link for the Australian War Memorial Shinyo explosive motor boat.
 
-tna-adm-files.html
-- Added ADM 186/321 and ADM 234/57.
+whats-new.html
+- Added the Australian War Memorial Treloar Centre report as the latest update.
+
+index.html
+- Added the Australian War Memorial Treloar Centre report to the home-page What's New panel.
+- Removed Naval Review Index from the five-item home-page update list.
 
 search.html
-- Updated to load comprehensive search index v21.
+- Updated to load comprehensive search index v22.
 
-search-index-comprehensive-v21.js
-- Refreshed the comprehensive search data for all five changed indexed pages.
-- Search coverage remains 277 pages and now contains 41,059 indexed table rows.
+search-index-comprehensive-v22.js
+- Added the Australian War Memorial Treloar Centre report.
+- Refreshed the indexed content for the home, What's New, Naval Museum Reports and Preserved Warships pages.
+- Search coverage now includes 278 pages and 41,062 indexed table rows.
