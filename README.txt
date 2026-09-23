@@ -1,16 +1,14 @@
-DC Naval History Website - Batch 53
+DC Naval History Website - Batch 54
 Date: 23 September 2026
 
-This deployment package builds on the successfully deployed Batch 52 baseline.
+This deployment package builds on the successfully deployed Batch 53 baseline.
 
 Summary
 -------
-The Book List has been updated with five additional titles and the entry for Australia's Odin Class Submariners has been removed.
+The Naval History Document Archive now includes a bronze-topped external resource panel for Australia in the War of 1939-1945 (Series 2 - Navy), hosted by the Australian War Memorial.
 
-The Conference Documents page now links to a new London Naval Conference, 1930 page. The new page contains 16 document tables with 176 records, including links to National Archives of Australia RecordSearch and The National Archives Discovery catalogue where applicable.
+The Admiralty Publications table now uses the standard Search / Sort / Filter controls and displays 50 entries per page by default. BR 77 has been updated to TNA reference ADM 234/18. Every TNA file reference has been linked to its exact Discovery record page, including separately linked multi-reference entries and the corrected ID 1208 entry.
 
-The What's New page and the home-page What's New panel now announce the new London Naval Conference document index.
+The comprehensive search index has been refreshed from v24 to v25. It contains 279 pages and 41,242 indexed table rows.
 
-The comprehensive search index has been refreshed from v23 to v24. It contains 279 pages and 41,242 indexed table rows.
-
-Deploy all files in this ZIP to the website root, replacing files with matching names. The superseded search-index-comprehensive-v23.js may be removed after deployment if it is no longer referenced.
+Deploy all files in this ZIP to the website root, replacing files with matching names. The superseded search-index-comprehensive-v24.js may be removed after deployment if it is no longer referenced.

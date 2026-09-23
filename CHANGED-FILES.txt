@@ -1,40 +1,27 @@
-DC Naval History Website - Batch 53
+DC Naval History Website - Batch 54
 Date: 23 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
-book-list.html
-  - Added One Minute of Time. The Melbourne-Voyager Collision.
-  - Added Fiasco: The Breakout of the German Battleships.
-  - Added Australia's Navy in Vietnam. Royal Australian Navy Operations 1965-72, 2nd Ed.
-  - Added Wings and the Navy. 1947-1953.
-  - Added Fighting Ships of the World. An Illustrated Encyclopedia of Modern Sea Power.
-  - Removed Australia's Odin Class Submariners.
+naval-arms-control.html
+  - Added a bronze-topped panel for Australia in the War of 1939-1945 (Series 2 - Navy).
+  - Linked the panel to the Australian War Memorial collection page.
+  - Added the subtext: This resource is hosted by the Australian War Memorial.
 
-conference-documents.html
-  - Activated the London Naval Conference, 1930 entry.
-  - Linked the entry to london-naval-conference-1930.html.
-
-london-naval-conference-1930.html
-  - Added a new conference-document index based on the Preparatory Commission page design.
-  - Added 16 titled tables containing 176 document records.
-  - Added National Archives of Australia RecordSearch links and verified TNA Discovery links.
-  - Restored three source hyperlinks within document titles.
-  - Omitted the Reference column from tables in which it was completely empty.
-  - Standardised the displayed date for LNC(F) 3 to 31 Jan 1930.
-
-whats-new.html
-  - Added London Naval Conference, 1930 at the top of Recent Updates, dated 23 September 2026.
-
-index.html
-  - Added London Naval Conference, 1930 at the top of the What's New panel.
-  - Removed the bottom item, Too Few, Too Costly: Why Australia gave away its Submarines.
+admiralty-publications.html
+  - Added standard Search / Sort / Filter controls.
+  - Added pagination with 50 entries displayed by default and 25, 50, 100 and 250 entry options.
+  - Updated the BR 77 TNA reference to ADM 234/18.
+  - Linked all 499 TNA file-reference occurrences to their exact Discovery record pages.
+  - Standardised multi-reference cells as separately linked lines.
+  - Preserved editorial question marks outside hyperlinks.
+  - Changed ID 1208 to linked FO 373/3/13 followed by a question mark, removing Possibly.
 
 search.html
-  - Updated the comprehensive search index reference from v23 to v24.
+  - Updated the comprehensive search index reference from v24 to v25.
 
-search-index-comprehensive-v24.js
+search-index-comprehensive-v25.js
   - Refreshed the comprehensive search index.
   - Contains 279 pages and 41,242 indexed table rows.
 
