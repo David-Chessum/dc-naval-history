@@ -1,19 +1,42 @@
-DC Naval History Website - Batch 52
+DC Naval History Website - Batch 53
 Date: 23 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
-national-archives-australia-files.html
-  - For barcode 480673, changed Digital Copy to "Available".
-  - Added a link to the corresponding digitised file in NAA RecordSearch.
+book-list.html
+  - Added One Minute of Time. The Melbourne-Voyager Collision.
+  - Added Fiasco: The Breakout of the German Battleships.
+  - Added Australia's Navy in Vietnam. Royal Australian Navy Operations 1965-72, 2nd Ed.
+  - Added Wings and the Navy. 1947-1953.
+  - Added Fighting Ships of the World. An Illustrated Encyclopedia of Modern Sea Power.
+  - Removed Australia's Odin Class Submariners.
+
+conference-documents.html
+  - Activated the London Naval Conference, 1930 entry.
+  - Linked the entry to london-naval-conference-1930.html.
+
+london-naval-conference-1930.html
+  - Added a new conference-document index based on the Preparatory Commission page design.
+  - Added 16 titled tables containing 176 document records.
+  - Added National Archives of Australia RecordSearch links and verified TNA Discovery links.
+  - Restored three source hyperlinks within document titles.
+  - Omitted the Reference column from tables in which it was completely empty.
+  - Standardised the displayed date for LNC(F) 3 to 31 Jan 1930.
+
+whats-new.html
+  - Added London Naval Conference, 1930 at the top of Recent Updates, dated 23 September 2026.
+
+index.html
+  - Added London Naval Conference, 1930 at the top of the What's New panel.
+  - Removed the bottom item, Too Few, Too Costly: Why Australia gave away its Submarines.
 
 search.html
-  - Updated the comprehensive search index reference from v22 to v23.
+  - Updated the comprehensive search index reference from v23 to v24.
 
-search-index-comprehensive-v23.js
-  - Refreshed comprehensive search index.
-  - Contains 278 pages and 41,062 indexed table rows.
+search-index-comprehensive-v24.js
+  - Refreshed the comprehensive search index.
+  - Contains 279 pages and 41,242 indexed table rows.
 
 PACKAGE DOCUMENTATION
 ---------------------
