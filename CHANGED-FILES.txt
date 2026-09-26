@@ -1,29 +1,40 @@
-DC Naval History Website - Batch 54
-Date: 23 September 2026
+DC Naval History Website - Batch 55
+Date: 26 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
-naval-arms-control.html
-  - Added a bronze-topped panel for Australia in the War of 1939-1945 (Series 2 - Navy).
-  - Linked the panel to the Australian War Memorial collection page.
-  - Added the subtext: This resource is hosted by the Australian War Memorial.
+book-list.html
+  - Added The Admirals. Nimitz, Halsey, Leahy, and King - The Five-Star Admirals who won the War at Sea, by WR Borneman.
+  - Added A Naval History of South Australia, by HM Cooper.
 
-admiralty-publications.html
-  - Added standard Search / Sort / Filter controls.
-  - Added pagination with 50 entries displayed by default and 25, 50, 100 and 250 entry options.
-  - Updated the BR 77 TNA reference to ADM 234/18.
-  - Linked all 499 TNA file-reference occurrences to their exact Discovery record pages.
-  - Standardised multi-reference cells as separately linked lines.
-  - Preserved editorial question marks outside hyperlinks.
-  - Changed ID 1208 to linked FO 373/3/13 followed by a question mark, removing Possibly.
+conference-documents.html
+  - Activated London Naval Conference, 1935 and linked it to lnc-35-documents.html.
+
+lnc-35-documents.html
+  - Added a new London Naval Conference, 1935 document-index page based on the LNC 30 page design.
+  - Added 21 document tables containing 140 records from the supplied spreadsheet.
+  - Linked populated TNA references to their applicable Discovery record pages.
+  - Corrected all ADM 116/3313 links to Discovery record C3671926.
+  - Included the supplied introductory text and corrected four specified document titles.
+  - Linked the 1936 London Naval Treaty and the Naval Staff Appreciation of Requirements for the 1935 Naval Conference.
+
+treaties.html
+  - Changed the visible linked text London Naval Conference - 1935 to Naval Staff Appreciation of Requirements for the 1935 Naval Conference while preserving its destination.
+
+whats-new.html
+  - Added a 26 September 2026 panel for London Naval Conference 1935 at the top of Recent Updates.
+
+index.html
+  - Added the 26 September 2026 London Naval Conference, 1935 item at the top of the home-page What's New list.
+  - Removed USN General Board Hearings from the five-item home-page list.
 
 search.html
-  - Updated the comprehensive search index reference from v24 to v25.
+  - Updated the comprehensive search index reference from v25 to v26.
 
-search-index-comprehensive-v25.js
+search-index-comprehensive-v26.js
   - Refreshed the comprehensive search index.
-  - Contains 279 pages and 41,242 indexed table rows.
+  - Contains 280 pages and 41,384 indexed table rows.
 
 PACKAGE DOCUMENTATION
 ---------------------
