@@ -1,32 +1,42 @@
-DC Naval History Website - Batch 56
+DC Naval History Website - Batch 57
 Date: 27 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
+index.html
+  - Added the 27 September 2026 Townsville Maritime Museum item at the top of the What's New list.
+  - Removed USN General Board Papers from the five-item homepage list.
+
+museum-ship-reports.html
+  - Activated the Townsville Maritime Museum item in the Australia panel.
+  - Linked it to australia-townsville-maritime-museum.html.
+
+australia-townsville-maritime-museum.html
+  - Added a new museum report based on visits on 19 June 2021 and 26 September 2026.
+  - Added the museum address, website, feature photograph, report text, three inline photographs and HMAS Townsville link.
+
+P6190083.JPG
+P6190133.JPG
+20260926_151513.jpg
+20260926_153224.jpg
+  - Added four photographs used by the Townsville Maritime Museum report.
+
 preserved-warships.html
-  - Changed PKM-357 ex-PKM-301 to PKM-357.
-  - Changed the PKM-357 type to Fast Attack/Patrol Craft (replica).
-  - Corrected Wellman to Welman for the Royal Norwegian Navy Museum craft.
-  - Added the Marinemuseet Museum Website link to the Horten Welman record.
-  - Added Swedish motor torpedo boats T26, T28, T46 and T56.
-  - Added Swedish patrol boat Jagaren.
-  - Added Romanian Naval Museum craft VT 86, VB 6 and an unidentified river minesweeping boat.
-  - Added an LCVP at the Military Veterans Museum, with its website link in the Museum Website column.
-  - Added the Welman craft at Norfolk Navy Yard.
-  - Added aircraft lighter H21 at the Fleet Air Arm Museum.
+  - Changed Townsville to HMAS Townsville.
+  - Added the DC Naval History Report link and Townsville Maritime Museum website link.
+  - Added synchronised pagination controls above the table while retaining those below it.
   - Contains 522 indexed vessel records.
 
-shipbuilders-records.html
-  - Added Vickers records held by Cambridge University Library, Cambridge, UK.
-  - Contains 12 indexed records.
+whats-new.html
+  - Added a 27 September 2026 Townsville Maritime Museum panel at the top of Recent Updates.
 
 search.html
-  - Updated the comprehensive search index reference from v26 to v27.
+  - Updated the comprehensive search index reference from v27 to v28.
 
-search-index-comprehensive-v27.js
+search-index-comprehensive-v28.js
   - Refreshed the comprehensive search index.
-  - Contains 280 pages and 41,396 indexed table rows.
+  - Contains 281 pages and 41,396 indexed table rows.
 
 PACKAGE DOCUMENTATION
 ---------------------
