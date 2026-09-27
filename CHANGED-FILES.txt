@@ -1,40 +1,32 @@
-DC Naval History Website - Batch 55
-Date: 26 September 2026
+DC Naval History Website - Batch 56
+Date: 27 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
-book-list.html
-  - Added The Admirals. Nimitz, Halsey, Leahy, and King - The Five-Star Admirals who won the War at Sea, by WR Borneman.
-  - Added A Naval History of South Australia, by HM Cooper.
+preserved-warships.html
+  - Changed PKM-357 ex-PKM-301 to PKM-357.
+  - Changed the PKM-357 type to Fast Attack/Patrol Craft (replica).
+  - Corrected Wellman to Welman for the Royal Norwegian Navy Museum craft.
+  - Added the Marinemuseet Museum Website link to the Horten Welman record.
+  - Added Swedish motor torpedo boats T26, T28, T46 and T56.
+  - Added Swedish patrol boat Jagaren.
+  - Added Romanian Naval Museum craft VT 86, VB 6 and an unidentified river minesweeping boat.
+  - Added an LCVP at the Military Veterans Museum, with its website link in the Museum Website column.
+  - Added the Welman craft at Norfolk Navy Yard.
+  - Added aircraft lighter H21 at the Fleet Air Arm Museum.
+  - Contains 522 indexed vessel records.
 
-conference-documents.html
-  - Activated London Naval Conference, 1935 and linked it to lnc-35-documents.html.
-
-lnc-35-documents.html
-  - Added a new London Naval Conference, 1935 document-index page based on the LNC 30 page design.
-  - Added 21 document tables containing 140 records from the supplied spreadsheet.
-  - Linked populated TNA references to their applicable Discovery record pages.
-  - Corrected all ADM 116/3313 links to Discovery record C3671926.
-  - Included the supplied introductory text and corrected four specified document titles.
-  - Linked the 1936 London Naval Treaty and the Naval Staff Appreciation of Requirements for the 1935 Naval Conference.
-
-treaties.html
-  - Changed the visible linked text London Naval Conference - 1935 to Naval Staff Appreciation of Requirements for the 1935 Naval Conference while preserving its destination.
-
-whats-new.html
-  - Added a 26 September 2026 panel for London Naval Conference 1935 at the top of Recent Updates.
-
-index.html
-  - Added the 26 September 2026 London Naval Conference, 1935 item at the top of the home-page What's New list.
-  - Removed USN General Board Hearings from the five-item home-page list.
+shipbuilders-records.html
+  - Added Vickers records held by Cambridge University Library, Cambridge, UK.
+  - Contains 12 indexed records.
 
 search.html
-  - Updated the comprehensive search index reference from v25 to v26.
+  - Updated the comprehensive search index reference from v26 to v27.
 
-search-index-comprehensive-v26.js
+search-index-comprehensive-v27.js
   - Refreshed the comprehensive search index.
-  - Contains 280 pages and 41,384 indexed table rows.
+  - Contains 280 pages and 41,396 indexed table rows.
 
 PACKAGE DOCUMENTATION
 ---------------------
