@@ -1,42 +1,39 @@
-DC Naval History Website - Batch 57
-Date: 27 September 2026
+DC Naval History Website - Batch 58
+Date: 28 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
-index.html
-  - Added the 27 September 2026 Townsville Maritime Museum item at the top of the What's New list.
-  - Removed USN General Board Papers from the five-item homepage list.
+conference-documents.html
+  - Activated the Geneva Naval Conference, 1927 item.
+  - Linked it to geneva-naval-conference-1927.html.
 
-museum-ship-reports.html
-  - Activated the Townsville Maritime Museum item in the Australia panel.
-  - Linked it to australia-townsville-maritime-museum.html.
+geneva-naval-conference-1927.html
+  - Added a new document-index page based on the London Naval Conference, 1935 page design.
+  - Added five tables from the supplied spreadsheet.
+  - Omitted columns that are wholly vacant within individual tables.
+  - Linked all NAA references to RecordSearch item pages.
+  - Linked all TNA references to specific Discovery record pages.
 
-australia-townsville-maritime-museum.html
-  - Added a new museum report based on visits on 19 June 2021 and 26 September 2026.
-  - Added the museum address, website, feature photograph, report text, three inline photographs and HMAS Townsville link.
-
-P6190083.JPG
-P6190133.JPG
-20260926_151513.jpg
-20260926_153224.jpg
-  - Added four photographs used by the Townsville Maritime Museum report.
-
-preserved-warships.html
-  - Changed Townsville to HMAS Townsville.
-  - Added the DC Naval History Report link and Townsville Maritime Museum website link.
-  - Added synchronised pagination controls above the table while retaining those below it.
-  - Contains 522 indexed vessel records.
+cb-ou-br-cross-reference-matrix.html
+  - Removed State Library of Victoria from the 1930 Manual of Naval Cookery entry.
+  - Cleared the Notes field for the 1930 entry.
+  - Added a 1936 Manual of Naval Cookery entry, BR 5, held by the State Library of Victoria.
 
 whats-new.html
-  - Added a 27 September 2026 Townsville Maritime Museum panel at the top of Recent Updates.
+  - Added a 28 September 2026 Geneva Naval Conference, 1927 panel at the top of Recent Updates.
+
+index.html
+  - Added the 28 September 2026 Geneva Naval Conference, 1927 item at the top of the What's New list.
+  - Removed USN Technical Mission to Europe from the five-item homepage list.
 
 search.html
-  - Updated the comprehensive search index reference from v27 to v28.
+  - Updated the comprehensive search index reference from v28 to v29.
 
-search-index-comprehensive-v28.js
+search-index-comprehensive-v29.js
   - Refreshed the comprehensive search index.
-  - Contains 281 pages and 41,396 indexed table rows.
+  - Contains 281 pages and 41,426 indexed table rows.
+  - Includes 3,676 CB/OU/BR Matrix records and 29 Geneva Naval Conference table records.
 
 PACKAGE DOCUMENTATION
 ---------------------
