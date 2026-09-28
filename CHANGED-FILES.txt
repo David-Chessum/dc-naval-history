@@ -1,41 +1,20 @@
-DC Naval History Website - Batch 59 (Test Deployment)
-Date: 28 September 2026
-
-CHANGED DEPLOYMENT FILES
-------------------------
-
 geneva-naval-conference-1927.html
-  - Corrected the UK Cabinet Papers references for CP 159 to CP 219.
-  - Displayed CAB 24/187 for CP 159 to CP 196.
-  - Displayed and linked CAB 24/188 for CP 204 to CP 219.
-  - Added the UK Cabinet Meeting Conclusions table with 10 records.
-  - Added the National Archive (UK) Files table with 11 records.
-  - Added the National Archives of Australia Files table with 6 records.
-  - Linked all new TNA references to specific Discovery record pages.
-  - Linked all new NAA barcodes to RecordSearch item pages.
-  - Changed British Proposals to British Proposal and linked it to the restored standalone page.
-  - Changed Japanese Proposals to Japanese Proposal and linked it to the existing standalone page.
+- Replaced the introductory paragraph with the three supplied paragraphs.
+- Changed downloaded Windows file links in navigation and Contents to deployable relative links; preserved all eight tables and the British Proposal URL.
 
-geneva-conference-1927-british-proposal.html
-  - Restored the original text of the British Proposal dated 28 July 1927.
-  - Assigned a unique page title, filename, canonical URL, and social metadata to prevent conflict with the Geneva document-index page.
-
-treaties.html
-  - Based on the current live Treaties page supplied after the first Batch 59 package.
-  - Preserved the complete descriptive treaty titles and existing absolute links.
-  - Changed only the British Proposal target to geneva-conference-1927-british-proposal.html.
+london-naval-conference-1930.html
+- Added a Contents panel and stable anchors for all 18 tables.
+- Added The National Archives (UK) Files table, fully replaced from the revised 54-row spreadsheet, with supplied Discovery record links.
+- Added National Archives of Australia Files table with 38 linked barcode records.
 
 search.html
-  - Updated the comprehensive search index reference from v29 to v30.
+- Updated the script reference from comprehensive search index v30 to v31.
 
-search-index-comprehensive-v30.js
-  - Refreshed the comprehensive search index.
-  - Contains 282 pages and 41,453 indexed table rows.
-  - Includes 56 Geneva Naval Conference table records.
-  - Includes the restored British Proposal page.
-
-PACKAGE DOCUMENTATION
----------------------
+search-index-comprehensive-v31.js
+- Updated the Geneva and London page text and indexed table rows from the new pages, retaining all other v30 entries; 282 pages and 41,545 rows.
 
 README.txt
+- Batch 60 deployment instructions, summary, index counts, and one link review note.
+
 CHANGED-FILES.txt
+- This file-by-file change inventory.
