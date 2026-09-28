@@ -1,39 +1,38 @@
-DC Naval History Website - Batch 58
+DC Naval History Website - Batch 59 (Test Deployment)
 Date: 28 September 2026
 
 CHANGED DEPLOYMENT FILES
 ------------------------
 
-conference-documents.html
-  - Activated the Geneva Naval Conference, 1927 item.
-  - Linked it to geneva-naval-conference-1927.html.
-
 geneva-naval-conference-1927.html
-  - Added a new document-index page based on the London Naval Conference, 1935 page design.
-  - Added five tables from the supplied spreadsheet.
-  - Omitted columns that are wholly vacant within individual tables.
-  - Linked all NAA references to RecordSearch item pages.
-  - Linked all TNA references to specific Discovery record pages.
+  - Corrected the UK Cabinet Papers references for CP 159 to CP 219.
+  - Displayed CAB 24/187 for CP 159 to CP 196.
+  - Displayed and linked CAB 24/188 for CP 204 to CP 219.
+  - Added the UK Cabinet Meeting Conclusions table with 10 records.
+  - Added the National Archive (UK) Files table with 11 records.
+  - Added the National Archives of Australia Files table with 6 records.
+  - Linked all new TNA references to specific Discovery record pages.
+  - Linked all new NAA barcodes to RecordSearch item pages.
+  - Changed British Proposals to British Proposal and linked it to the restored standalone page.
+  - Changed Japanese Proposals to Japanese Proposal and linked it to the existing standalone page.
 
-cb-ou-br-cross-reference-matrix.html
-  - Removed State Library of Victoria from the 1930 Manual of Naval Cookery entry.
-  - Cleared the Notes field for the 1930 entry.
-  - Added a 1936 Manual of Naval Cookery entry, BR 5, held by the State Library of Victoria.
+geneva-conference-1927-british-proposal.html
+  - Restored the original text of the British Proposal dated 28 July 1927.
+  - Assigned a unique page title, filename, canonical URL, and social metadata to prevent conflict with the Geneva document-index page.
 
-whats-new.html
-  - Added a 28 September 2026 Geneva Naval Conference, 1927 panel at the top of Recent Updates.
-
-index.html
-  - Added the 28 September 2026 Geneva Naval Conference, 1927 item at the top of the What's New list.
-  - Removed USN Technical Mission to Europe from the five-item homepage list.
+treaties.html
+  - Based on the current live Treaties page supplied after the first Batch 59 package.
+  - Preserved the complete descriptive treaty titles and existing absolute links.
+  - Changed only the British Proposal target to geneva-conference-1927-british-proposal.html.
 
 search.html
-  - Updated the comprehensive search index reference from v28 to v29.
+  - Updated the comprehensive search index reference from v29 to v30.
 
-search-index-comprehensive-v29.js
+search-index-comprehensive-v30.js
   - Refreshed the comprehensive search index.
-  - Contains 281 pages and 41,426 indexed table rows.
-  - Includes 3,676 CB/OU/BR Matrix records and 29 Geneva Naval Conference table records.
+  - Contains 282 pages and 41,453 indexed table rows.
+  - Includes 56 Geneva Naval Conference table records.
+  - Includes the restored British Proposal page.
 
 PACKAGE DOCUMENTATION
 ---------------------

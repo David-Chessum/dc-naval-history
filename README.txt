@@ -1,16 +1,18 @@
-DC Naval History Website - Batch 58
+DC Naval History Website - Batch 59 (Test Deployment)
 Date: 28 September 2026
 
-This deployment package builds on the successfully deployed Batch 57 baseline.
+This deployment package builds on the successfully deployed Batch 58 baseline.
 
 Summary
 -------
-A new Geneva Naval Conference, 1927 page has been added using the London Naval Conference, 1935 document-index design. It contains five tables based on the supplied spreadsheet, omits wholly vacant columns, and links NAA and TNA references to the applicable RecordSearch and Discovery records.
+The Geneva Naval Conference, 1927 document-index page has been expanded with three new tables covering UK Cabinet Meeting Conclusions, National Archive (UK) Files, and National Archives of Australia Files. All archival references link to the applicable Discovery or RecordSearch catalogue records.
 
-The Conference Documents page now links to the new Geneva page. The What's New page and homepage have been updated with the 28 September 2026 announcement.
+The UK Cabinet Papers table has been corrected so that CP 159 to CP 196 display CAB 24/187 and CP 204 to CP 219 display CAB 24/188, with the latter records linked to the correct Discovery page.
 
-The CB/OU/BR Cross-Reference Matrix now separates the 1930 and 1936 editions of Manual of Naval Cookery, assigning the State Library of Victoria holding to the 1936 edition.
+The original British Proposal page, which had been displaced when the document-index page was created, has been restored under the unique filename geneva-conference-1927-british-proposal.html. The document index and Treaties landing page now link to the restored page. The Japanese Proposal entry on the document index has also been standardised and linked to its existing standalone page.
 
-The comprehensive search index has been refreshed from v28 to v29. It contains 281 pages and 41,426 indexed table rows.
+This test deployment uses the current live Treaties page supplied after the first Batch 59 package. It preserves the complete descriptive treaty titles and existing absolute links, changing only the British Proposal target. The restored British Proposal HTML file is included at the ZIP root under the exact filename used by both incoming links.
 
-Deploy all files in this ZIP to the website root, replacing files with matching names. The superseded search-index-comprehensive-v28.js may be removed after deployment if it is no longer referenced.
+The comprehensive search index has been refreshed from v29 to v30. It contains 282 pages and 41,453 indexed table rows, including 56 rows from the expanded Geneva Naval Conference document index.
+
+Deploy all files in this ZIP to the website root, replacing files with matching names. The superseded search-index-comprehensive-v29.js may be removed after deployment if it is no longer referenced.
