@@ -1,20 +1,21 @@
-geneva-naval-conference-1927.html
-- Replaced the introductory paragraph with the three supplied paragraphs.
-- Changed downloaded Windows file links in navigation and Contents to deployable relative links; preserved all eight tables and the British Proposal URL.
+personal-papers.html
+- Added Spruance and updated Hewitt's four fields.
+- Applied the requested location, institution, country and state amendments.
+- Replaced the Search control with a State filter and added synchronised pagination above the table.
 
-london-naval-conference-1930.html
-- Added a Contents panel and stable anchors for all 18 tables.
-- Added The National Archives (UK) Files table, fully replaced from the revised 54-row spreadsheet, with supplied Discovery record links.
-- Added National Archives of Australia Files table with 38 linked barcode records.
+lnc-35-documents.html
+- Added two archival tables (45 UK and 44 Australian rows) beneath the existing tables.
+- Replaced the UK table from the revised spreadsheet, including updated wording, dates and Discovery links.
+- Added a Contents panel and stable anchor IDs for all 23 tables.
+
+search-index-comprehensive-v32.js
+- Updated the Personal Papers and London Naval Conference, 1935 search entries from the staged pages, retaining all other v31 records; 282 pages and 41,635 indexed rows.
 
 search.html
-- Updated the script reference from comprehensive search index v30 to v31.
-
-search-index-comprehensive-v31.js
-- Updated the Geneva and London page text and indexed table rows from the new pages, retaining all other v30 entries; 282 pages and 41,545 rows.
+- Changed the comprehensive search index reference from v31 to v32.
 
 README.txt
-- Batch 60 deployment instructions, summary, index counts, and one link review note.
+- Batch 61 summary and deployment instructions.
 
 CHANGED-FILES.txt
-- This file-by-file change inventory.
+- This inventory.
