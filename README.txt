@@ -1,16 +1,22 @@
-DC Naval History - Batch 63
-Date: 30 September 2026
+DC Naval History - Batch 64
+Date: 1 October 2026
 
-This complete authoritative package builds on successfully deployed Batch 62 and contains all deployment files changed since that baseline. Previous deployed corrections are preserved.
+This complete deployment package builds on successfully deployed Batch 63.
+It contains every deployment file changed since Batch 63 and preserves earlier corrections.
 
-Summary: new Parliamentary Archives (UK) Files page and landing panel; British Library panel renamed; Subject column widened and four Subject entries corrected; Captain Roy Campbell Smith added and Admiral Pratt institution reference updated; home and What's New announcements updated.
+Changes:
+- Normalised Command Paper numbers to initial-capital prefixes followed by a space.
+- Preparatory Commission page: corrected Cmd references, added a Contents panel,
+  added 27 TNA and 41 NAA files, and added three Cabinet papers with Discovery links.
+- UK Cabinet Papers: added CP 295 (28) with its Discovery link.
+- Geneva 1927 and London 1930/1935: prefixed main headings with "Documents of the ".
+- Updated the comprehensive search index from deployed v34 to v35.
 
-Search index: v34, updated from deployed v33.
+Search index: v35
 Indexed pages: 284
-Indexed table rows: 41,818
+Indexed table rows: 41,890
 
-Deployment: extract and place all nine files in the website root, replacing corresponding existing files. Do not upload an enclosing folder. Keep unrelated deployed files. Upload search.html and search-index-comprehensive-v34.js together.
-
-Validation: all 58 Parliamentary Archives entries checked against the spreadsheet, allowing only the four requested Subject corrections; personal papers changes checked against the baseline; filters, sorting and pagination functionally checked; links, index preservation, filenames, root placement and ZIP integrity checked. Source dates are preserved, including the 2015 date for LG/C/4/11/6.
-
-No source spreadsheets, drafts, scripts or superseded files are included.
+Deployment: Extract and place all files in the website root, replacing matching files.
+Use the canonical filenames included in this ZIP. Upload search.html and
+search-index-comprehensive-v35.js together with the changed pages.
+This package has no enclosing folder and contains no source spreadsheets or drafts.
