@@ -1,21 +1,32 @@
-personal-papers.html
-- Added Spruance and updated Hewitt's four fields.
-- Applied the requested location, institution, country and state amendments.
-- Replaced the Search control with a State filter and added synchronised pagination above the table.
+Batch 62 - 30 September 2026
+Builds on deployed Batch 61.
 
 lnc-35-documents.html
-- Added two archival tables (45 UK and 44 Australian rows) beneath the existing tables.
-- Replaced the UK table from the revised spreadsheet, including updated wording, dates and Discovery links.
-- Added a Contents panel and stable anchor IDs for all 23 tables.
+- Added final British Library: Asian and African Studies Files table with 33 entries and supplied File links. Added the table to Contents; preserved all earlier tables.
 
-search-index-comprehensive-v32.js
-- Updated the Personal Papers and London Naval Conference, 1935 search entries from the staged pages, retaining all other v31 records; 282 pages and 41,635 indexed rows.
+london-naval-conference-1930.html
+- Added final British Library: Asian and African Studies Files table with 22 entries and supplied File links. Added the table to Contents; preserved all earlier tables.
+
+naval-arms-control.html
+- Added British Library panel in Government and Parliamentary Records, linking to the new collection page.
+
+british-library-asian-and-african-studies.html
+- New collection page based on the TNA ADM template, containing 69 entries with linked File references, File/Title/Date columns, Title filter, Clear Filters, sorting via column headings and pagination. No introductory text or separate links column.
+
+whats-new.html
+- Added British Library: Asian and African Studies announcement dated 30 September 2026 at the top of Recent Updates, preserving the supplied wording.
+
+index.html
+- Added the supplied 30 September 2026 British Libraries update at the top of the home list and removed the Australian War Memorial Treloar Centre item; retained five entries.
 
 search.html
-- Changed the comprehensive search index reference from v31 to v32.
+- Updated search to load search-index-comprehensive-v33.js with the Batch 62 cache reference.
+
+search-index-comprehensive-v33.js
+- Updated from deployed v32; includes all changed pages and 124 new indexed rows. 283 pages and 41,759 indexed rows; unrelated entries preserved.
 
 README.txt
-- Batch 61 summary and deployment instructions.
+- Deployment instructions, summary and search counts.
 
 CHANGED-FILES.txt
-- This inventory.
+- Itemised Batch 62 changes.
