@@ -1,32 +1,29 @@
-Batch 62 - 30 September 2026
-Builds on deployed Batch 61.
-
-lnc-35-documents.html
-- Added final British Library: Asian and African Studies Files table with 33 entries and supplied File links. Added the table to Contents; preserved all earlier tables.
-
-london-naval-conference-1930.html
-- Added final British Library: Asian and African Studies Files table with 22 entries and supplied File links. Added the table to Contents; preserved all earlier tables.
+Batch 63 - 30 September 2026
+Builds on deployed Batch 62.
 
 naval-arms-control.html
-- Added British Library panel in Government and Parliamentary Records, linking to the new collection page.
+- Renamed British Library panel to British Library Files. Added adjacent Parliamentary Archives (UK) Files panel and link.
 
-british-library-asian-and-african-studies.html
-- New collection page based on the TNA ADM template, containing 69 entries with linked File references, File/Title/Date columns, Title filter, Clear Filters, sorting via column headings and pagination. No introductory text or separate links column.
+parliamentary-archives-uk-files.html
+- New page with 58 entries from the supplied spreadsheet. File Ref, Title and Subject filters; File Ref or chronological Date sorting; Clear Filters and pagination. Subject receives 52% of table width. Applied requested Subject corrections to LG/F/18/1/20, LG/F/18/1/11, LG/F/18/2/18 and LG/F/34/1/3. Preserved remaining source wording and dates.
+
+personal-papers.html
+- Added Smith, Captain Roy Campbell, USN (1858-1940), Naval War College: MSC-005, Newport, USA, RI. Appended : MSC-024 to Admiral Pratt institution. Earlier entries and controls preserved.
 
 whats-new.html
-- Added British Library: Asian and African Studies announcement dated 30 September 2026 at the top of Recent Updates, preserving the supplied wording.
+- Added Parliamentary Archives announcement dated 30 September 2026 at the top of Recent Updates. Corrected British Library wording from Added a index to Added an index.
 
 index.html
-- Added the supplied 30 September 2026 British Libraries update at the top of the home list and removed the Australian War Memorial Treloar Centre item; retained five entries.
+- Added Parliamentary Archives update at the top of the home page list and removed the fifth London Naval Conference, 1930 item. Five entries retained.
 
 search.html
-- Updated search to load search-index-comprehensive-v33.js with the Batch 62 cache reference.
+- Updated search to load search-index-comprehensive-v34.js with the Batch 63 cache reference.
 
-search-index-comprehensive-v33.js
-- Updated from deployed v32; includes all changed pages and 124 new indexed rows. 283 pages and 41,759 indexed rows; unrelated entries preserved.
+search-index-comprehensive-v34.js
+- Updated from deployed v33; 284 pages and 41,818 indexed rows. Includes the new Parliamentary Archives page, personal papers changes and updated landing/announcement pages. Unrelated index entries preserved.
 
 README.txt
-- Deployment instructions, summary and search counts.
+- Batch summary, search counts and root deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised Batch 62 changes.
+- Itemised Batch 63 changes.

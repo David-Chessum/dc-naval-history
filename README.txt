@@ -1,16 +1,16 @@
-DC Naval History - Batch 62
+DC Naval History - Batch 63
 Date: 30 September 2026
 
-This complete package builds on successfully deployed Batch 61 and contains every deployment file changed since that baseline. Earlier deployed corrections are preserved.
+This complete authoritative package builds on successfully deployed Batch 62 and contains all deployment files changed since that baseline. Previous deployed corrections are preserved.
 
-Changes: British Library archival tables added to London 1930 (22 entries) and London 1935 (33 entries), with Contents links. New British Library: Asian and African Studies Collection page (69 entries), Document Archive panel, and home/What's New announcements.
+Summary: new Parliamentary Archives (UK) Files page and landing panel; British Library panel renamed; Subject column widened and four Subject entries corrected; Captain Roy Campbell Smith added and Admiral Pratt institution reference updated; home and What's New announcements updated.
 
-Search index: v33, updated from deployed v32.
-Indexed pages: 283
-Indexed table rows: 41,759
+Search index: v34, updated from deployed v33.
+Indexed pages: 284
+Indexed table rows: 41,818
 
-Deployment: Extract and place all files in the website root, replacing corresponding existing files. Do not upload an enclosing folder. Keep unrelated deployed files. Upload search.html and search-index-comprehensive-v33.js together.
+Deployment: extract and place all nine files in the website root, replacing corresponding existing files. Do not upload an enclosing folder. Keep unrelated deployed files. Upload search.html and search-index-comprehensive-v34.js together.
 
-Validation: source wording, dates and supplied File URLs checked against all three spreadsheets; Contents anchors verified; existing conference tables and unrelated search entries preserved. Title filtering, clearing and pagination passed functional checks. Supplied Discovery links were checked for exact source matching and record-page structure; live destination content was not independently verified. ZIP integrity and root filenames checked.
+Validation: all 58 Parliamentary Archives entries checked against the spreadsheet, allowing only the four requested Subject corrections; personal papers changes checked against the baseline; filters, sorting and pagination functionally checked; links, index preservation, filenames, root placement and ZIP integrity checked. Source dates are preserved, including the 2015 date for LG/C/4/11/6.
 
-Source spreadsheets, scripts, drafts and superseded files are excluded.
+No source spreadsheets, drafts, scripts or superseded files are included.
