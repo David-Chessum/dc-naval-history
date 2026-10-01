@@ -1,38 +1,56 @@
-Batch 64 - changes since deployed Batch 63
-
-command-papers.html
-- Normalised all 287 paper-number prefixes and inserted a prefix/number space.
-
-preparatory-commission-disarmament-conference.html
-- Changed CMD serials to Cmd followed by a space in House of Commons Command Papers.
-- Added a five-table Contents panel with stable heading anchors.
-- Added The National Archives (UK) Files: 27 rows with specific Discovery record links.
-- Added National Archives of Australia Files: 41 rows with RecordSearch item links.
-- Added C.P. 177(26), C.P. 295(28), and C.P. 91(29) in Cabinet-series sequence,
-  preserving source titles/dates/references and linking titles to Discovery records.
-
-uk-cabinet-papers.html
-- Added CP 295 (28), dated 9 October 1928, CAB 24/197/44, in existing sequence.
-- Linked its title to Discovery record D7727825.
-
-geneva-naval-conference-1927.html
-- Main heading now Documents of the Geneva Naval Conference, 1927.
+Batch 65 - 1 October 2026
+Changes since deployed Batch 64
 
 london-naval-conference-1930.html
-- Main heading now Documents of the London Naval Conference, 1930.
+- Changed CMD to Cmd in all four UK Parliamentary Command Papers Reference entries; preserved Batch 64 heading and tables.
 
-lnc-35-documents.html
-- Main heading now Documents of the London Naval Conference, 1935.
+armistice-with-germany-11-november-1918-extract.html
+- Changed footnote CD 9212 to Cd 9212.
 
-search-index-comprehensive-v35.js
-- Updated from deployed v34 with all changed page text and table rows.
-- 284 indexed pages; 41,890 indexed table rows.
+book-list.html
+- Added History of Japanese Submarines 1905-2025, Udagawa, D (ed), 2024, Kajinsha Co; and Aircraft Carrier in Imperial Japanese Navy, Kodaka, K (ed), 2020, Kure Maritime Museum, in author sequence.
+
+index.html
+- Added 1 October 2026 - Shunan Kaiten Memorial Museum at top of linked What's New list; removed fifth London Naval Conference, 1935 item; retained five items.
+
+museum-ship-reports.html
+- Appended Shunan Kaiten Memorial Museum to Japan panel, linked to new report.
+
+preserved-warships.html
+- Added Ozushima and Tokuyama Kaiten replicas immediately below Hiji Oga replica, with Report links; Shunan entry also has Museum Website link.
+
+shunan-kaiten-memorial-museum.html
+- New report using Yasakuni Shrine template, supplied visit text/location/date, feature photo and three inline photos, two official links, and Tokuyama Port Building wording. Used supplied 20261001_113438.jpg for harbour photo requested as 20261001_113518; used 20261001_083924.jpg for feature photo.
+
+the-treaty-of-versailles-1919-extract-from-part-v.html
+- Changed footnote CMD153 to Cmd 153.
+
+treaty-of-st-germain-en-laye-19-september-1919-extract.html
+- Changed footnote CMD400 to Cmd 400.
+
+whats-new.html
+- Added linked Shunan Kaiten Memorial Museum announcement at top of Recent Updates dated 1 October 2026, with supplied wording.
 
 search.html
-- Loads search-index-comprehensive-v35.js with Batch 64 cache version.
+- Loads search-index-comprehensive-v36.js with Batch 65 cache version.
+
+search-index-comprehensive-v36.js
+- Updated from deployed v35; 285 indexed pages and 41,894 indexed table rows.
+
+20261001_083924.jpg
+- Feature photograph: replica outside Shunan Kaiten Memorial Museum.
+
+20261001_093002.jpg
+- Inline photograph after surprisingly good condition.
+
+20261001_090802.jpg
+- Inline photograph after brochures were available.
+
+20261001_113438.jpg
+- Inline harbour replica photograph after images everywhere.
 
 README.txt
-- Batch, date, baseline, summary, index counts and root deployment instructions.
+- Batch, date, baseline, summary, search counts and deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised changes under each deployment filename.
+- Itemised changes under every deployment filename.
