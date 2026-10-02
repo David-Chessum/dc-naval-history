@@ -1,56 +1,37 @@
-Batch 65 - 1 October 2026
-Changes since deployed Batch 64
-
-london-naval-conference-1930.html
-- Changed CMD to Cmd in all four UK Parliamentary Command Papers Reference entries; preserved Batch 64 heading and tables.
-
-armistice-with-germany-11-november-1918-extract.html
-- Changed footnote CD 9212 to Cd 9212.
-
-book-list.html
-- Added History of Japanese Submarines 1905-2025, Udagawa, D (ed), 2024, Kajinsha Co; and Aircraft Carrier in Imperial Japanese Navy, Kodaka, K (ed), 2020, Kure Maritime Museum, in author sequence.
-
-index.html
-- Added 1 October 2026 - Shunan Kaiten Memorial Museum at top of linked What's New list; removed fifth London Naval Conference, 1935 item; retained five items.
-
-museum-ship-reports.html
-- Appended Shunan Kaiten Memorial Museum to Japan panel, linked to new report.
-
-preserved-warships.html
-- Added Ozushima and Tokuyama Kaiten replicas immediately below Hiji Oga replica, with Report links; Shunan entry also has Museum Website link.
+DC Naval History - Batch 66
 
 shunan-kaiten-memorial-museum.html
-- New report using Yasakuni Shrine template, supplied visit text/location/date, feature photo and three inline photos, two official links, and Tokuyama Port Building wording. Used supplied 20261001_113438.jpg for harbour photo requested as 20261001_113518; used 20261001_083924.jpg for feature photo.
+- Added the two requested sentences about bringing snacks/drinks and the absence of a gift shop.
 
-the-treaty-of-versailles-1919-extract-from-part-v.html
-- Changed footnote CMD153 to Cmd 153.
+japan-yamato-museum-kure.html
+- Visited: 31 October 2013, 1 October 2026. Replaced the specified report paragraphs and inserted six new photographs in the requested positions. Preserved existing photographs and other report material.
 
-treaty-of-st-germain-en-laye-19-september-1919-extract.html
-- Changed footnote CMD400 to Cmd 400.
-
-whats-new.html
-- Added linked Shunan Kaiten Memorial Museum announcement at top of Recent Updates dated 1 October 2026, with supplied wording.
+search-index-comprehensive-v37.js
+- Based on deployed Batch 65 v36; updated Shunan report text and added the Yamato Museum report to the page index. 286 pages; 41,894 indexed table rows. All existing table rows retained.
 
 search.html
-- Loads search-index-comprehensive-v36.js with Batch 65 cache version.
-
-search-index-comprehensive-v36.js
-- Updated from deployed v35; 285 indexed pages and 41,894 indexed table rows.
-
-20261001_083924.jpg
-- Feature photograph: replica outside Shunan Kaiten Memorial Museum.
-
-20261001_093002.jpg
-- Inline photograph after surprisingly good condition.
-
-20261001_090802.jpg
-- Inline photograph after brochures were available.
-
-20261001_113438.jpg
-- Inline harbour replica photograph after images everywhere.
+- Loads search-index-comprehensive-v37.js.
 
 README.txt
-- Batch, date, baseline, summary, search counts and deployment instructions.
+- Batch details, baseline, change summary, index counts and deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised changes under every deployment filename.
+- Itemised manifest of all Batch 66 files.
+
+20261001_145238.jpg
+- New Yamato Museum report photograph.
+
+20261001_150338.jpg
+- New Yamato Museum report photograph.
+
+20261001_150106.jpg
+- New Yamato Museum report photograph.
+
+20261001_150146.jpg
+- New Yamato Museum report photograph.
+
+20261001_150615.jpg
+- New Yamato Museum report photograph.
+
+20261001_173144.jpg
+- New Yamato Museum report photograph.
