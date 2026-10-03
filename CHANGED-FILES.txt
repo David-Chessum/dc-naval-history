@@ -1,82 +1,40 @@
-Batch 69 - Changes since deployed Batch 68
+Batch 70 - Changes since deployed Batch 69
 
-20261003_083118.jpg
-- New photograph for the Mutsu Memorial Museum report.
+20261001_153853.jpg
+- Photograph for the new JMSDF Submarine Museum, Kure report.
 
-20261003_091203.jpg
-- New photograph for the Mutsu Memorial Museum report.
+20261001_154058.jpg
+- Photograph for the new JMSDF Submarine Museum, Kure report.
 
-20261003_091740.jpg
-- New photograph for the Mutsu Memorial Museum report.
+20261001_154627.jpg
+- Photograph for the new JMSDF Submarine Museum, Kure report.
 
-20261003_091745.jpg
-- New photograph for the Mutsu Memorial Museum report.
-
-20261003_091813.jpg
-- New photograph for the Mutsu Memorial Museum report.
-
-20261003_092059.jpg
-- New photograph for the Mutsu Memorial Museum report.
+20261001_172550.jpg
+- Photograph for the new JMSDF Submarine Museum, Kure report.
 
 CHANGED-FILES.txt
-- Itemised changes for every file in this package.
+- Itemised changes for every deployment file.
 
 README.txt
-- Batch number, date, deployed Batch 68 baseline, summary, index counts and website-root deployment instructions.
-
-anglo-french-compromise-28-july-1928.html
-- Correct CMD3211 to Cmd 3211.
-
-anglo-german-naval-agreement-1935.html
-- Correct CMD4930 to Cmd 4930.
-
-anglo-german-naval-agreement-1937.html
-- Correct CMD5637 to Cmd 5637.
-
-anglo-polish-naval-agreement-1938.html
-- Correct CMD5916 to Cmd 5916.
-
-anglo-scandinavian-naval-agreement-1938.html
-- Correct CMD5999 to Cmd 5999.
-
-anglo-soviet-naval-agreement-1937.html
-- Correct CMD5679 to Cmd 5679.
-
-australia-AWM-treloar-centre.html
-- Replace the two bottom navigation controls with the single standard Back to Naval Museums control; retain all report content.
-
-australia-townsville-maritime-museum.html
-- Replace the two bottom navigation controls with the single standard Back to Naval Museums control; retain all report content.
-
-draft-disarmament-convention-9-december-1930-extract.html
-- Correct CMD3757 to Cmd 3757.
+- Batch, date, baseline, summary, search counts and deployment instructions.
 
 index.html
-- Add 3 October 2026 - Mutsu Memorial Museum at the top of What's New; remove the fifth Geneva Naval Conference item, retaining five entries.
+- Add 4 October 2026 - JMSDF Submarine Museum, Kure at the top of the home updates list; remove the fifth British Library item, retaining five entries.
 
-japan-etajima-naval-academy-museum.html
-- Replace the two bottom navigation controls with the single standard Back to Naval Museums control; retain all report content.
+japan-jmsdf-submarine-museum-kure.html
+- New report using the Yamato Museum template, with supplied location, visit dates, text, four photographs, two links and standard Back to Naval Museums control. Feature caption identifies JS Akishio.
 
 japan-mutsu-memorial-museum.html
-- New museum report using the Yasakuni Shrine template, with supplied location, visit date, report text, six photographs, two external links and one Back to Naval Museums control. Feature caption dated 3 Oct 2026.
-
-japan-yamato-museum-kure.html
-- Replace the two bottom navigation controls with the single standard Back to Naval Museums control; retain all report content.
-
-japan-yasakuni-shrine-tokyo.html
-- Replace the two bottom navigation controls with the single standard Back to Naval Museums control; retain all report content.
+- Correct the salvaged gun calibre from 6-inch to 5.5-inch.
 
 museum-ship-reports.html
-- Add Mutsu Memorial Museum to Japan, linked to the new report.
+- Rename the Japan entry to JMSDF Submarine Museum, Kure and link to the new report; preserve the Mutsu entry.
 
-search-index-comprehensive-v40.js
-- Regenerate from deployed Batch 68 v39, updating the changed pages and adding Mutsu Memorial Museum and the previously unindexed Yasakuni Shrine page. 289 indexed pages and 41,895 indexed table rows; all unrelated index entries preserved.
+search-index-comprehensive-v41.js
+- Regenerate from deployed Batch 69 v40, updating changed pages and adding the new report. 290 indexed pages and 41,895 indexed table rows; unrelated entries preserved.
 
 search.html
-- Load comprehensive search index v40.
-
-shunan-kaiten-memorial-museum.html
-- Replace the two bottom navigation controls with the single standard Back to Naval Museums control; retain all report content.
+- Load comprehensive search index v41.
 
 whats-new.html
-- Add Mutsu Memorial Museum at the top of Recent Updates, dated 3 October 2026.
+- Add JMSDF Submarine Museum, Kure at the top of Recent Updates, dated 4 October 2026, with the supplied description.

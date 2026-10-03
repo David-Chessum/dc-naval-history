@@ -1,12 +1,12 @@
-DC Naval History - Batch 69
-Date: 3 October 2026
+DC Naval History - Batch 70
+Date: 4 October 2026
 
-This complete deployment package builds on the successfully deployed Batch 68 baseline and contains every deployment file changed since Batch 68.
+This complete deployment package builds on successfully deployed Batch 69 and contains every deployment file changed since that baseline.
 
-Changes: New Mutsu Memorial Museum report and six photographs, Naval Museums listing and updates on the home and What's New pages; standard single Back to Naval Museums control on six existing reports; seven Command Paper reference corrections.
+Changes: New JMSDF Submarine Museum, Kure report with four photographs; museum listing and home/What's New updates; Mutsu gun calibre correction to 5.5-inch.
 
-Search index: v40, regenerated from deployed v39.
-Indexed pages: 289
+Search index: v41, regenerated from deployed v40.
+Indexed pages: 290
 Indexed table rows: 41,895
 
-Deployment: Extract the ZIP and place all files in the website root, replacing files of the same name. All deployment files are at the ZIP root. Retain existing website files not included in this package.
+Deployment: Extract the ZIP and place all files in the website root, replacing files of the same name. Retain existing website files not included in this package.
