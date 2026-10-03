@@ -1,37 +1,52 @@
-DC Naval History - Batch 66
+DC Naval History - Batch 67
 
-shunan-kaiten-memorial-museum.html
-- Added the two requested sentences about bringing snacks/drinks and the absence of a gift shop.
+japan-etajima-naval-academy-museum.html
+- New Etajima Naval Academy Museum report, using the supplied authoritative HTML unchanged. Visited 31 October 2013 and 2 October 2026; nine photographs; no Links section.
 
-japan-yamato-museum-kure.html
-- Visited: 31 October 2013, 1 October 2026. Replaced the specified report paragraphs and inserted six new photographs in the requested positions. Preserved existing photographs and other report material.
+museum-ship-reports.html
+- Etajima Naval Academy renamed Etajima Naval Academy Museum and linked to the new report. Supplied authoritative HTML preserved unchanged.
 
-search-index-comprehensive-v37.js
-- Based on deployed Batch 65 v36; updated Shunan report text and added the Yamato Museum report to the page index. 286 pages; 41,894 indexed table rows. All existing table rows retained.
+whats-new.html
+- Added Etajima Naval Academy Museum as the first Recent Updates entry, dated 3 October 2026, with the supplied description.
+
+index.html
+- Added 3 October 2026 - Etajima Naval Academy Museum at the top of the home updates; removed the fifth item, Townsville Maritime Museum.
+
+search-index-comprehensive-v38.js
+- Regenerated from deployed Batch 66 v37. Updated the three landing/update pages and added the Etajima report. All existing table rows and unrelated page entries preserved. 287 pages; 41,894 rows.
 
 search.html
-- Loads search-index-comprehensive-v37.js.
+- Loads search-index-comprehensive-v38.js.
 
 README.txt
-- Batch details, baseline, change summary, index counts and deployment instructions.
+- Batch details, baseline, summary, index counts and deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised manifest of all Batch 66 files.
+- Itemised changes for all deployment files.
 
-20261001_145238.jpg
-- New Yamato Museum report photograph.
+20261002_121221.jpg
+- New Etajima report photograph.
 
-20261001_150338.jpg
-- New Yamato Museum report photograph.
+20261002_113447.jpg
+- New Etajima report photograph.
 
-20261001_150106.jpg
-- New Yamato Museum report photograph.
+20261002_113612.jpg
+- New Etajima report photograph.
 
-20261001_150146.jpg
-- New Yamato Museum report photograph.
+20261002_120614.jpg
+- New Etajima report photograph.
 
-20261001_150615.jpg
-- New Yamato Museum report photograph.
+20261002_120854.jpg
+- New Etajima report photograph.
 
-20261001_173144.jpg
-- New Yamato Museum report photograph.
+20261002_121355.jpg
+- New Etajima report photograph.
+
+20261002_121657.jpg
+- New Etajima report photograph.
+
+20261002_121854.jpg
+- New Etajima report photograph.
+
+20261002_114037.jpg
+- New Etajima report photograph.

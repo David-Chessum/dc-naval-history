@@ -1,15 +1,17 @@
-DC Naval History - Batch 66
-Date: 2 October 2026
+DC Naval History - Batch 67
+Date: 3 October 2026
 
-This package builds on successfully deployed Batch 65 and contains every deployment file changed since that baseline.
+Builds on successfully deployed Batch 66. Contains every deployment file changed since Batch 66.
 
 Changes:
-- Shunan Kaiten Memorial Museum: added advice about nearby refreshments and the absence of a gift shop.
-- Yamato Museum: updated visit dates and museum report; added six photographs, retaining existing photographs.
-- Updated comprehensive search to v37, including the revised Shunan report and the Yamato Museum report.
+- New Etajima Naval Academy Museum report with nine photographs.
+- Naval Museums landing page: renamed and linked the Etajima entry.
+- What's New: new recent update dated 3 October 2026.
+- Home: new Etajima update; removed the fifth item, Townsville Maritime Museum, retaining five updates.
+- Comprehensive search updated to v38 from deployed v37.
 
-Search index: v37
-Indexed pages: 286
+Search index: v38
+Indexed pages: 287
 Indexed table rows: 41,894
 
-Deployment: extract the ZIP and place all files in the website root, replacing files with the same names. All ZIP entries are at the root. Existing website assets remain required.
+Deployment: extract and place all files in the website root, replacing existing files with the same names. All files are at the ZIP root. Retain existing website assets and pages. The supplied museum HTML files are preserved unchanged.
