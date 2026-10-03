@@ -1,52 +1,49 @@
-DC Naval History - Batch 67
+DC Naval History - Batch 68
 
-japan-etajima-naval-academy-museum.html
-- New Etajima Naval Academy Museum report, using the supplied authoritative HTML unchanged. Visited 31 October 2013 and 2 October 2026; nine photographs; no Links section.
+japan-yamato-museum-kure.html
+- Added large German-built before lathe; replaced precluded taking with makes it difficult to take; inserted the new photograph after Ships Bell. Updated the Kairyu paragraph to include the Etajima and Groton examples. Retained earlier report content and photographs.
 
-museum-ship-reports.html
-- Etajima Naval Academy renamed Etajima Naval Academy Museum and linked to the new report. Supplied authoritative HTML preserved unchanged.
+20261002_084109.jpg
+- New Yamato Museum photograph following the Ships Bell paragraph.
 
-whats-new.html
-- Added Etajima Naval Academy Museum as the first Recent Updates entry, dated 3 October 2026, with the supplied description.
+preserved-warships.html
+- Added the Etajima Kairyu immediately after the Yamato Museum Kairyu, with State blank and linked Report. Added the Etajima Report link for HA-18.
 
-index.html
-- Added 3 October 2026 - Etajima Naval Academy Museum at the top of the home updates; removed the fifth item, Townsville Maritime Museum.
+uk-cabinet-papers.html
+- Added Filter by Document No, with partial case-insensitive matching, combined filters, pagination reset and Clear Filters support. Linked CP 4212 in the Document No column to naval-sub-commission-geneva-1922.html. All 792 source records unchanged.
 
-search-index-comprehensive-v38.js
-- Regenerated from deployed Batch 66 v37. Updated the three landing/update pages and added the Etajima report. All existing table rows and unrelated page entries preserved. 287 pages; 41,894 rows.
+search-index-comprehensive-v39.js
+- Regenerated from deployed Batch 67 v38. Updated changed page text and Preserved Warships rows. 287 pages and 41,895 table rows. Unrelated index entries preserved.
 
 search.html
-- Loads search-index-comprehensive-v38.js.
+- Loads search-index-comprehensive-v39.js.
 
 README.txt
 - Batch details, baseline, summary, index counts and deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised changes for all deployment files.
+- Itemised changes under every deployment filename.
 
-20261002_121221.jpg
-- New Etajima report photograph.
+treaty-of-neuilly-sur-seine-27-november-1919-extract.html
+- Corrected CMD522 to initial-capital Cmd with a space before the number.
 
-20261002_113447.jpg
-- New Etajima report photograph.
+preparatory-commission-for-the-disarmament-conference-1927-text-drawn-up-at-first-reading-26-april-1.html
+- Corrected CMD2888 to initial-capital Cmd with a space before the number.
 
-20261002_113612.jpg
-- New Etajima report photograph.
+preparatory-commission-for-the-disarmament-conference-1927.html
+- Corrected CMD3211 to initial-capital Cmd with a space before the number.
 
-20261002_120614.jpg
-- New Etajima report photograph.
+treaty-of-sevres-10-august-1920-extract.html
+- Corrected CMD964 to initial-capital Cmd with a space before the number.
 
-20261002_120854.jpg
-- New Etajima report photograph.
+treaty-of-trianon-4-june-1920-extract.html
+- Corrected CMD896 to initial-capital Cmd with a space before the number.
 
-20261002_121355.jpg
-- New Etajima report photograph.
+preparatory-commission-for-the-disarmament-conference-1927-preliminary-draft-convention-for-the-limi.html
+- Corrected CMD3211 to initial-capital Cmd with a space before the number.
 
-20261002_121657.jpg
-- New Etajima report photograph.
+preparatory-commission-for-the-disarmament-conference-1927-french-compromise-proposal-tabled-on-11-a.html
+- Corrected CMD3211 to initial-capital Cmd with a space before the number.
 
-20261002_121854.jpg
-- New Etajima report photograph.
-
-20261002_114037.jpg
-- New Etajima report photograph.
+naval-sub-commission-geneva-1922.html
+- Replaced the For Anahera placeholder with here, linked to https://dc-naval-history.com/rome-naval-conference-1924.html.
