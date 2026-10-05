@@ -1,41 +1,50 @@
-Batch 71 - 4 October 2026
+Batch 72 - 5 October 2026
 
-japan-jmsdf-museum-sasebo.html
-- New museum report using the Yamato Museum template, supplied location, visit date, website, six paragraphs, Links and standard Back to Naval Museums control.
-- Feature photograph and three additional photographs; supplied caption preserved.
+japan-oga-kaiten-memorials.html
+- New report using Yasakuni Shrine template, supplied five paragraphs and metadata, five photographs, Links and standard Back to Naval Museums control.
+- Feature caption corrected to 5 Oct 2026; Hiji tourism link added; next removed from first sentence.
+
+japan-usa-city-peace-museum.html
+- New report using Yasakuni Shrine template, supplied two paragraphs and metadata, feature photograph, Links and standard Back to Naval Museums control.
+- Visit date corrected to 5 Oct 2026; all USA occurrences on this report changed to Usa, including title, breadcrumb, website links and MADE IN Usa quotation.
 
 museum-ship-reports.html
-- Add linked JMSDF Museum, Sasebo immediately after JMSDF Submarine Museum, Kure in Japan panel.
+- Add Japan entries for Kaiten Oga Training Base Memorial Park / Kaiten Shrine, Oga and USA City Peace Museum, linked to respective new reports.
 
 preserved-warships.html
-- Akishio: State Hiroshima and Report link to JMSDF Submarine Museum, Kure.
-- Yamato Museum Kairyu and Kaiten: State Hiroshima.
-- HA-18 Class Type A; Yamato Museum Kairyu Class Kairyu.
-- Yasakuni Shrine, Yamato Museum and Hiji Oga Kaiten entries: Class Kaiten.
-- Yasakuni Shrine Shinyo: Class Shinyo.
+- Add Landing Craft P10-21 and Landing Craft (not identified), The National WWII Museum, New Orleans, LA, USA, beside existing landing craft, with Museum Website links.
+- Six State/Province updates: Mikasa Kanagawa; HA-18 and Etajima Kairyu Hiroshima; Yasakuni Kaiten and Shinyo Tokyo; Oga Kaiten replica Oita.
+- Update 49 supplied midget submarine Class entries, including Type A, Marder, Seehund, Kaiten, Kairyu, Maiale, Molch, Biber and Welman. Correct Maile to Maiale for three Italian entries.
+- Oga Kaiten replica: Museum Kaiten Oga Training Base Memorial Park; City Oga; Report link to new Oga page; Museum Website link to Hiji tourism.
 
 whats-new.html
-- Add first Recent Updates entry for JMSDF Museum, Sasebo, dated 4 October 2026, linked to report.
+- Add first Recent Updates entry Oga Kaiten Memorials / Usa City Peace Museum, 5 October 2026, with separate heading links and supplied description.
 
 index.html
-- Add Sasebo as first What's New item and remove Parliamentary Archives fifth item; retain five items.
+- Add combined Oga/Usa update first, with separate report links; remove fifth Shunan entry, retaining five items.
 
-20261004_100731.jpg
-- Feature photograph for Sasebo report.
+20261005_084707.jpg
+- Oga feature photograph.
 
-20261004_100738.jpg
-20261004_100951.jpg
-20261004_092557.jpg
-- Additional photographs after the paragraph ending existing information boards, in the requested order.
+20261005_084745.jpg
+20261005_085325.jpg
+- Oga Training Base photographs after paragraph ending replica of a Kaiten.
 
-search-index-comprehensive-v42.js
-- Regenerated from deployed v41 with changed page text, updated Preserved Warships rows and new Sasebo report. 291 pages and 41,895 rows.
+20261005_085605.jpg
+20261005_085554.jpg
+- Kaiten Shrine photographs after paragraph ending Kaiten after-body.
+
+20261005_104836.jpg
+- USA City Peace Museum feature photograph.
+
+search-index-comprehensive-v43.js
+- Regenerated from deployed v42: changed pages and Preserved Warships rows, plus two new reports. 293 pages and 41,897 rows.
 
 search.html
-- Load v42 index and update cache query for Batch 71.
+- Load v43 index; Batch 72 cache query.
 
 README.txt
-- Baseline, changes, counts and website-root deployment instructions.
+- Batch date, deployed baseline, summary, search counts and root deployment instructions.
 
 CHANGED-FILES.txt
-- This change inventory.
+- This itemised change inventory.
