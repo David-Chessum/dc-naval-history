@@ -1,14 +1,12 @@
-DC Naval History - Batch 74
+DC Naval History - Batch 75
 Date: 6 October 2026
 
-This complete update package builds on successfully deployed Batch 73.
+This complete update package builds on successfully deployed Batch 74.
 
-New Admiralty Intelligence Reports page with 511 entries and linked TNA/NAA references, corrected and additional entries, standardised dates and pagination defaulting to 50 rows. Added a Document Archive panel and announcements on Home and What's New.
+Changes: Updated the Museo Navale de la Nacion and Presidente Sarmiento / Uruguay reports to the Yasakuni template, with feature photographs, supplied captions and official Website metadata. Extended the Rome Naval Conference citation. Added the external Fuhrer Conferences panel to Document Archive and two naval reference links to Links.
 
-Search index: v45, regenerated from deployed v44.
+Search index: v46, regenerated from deployed v45.
 Indexed pages: 294
 Indexed table rows: 42,412
 
-Deployment: Place all files in the website root, replacing corresponding existing files. Upload search-index-comprehensive-v45.js together with search.html. The new page uses the existing deployed naval-header-image-b.png header asset.
-
-The TNA links are specific Discovery record pages. NAA links use the AutoSearch item format from the existing working NAA page. For the duplicate ADM 223/168 reference in the URL spreadsheet, the link labelled numbers 290-302 was used, matching these records.
+Deployment: Place every file in this ZIP in the website root, replacing the corresponding existing files. Upload search-index-comprehensive-v46.js together with search.html. All deployment files are at the ZIP root. The report photographs remain embedded in their HTML files; the header uses the existing deployed naval-header-image-b.png asset.

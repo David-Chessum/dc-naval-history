@@ -1,25 +1,28 @@
-Batch 74 - 6 October 2026
+Batch 75 - 6 October 2026
 
-admiralty-intelligence-reports.html
-- New six-column index with 511 entries, using the Admiralty Board Minutes table layout and Yasakuni header/title styling. Introductory text supplied by the user; no search/sort/filter panel; pagination defaults to 50 rows. Includes corrected TNA references, weekly report 120 and three quarterly reports, standardised dates, 504 specific TNA Discovery links and 544 NAA AutoSearch item links.
+argentina-museo-navale-de-la-nacion-buenos-aires.html
+- Applied the Yasakuni museum report template, using the fourth photograph as the feature image with the supplied Equipment Hall caption. Added the official museum Website to the leading metadata table. Preserved the report text, all four photographs and existing links.
+
+argentina-presidente-sarmiento-uruguay-buenos-aires.html
+- Applied the Yasakuni museum report template, using the first photograph as the feature image with the supplied caption. Added the official Presidente Sarmiento Website to the leading metadata table. Preserved all report text, 15 photographs and four existing links.
+
+rome-naval-conference-1924.html
+- Appended , 395/2 to the citation, which now reads NAA: A4311/5, 395/2.
 
 naval-arms-control.html
-- Added Admiralty Intelligence Reports panel immediately after Admiralty Board Minutes.
+- Added an external Fuhrer Conferences on Naval Affairs panel in Government and Parliamentary Records, with supplied description, italicised Führer, link to kBismarck.com and gold top border.
 
-whats-new.html
-- Added Admiralty Intelligence Reports entry at the top of Recent Updates, dated 6 Oct 2026.
-
-index.html
-- Added 6 October 2026 - Admiralty Intelligence Reports at the top of What's New; removed the fifth Etajima entry, retaining five items.
+links.html
+- Added Shipbuilding History | Naval Marine Archive and The Battleship Bismarck | kBismarck.com in Naval History, Warship and Technical Reference.
 
 search.html
-- Updated the search index reference from v44 to v45.
+- Updated the search index reference from v45 to v46.
 
-search-index-comprehensive-v45.js
-- Regenerated from deployed v44, preserving all existing indexed rows and unrelated pages; added the new index and 511 records. Total: 294 pages, 42,412 indexed rows.
+search-index-comprehensive-v46.js
+- Regenerated from deployed v45 for the five changed pages, preserving all existing table records and unrelated indexed pages. Totals remain 294 pages and 42,412 indexed rows.
 
 README.txt
-- Batch summary and deployment instructions.
+- Package summary and deployment instructions.
 
 CHANGED-FILES.txt
 - File-by-file change list.
