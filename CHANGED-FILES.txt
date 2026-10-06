@@ -1,31 +1,25 @@
-Batch 73 - 6 October 2026
+Batch 74 - 6 October 2026
 
-academic-theses.html
-- Added MA theses by OO Brandt (1941) and JB Levengood (1965), including supplied links.
+admiralty-intelligence-reports.html
+- New six-column index with 511 entries, using the Admiralty Board Minutes table layout and Yasakuni header/title styling. Introductory text supplied by the user; no search/sort/filter panel; pagination defaults to 50 rows. Includes corrected TNA references, weekly report 120 and three quarterly reports, standardised dates, 504 specific TNA Discovery links and 544 NAA AutoSearch item links.
 
-post-war-articles.html
-- Added articles by MS Higgins (1974) and N Cerdá (Winter 2026).
+naval-arms-control.html
+- Added Admiralty Intelligence Reports panel immediately after Admiralty Board Minutes.
 
-malaysia-royal-malaysian-navy-museum-melaka.html
-- Applied the Yasakuni report template; made the first photograph the feature image with the supplied caption; added the Website metadata link and linked Malaysian Submarine Museum in the text.
+whats-new.html
+- Added Admiralty Intelligence Reports entry at the top of Recent Updates, dated 6 Oct 2026.
 
-malaysia-submarine-ouessant-melaka.html
-- Applied the Yasakuni report template; updated the title and breadcrumb; made the existing photograph the feature image with the supplied caption; added the Website and two Links entries; linked Royal Malaysian Navy Museum in the text; retained only the bottom Back to Naval Museums control.
-
-museum-ship-reports.html
-- Renamed the Melaka submarine museum listing to Submarine Museum (Muzium Kapal Selam), Melaka, preserving its link.
-
-preserved-warships.html
-- Added the official Museum Website link to the Ouessant entry.
+index.html
+- Added 6 October 2026 - Admiralty Intelligence Reports at the top of What's New; removed the fifth Etajima entry, retaining five items.
 
 search.html
-- Updated the search index reference to v44.
+- Updated the search index reference from v44 to v45.
 
-search-index-comprehensive-v44.js
-- Regenerated from deployed v43 for the changed pages and table records; 293 pages and 41,901 indexed rows.
+search-index-comprehensive-v45.js
+- Regenerated from deployed v44, preserving all existing indexed rows and unrelated pages; added the new index and 511 records. Total: 294 pages, 42,412 indexed rows.
 
 README.txt
-- Deployment instructions and package summary.
+- Batch summary and deployment instructions.
 
 CHANGED-FILES.txt
 - File-by-file change list.

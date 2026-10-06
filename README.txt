@@ -1,12 +1,14 @@
-DC Naval History - Batch 73
+DC Naval History - Batch 74
 Date: 6 October 2026
 
-This package builds on successfully deployed Batch 72.
+This complete update package builds on successfully deployed Batch 73.
 
-Changes: Two Academic Theses entries and two Post-War Articles entries; updated Royal Malaysian Navy Museum and Melaka Submarine Museum reports to the Yasakuni template, with feature photographs and cross-links; renamed the submarine museum listing; added the official website link for Ouessant in Preserved Warships.
+New Admiralty Intelligence Reports page with 511 entries and linked TNA/NAA references, corrected and additional entries, standardised dates and pagination defaulting to 50 rows. Added a Document Archive panel and announcements on Home and What's New.
 
-Search index: v44, regenerated from deployed v43.
-Indexed pages: 293
-Indexed table rows: 41,901
+Search index: v45, regenerated from deployed v44.
+Indexed pages: 294
+Indexed table rows: 42,412
 
-Deployment: Place all files in this ZIP in the website root, replacing the corresponding existing files. Upload search-index-comprehensive-v44.js together with search.html. All deployment files are at the ZIP root. The report photographs remain embedded in the HTML files.
+Deployment: Place all files in the website root, replacing corresponding existing files. Upload search-index-comprehensive-v45.js together with search.html. The new page uses the existing deployed naval-header-image-b.png header asset.
+
+The TNA links are specific Discovery record pages. NAA links use the AutoSearch item format from the existing working NAA page. For the duplicate ADM 223/168 reference in the URL spreadsheet, the link labelled numbers 290-302 was used, matching these records.
