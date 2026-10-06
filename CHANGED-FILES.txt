@@ -1,28 +1,25 @@
-Batch 75 - 6 October 2026
+BATCH 76 - 7 October 2026
 
-argentina-museo-navale-de-la-nacion-buenos-aires.html
-- Applied the Yasakuni museum report template, using the fourth photograph as the feature image with the supplied Equipment Hall caption. Added the official museum Website to the leading metadata table. Preserved the report text, all four photographs and existing links.
+chile-monitor-huascar-talcahuano.html
+- Applied the Yasakuni Shrine template. Moved the second photograph to the feature position with the supplied caption. Added https://huascar.cl/ to the leading information table. Preserved the report, seven photographs and references.
 
-argentina-presidente-sarmiento-uruguay-buenos-aires.html
-- Applied the Yasakuni museum report template, using the first photograph as the feature image with the supplied caption. Added the official Presidente Sarmiento Website to the leading metadata table. Preserved all report text, 15 photographs and four existing links.
+chile-museo-maritomo-nacional-valparaiso.html
+- Applied the Yasakuni Shrine template. Moved the third photograph to the feature position with the supplied caption and italicised Almirante Latorre. Corrected Visited to 19 April 2025. Added https://museomaritimo.cl/ to the leading information table. Preserved the report, five photographs and links.
 
-rome-naval-conference-1924.html
-- Appended , 395/2 to the citation, which now reads NAA: A4311/5, 395/2.
+preserved-warships.html
+- Changed Type from MTB to Motor Torpedo Boat for VT 86, T26, T28, T46 and T56. All other table data unchanged.
 
-naval-arms-control.html
-- Added an external Fuhrer Conferences on Naval Affairs panel in Government and Parliamentary Records, with supplied description, italicised Führer, link to kBismarck.com and gold top border.
-
-links.html
-- Added Shipbuilding History | Naval Marine Archive and The Battleship Bismarck | kBismarck.com in Naval History, Warship and Technical Reference.
+tna-adm-files.html
+- Corrected the first word of the title for ADM 116/2844 from hina to China.
 
 search.html
-- Updated the search index reference from v45 to v46.
+- Updated the search-index reference to comprehensive v47.
 
-search-index-comprehensive-v46.js
-- Regenerated from deployed v45 for the five changed pages, preserving all existing table records and unrelated indexed pages. Totals remain 294 pages and 42,412 indexed rows.
+search-index-comprehensive-v47.js
+- Regenerated from deployed Batch 75 v46, updating the four changed pages and six changed indexed rows. Preserved all unrelated index entries. 294 pages and 42,412 indexed rows.
 
 README.txt
-- Package summary and deployment instructions.
+- Batch 76 baseline, summary, search counts and deployment instructions.
 
 CHANGED-FILES.txt
-- File-by-file change list.
+- Itemised changes under each deployment filename.
