@@ -1,50 +1,31 @@
-Batch 72 - 5 October 2026
+Batch 73 - 6 October 2026
 
-japan-oga-kaiten-memorials.html
-- New report using Yasakuni Shrine template, supplied five paragraphs and metadata, five photographs, Links and standard Back to Naval Museums control.
-- Feature caption corrected to 5 Oct 2026; Hiji tourism link added; next removed from first sentence.
+academic-theses.html
+- Added MA theses by OO Brandt (1941) and JB Levengood (1965), including supplied links.
 
-japan-usa-city-peace-museum.html
-- New report using Yasakuni Shrine template, supplied two paragraphs and metadata, feature photograph, Links and standard Back to Naval Museums control.
-- Visit date corrected to 5 Oct 2026; all USA occurrences on this report changed to Usa, including title, breadcrumb, website links and MADE IN Usa quotation.
+post-war-articles.html
+- Added articles by MS Higgins (1974) and N Cerdá (Winter 2026).
+
+malaysia-royal-malaysian-navy-museum-melaka.html
+- Applied the Yasakuni report template; made the first photograph the feature image with the supplied caption; added the Website metadata link and linked Malaysian Submarine Museum in the text.
+
+malaysia-submarine-ouessant-melaka.html
+- Applied the Yasakuni report template; updated the title and breadcrumb; made the existing photograph the feature image with the supplied caption; added the Website and two Links entries; linked Royal Malaysian Navy Museum in the text; retained only the bottom Back to Naval Museums control.
 
 museum-ship-reports.html
-- Add Japan entries for Kaiten Oga Training Base Memorial Park / Kaiten Shrine, Oga and USA City Peace Museum, linked to respective new reports.
+- Renamed the Melaka submarine museum listing to Submarine Museum (Muzium Kapal Selam), Melaka, preserving its link.
 
 preserved-warships.html
-- Add Landing Craft P10-21 and Landing Craft (not identified), The National WWII Museum, New Orleans, LA, USA, beside existing landing craft, with Museum Website links.
-- Six State/Province updates: Mikasa Kanagawa; HA-18 and Etajima Kairyu Hiroshima; Yasakuni Kaiten and Shinyo Tokyo; Oga Kaiten replica Oita.
-- Update 49 supplied midget submarine Class entries, including Type A, Marder, Seehund, Kaiten, Kairyu, Maiale, Molch, Biber and Welman. Correct Maile to Maiale for three Italian entries.
-- Oga Kaiten replica: Museum Kaiten Oga Training Base Memorial Park; City Oga; Report link to new Oga page; Museum Website link to Hiji tourism.
-
-whats-new.html
-- Add first Recent Updates entry Oga Kaiten Memorials / Usa City Peace Museum, 5 October 2026, with separate heading links and supplied description.
-
-index.html
-- Add combined Oga/Usa update first, with separate report links; remove fifth Shunan entry, retaining five items.
-
-20261005_084707.jpg
-- Oga feature photograph.
-
-20261005_084745.jpg
-20261005_085325.jpg
-- Oga Training Base photographs after paragraph ending replica of a Kaiten.
-
-20261005_085605.jpg
-20261005_085554.jpg
-- Kaiten Shrine photographs after paragraph ending Kaiten after-body.
-
-20261005_104836.jpg
-- USA City Peace Museum feature photograph.
-
-search-index-comprehensive-v43.js
-- Regenerated from deployed v42: changed pages and Preserved Warships rows, plus two new reports. 293 pages and 41,897 rows.
+- Added the official Museum Website link to the Ouessant entry.
 
 search.html
-- Load v43 index; Batch 72 cache query.
+- Updated the search index reference to v44.
+
+search-index-comprehensive-v44.js
+- Regenerated from deployed v43 for the changed pages and table records; 293 pages and 41,901 indexed rows.
 
 README.txt
-- Batch date, deployed baseline, summary, search counts and root deployment instructions.
+- Deployment instructions and package summary.
 
 CHANGED-FILES.txt
-- This itemised change inventory.
+- File-by-file change list.
