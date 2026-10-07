@@ -1,16 +1,16 @@
-DC NAVAL HISTORY - BATCH 76
+DC NAVAL HISTORY - BATCH 77
 Date: 7 October 2026
 
-Builds on the successfully deployed Batch 75 baseline.
+Builds on the successfully deployed Batch 76 baseline.
 
-Changes: Updated the Monitor Huascar and Museo Maritomo Nacional museum reports to the Yasakuni Shrine layout, with selected feature photographs, captions and website entries; corrected the Valparaiso visit date; expanded five MTB Type entries; corrected the ADM 116/2844 title.
+Summary: Updated Milan and Rio museum reports with Yasakuni layouts, photographs and metadata. Updated museum, preserved-warships, Document Archive and What's New headers/title styling as requested. Updated preserved-warship classes and Enrico Toti museum. Added the New Zealand AJHR reports page (28 linked reports), Document Archive panel and Home/What's New announcements.
 
-Search index: comprehensive v47, regenerated from deployed v46.
-Indexed pages: 294
-Indexed table rows: 42,412
+Search index: comprehensive v48, regenerated from deployed v47.
+Indexed pages: 295
+Indexed table rows: 42,440
 
-Deployment: Place ALL eight files in this ZIP directly in the website root, replacing the matching existing files. No additional enclosing folder is used. Deploy search.html together with search-index-comprehensive-v47.js.
+DEPLOYMENT: Place ALL 12 files from this ZIP directly in the website root, replacing matching files and adding the new AJHR page and v48 index. Deploy search.html with search-index-comprehensive-v48.js. There is no enclosing folder.
 
-Museum photographs are embedded in the HTML. The header uses the already deployed naval-header-image-b.png; no new image files are required.
+All report photographs are embedded in their HTML files. The header uses the already deployed naval-header-image-b.png. No additional image files are required.
 
-This package contains all deployment files changed since Batch 75. Batch 75 remains the baseline until deployment of Batch 76 is confirmed.
+This is the complete authoritative package of files changed since deployed Batch 76. No source spreadsheets, drafts or superseded pages are included. Batch 76 remains the deployed baseline until Batch 77 deployment is confirmed.

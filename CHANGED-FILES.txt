@@ -1,25 +1,37 @@
-BATCH 76 - 7 October 2026
+BATCH 77 - 7 October 2026
 
-chile-monitor-huascar-talcahuano.html
-- Applied the Yasakuni Shrine template. Moved the second photograph to the feature position with the supplied caption. Added https://huascar.cl/ to the leading information table. Preserved the report, seven photographs and references.
+italy-museo-nazionale-scienza-e-tecnologia-leonardo-da-vinci-milan.html
+- Applied Yasakuni template; first photo featured with supplied caption; website and visited dates updated; numbered passages separated; four new photographs added; existing second and third photographs repositioned; requested ship names italicised.
 
-chile-museo-maritomo-nacional-valparaiso.html
-- Applied the Yasakuni Shrine template. Moved the third photograph to the feature position with the supplied caption and italicised Almirante Latorre. Corrected Visited to 19 April 2025. Added https://museomaritimo.cl/ to the leading information table. Preserved the report, five photographs and links.
+brazil-brazilian-navy-cultural-centre-destroyer-escort-bauro-and-submarine-ri.html
+- Applied Yasakuni template; second photo featured with supplied caption; website and visited dates added; ship names italicised; existing photos repositioned; new 124049 and 133921 photos added at requested sentences. Removed leading spaces before the Another display paragraph.
+
+museum-ship-reports.html
+- Applied Yasakuni header and main-title styling. Removed the parenthetical vessel names from the Brazil label, preserving its link and remaining text.
 
 preserved-warships.html
-- Changed Type from MTB to Motor Torpedo Boat for VT 86, T26, T28, T46 and T56. All other table data unchanged.
+- Applied Yasakuni header. Updated all supplied class values (49 class cells changed) and corrected the Enrico Toti museum name. Preserved Batch 76 Motor Torpedo Boat changes.
 
-tna-adm-files.html
-- Corrected the first word of the title for ADM 116/2844 from hina to China.
+naval-arms-control.html
+- Applied Yasakuni header and title styling. Added New Zealand Parliamentary Reports panel immediately before Fuhrer Conferences, linking to new-zealand-ajhr-reports.html.
+
+new-zealand-ajhr-reports.html
+- Created Appendix to the Journals of the House of Representatives Reports (New Zealand), using Admiralty Intelligence Reports template. Added supplied introduction and 28 reports; omitted blank rows and Link column; applied all spreadsheet URLs to Report IDs; converted 20 predominantly block-capital titles to Title Case; ID/year and title filters, Clear Filters, pagination default 50 rows.
+
+whats-new.html
+- Applied Yasakuni header and title styling. Added linked AJHR announcement dated 7 October 2026 at top of Recent Updates.
+
+index.html
+- Added linked 7 October 2026 AJHR entry at top of What's New and removed fifth Mutsu Memorial Museum item, retaining five entries.
 
 search.html
-- Updated the search-index reference to comprehensive v47.
+- Updated comprehensive search reference from v47 to v48.
 
-search-index-comprehensive-v47.js
-- Regenerated from deployed Batch 75 v46, updating the four changed pages and six changed indexed rows. Preserved all unrelated index entries. 294 pages and 42,412 indexed rows.
+search-index-comprehensive-v48.js
+- Regenerated from deployed Batch 76 v47. Updated changed pages and preserved-warship rows, added AJHR page and 28 report rows; preserved unrelated index entries. 295 pages; 42,440 indexed rows.
 
 README.txt
-- Batch 76 baseline, summary, search counts and deployment instructions.
+- Batch number, date, baseline, summary, search counts and deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised changes under each deployment filename.
+- Itemised all deployment changes.
