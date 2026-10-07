@@ -1,37 +1,30 @@
-BATCH 77 - 7 October 2026
+blog-inside-a-british-submarine.html
+- Apply Yasakuni template header and title styling; place title before introduction.
+- Remove bold styling from the title; restore the specified full introduction and italicise it.
+- Style both bottom navigation controls with arrows and remove the line between them.
 
-italy-museo-nazionale-scienza-e-tecnologia-leonardo-da-vinci-milan.html
-- Applied Yasakuni template; first photo featured with supplied caption; website and visited dates updated; numbered passages separated; four new photographs added; existing second and third photographs repositioned; requested ship names italicised.
-
-brazil-brazilian-navy-cultural-centre-destroyer-escort-bauro-and-submarine-ri.html
-- Applied Yasakuni template; second photo featured with supplied caption; website and visited dates added; ship names italicised; existing photos repositioned; new 124049 and 133921 photos added at requested sentences. Removed leading spaces before the Another display paragraph.
-
-museum-ship-reports.html
-- Applied Yasakuni header and main-title styling. Removed the parenthetical vessel names from the Brazil label, preserving its link and remaining text.
-
-preserved-warships.html
-- Applied Yasakuni header. Updated all supplied class values (49 class cells changed) and corrected the Enrico Toti museum name. Preserved Batch 76 Motor Torpedo Boat changes.
-
-naval-arms-control.html
-- Applied Yasakuni header and title styling. Added New Zealand Parliamentary Reports panel immediately before Fuhrer Conferences, linking to new-zealand-ajhr-reports.html.
-
-new-zealand-ajhr-reports.html
-- Created Appendix to the Journals of the House of Representatives Reports (New Zealand), using Admiralty Intelligence Reports template. Added supplied introduction and 28 reports; omitted blank rows and Link column; applied all spreadsheet URLs to Report IDs; converted 20 predominantly block-capital titles to Title Case; ID/year and title filters, Clear Filters, pagination default 50 rows.
+blog-japanese-carrier-hosho-repatriation-duties.html
+- New blog article using the updated submarine page template.
+- Supplied article text, italicised Hōshō and Kashima, italicised introduction and linked CAF Helldiver Squadron credit.
+- Four embedded photographs below the article, Links section and both bottom navigation controls.
+- Hōshō in the title; introduction uses "The article"; page-specific metadata.
 
 whats-new.html
-- Applied Yasakuni header and title styling. Added linked AJHR announcement dated 7 October 2026 at top of Recent Updates.
+- Add linked Hosho repatriation entry at the top of Recent Updates, dated 8 October 2026.
 
 index.html
-- Added linked 7 October 2026 AJHR entry at top of What's New and removed fifth Mutsu Memorial Museum item, retaining five entries.
+- Add linked Hosho repatriation entry at the top of What's New, dated 8 October 2026.
+- Remove JMSDF Museum, Sasebo; retain five items.
 
 search.html
-- Updated comprehensive search reference from v47 to v48.
+- Load search-index-comprehensive-v49.js.
 
-search-index-comprehensive-v48.js
-- Regenerated from deployed Batch 76 v47. Updated changed pages and preserved-warship rows, added AJHR page and 28 report rows; preserved unrelated index entries. 295 pages; 42,440 indexed rows.
+search-index-comprehensive-v49.js
+- Build from deployed v48, update Home and What's New and index both blog articles.
+- 297 pages and 42,440 table rows; all unrelated index data preserved.
 
 README.txt
-- Batch number, date, baseline, summary, search counts and deployment instructions.
+- Batch details, counts and deployment instructions.
 
 CHANGED-FILES.txt
-- Itemised all deployment changes.
+- This itemised change list.
