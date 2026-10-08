@@ -1,11 +1,10 @@
-Batch 78 - 8 October 2026
+Batch 79 - revised 9 October 2026
 
-Builds on successfully deployed Batch 77.
+Supersedes all previous Batch 79 packages. Builds on Batch 78.
 
-Updates the Inside a British Submarine layout and navigation, adds the Hōshō repatriation blog article with four embedded photographs, and adds linked announcements to What's New and Home.
+Includes the correct Book List supplied on 9 October, with the erroneous white heading background removed. All other Batch 79 pages are retained. Search v50 regenerated to match the corrected Book List.
 
-Search index: v49, regenerated from deployed v48.
 Indexed pages: 297
-Indexed table rows: 42,440
+Indexed table rows: 42,441
 
-Deploy all files in this ZIP to the website root, replacing the existing files with the same names. Keep existing site assets, including naval-header-image-b.png and the inside-british-submarine-assets directory. The four Hōshō photographs are embedded in the new HTML page.
+Deploy all HTML and JavaScript files to the website root, replacing matching files. Keep all other site files and assets. README.txt and CHANGED-FILES.txt are deployment notes. If an earlier Batch 79 was deployed, deploy this complete package over it.

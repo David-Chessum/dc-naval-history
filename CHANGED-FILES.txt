@@ -1,30 +1,26 @@
-blog-inside-a-british-submarine.html
-- Apply Yasakuni template header and title styling; place title before introduction.
-- Remove bold styling from the title; restore the specified full introduction and italicise it.
-- Style both bottom navigation controls with arrows and remove the line between them.
+blog.html
+- Recovered Blog landing page with updated layout and three linked article cards.
 
-blog-japanese-carrier-hosho-repatriation-duties.html
-- New blog article using the updated submarine page template.
-- Supplied article text, italicised Hōshō and Kashima, italicised introduction and linked CAF Helldiver Squadron credit.
-- Four embedded photographs below the article, Links section and both bottom navigation controls.
-- Hōshō in the title; introduction uses "The article"; page-specific metadata.
+uruguay-naval-museum-montevideo.html
+- Recovered museum report with updated page layout and embedded photographs.
 
-whats-new.html
-- Add linked Hosho repatriation entry at the top of Recent Updates, dated 8 October 2026.
+peru-submarine-abtao-museo-naval-del-peru-lima.html
+- Recovered Submarine Abtao report with updated layout, visit details, photographs and ship-name corrections.
 
-index.html
-- Add linked Hosho repatriation entry at the top of What's New, dated 8 October 2026.
-- Remove JMSDF Museum, Sasebo; retain five items.
+book-list.html
+- Use the correct Book List supplied on 9 October.
+- Remove malformed CSS selector that applied the controls panel background to the Book List heading.
+- Preserve all book data and controls.
 
 search.html
-- Load search-index-comprehensive-v49.js.
+- Load comprehensive search index v50 with Batch 79 cache version.
 
-search-index-comprehensive-v49.js
-- Build from deployed v48, update Home and What's New and index both blog articles.
-- 297 pages and 42,440 table rows; all unrelated index data preserved.
+search-index-comprehensive-v50.js
+- Refresh the four recovered pages and all Book List rows from supplied files.
+- Preserve every unrelated page and table-row record from deployed v49.
 
 README.txt
-- Batch details, counts and deployment instructions.
+- Batch details and deployment instructions.
 
 CHANGED-FILES.txt
-- This itemised change list.
+- This change list.
