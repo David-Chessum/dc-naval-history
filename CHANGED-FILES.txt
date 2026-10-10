@@ -1,38 +1,25 @@
-academic-theses.html
-- Apply Yasakuni styling; add synchronised top pagination and five theses (655 total), with supplied citations and links.
-
-blog-battleship-or-battle-cruiser.html
-- Apply Yasakuni header and page-heading styling; preserve article text, emphasis and links.
-
-contact.html
-- Apply Yasakuni header and heading styling; preserve contact details and links.
-
-book-list.html
-- Place navigation below the header to match Yasakuni. Add eleven books (1,597 total). Rename heading, browser and sharing titles to Book List - Captain Bob Chessum Memorial Library.
-
-conference-documents.html
-- Apply Yasakuni styling; remove Rome 1924 and World Disarmament Conference 1932-34 entries; link Washington 1921-22 to the new page.
-
-london-naval-conference-1930.html
-- Apply Yasakuni header and page-heading font; preserve document tables and content.
+Batch 81 - 10 October 2026
 
 washington-naval-conference-1921-22.html
-- New page from updated London template with supplied introduction, contents index, 15 tables and 231 records. Omit wholly empty columns; link subjects, TNA references and NAA RecordSearch entries; retain corrections box.
+- Move Conference Proceedings to Miscellaneous; widen Reference/Date in UK Parliamentary Command Papers and Date/TNA Ref in CID Papers; correct Portuguese and Cmd spacing; add dates for NZ, Australian and US delegation reports.
 
-whats-new.html
-- Add linked Washington Naval Conference entry at top of Recent Updates, dated 10 October 2026, with supplied wording.
+command-papers.html
+- Match Yasakuni header and title font; correct Portuguese in Cmd 2037, replace Cd 1380 title (ending with "Fantome".), and correct auxiliary in Cd 8176.
 
-index.html
-- Add linked 10 October 2026 Washington Naval Conference entry at top of What's New; remove JMSDF Submarine Museum, Kure; retain five items.
+brunei-royal-brunei-armed-forces-museum.html
+- Apply Yasakuni museum template; use first photograph as feature photo with supplied Maharajalela caption; retain location and visit date; omit Website row.
+
+theses-wanted.html
+- Match Yasakuni header and title font; add 22 supplied theses, preserving blank fields (317 total).
+
+academic-theses.html
+- Add fourth introductory paragraph linking to International Journal of Naval History dissertation directory; correct Dougall and Mitchener authors; add Kim thesis (656 total).
+
+preserved-warships.html
+- Add PA 13-22 replica Higgins landing craft at Utah Beach, Normandy, France, after all existing landing craft entries and immediately before Lappedykkeren.
 
 search.html
-- Load comprehensive search v51 with Batch 80 cache version.
+- Load comprehensive search v52 with Batch 81 cache version.
 
-search-index-comprehensive-v51.js
-- Update changed pages and book/thesis rows; add Washington page and its 231 rows. Preserve unrelated v50 data. 298 pages and 42,688 table rows.
-
-README.txt
-- Deployment instructions.
-
-CHANGED-FILES.txt
-- This change list.
+search-index-comprehensive-v52.js
+- Update six page records and changed table data; preserve all unrelated v51 records. 298 pages and 42,712 table rows.
