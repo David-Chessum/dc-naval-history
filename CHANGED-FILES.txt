@@ -1,26 +1,38 @@
-blog.html
-- Recovered Blog landing page with updated layout and three linked article cards.
+academic-theses.html
+- Apply Yasakuni styling; add synchronised top pagination and five theses (655 total), with supplied citations and links.
 
-uruguay-naval-museum-montevideo.html
-- Recovered museum report with updated page layout and embedded photographs.
+blog-battleship-or-battle-cruiser.html
+- Apply Yasakuni header and page-heading styling; preserve article text, emphasis and links.
 
-peru-submarine-abtao-museo-naval-del-peru-lima.html
-- Recovered Submarine Abtao report with updated layout, visit details, photographs and ship-name corrections.
+contact.html
+- Apply Yasakuni header and heading styling; preserve contact details and links.
 
 book-list.html
-- Use the correct Book List supplied on 9 October.
-- Remove malformed CSS selector that applied the controls panel background to the Book List heading.
-- Preserve all book data and controls.
+- Place navigation below the header to match Yasakuni. Add eleven books (1,597 total). Rename heading, browser and sharing titles to Book List - Captain Bob Chessum Memorial Library.
+
+conference-documents.html
+- Apply Yasakuni styling; remove Rome 1924 and World Disarmament Conference 1932-34 entries; link Washington 1921-22 to the new page.
+
+london-naval-conference-1930.html
+- Apply Yasakuni header and page-heading font; preserve document tables and content.
+
+washington-naval-conference-1921-22.html
+- New page from updated London template with supplied introduction, contents index, 15 tables and 231 records. Omit wholly empty columns; link subjects, TNA references and NAA RecordSearch entries; retain corrections box.
+
+whats-new.html
+- Add linked Washington Naval Conference entry at top of Recent Updates, dated 10 October 2026, with supplied wording.
+
+index.html
+- Add linked 10 October 2026 Washington Naval Conference entry at top of What's New; remove JMSDF Submarine Museum, Kure; retain five items.
 
 search.html
-- Load comprehensive search index v50 with Batch 79 cache version.
+- Load comprehensive search v51 with Batch 80 cache version.
 
-search-index-comprehensive-v50.js
-- Refresh the four recovered pages and all Book List rows from supplied files.
-- Preserve every unrelated page and table-row record from deployed v49.
+search-index-comprehensive-v51.js
+- Update changed pages and book/thesis rows; add Washington page and its 231 rows. Preserve unrelated v50 data. 298 pages and 42,688 table rows.
 
 README.txt
-- Batch details and deployment instructions.
+- Deployment instructions.
 
 CHANGED-FILES.txt
 - This change list.

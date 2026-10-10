@@ -1,10 +1,12 @@
-Batch 79 - revised 9 October 2026
+Batch 80 - revised 10 October 2026
 
-Supersedes all previous Batch 79 packages. Builds on Batch 78.
+Supersedes the previous Batch 80 ZIP; corrects the Book List menu position.
 
-Includes the correct Book List supplied on 9 October, with the erroneous white heading background removed. All other Batch 79 pages are retained. Search v50 regenerated to match the corrected Book List.
+Builds on successfully deployed Batch 79 (revised 9 October package).
 
-Indexed pages: 297
-Indexed table rows: 42,441
+Includes nine changed/new content pages, search.html, search-index-comprehensive-v51.js and two deployment notes.
 
-Deploy all HTML and JavaScript files to the website root, replacing matching files. Keep all other site files and assets. README.txt and CHANGED-FILES.txt are deployment notes. If an earlier Batch 79 was deployed, deploy this complete package over it.
+Indexed pages: 298
+Indexed table rows: 42,688
+
+Deploy every HTML and JavaScript file in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes. Preserve all other site files and assets, including naval-header-image-b.png. The new Washington page filename matches the links in Conference Documents, Home and What's New.
