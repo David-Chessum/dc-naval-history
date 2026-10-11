@@ -1,25 +1,16 @@
-Batch 81 - 10 October 2026
-
-washington-naval-conference-1921-22.html
-- Move Conference Proceedings to Miscellaneous; widen Reference/Date in UK Parliamentary Command Papers and Date/TNA Ref in CID Papers; correct Portuguese and Cmd spacing; add dates for NZ, Australian and US delegation reports.
-
-command-papers.html
-- Match Yasakuni header and title font; correct Portuguese in Cmd 2037, replace Cd 1380 title (ending with "Fantome".), and correct auxiliary in Cd 8176.
-
-brunei-royal-brunei-armed-forces-museum.html
-- Apply Yasakuni museum template; use first photograph as feature photo with supplied Maharajalela caption; retain location and visit date; omit Website row.
-
-theses-wanted.html
-- Match Yasakuni header and title font; add 22 supplied theses, preserving blank fields (317 total).
-
-academic-theses.html
-- Add fourth introductory paragraph linking to International Journal of Naval History dissertation directory; correct Dougall and Mitchener authors; add Kim thesis (656 total).
+Batch 82 - 11 October 2026
 
 preserved-warships.html
-- Add PA 13-22 replica Higgins landing craft at Utah Beach, Normandy, France, after all existing landing craft entries and immediately before Lappedykkeren.
+- Update PA 13-22 museum and city to Utah Beach D-Day Museum, Sainte-Marie-du-Mont; add PA 33-4 immediately above it. Both entries have Museum Website links.
+
+indonesia-submarine-pasopati-surubaya.html
+- Apply Yasakuni museum layout/header/title; retain current feature image with supplied caption; add Website to top information table; add six supplied photographs after report text; change none of it was in English to very little of it was in English, and Getting to it was to Getting to the museum was.
+
+personal-papers.html
+- Apply Yasakuni header and title font; update Lloyd George, Admiral Sir Lionel Halsey and Admiral Dickson with Australian holdings, references, locations and countries; correct Lionel Halsey reference to [M1179]; add , USN to Fleet Admiral William Halsey name.
 
 search.html
-- Load comprehensive search v52 with Batch 81 cache version.
+- Load comprehensive search v53 with Batch 82 cache version.
 
-search-index-comprehensive-v52.js
-- Update six page records and changed table data; preserve all unrelated v51 records. 298 pages and 42,712 table rows.
+search-index-comprehensive-v53.js
+- Update changed pages and table records; preserve unrelated v52 data. 298 pages and 42,713 rows.
