@@ -58,9 +58,9 @@ td.source{min-width:210px}
 td.notes{min-width:230px}
 a.cell-link{color:var(--navy);word-break:break-all}
 .empty{color:#8a8a8a}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button{min-width:2.35rem;padding:.45rem .6rem}
-.pagination button[disabled]{opacity:.45;cursor:default}
+
+
+
 .page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
 .back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
 .back-link a{color:var(--navy)}
@@ -87,13 +87,38 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 .research-feedback h2{margin:0 0 .55rem;font-size:1.15rem;border:0;padding:0}
 .research-feedback p{margin:0;line-height:1.55}
 .research-feedback a{color:var(--navy)}
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
+@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font: .85rem Arial,sans-serif}
 </style>
 </head>
 <body>
-<header class="site-header"><div class="header-inner">
-<h1 class="site-title">TNA ADM Files</h1>
-<p class="site-subtitle">Naval History Document Archive</p>
-</div></header>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
 <nav aria-label="Main navigation">
 <div class="nav-inner">
 <ul class="nav-list">
@@ -108,7 +133,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 <li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul>
 </div>
 </nav>
-<main><div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / TNA ADM Files</div><h2>TNA ADM Files</h2><section class="intro-text"><p>The following table lists the ADM files from The National Archives in Kew, London, that I hold documents from. The files are categorised as:</p><ol><li><strong>Copy Held</strong> – I believe I have a copy of the entire file.</li><li><strong>Part Copy</strong> – Could mean anything from I have a small extract, to I actually have the entire file, but haven’t been able to confirm it. The number in parentheses is an estimate of the number of pages I have from the file.</li><li><strong>Document obtained from alternate source</strong> – I have a copy of what I believe is the document held in the TNA file, however I obtained it from a different repository (normally applies to manuals).</li></ol><p>Ships Logs from the ADM 53 series are held in a separate table that can be viewed <a href="adm-53-table.html">here</a>.</p><p>Note that some of these files were provided to me by other researchers, and I may be unable to share them without obtaining specific consent from the original photographer.</p><p>In total, I have over 600,000 pages of documents from ADM files – which may sound like a lot, but in reality it is just a drop in the ocean!</p><p>But if you are planning on retrieving documents from ADM files in the National Archives, then it may pay to check whether I already hold some of the files you are planning to copy. It may be advantageous to come to an arrangement beforehand whereby you copy alternative files, and then we ‘exchange’ documents afterwards.</p></section><section class="research-feedback">
+<main><div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / TNA ADM Files</div><h1 class="page-title">TNA ADM Files</h1><section class="intro-text"><p>The following table lists the ADM files from The National Archives in Kew, London, that I hold documents from. The files are categorised as:</p><ol><li><strong>Copy Held</strong> – I believe I have a copy of the entire file.</li><li><strong>Part Copy</strong> – Could mean anything from I have a small extract, to I actually have the entire file, but haven’t been able to confirm it. The number in parentheses is an estimate of the number of pages I have from the file.</li><li><strong>Document obtained from alternate source</strong> – I have a copy of what I believe is the document held in the TNA file, however I obtained it from a different repository (normally applies to manuals).</li></ol><p>Ships Logs from the ADM 53 series are held in a separate table that can be viewed <a href="adm-53-table.html">here</a>.</p><p>Note that some of these files were provided to me by other researchers, and I may be unable to share them without obtaining specific consent from the original photographer.</p><p>In total, I have over 600,000 pages of documents from ADM files – which may sound like a lot, but in reality it is just a drop in the ocean!</p><p>But if you are planning on retrieving documents from ADM files in the National Archives, then it may pay to check whether I already hold some of the files you are planning to copy. It may be advantageous to come to an arrangement beforehand whereby you copy alternative files, and then we ‘exchange’ documents afterwards.</p></section><section class="research-feedback">
 <h2>Corrections and additions welcome</h2>
 <p>If you can provide corrections, or would like to discuss exchanging copies of archival material, I would be pleased to hear from you. Please use the <a href="contact.html">Contact page</a>.</p>
 </section><section class="controls">
@@ -154,7 +179,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 <option>25</option><option selected="">50</option><option>100</option><option>250</option><option value="0">All</option>
 </select>
 </div>
-</div><div class="table-wrap">
+</div><div class="pagination"><button aria-label="First page" id="firstPageTop" type="button">First</button><button aria-label="Previous page" id="prevPageTop" type="button">Previous</button><span id="pageStatusTop"></span><button aria-label="Next page" id="nextPageTop" type="button">Next</button><button aria-label="Last page" id="lastPageTop" type="button">Last</button></div><div class="table-wrap">
 <table class="tna-table" id="matrixTable">
 <thead>
 <tr>
@@ -166,13 +191,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </thead>
 <tbody id="matrixBody"></tbody>
 </table>
-</div><div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div><p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p></main>
+</div><div class="pagination"><button aria-label="First page" id="firstPage" type="button">First</button><button aria-label="Previous page" id="prevPage" type="button">Previous</button><span id="pageStatus"></span><button aria-label="Next page" id="nextPage" type="button">Next</button><button aria-label="Last page" id="lastPage" type="button">Last</button></div><p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p></main>
 <footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
 <p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
 <p><em>Ego sum nauta</em></p>
@@ -4297,7 +4316,7 @@ const DATA = [{"File": "ADM 1/10002", "Title": "Painting of HM Ships in peace-ti
 {"File": "ADM 7/954", "Title": "Log of HMS Aurora kept by Mr G H Hulton-Sams, Midshipman, during her cruise to the Far East and back", "Date": "1899-1901", "Status": "Copy Held"},
 {"File": "ADM 7/955", "Title": "Log of HMS Aurora kept by Mr G H Hulton-Sams, Midshipman, during her cruise to the Far East and back", "Date": "1901-02", "Status": "Copy Held"},
 {"File": "ADM 95/107", "Title": "HM Dockyards: instructions for building and refitting ships.", "Date": "1909", "Status": "Copy Held"},
-{"File": "AMD 226/22/30", "Title": "Ex-German battleship BADEN: preliminary report of model experiments", "Date": "1919", "Status": "Copy Held"}];
+{"File": "ADM 226/22/30", "Title": "Ex-German battleship BADEN: preliminary report of model experiments", "Date": "1919", "Status": "Copy Held"}];
 
 const columns = ["File","Title","Date","Status"];
 let state = {
@@ -4405,6 +4424,8 @@ function render() {
   document.getElementById("lastPage").disabled = state.page >= pages || state.pageSize === 0;
   document.getElementById("sortField").value = state.sortField;
   document.getElementById("sortDir").value = state.sortDir;
+  for (const id of ["firstPage","prevPage","nextPage","lastPage"]) document.getElementById(id+"Top").disabled=document.getElementById(id).disabled;
+  document.getElementById("pageStatusTop").textContent=document.getElementById("pageStatus").textContent;
   updateSortMarks();
 }
 
@@ -4449,6 +4470,7 @@ document.getElementById("lastPage").addEventListener("click", () => {
   render();
 });
 
+for (const id of ["firstPage","prevPage","nextPage","lastPage"]) document.getElementById(id+"Top").addEventListener("click",()=>document.getElementById(id).click());
 render();
 </script></body>
 </html>

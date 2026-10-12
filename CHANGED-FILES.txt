@@ -1,34 +1,28 @@
-Batch 83 - 12 October 2026
+Batch 84 - 12 October 2026
 
-personal-papers.html
-- Update Admiral John Fisher name, institutions, ADM 116/3454 reference and location.
+tna-adm-files.html
+- Match Yasakuni header/title font; correct AMD 226/22/30 to ADM 226/22/30; replace pagination with USN Technical Mission style above and below the table, synchronized.
 
 post-war-articles.html
-- Match Yasakuni header/title font; add eleven supplied International Journal of Naval History articles; correct Navigating Uncharted Waters volume to Vol. 18, No. 1 (6,260 total).
+- Add Garcia, EV, A diplomacia dos armamentos em Santiago: o Brasil e a Conferência Pan-Americana de 1923, Revista Brasileira de História, Vol. 23, No. 46, 2003, pp. 173-200 (6,261 total).
 
-washington-naval-conference-1921-22.html
-- Add Admiralty Fleet Orders table immediately after CID Papers, with AFO 2544/23, Washington Naval Treaty, linked ADM 182/37, and contents-index entry.
+the-transfer-of-hma-submarines-oxley-and-otway-to-great-britain.html
+- Match Yasakuni header and title font; preserve article, images, footnotes and links.
 
-us-naval-technical-mission-europe.html
-- Match Yasakuni header and page-title font; add synchronized pagination above the table as well as below; preserve reports.
+proposed-purchase-of-la-argentina.html
+- New case study from updated Oxley/Otway template, with supplied two-paragraph text, embedded feature photograph and Historia Y Arqueologia Maritima credit.
 
-plans-de-bateaux.html
-- New page from USN Technical Mission template with supplied text and 520 spreadsheet records; Name/Type/Year/Held filters, sorting, Clear Filters, default 50 entries per page, synchronized top and bottom pagination, reference button style, corrections box below table, and embedded Dunkerque plan below heading.
-
-naval-arms-control.html
-- Add linked Plans de Bateaux panel in Naval Publications and Documentary Collections.
+warship-export-case-studies.html
+- Match Yasakuni header/title font; add Argentina to Britain proposed La Argentina training-cruiser purchase, 1936-39, linked to new case study.
 
 whats-new.html
-- Add linked Plans de Bateaux entry at top of Recent Updates dated 12 October 2026, with supplied wording and italics.
+- Add linked Proposed Purchase of La Argentina announcement at top of Recent Updates, dated 12 October 2026.
 
 index.html
-- Match Yasakuni header; add linked 12 October 2026 Plans de Bateaux update; remove fifth Oga Kaiten Memorials / Usa City Peace Museum update, retaining five.
-
-malaysia-hang-tuah-lumut.html
-- Apply Yasakuni museum layout; retain feature image with supplied caption; italicise Hang Tuah, Mermaid, Baldur and Black Star; omit Website row; add HMS Mermaid link.
+- Add linked La Argentina update at top of What's New; remove fifth Admiralty Intelligence Reports item, retaining five; link Nepean Naval and Maritime Museum and Australian National Maritime Museum.
 
 search.html
-- Load comprehensive search v54 with Batch 83 cache version.
+- Load comprehensive search v55 with Batch 84 cache version.
 
-search-index-comprehensive-v54.js
-- Update changed pages/rows and add Plans de Bateaux; preserve unrelated v53 data. 299 pages and 43,245 table rows.
+search-index-comprehensive-v55.js
+- Update changed pages and rows; index new La Argentina page and case-study table. Preserve unrelated v54 records. 300 pages and 43,327 table rows.
