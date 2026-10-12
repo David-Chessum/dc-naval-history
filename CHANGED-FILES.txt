@@ -1,16 +1,34 @@
-Batch 82 - 11 October 2026
-
-preserved-warships.html
-- Update PA 13-22 museum and city to Utah Beach D-Day Museum, Sainte-Marie-du-Mont; add PA 33-4 immediately above it. Both entries have Museum Website links.
-
-indonesia-submarine-pasopati-surubaya.html
-- Apply Yasakuni museum layout/header/title; retain current feature image with supplied caption; add Website to top information table; add six supplied photographs after report text; change none of it was in English to very little of it was in English, and Getting to it was to Getting to the museum was.
+Batch 83 - 12 October 2026
 
 personal-papers.html
-- Apply Yasakuni header and title font; update Lloyd George, Admiral Sir Lionel Halsey and Admiral Dickson with Australian holdings, references, locations and countries; correct Lionel Halsey reference to [M1179]; add , USN to Fleet Admiral William Halsey name.
+- Update Admiral John Fisher name, institutions, ADM 116/3454 reference and location.
+
+post-war-articles.html
+- Match Yasakuni header/title font; add eleven supplied International Journal of Naval History articles; correct Navigating Uncharted Waters volume to Vol. 18, No. 1 (6,260 total).
+
+washington-naval-conference-1921-22.html
+- Add Admiralty Fleet Orders table immediately after CID Papers, with AFO 2544/23, Washington Naval Treaty, linked ADM 182/37, and contents-index entry.
+
+us-naval-technical-mission-europe.html
+- Match Yasakuni header and page-title font; add synchronized pagination above the table as well as below; preserve reports.
+
+plans-de-bateaux.html
+- New page from USN Technical Mission template with supplied text and 520 spreadsheet records; Name/Type/Year/Held filters, sorting, Clear Filters, default 50 entries per page, synchronized top and bottom pagination, reference button style, corrections box below table, and embedded Dunkerque plan below heading.
+
+naval-arms-control.html
+- Add linked Plans de Bateaux panel in Naval Publications and Documentary Collections.
+
+whats-new.html
+- Add linked Plans de Bateaux entry at top of Recent Updates dated 12 October 2026, with supplied wording and italics.
+
+index.html
+- Match Yasakuni header; add linked 12 October 2026 Plans de Bateaux update; remove fifth Oga Kaiten Memorials / Usa City Peace Museum update, retaining five.
+
+malaysia-hang-tuah-lumut.html
+- Apply Yasakuni museum layout; retain feature image with supplied caption; italicise Hang Tuah, Mermaid, Baldur and Black Star; omit Website row; add HMS Mermaid link.
 
 search.html
-- Load comprehensive search v53 with Batch 82 cache version.
+- Load comprehensive search v54 with Batch 83 cache version.
 
-search-index-comprehensive-v53.js
-- Update changed pages and table records; preserve unrelated v52 data. 298 pages and 42,713 rows.
+search-index-comprehensive-v54.js
+- Update changed pages/rows and add Plans de Bateaux; preserve unrelated v53 data. 299 pages and 43,245 table rows.
