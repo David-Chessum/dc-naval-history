@@ -1,19 +1,22 @@
-Batch 86 - 13 October 2026
+Batch 87 - 14 October 2026
 
-geneva-naval-conference-1927.html
-- Match Yasakuni header/title font; add nine CID Documents before UK Parliamentary Command Paper, linked TNA references and Contents entry.
+plans-de-bateaux.html
+- Update introduction to mention removal following a hacking incident and availability of a subset; link Dreadnought Project.
 
-preparatory-commission-disarmament-conference.html
-- Match Yasakuni header/title font; add links to 18 matching TNA references; correct and link 22 CP references; insert linked CID 817-B above CID 889-B.
+naval-arms-control.html
+- Add external Royal Navy Ship Logs panel with bronze top border in Doctrine, Plans and Operational Material, linked to naval-history.net.
 
-cid-memoranda.html
-- Add Miscellaneous Memoranda (B Series) - 1921-1939 table with 186 records, TNA and 10 NAA links, independent matching filters and pagination above/below; correct 20 dates from 2021 to 1921; apply direct CAB 4/22 link; retain 251 C Series records.
+french-polynesia-ex-us-battleship-guns-bora-bora.html
+- Match Yasakuni template; first photograph becomes feature with supplied Anau Fort caption; no website row; retain all four photographs and report; add note about missing Faanui gun apparently relocated to a private yard.
 
-singapore-singaporean-navy-museum.html
-- Match Yasakuni structure/header/title; first photograph becomes feature with Centurion caption; add supplied museum website to information box; preserve report, visit dates and four photographs.
+preserved-warships.html
+- Add Molch midget submarine at Canadian War Museum, Ottawa, Ontario, Canada immediately after last existing Midget Submarine entry; add supplied Museum Website link.
+
+publications.html
+- Match Yasakuni header and title font; preserve all publication/presentation entries and section headings.
 
 search.html
-- Match Yasakuni header and title font; load search v57 with Batch 86 cache version.
+- Load search v58 with Batch 87 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v57.js
-- Index changed page content, updated references and new CID rows; preserve unrelated v56 records. 301 pages; 43,774 table rows.
+search-index-comprehensive-v58.js
+- Update changed page content and preserved-warship rows; preserve unrelated v57 records. 301 pages; 43,775 table rows.
