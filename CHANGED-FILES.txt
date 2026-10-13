@@ -1,25 +1,19 @@
-Batch 85 - 13 October 2026
+Batch 86 - 13 October 2026
 
-warship-export-case-studies.html
-- Change La Argentina status from Proposed to Unknown.
+geneva-naval-conference-1927.html
+- Match Yasakuni header/title font; add nine CID Documents before UK Parliamentary Command Paper, linked TNA references and Contents entry.
 
-philippines-corregidor.html
-- Align with Yasakuni Shrine layout and structure; add supplied Battery Hearn feature photograph and caption; add TIEZA website to top information box; retain existing report and photographs.
-
-naval-arms-control.html
-- Change page title to Naval History Document Archive; add linked Committee of Imperial Defence Memoranda panel immediately after Parliamentary Archives (UK) Files; change wording on four panels to This is an external resource hosted by ...
+preparatory-commission-disarmament-conference.html
+- Match Yasakuni header/title font; add links to 18 matching TNA references; correct and link 22 CP references; insert linked CID 817-B above CID 889-B.
 
 cid-memoranda.html
-- New Committee of Imperial Defence Memoranda page based on Plans de Bateaux; shortened filename and breadcrumb; introductory text and series list; 251 Colonial Defence Memoranda entries (1902-1925), linked TNA and 15 NAA references; Paper No, Title and Year filters; default 50 entries; pagination above and below; corrections box refers to documents.
+- Add Miscellaneous Memoranda (B Series) - 1921-1939 table with 186 records, TNA and 10 NAA links, independent matching filters and pagination above/below; correct 20 dates from 2021 to 1921; apply direct CAB 4/22 link; retain 251 C Series records.
 
-whats-new.html
-- Add CID Memoranda announcement at top of Recent Updates, dated 13 October 2026.
-
-index.html
-- Add linked CID Memoranda announcement at top of home What's New, dated 13 October 2026; remove fifth AJHR entry, retaining five.
+singapore-singaporean-navy-museum.html
+- Match Yasakuni structure/header/title; first photograph becomes feature with Centurion caption; add supplied museum website to information box; preserve report, visit dates and four photographs.
 
 search.html
-- Load comprehensive search v56 with Batch 85 cache version.
+- Match Yasakuni header and title font; load search v57 with Batch 86 cache version.
 
-search-index-comprehensive-v56.js
-- Index changed pages, La Argentina status and all 251 CID records; preserve unrelated v55 records. 301 pages and 43,578 table rows.
+search-index-comprehensive-v57.js
+- Index changed page content, updated references and new CID rows; preserve unrelated v56 records. 301 pages; 43,774 table rows.
