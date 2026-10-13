@@ -1,28 +1,25 @@
-Batch 84 - 12 October 2026
-
-tna-adm-files.html
-- Match Yasakuni header/title font; correct AMD 226/22/30 to ADM 226/22/30; replace pagination with USN Technical Mission style above and below the table, synchronized.
-
-post-war-articles.html
-- Add Garcia, EV, A diplomacia dos armamentos em Santiago: o Brasil e a Conferência Pan-Americana de 1923, Revista Brasileira de História, Vol. 23, No. 46, 2003, pp. 173-200 (6,261 total).
-
-the-transfer-of-hma-submarines-oxley-and-otway-to-great-britain.html
-- Match Yasakuni header and title font; preserve article, images, footnotes and links.
-
-proposed-purchase-of-la-argentina.html
-- New case study from updated Oxley/Otway template, with supplied two-paragraph text, embedded feature photograph and Historia Y Arqueologia Maritima credit.
+Batch 85 - 13 October 2026
 
 warship-export-case-studies.html
-- Match Yasakuni header/title font; add Argentina to Britain proposed La Argentina training-cruiser purchase, 1936-39, linked to new case study.
+- Change La Argentina status from Proposed to Unknown.
+
+philippines-corregidor.html
+- Align with Yasakuni Shrine layout and structure; add supplied Battery Hearn feature photograph and caption; add TIEZA website to top information box; retain existing report and photographs.
+
+naval-arms-control.html
+- Change page title to Naval History Document Archive; add linked Committee of Imperial Defence Memoranda panel immediately after Parliamentary Archives (UK) Files; change wording on four panels to This is an external resource hosted by ...
+
+cid-memoranda.html
+- New Committee of Imperial Defence Memoranda page based on Plans de Bateaux; shortened filename and breadcrumb; introductory text and series list; 251 Colonial Defence Memoranda entries (1902-1925), linked TNA and 15 NAA references; Paper No, Title and Year filters; default 50 entries; pagination above and below; corrections box refers to documents.
 
 whats-new.html
-- Add linked Proposed Purchase of La Argentina announcement at top of Recent Updates, dated 12 October 2026.
+- Add CID Memoranda announcement at top of Recent Updates, dated 13 October 2026.
 
 index.html
-- Add linked La Argentina update at top of What's New; remove fifth Admiralty Intelligence Reports item, retaining five; link Nepean Naval and Maritime Museum and Australian National Maritime Museum.
+- Add linked CID Memoranda announcement at top of home What's New, dated 13 October 2026; remove fifth AJHR entry, retaining five.
 
 search.html
-- Load comprehensive search v55 with Batch 84 cache version.
+- Load comprehensive search v56 with Batch 85 cache version.
 
-search-index-comprehensive-v55.js
-- Update changed pages and rows; index new La Argentina page and case-study table. Preserve unrelated v54 records. 300 pages and 43,327 table rows.
+search-index-comprehensive-v56.js
+- Index changed pages, La Argentina status and all 251 CID records; preserve unrelated v55 records. 301 pages and 43,578 table rows.
