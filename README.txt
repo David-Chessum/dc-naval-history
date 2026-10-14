@@ -1,9 +1,9 @@
-Batch 87 - 14 October 2026
+Batch 88 - 14 October 2026
 
-Builds on successfully deployed Batch 86.
+Builds on successfully deployed Batch 87.
 
-Deploy all seven HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
+Deploy all eight HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
 
-Preserve other website files and assets, including naval-header-image-b.png. Bora Bora photographs are embedded; no separate photograph files are needed.
+Preserve other website files and assets, including naval-header-image-b.png. No new external image assets are required.
 
-Search v58: 301 pages, 43,775 table rows.
+Search v59: 302 pages, 43,857 table rows.

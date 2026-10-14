@@ -1,22 +1,25 @@
-Batch 87 - 14 October 2026
-
-plans-de-bateaux.html
-- Update introduction to mention removal following a hacking incident and availability of a subset; link Dreadnought Project.
+Batch 88 - 14 October 2026
 
 naval-arms-control.html
-- Add external Royal Navy Ship Logs panel with bronze top border in Doctrine, Plans and Operational Material, linked to naval-history.net.
+- Add bronze-topped external panels for USN Booklets of General Plans and USN War Damage Reports with supplied links.
 
-french-polynesia-ex-us-battleship-guns-bora-bora.html
-- Match Yasakuni template; first photograph becomes feature with supplied Anau Fort caption; no website row; retain all four photographs and report; add note about missing Faanui gun apparently relocated to a private yard.
+naval-review-index.html
+- Match Yasakuni header and title font; preserve index and controls.
 
-preserved-warships.html
-- Add Molch midget submarine at Canadian War Museum, Ottawa, Ontario, Canada immediately after last existing Midget Submarine entry; add supplied Museum Website link.
+legion-index.html
+- New Legion Index with 82 articles, linked titles, Title/Author/Year filters, clear filter and pagination; linked magazine introduction.
 
-publications.html
-- Match Yasakuni header and title font; preserve all publication/presentation entries and section headings.
+journal-articles.html
+- Match Yasakuni header/title font; add linked Articles from Legion, Canada's Military History Magazine panel.
+
+whats-new.html
+- Add Legion Article Index announcement dated 14 October 2026; remove Further details event link from Anglo-German Naval Agreements presentation.
+
+index.html
+- Move Blog panel last after export case studies; swap About and Upcoming Presentation; add Legion Magazine Index dated 14 October 2026; remove fifth Hosho update, retain five.
 
 search.html
-- Load search v58 with Batch 87 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search v59 with Batch 88 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v58.js
-- Update changed page content and preserved-warship rows; preserve unrelated v57 records. 301 pages; 43,775 table rows.
+search-index-comprehensive-v59.js
+- Update changed page content and 82 Legion article rows; preserve unrelated v58 records. 302 pages; 43,857 table rows.
