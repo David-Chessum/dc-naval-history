@@ -1,25 +1,22 @@
-Batch 88 - 14 October 2026
+Batch 89 - 14 October 2026
 
 naval-arms-control.html
-- Add bronze-topped external panels for USN Booklets of General Plans and USN War Damage Reports with supplied links.
+- Add USN Spring Style Books panel immediately after Plans de Bateaux, linked to springstyles.html; spaced wording in all three panel occurrences.
 
-naval-review-index.html
-- Match Yasakuni header and title font; preserve index and controls.
-
-legion-index.html
-- New Legion Index with 82 articles, linked titles, Title/Author/Year filters, clear filter and pagination; linked magazine introduction.
-
-journal-articles.html
-- Match Yasakuni header/title font; add linked Articles from Legion, Canada's Military History Magazine panel.
+springstyles.html
+- New USN Spring Style Books page based on Plans de Bateaux, with supplied narrative and three book links; bronze Book 1/3 borders and Shipscribe hosting text; corrections box; no table controls; remove redundant sentence.
 
 whats-new.html
-- Add Legion Article Index announcement dated 14 October 2026; remove Further details event link from Anglo-German Naval Agreements presentation.
+- Add USN Spring Styles Books announcement at top of Recent Updates, dated 14 October 2026.
 
 index.html
-- Move Blog panel last after export case studies; swap About and Upcoming Presentation; add Legion Magazine Index dated 14 October 2026; remove fifth Hosho update, retain five.
+- Add linked USN Spring Styles Books update at top, dated 14 October 2026; remove fifth Washington Naval Conference item, retain five.
+
+singapore-fort-siloso-sentosa-island.html
+- Match Yasakuni format/structure, add supplied feature photograph and caption, add Sentosa website to top box; preserve report, visit dates and eight existing photographs.
 
 search.html
-- Load search v59 with Batch 88 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search v60 with Batch 89 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v59.js
-- Update changed page content and 82 Legion article rows; preserve unrelated v58 records. 302 pages; 43,857 table rows.
+search-index-comprehensive-v60.js
+- Update changed page content and new Spring Style Books page; preserve unrelated v59 records. 303 pages; 43,857 table rows.
