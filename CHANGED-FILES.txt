@@ -1,25 +1,34 @@
-Batch 90 - 14 October 2026
+Batch 91 - 15 October 2026
 
-naval-arms-control.html
-- Standardize all panel arrows: internal right arrow, external northeast arrow; add bronze World War 1/2 Despatches panels linked to The Gazette with revised wartime operational commanders wording.
+personal-papers.html
+- Add 11 US Naval War College personal papers in alphabetical order; update Hewitt, Pratt, Spruance and Smith names; update Hewitt, Spruance, Pratt and Smith institutions; update King institution, location and state.
 
-south-korea-seoul-battleship-park.html
-- Match Yasakuni layout; second photo featured with caption; top-box website; italicise Ulsan, Masan and Seoul in paragraphs 2/3; reposition other five photos as requested.
+preserved-warships.html
+- Add Mikasa Report link to japan-mikasa.html; add Jastrząb ex-KNM Kobben immediately after Sokol with museum link; set Sokol, Utstein and Saelen class to Type 207; rename KNM Utstein and HDMS Saelen (S323) ex-KNM Uthaug.
 
-tables.html
-- Match Yasakuni header and title font; preserve landing panels and links.
+south-korea-ganghwa-battleship-park.html
+- Apply Yasakuni structure and formatting; first photograph featured with supplied caption; omit website row; preserve other photos and report.
 
-british-15-inch-gun-turrets.html
-- Match Yasakuni header and title font; preserve table and text.
+sale-of-coast-defence-ship-deodoro.html
+- Apply Yasakuni header and title font.
 
-japanese-16-inch-gun-turrets.html
-- Match Yasakuni header and title font; preserve table and text.
+japan-mikasa.html
+- New Memorial Ship Mikasa report using Yasakuni template, supplied text, six embedded photographs, location, visits, website, links and references.
 
-japanese-attempt-to-buy-argentine-submarines.html
-- Match Yasakuni header and title font; add supplied photograph beneath title with Santa Fe italicised and histarmar credit; preserve case study.
+museum-ship-reports.html
+- Remove Hong Kong panel; rename and link Memorial Ship Mikasa in Japan panel.
+
+whats-new.html
+- Add Memorial Ship Mikasa first in Recent Updates, dated 15 October 2026.
+
+index.html
+- Add linked 15 October 2026 Memorial Ship Mikasa update first; remove Plans de Bateaux from fifth position, retaining five items.
+
+springstyles.html
+- Correct visible heading and browser title to USN Spring Styles Books.
 
 search.html
-- Load search v61 with Batch 90 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search index v62 with Batch 91 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v61.js
-- Update changed page content and page text; preserve unrelated v60 records. 303 pages; 43,857 table rows.
+search-index-comprehensive-v62.js
+- Refresh changed page records, add Mikasa, rebuild Personal Papers and Preserved Warships table records; preserve unrelated records. 304 pages and 43,869 rows.
