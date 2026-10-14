@@ -1,22 +1,25 @@
-Batch 89 - 14 October 2026
+Batch 90 - 14 October 2026
 
 naval-arms-control.html
-- Add USN Spring Style Books panel immediately after Plans de Bateaux, linked to springstyles.html; spaced wording in all three panel occurrences.
+- Standardize all panel arrows: internal right arrow, external northeast arrow; add bronze World War 1/2 Despatches panels linked to The Gazette with revised wartime operational commanders wording.
 
-springstyles.html
-- New USN Spring Style Books page based on Plans de Bateaux, with supplied narrative and three book links; bronze Book 1/3 borders and Shipscribe hosting text; corrections box; no table controls; remove redundant sentence.
+south-korea-seoul-battleship-park.html
+- Match Yasakuni layout; second photo featured with caption; top-box website; italicise Ulsan, Masan and Seoul in paragraphs 2/3; reposition other five photos as requested.
 
-whats-new.html
-- Add USN Spring Styles Books announcement at top of Recent Updates, dated 14 October 2026.
+tables.html
+- Match Yasakuni header and title font; preserve landing panels and links.
 
-index.html
-- Add linked USN Spring Styles Books update at top, dated 14 October 2026; remove fifth Washington Naval Conference item, retain five.
+british-15-inch-gun-turrets.html
+- Match Yasakuni header and title font; preserve table and text.
 
-singapore-fort-siloso-sentosa-island.html
-- Match Yasakuni format/structure, add supplied feature photograph and caption, add Sentosa website to top box; preserve report, visit dates and eight existing photographs.
+japanese-16-inch-gun-turrets.html
+- Match Yasakuni header and title font; preserve table and text.
+
+japanese-attempt-to-buy-argentine-submarines.html
+- Match Yasakuni header and title font; add supplied photograph beneath title with Santa Fe italicised and histarmar credit; preserve case study.
 
 search.html
-- Load search v60 with Batch 89 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search v61 with Batch 90 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v60.js
-- Update changed page content and new Spring Style Books page; preserve unrelated v59 records. 303 pages; 43,857 table rows.
+search-index-comprehensive-v61.js
+- Update changed page content and page text; preserve unrelated v60 records. 303 pages; 43,857 table rows.
