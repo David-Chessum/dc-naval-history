@@ -1,34 +1,49 @@
-Batch 91 - 15 October 2026
+Batch 92 - 15 October 2026
+
+treaties-and-resolutions-approved-and-adopted-by-the-conference-on-the-limitatio.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+large-cruisers-lost-during-world-war-one.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+cruisers-under-construction-12-november-1921-31-december-1929.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+cruisers-under-construction-1-january-1930-31-december-1936.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+second-hand-warships-exported-by-the-five-major-naval-power-1920-1921.html
+- Replace redirect with complete working table page, styled with Yasakuni header/title.
+
+ex-german-minesweepers.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+japanese-capital-ship-guns-reused-for-coastal-defence.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables. Link eighth source to HTTPS CombinedFleet URL and update retrieval date to 15 October 2026.
+
+existing-warships-that-exceeded-the-washington-treaty-cruiser-limits.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+links.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+library.html
+- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+
+south-korea-gimpo-marine-park.html
+- Apply Yasakuni layout; feature first existing photo with supplied Un Bong caption; add website; replace plus with and; add seven photographs below text with 20251214_121447 first; move third-to-last photograph to end.
+
+destroyers-for-finland.html
+- Apply Yasakuni header/title styling; embed HMS Lawford photograph beneath title with supplied IWM Q 75145 caption.
 
 personal-papers.html
-- Add 11 US Naval War College personal papers in alphabetical order; update Hewitt, Pratt, Spruance and Smith names; update Hewitt, Spruance, Pratt and Smith institutions; update King institution, location and state.
+- Update Acheson, Barton and Blundell names; update Acheson and Barton Imperial War Museum references.
 
-preserved-warships.html
-- Add Mikasa Report link to japan-mikasa.html; add Jastrząb ex-KNM Kobben immediately after Sokol with museum link; set Sokol, Utstein and Saelen class to Type 207; rename KNM Utstein and HDMS Saelen (S323) ex-KNM Uthaug.
-
-south-korea-ganghwa-battleship-park.html
-- Apply Yasakuni structure and formatting; first photograph featured with supplied caption; omit website row; preserve other photos and report.
-
-sale-of-coast-defence-ship-deodoro.html
-- Apply Yasakuni header and title font.
-
-japan-mikasa.html
-- New Memorial Ship Mikasa report using Yasakuni template, supplied text, six embedded photographs, location, visits, website, links and references.
-
-museum-ship-reports.html
-- Remove Hong Kong panel; rename and link Memorial Ship Mikasa in Japan panel.
-
-whats-new.html
-- Add Memorial Ship Mikasa first in Recent Updates, dated 15 October 2026.
-
-index.html
-- Add linked 15 October 2026 Memorial Ship Mikasa update first; remove Plans de Bateaux from fifth position, retaining five items.
-
-springstyles.html
-- Correct visible heading and browser title to USN Spring Styles Books.
+warship-exports-1920-21.html
+- Include full canonical table page with Yasakuni header/title; all source rows preserved.
 
 search.html
-- Load search index v62 with Batch 91 cache version; retain Yasakuni header/title formatting.
+- Load search v63 with Batch 92 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v62.js
-- Refresh changed page records, add Mikasa, rebuild Personal Papers and Preserved Warships table records; preserve unrelated records. 304 pages and 43,869 rows.
+search-index-comprehensive-v63.js
+- Update changed page content and page text; preserve unrelated v62 records. 306 pages; 43,869 table rows.

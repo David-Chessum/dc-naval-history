@@ -172,15 +172,35 @@ footer{
 .footer-links{margin:.15rem 0 .65rem}
 .footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
 .footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
-</style>
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
 <meta content="The Captain Bob Chessum Memorial Naval History Collection" name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/library.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="The Captain Bob Chessum Memorial Naval History Collection" property="og:title"/><meta content="The Captain Bob Chessum Memorial Naval History Collection" property="og:description"/><meta content="https://dc-naval-history.com/library.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="The Captain Bob Chessum Memorial Naval History Collection" name="twitter:title"/><meta content="The Captain Bob Chessum Memorial Naval History Collection" name="twitter:description"/></head>
 <body>
-<header class="site-header">
-<div class="header-inner">
-<h1 class="site-title">Library</h1>
-<p class="site-subtitle">The Captain Bob Chessum Memorial Naval History Collection</p>
-</div>
-</header>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
 <nav aria-label="Main navigation">
 <div class="nav-inner">
 <ul class="nav-list">
@@ -198,7 +218,7 @@ footer{
 <main>
 <div class="breadcrumb"><a href="index.html">Home</a> / Library</div>
 <section class="library-intro">
-<h2>The Captain Bob Chessum Memorial Naval History Collection</h2>
+<h1 class="page-title">The Captain Bob Chessum Memorial Naval History Collection</h1>
 <p class="lead">The Captain Bob Chessum Memorial Naval History Collection is a privately owned collection located in Western Sydney.</p>
 <p>In addition to the books, journals and documents listed on the linked pages, there are also extensive collections of naval archival material retrieved from archives in Britain, the United States, Australia, New Zealand, France and elsewhere.</p>
 </section>
