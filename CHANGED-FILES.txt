@@ -1,31 +1,49 @@
-Batch 93 - 16 October 2026
+Batch 94 - 16 October 2026
 
-post-war-articles.html
-- Add 13 articles from Warship Vol. 48 (2026), with supplied authors and page ranges.
+contemporary-articles.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-links.html
-- Add U.S. and Canadian Shipbuilding History - by Tim Colton panel immediately after Naval Marine Archive shipbuilding panel.
+london-times-articles.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-preserved-warships.html
-- Standardise two United States country entries to USA and H21 to UK; add museum links for CSS Jackson, USS Batfish, PT-459, PT-48, PT-486, PT-615, Mare Island PBR Mk II and LCM-56; set PT-48, PT-486 and PT-615 class to Elco and PT-459 to Higgins; rename CGS Bradbury and add museum link; rename River Landing Craft to River Patrol Craft, change type to Riverine Patrol Boat, add Saigon report and museum links, and move after P22 alongside riverine boats.
+new-york-times-articles.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-vietnam-war-remnants-museum-saigon.html
-- Create War Remnants Museum, Saigon using Yasakuni template; supplied report text, visitor information, website, four embedded photographs at specified positions and six links; capitalise A river patrol boat.
+washington-post-articles.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-museum-ship-reports.html
-- Rename and link War Remnants Museum, Saigon entry.
+treaties.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-whats-new.html
-- Add War Remnants Museum, Saigon at top of Recent Updates dated 16 October 2026.
+london-naval-conference-1935.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls. Retitle LNC 35 - Naval Staff Appreciation of Requirements for the 1935 Naval Conference (Extract); remove duplicate opening text line.
 
-index.html
-- Add linked 16 October 2026 War Remnants Museum, Saigon update first; remove La Argentina fifth item; retain five updates.
+national-archives-australia-files.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-journal-holdings.html
-- Apply Yasakuni header and title font; update Warship holding to Complete - Vol 1 through to 2026.
+foreign-relations-united-states.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+
+usn-general-board-hearings.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+
+usn-general-board-papers.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+
+uk-cabinet-papers.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+
+british-library-asian-and-african-studies.html
+- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+
+south-korea-jinpo-marine-theme-park.html
+- Apply Yasakuni museum layout; add website to top information box; feature first existing photo with supplied Wi Bong caption; preserve report and other photos.
+
+p-boats-for-poland.html
+- Apply Yasakuni header/title; add supplied HMS P32 photo beneath title with IWM Q75571 caption; italicise specified boat numbers.
 
 search.html
-- Load search index v64 with Batch 93 cache version; retain Yasakuni header/title formatting.
+- Load search v65 with Batch 94 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v64.js
-- Refresh changed pages and table records; preserve unrelated records. 307 pages, 43,882 table rows.
+search-index-comprehensive-v65.js
+- Update changed page content and page text; preserve unrelated v64 records. 307 pages; 43,882 table rows.

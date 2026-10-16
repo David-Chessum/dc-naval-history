@@ -59,16 +59,38 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 .footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
 @media(max-width:800px){.control-grid{grid-template-columns:1fr 1fr}.control-grid label:first-child{grid-column:1/-1}}
 @media(max-width:600px){.nav-list a{padding:.7rem .65rem;font-size:.72rem}main{padding:1.8rem .8rem 3rem}.control-grid{grid-template-columns:1fr}.control-grid label:first-child{grid-column:auto}}
-</style>
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
 <meta content="Selected interwar United Kingdom Cabinet Papers relating to naval history and disarmament, with links to The National Archives." name="description"/>
 <meta content="index,follow" name="robots"/>
 <link href="https://dc-naval-history.com/uk-cabinet-papers.html" rel="canonical"/>
 </head>
 <body>
-<header class="site-header"><div class="header-inner">
-<h1 class="site-title">United Kingdom Cabinet Papers</h1>
-<p class="site-subtitle">Selected interwar Cabinet Papers relating to naval history and disarmament</p>
-</div></header>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
 <nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
 <li><a href="index.html">Home</a></li>
 <li><a href="naval-arms-control.html">Documents</a></li>
@@ -84,7 +106,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </ul></div></nav>
 <main>
 <div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / United Kingdom Cabinet Papers</div>
-<h2>United Kingdom Cabinet Papers</h2>
+<h1 class="page-title">United Kingdom Cabinet Papers</h1>
 <section class="intro-text">
 <p>The following table lists selected interwar United Kingdom Cabinet Papers relating to naval history and disarmament. The paper titles link to the corresponding catalogue entries in The National Archives Discovery database.</p>
 </section>
