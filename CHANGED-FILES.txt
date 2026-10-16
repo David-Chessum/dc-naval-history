@@ -1,49 +1,31 @@
-Batch 92 - 15 October 2026
+Batch 93 - 16 October 2026
 
-treaties-and-resolutions-approved-and-adopted-by-the-conference-on-the-limitatio.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
-
-large-cruisers-lost-during-world-war-one.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
-
-cruisers-under-construction-12-november-1921-31-december-1929.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
-
-cruisers-under-construction-1-january-1930-31-december-1936.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
-
-second-hand-warships-exported-by-the-five-major-naval-power-1920-1921.html
-- Replace redirect with complete working table page, styled with Yasakuni header/title.
-
-ex-german-minesweepers.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
-
-japanese-capital-ship-guns-reused-for-coastal-defence.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables. Link eighth source to HTTPS CombinedFleet URL and update retrieval date to 15 October 2026.
-
-existing-warships-that-exceeded-the-washington-treaty-cruiser-limits.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+post-war-articles.html
+- Add 13 articles from Warship Vol. 48 (2026), with supplied authors and page ranges.
 
 links.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+- Add U.S. and Canadian Shipbuilding History - by Tim Colton panel immediately after Naval Marine Archive shipbuilding panel.
 
-library.html
-- Apply Yasakuni Shrine header and title styling; preserve content and tables.
+preserved-warships.html
+- Standardise two United States country entries to USA and H21 to UK; add museum links for CSS Jackson, USS Batfish, PT-459, PT-48, PT-486, PT-615, Mare Island PBR Mk II and LCM-56; set PT-48, PT-486 and PT-615 class to Elco and PT-459 to Higgins; rename CGS Bradbury and add museum link; rename River Landing Craft to River Patrol Craft, change type to Riverine Patrol Boat, add Saigon report and museum links, and move after P22 alongside riverine boats.
 
-south-korea-gimpo-marine-park.html
-- Apply Yasakuni layout; feature first existing photo with supplied Un Bong caption; add website; replace plus with and; add seven photographs below text with 20251214_121447 first; move third-to-last photograph to end.
+vietnam-war-remnants-museum-saigon.html
+- Create War Remnants Museum, Saigon using Yasakuni template; supplied report text, visitor information, website, four embedded photographs at specified positions and six links; capitalise A river patrol boat.
 
-destroyers-for-finland.html
-- Apply Yasakuni header/title styling; embed HMS Lawford photograph beneath title with supplied IWM Q 75145 caption.
+museum-ship-reports.html
+- Rename and link War Remnants Museum, Saigon entry.
 
-personal-papers.html
-- Update Acheson, Barton and Blundell names; update Acheson and Barton Imperial War Museum references.
+whats-new.html
+- Add War Remnants Museum, Saigon at top of Recent Updates dated 16 October 2026.
 
-warship-exports-1920-21.html
-- Include full canonical table page with Yasakuni header/title; all source rows preserved.
+index.html
+- Add linked 16 October 2026 War Remnants Museum, Saigon update first; remove La Argentina fifth item; retain five updates.
+
+journal-holdings.html
+- Apply Yasakuni header and title font; update Warship holding to Complete - Vol 1 through to 2026.
 
 search.html
-- Load search v63 with Batch 92 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search index v64 with Batch 93 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v63.js
-- Update changed page content and page text; preserve unrelated v62 records. 306 pages; 43,869 table rows.
+search-index-comprehensive-v64.js
+- Refresh changed pages and table records; preserve unrelated records. 307 pages, 43,882 table rows.
