@@ -1,9 +1,9 @@
-Batch 94 - 16 October 2026
+Batch 95 - 16 October 2026
 
-Builds on successfully deployed Batch 93.
+Builds on successfully deployed Batch 94.
 
-Deploy all sixteen HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
+Deploy all twelve HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
 
-Preserve other website files and assets, including naval-header-image-b.png. Jinpo and P32 photographs are embedded in their HTML; no separate photograph assets are required.
+Preserve other website files and assets, including naval-header-image-b.png. Jangsaengpo and Pohang photographs are embedded in their HTML; no separate photograph assets are required.
 
-Search v65: 307 pages, 43,882 table rows.
+Search v66: 307 pages, 43,882 table rows.

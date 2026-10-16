@@ -1,49 +1,37 @@
-Batch 94 - 16 October 2026
+Batch 95 - 16 October 2026
 
-contemporary-articles.html
+parliamentary-archives-uk-files.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-london-times-articles.html
+navy-records-society-volumes.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-new-york-times-articles.html
+admiralty-publications.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-washington-post-articles.html
+navy-lists.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-treaties.html
+admiralty-board-minutes.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-london-naval-conference-1935.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls. Retitle LNC 35 - Naval Staff Appreciation of Requirements for the 1935 Naval Conference (Extract); remove duplicate opening text line.
-
-national-archives-australia-files.html
+cb-ou-br-cross-reference-matrix.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-foreign-relations-united-states.html
+ships-covers.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-usn-general-board-hearings.html
+shipbuilders-records.html
 - Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
 
-usn-general-board-papers.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+south-korea-jangsaengpo-whale-museum.html
+- Apply Yasakuni museum layout; add South Korea breadcrumb; feature first photo with supplied Ulsan caption; omit website row; move original third photo first after report text.
 
-uk-cabinet-papers.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
-
-british-library-asian-and-african-studies.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
-
-south-korea-jinpo-marine-theme-park.html
-- Apply Yasakuni museum layout; add website to top information box; feature first existing photo with supplied Wi Bong caption; preserve report and other photos.
-
-p-boats-for-poland.html
-- Apply Yasakuni header/title; add supplied HMS P32 photo beneath title with IWM Q75571 caption; italicise specified boat numbers.
+south-korea-pohang-ship-experience-center.html
+- Apply Yasakuni museum layout; add South Korea breadcrumb; correct They had a tour route and punctuation after Korean Navy quote; feature first photo with supplied Pohang caption; omit website row.
 
 search.html
-- Load search v65 with Batch 94 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search v66 with Batch 95 cache version; retain Batch 86 Yasakuni header/title formatting.
 
-search-index-comprehensive-v65.js
-- Update changed page content and page text; preserve unrelated v64 records. 307 pages; 43,882 table rows.
+search-index-comprehensive-v66.js
+- Update changed page content and page text; preserve unrelated v65 records. 307 pages; 43,882 table rows.
