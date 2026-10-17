@@ -1,13 +1,16 @@
-Batch 97 - 17 October 2026
+Batch 98 - 17 October 2026
 
-museum-ship-reports.html
-- Rename the Austria panel entry to Museum of Military History, Vienna and link it to austria-hgm-vienna.html.
+short-term-hire-of-minesweepers-by-latvia.html
+- Apply Yasakuni Shrine header and title font.
+
+belgium-oudenaarde-antwerp.html
+- Apply Yasakuni museum layout and Belgium breadcrumb; feature the original first photograph with supplied caption; add website and Links section, new Dry Docks paragraph and attached photograph; reverse the two body photographs and revise the Schelde wording.
 
 preserved-warships.html
-- Rename U-20 to U-20 (Austro-Hungarian); insert U-20 (German) and E-50 immediately afterwards, with Sea War Museum Jutland details and supplied report links.
+- Update Oudenaarde museum to Museem aan de Stroom and add linked Museum Report; set Schelde class to Leie.
 
 search.html
-- Load search v68 with Batch 97 cache version; retain Yasakuni header/title formatting.
+- Load search v69 with Batch 98 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v68.js
+search-index-comprehensive-v69.js
 - Update the changed pages and warship rows; preserve unrelated records. 308 pages; 43,885 table rows.
