@@ -1,37 +1,22 @@
-Batch 95 - 16 October 2026
+Batch 96 - 17 October 2026
 
-parliamentary-archives-uk-files.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+ijn-usn-doctrine-files.html
+- Apply the Yasakuni Shrine header and title font.
 
-navy-records-society-volumes.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+preserved-warships.html
+- Rename Kursura to INS Kursura (S20); add U-20 after the existing Submarine (Remains) entries, with the new Vienna report and supplied external Museum Report links.
 
-admiralty-publications.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+austria-hgm-vienna.html
+- New Heeresgeschichtliches Museum (Museum of Military History), Vienna report using the Yasakuni Shrine template, seven embedded photographs in the specified order, Austria breadcrumb, museum information, ship-name italics and four reference links.
 
-navy-lists.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
+whats-new.html
+- Add the linked Vienna museum report at the top of Recent Updates, dated 17 October 2026.
 
-admiralty-board-minutes.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
-
-cb-ou-br-cross-reference-matrix.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
-
-ships-covers.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
-
-shipbuilders-records.html
-- Apply Yasakuni Shrine header and title styling; preserve content, tables, scripts and controls.
-
-south-korea-jangsaengpo-whale-museum.html
-- Apply Yasakuni museum layout; add South Korea breadcrumb; feature first photo with supplied Ulsan caption; omit website row; move original third photo first after report text.
-
-south-korea-pohang-ship-experience-center.html
-- Apply Yasakuni museum layout; add South Korea breadcrumb; correct They had a tour route and punctuation after Korean Navy quote; feature first photo with supplied Pohang caption; omit website row.
+index.html
+- Add the linked Vienna museum report at the top of What's New, dated 17 October 2026; remove the fifth item, CID Memoranda, retaining five items.
 
 search.html
-- Load search v66 with Batch 95 cache version; retain Batch 86 Yasakuni header/title formatting.
+- Load search v67 with Batch 96 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v66.js
-- Update changed page content and page text; preserve unrelated v65 records. 307 pages; 43,882 table rows.
+search-index-comprehensive-v67.js
+- Index the new museum page and changed pages and warship rows; preserve unrelated records. 308 pages; 43,883 table rows.

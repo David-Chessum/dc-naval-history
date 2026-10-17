@@ -89,17 +89,37 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
   .control-grid{grid-template-columns:1fr}
   .search-wide{grid-column:span 1}
 }
-</style>
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
 <meta content="Japanese and United States Navy doctrine and tactical documents from the collection of David Dickson." name="description"/>
 <link href="https://dc-naval-history.com/ijn-usn-doctrine-files.html" rel="canonical"/>
 </head>
 <body>
-<header class="site-header">
-<div class="header-inner">
-<h1 class="site-title">IJN/USN Doctrine Files</h1>
-<p class="site-subtitle">Naval History Document Archive</p>
-</div>
-</header>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
 <nav aria-label="Main navigation">
 <div class="nav-inner">
 <ul class="nav-list">
@@ -119,7 +139,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </nav>
 <main>
 <div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / IJN/USN Doctrine Files</div>
-<h2>IJN/USN Doctrine Files</h2>
+<h1 class="page-title">IJN/USN Doctrine Files</h1>
 <section class="intro-text">
 <p>W. David Dickson has been called “the foremost Western expert on Japanese naval doctrine and carrier design” and was also an authority on communications and tactics. He was the author of <em>The Battle of the Philippine Sea</em>, and co-edited <em>On Seas Contested</em>, and <em>To Crown the Waves</em>. David passed away in 2017, and is missed by those in the naval history community who knew him.</p>
 <p>The following documents are from David’s collection.</p>

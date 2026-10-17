@@ -1,9 +1,9 @@
-Batch 95 - 16 October 2026
+Batch 96 - 17 October 2026
 
-Builds on successfully deployed Batch 94.
+Builds on successfully deployed Batch 95.
 
-Deploy all twelve HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
+Deploy all seven HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
 
-Preserve other website files and assets, including naval-header-image-b.png. Jangsaengpo and Pohang photographs are embedded in their HTML; no separate photograph assets are required.
+Preserve other website files and assets, including naval-header-image-b.png. All seven Vienna museum photographs are embedded in austria-hgm-vienna.html; no separate photograph assets are required.
 
-Search v66: 307 pages, 43,882 table rows.
+Search v67: 308 pages, 43,883 table rows.
