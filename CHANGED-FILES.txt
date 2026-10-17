@@ -1,16 +1,43 @@
-Batch 98 - 17 October 2026
+Batch 99 - 18 October 2026
 
-short-term-hire-of-minesweepers-by-latvia.html
-- Apply Yasakuni Shrine header and title font.
+proposed-sale-of-warships-to-romania.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
 
-belgium-oudenaarde-antwerp.html
-- Apply Yasakuni museum layout and Belgium breadcrumb; feature the original first photograph with supplied caption; add website and Links section, new Dry Docks paragraph and attached photograph; reverse the two body photographs and revise the Schelde wording.
+persian-purchase-of-vessels-for-a-maritime-inspection-service.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
 
-preserved-warships.html
-- Update Oudenaarde museum to Museem aan de Stroom and add linked Museum Report; set Schelde class to Leie.
+proposed-sale-of-warships-to-venezuela.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+proposed-sale-of-warships-to-brazil.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+proposed-sale-of-warships-to-argentina.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+refusal-by-britain-to-sell-surplus-naval-material-to-yugoslavia.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+warships-for-export-1880-1939.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+warships-for-export-1905-1914.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+warships-for-export-1880-1904.html
+- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+
+belgium-royal-museum-of-the-armed-forces-and-of-military-history-brussels.html
+- Apply Yasakuni museum layout; Belgium breadcrumb; website and 22 April 2023 visit date; P4210092 feature photo without caption; add P4210077 and P4210072 below existing photographs; italicise Vindictive; correct aircraft or land armaments.
+
+warships-for-export-1918-1939.html
+- Apply Yasakuni header and title font; set Displacement to 16 for Hull 2292, Hull 2293 and Hull 2294.
+
+hms-havant.html
+- Apply Yasakuni header and title font; embed Chao Phya photograph beneath title with corrected caption (outboard is Motor Gunboat); append transliteration note with italicised Chao Phya and Chao Phraya.
 
 search.html
-- Load search v69 with Batch 98 cache version; retain Yasakuni header/title formatting.
+- Load search v70 with Batch 99 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v69.js
-- Update the changed pages and warship rows; preserve unrelated records. 308 pages; 43,885 table rows.
+search-index-comprehensive-v70.js
+- Refresh twelve changed pages and three displacement rows; preserve unrelated records. 308 pages; 43,885 table rows.
