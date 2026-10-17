@@ -1,22 +1,13 @@
-Batch 96 - 17 October 2026
+Batch 97 - 17 October 2026
 
-ijn-usn-doctrine-files.html
-- Apply the Yasakuni Shrine header and title font.
+museum-ship-reports.html
+- Rename the Austria panel entry to Museum of Military History, Vienna and link it to austria-hgm-vienna.html.
 
 preserved-warships.html
-- Rename Kursura to INS Kursura (S20); add U-20 after the existing Submarine (Remains) entries, with the new Vienna report and supplied external Museum Report links.
-
-austria-hgm-vienna.html
-- New Heeresgeschichtliches Museum (Museum of Military History), Vienna report using the Yasakuni Shrine template, seven embedded photographs in the specified order, Austria breadcrumb, museum information, ship-name italics and four reference links.
-
-whats-new.html
-- Add the linked Vienna museum report at the top of Recent Updates, dated 17 October 2026.
-
-index.html
-- Add the linked Vienna museum report at the top of What's New, dated 17 October 2026; remove the fifth item, CID Memoranda, retaining five items.
+- Rename U-20 to U-20 (Austro-Hungarian); insert U-20 (German) and E-50 immediately afterwards, with Sea War Museum Jutland details and supplied report links.
 
 search.html
-- Load search v67 with Batch 96 cache version; retain Yasakuni header/title formatting.
+- Load search v68 with Batch 97 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v67.js
-- Index the new museum page and changed pages and warship rows; preserve unrelated records. 308 pages; 43,883 table rows.
+search-index-comprehensive-v68.js
+- Update the changed pages and warship rows; preserve unrelated records. 308 pages; 43,885 table rows.

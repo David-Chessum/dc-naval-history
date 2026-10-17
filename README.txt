@@ -1,9 +1,9 @@
-Batch 96 - 17 October 2026
+Batch 97 - 17 October 2026
 
-Builds on successfully deployed Batch 95.
+Builds on successfully deployed Batch 96.
 
-Deploy all seven HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
+Deploy all four HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
 
-Preserve other website files and assets, including naval-header-image-b.png. All seven Vienna museum photographs are embedded in austria-hgm-vienna.html; no separate photograph assets are required.
+Preserve other website files and assets, including naval-header-image-b.png.
 
-Search v67: 308 pages, 43,883 table rows.
+Search v68: 308 pages, 43,885 table rows.
