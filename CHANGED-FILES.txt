@@ -1,43 +1,37 @@
-Batch 99 - 18 October 2026
+Batch 100 - 18 October 2026
 
-proposed-sale-of-warships-to-romania.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+chinese-customs-launches.html
+- Apply Yasakuni Shrine header and title font; preserve content and links.
 
-persian-purchase-of-vessels-for-a-maritime-inspection-service.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+polish-enquiry-regarding-destroyers-and-submarines.html
+- Apply Yasakuni Shrine header and title font; preserve content and links.
 
-proposed-sale-of-warships-to-venezuela.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+turkish-purchase-of-armed-patrol-launches.html
+- Apply Yasakuni Shrine header and title font; preserve content and links.
 
-proposed-sale-of-warships-to-brazil.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+finland-vartiovenne55.html
+- New Vartiovenne 55 report using Yasakuni template, supplied text, four embedded photographs and feature caption, Finland breadcrumb and visit information; italicise all visible Vartiovenne 55 instances; shorten official link labels to Patrol Boat 55.
 
-proposed-sale-of-warships-to-argentina.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+preserved-warships.html
+- Update Vartiovenne 55 museum to Wave and Soul Cruises; add new report and Museum Website links.
 
-refusal-by-britain-to-sell-surplus-naval-material-to-yugoslavia.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+museum-ship-reports.html
+- Insert space in Vartiovenne 55 and link to the new report.
 
-warships-for-export-1880-1939.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+whats-new.html
+- Add linked Vartiovenne 55 entry at top of Recent Updates, dated 18 October 2026.
 
-warships-for-export-1905-1914.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+index.html
+- Add linked Vartiovenne 55 at top of What's New, dated 18 October 2026; remove fifth item Legion Magazine Index.
 
-warships-for-export-1880-1904.html
-- Apply Yasakuni Shrine header and title font; preserve existing content and controls.
+denmark-springeren-marine-museum-aalborg.html
+- Apply Yasakuni museum layout, Denmark breadcrumb and website; add feature photo and caption; reposition three original photos, split paragraph after couldn't get onboard, correct spacing and Søløven spelling.
 
-belgium-royal-museum-of-the-armed-forces-and-of-military-history-brussels.html
-- Apply Yasakuni museum layout; Belgium breadcrumb; website and 22 April 2023 visit date; P4210092 feature photo without caption; add P4210077 and P4210072 below existing photographs; italicise Vindictive; correct aircraft or land armaments.
-
-warships-for-export-1918-1939.html
-- Apply Yasakuni header and title font; set Displacement to 16 for Hull 2292, Hull 2293 and Hull 2294.
-
-hms-havant.html
-- Apply Yasakuni header and title font; embed Chao Phya photograph beneath title with corrected caption (outboard is Motor Gunboat); append transliteration note with italicised Chao Phya and Chao Phraya.
+hms-thistle-purchase-by-liberia.html
+- Apply Yasakuni header and title font; add photograph and caption below title; insert 1919-24 West African service sentence.
 
 search.html
-- Load search v70 with Batch 99 cache version; retain Yasakuni header/title formatting.
+- Load search v71 with Batch 100 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v70.js
-- Refresh twelve changed pages and three displacement rows; preserve unrelated records. 308 pages; 43,885 table rows.
+search-index-comprehensive-v71.js
+- Index the new report, refresh changed pages and Vartiovenne 55 table row; preserve unrelated records. 309 pages; 43,885 table rows.
