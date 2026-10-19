@@ -1,28 +1,19 @@
-Batch 101 - 19 October 2026
+Batch 102 - 19 October 2026
+
+museum-ship-reports.html
+- Link French Navy Museum, Paris to the new Paris museum report.
 
 tna-adm-files.html
-- Add ADM 1/8640/114 (Conflagration at Smyrna, 1923, Copy Held) and ADM 116/2359 (Stanlee Shipbuilding and Salvage Co, 1921-29, Part Copy (4)).
+- Add 17 records: ADM 1/8714/178; ADM 182/5, 6, 7, 8, 9, 21, 22, 23, 74, 75, 76, 79, 98, 99, 101; and ADM 1/9393, with supplied titles, dates and copy statuses.
 
-national-archives-australia-files.html
-- Set Digital Copy to Available with RecordSearch image links for barcodes 305833, 359528 and 395896.
+a-training-ship-for-egypt.html
+- Apply Yasakuni Shrine header and title font; italicise Warrior and Vernon III; remove quotation marks around Vernon III; add photograph beneath title, corrected in Llanion Cove caption, and smaller image-ownership note below article text.
 
-sale-of-blackstone.html
-- Apply Yasakuni header and title font; replace report text with supplied Royal Fleet Auxiliary service and British and Dutch sale details; italicise Blackstone.
-
-denmark-danish-naval-base-copenhagen.html
-- Apply Yasakuni museum layout, Denmark breadcrumb and official website; add feature photograph with italicised Peder Skram and Sehested caption; preserve existing text and three photographs.
-
-france-paris-navy-museum.html
-- New Paris naval museum report using supplied text and Yasakuni template; France breadcrumb, visit details, official website, six embedded photographs and Colbert feature caption.
-
-whats-new.html
-- Add Paris museum report entry at top of Recent Updates, dated 19 October 2026.
-
-index.html
-- Add linked Paris museum report at top of What's New, dated 19 October 2026; remove fifth item USN Spring Styles.
+a-converted-coastal-motor-boat-for-the-egyptian-coast-guard.html
+- Apply Yasakuni Shrine header and title font, preserving content and links.
 
 search.html
-- Load search v72 with Batch 101 cache version; retain Yasakuni header/title formatting.
+- Load search v73 with Batch 102 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v72.js
-- Index the new Paris report; refresh changed pages; add two TNA rows and update three NAA records; preserve unrelated records. 310 pages; 43,887 table rows.
+search-index-comprehensive-v73.js
+- Refresh changed pages and add 17 TNA records; preserve unrelated records. 311 pages; 43,904 table rows.
