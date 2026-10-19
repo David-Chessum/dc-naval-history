@@ -1,37 +1,28 @@
-Batch 100 - 18 October 2026
+Batch 101 - 19 October 2026
 
-chinese-customs-launches.html
-- Apply Yasakuni Shrine header and title font; preserve content and links.
+tna-adm-files.html
+- Add ADM 1/8640/114 (Conflagration at Smyrna, 1923, Copy Held) and ADM 116/2359 (Stanlee Shipbuilding and Salvage Co, 1921-29, Part Copy (4)).
 
-polish-enquiry-regarding-destroyers-and-submarines.html
-- Apply Yasakuni Shrine header and title font; preserve content and links.
+national-archives-australia-files.html
+- Set Digital Copy to Available with RecordSearch image links for barcodes 305833, 359528 and 395896.
 
-turkish-purchase-of-armed-patrol-launches.html
-- Apply Yasakuni Shrine header and title font; preserve content and links.
+sale-of-blackstone.html
+- Apply Yasakuni header and title font; replace report text with supplied Royal Fleet Auxiliary service and British and Dutch sale details; italicise Blackstone.
 
-finland-vartiovenne55.html
-- New Vartiovenne 55 report using Yasakuni template, supplied text, four embedded photographs and feature caption, Finland breadcrumb and visit information; italicise all visible Vartiovenne 55 instances; shorten official link labels to Patrol Boat 55.
+denmark-danish-naval-base-copenhagen.html
+- Apply Yasakuni museum layout, Denmark breadcrumb and official website; add feature photograph with italicised Peder Skram and Sehested caption; preserve existing text and three photographs.
 
-preserved-warships.html
-- Update Vartiovenne 55 museum to Wave and Soul Cruises; add new report and Museum Website links.
-
-museum-ship-reports.html
-- Insert space in Vartiovenne 55 and link to the new report.
+france-paris-navy-museum.html
+- New Paris naval museum report using supplied text and Yasakuni template; France breadcrumb, visit details, official website, six embedded photographs and Colbert feature caption.
 
 whats-new.html
-- Add linked Vartiovenne 55 entry at top of Recent Updates, dated 18 October 2026.
+- Add Paris museum report entry at top of Recent Updates, dated 19 October 2026.
 
 index.html
-- Add linked Vartiovenne 55 at top of What's New, dated 18 October 2026; remove fifth item Legion Magazine Index.
-
-denmark-springeren-marine-museum-aalborg.html
-- Apply Yasakuni museum layout, Denmark breadcrumb and website; add feature photo and caption; reposition three original photos, split paragraph after couldn't get onboard, correct spacing and Søløven spelling.
-
-hms-thistle-purchase-by-liberia.html
-- Apply Yasakuni header and title font; add photograph and caption below title; insert 1919-24 West African service sentence.
+- Add linked Paris museum report at top of What's New, dated 19 October 2026; remove fifth item USN Spring Styles.
 
 search.html
-- Load search v71 with Batch 100 cache version; retain Yasakuni header/title formatting.
+- Load search v72 with Batch 101 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v71.js
-- Index the new report, refresh changed pages and Vartiovenne 55 table row; preserve unrelated records. 309 pages; 43,885 table rows.
+search-index-comprehensive-v72.js
+- Index the new Paris report; refresh changed pages; add two TNA rows and update three NAA records; preserve unrelated records. 310 pages; 43,887 table rows.
