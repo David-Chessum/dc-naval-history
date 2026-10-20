@@ -1,19 +1,37 @@
-Batch 102 - 19 October 2026
+Batch 103 - 20 October 2026
+
+fly-class-river-gunboats.html
+- Apply Yasakuni Shrine header and title font; change four-five to four or five. Video and caption omitted pending IWM response.
+
+sale-of-rfa-industry.html
+- Apply Yasakuni Shrine header and title font.
+
+sloops-for-estonia.html
+- Apply Yasakuni Shrine header and title font.
+
+sale-of-cmb-123-to-the-netherlands.html
+- Apply Yasakuni Shrine header and title font; add CMB 121 photograph and linked IWM Q 57089 caption; change It to She, close bracket after Thornycroft, and amend sale wording to to the Dutch.
+
+france-toulon-navy-museum.html
+- New Musée National de la Marine, Toulon report with visitor details, six photographs, and links, using Yasakuni Shrine layout.
+
+france-paris-navy-museum.html
+- Correct all four occurrences of Museé to Musée.
+
+whats-new.html
+- Add linked Toulon report at the top of Recent Updates, dated 20 Oct 2026; correct Musée spelling.
 
 museum-ship-reports.html
-- Link French Navy Museum, Paris to the new Paris museum report.
+- Link French Navy Museum, Toulon to the new report.
 
-tna-adm-files.html
-- Add 17 records: ADM 1/8714/178; ADM 182/5, 6, 7, 8, 9, 21, 22, 23, 74, 75, 76, 79, 98, 99, 101; and ADM 1/9393, with supplied titles, dates and copy statuses.
+index.html
+- Add linked 20 October 2026 Toulon update at top; correct Musée spelling; remove Memorial Ship Mikasa from fifth position, retaining five items.
 
-a-training-ship-for-egypt.html
-- Apply Yasakuni Shrine header and title font; italicise Warrior and Vernon III; remove quotation marks around Vernon III; add photograph beneath title, corrected in Llanion Cove caption, and smaller image-ownership note below article text.
-
-a-converted-coastal-motor-boat-for-the-egyptian-coast-guard.html
-- Apply Yasakuni Shrine header and title font, preserving content and links.
+denmark-sea-war-museum-jutland-thyboron.html
+- Apply Yasakuni Shrine report layout and Denmark breadcrumb; add website to top box; move first photograph to feature position with supplied Rostock caption; append six photographs and two links.
 
 search.html
-- Load search v73 with Batch 102 cache version; retain Yasakuni header/title formatting.
+- Load search v74 with Batch 103 cache version; retain Yasakuni header/title formatting.
 
-search-index-comprehensive-v73.js
-- Refresh changed pages and add 17 TNA records; preserve unrelated records. 311 pages; 43,904 table rows.
+search-index-comprehensive-v74.js
+- Index Toulon and refresh changed pages. Preserve all 43,904 table rows and unrelated pages. 312 pages total.

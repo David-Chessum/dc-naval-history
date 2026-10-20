@@ -1,9 +1,9 @@
-Batch 102 - 19 October 2026
+Batch 103 - 20 October 2026
 
-Builds on successfully deployed Batch 101.
+Builds on the Batch 102 package. Deploy Batch 102 first if it has not already been applied.
 
-Deploy all six HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes.
+Upload all 12 HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes and need not be uploaded.
 
-Preserve other website files and assets, including naval-header-image-b.png. The Warrior photograph is embedded in a-training-ship-for-egypt.html; no separate photograph asset is required.
+Retain all other website files and assets, including naval-header-image-b.png. Photographs are embedded in the HTML; no separate photo files are required. No video is included.
 
-Search v73: 311 pages, 43,904 table rows.
+Search v74: 312 pages; 43,904 table rows.
