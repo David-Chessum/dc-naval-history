@@ -1,37 +1,25 @@
-Batch 103 - 20 October 2026
+Batch 104 - 20 October 2026
 
-fly-class-river-gunboats.html
-- Apply Yasakuni Shrine header and title font; change four-five to four or five. Video and caption omitted pending IWM response.
+proposed-sale-of-hms-woolwich-to-yugoslavia.html
+- Apply Yasakuni Shrine header and title font; retain article text and links.
 
-sale-of-rfa-industry.html
-- Apply Yasakuni Shrine header and title font.
+destroyers-for-chile.html
+- Apply Yasakuni Shrine header and title font; retain article text and links.
 
-sloops-for-estonia.html
-- Apply Yasakuni Shrine header and title font.
+request-for-obsolete-british-warships-by-us-corporation.html
+- Apply Yasakuni Shrine header and title font; retain article text and links.
 
-sale-of-cmb-123-to-the-netherlands.html
-- Apply Yasakuni Shrine header and title font; add CMB 121 photograph and linked IWM Q 57089 caption; change It to She, close bracket after Thornycroft, and amend sale wording to to the Dutch.
+sale-of-submarine-depot-ship-to-chile.html
+- Apply Yasakuni Shrine header and title font; retain article text and links.
 
-france-toulon-navy-museum.html
-- New Musée National de la Marine, Toulon report with visitor details, six photographs, and links, using Yasakuni Shrine layout.
+partly-built-submarines-for-yugoslavia.html
+- Apply Yasakuni Shrine header and title font; add Hrabri photograph under title, captioned Yugoslav submarine Hrabri leaving the Tyne, 1928. Courtesy of Sinisa Lukovic. Italicise Hrabri in caption.
 
-france-paris-navy-museum.html
-- Correct all four occurrences of Museé to Musée.
-
-whats-new.html
-- Add linked Toulon report at the top of Recent Updates, dated 20 Oct 2026; correct Musée spelling.
-
-museum-ship-reports.html
-- Link French Navy Museum, Toulon to the new report.
-
-index.html
-- Add linked 20 October 2026 Toulon update at top; correct Musée spelling; remove Memorial Ship Mikasa from fifth position, retaining five items.
-
-denmark-sea-war-museum-jutland-thyboron.html
-- Apply Yasakuni Shrine report layout and Denmark breadcrumb; add website to top box; move first photograph to feature position with supplied Rostock caption; append six photographs and two links.
+disposal-of-princess-margaret.html
+- Apply Yasakuni Shrine header and title font; add photograph under title with caption HMS Princess Margaret, 1919.; replace Washington Treaty with Washington Naval Treaty in article.
 
 search.html
-- Load search v74 with Batch 103 cache version; retain Yasakuni header/title formatting.
+- Load search v75 with Batch 104 cache version; retain existing search layout.
 
-search-index-comprehensive-v74.js
-- Index Toulon and refresh changed pages. Preserve all 43,904 table rows and unrelated pages. 312 pages total.
+search-index-comprehensive-v75.js
+- Refresh six page records; preserve unrelated pages and every table row. 312 pages; 43,904 rows.
