@@ -1,25 +1,31 @@
-Batch 104 - 20 October 2026
+Batch 105 - 21 October 2026
 
-proposed-sale-of-hms-woolwich-to-yugoslavia.html
-- Apply Yasakuni Shrine header and title font; retain article text and links.
+denmark-hantsholm-bunkermuseum.html
+- Apply Yasakuni Shrine museum layout, header and title font; add Denmark breadcrumb, website top-box entry and existing photograph as feature with supplied 15-inch gun caption.
 
-destroyers-for-chile.html
-- Apply Yasakuni Shrine header and title font; retain article text and links.
+canadian-destroyers.html
+- Apply Yasakuni Shrine header and title font; add Restigouche photograph below title with supplied Naval Museum of Alberta caption.
 
-request-for-obsolete-british-warships-by-us-corporation.html
-- Apply Yasakuni Shrine header and title font; retain article text and links.
+links.html
+- Add Royal Canadian Navy history and heritage panel to Naval History, Warship and Technical Reference section with supplied Canada.ca link.
 
-sale-of-submarine-depot-ship-to-chile.html
-- Apply Yasakuni Shrine header and title font; retain article text and links.
+sale-of-nessus-to-the-canton-government.html
+- Apply Yasakuni Shrine header and title font; add sentence recording sale in 1929 with purchaser not yet established.
 
-partly-built-submarines-for-yugoslavia.html
-- Apply Yasakuni Shrine header and title font; add Hrabri photograph under title, captioned Yugoslav submarine Hrabri leaving the Tyne, 1928. Courtesy of Sinisa Lukovic. Italicise Hrabri in caption.
+greece-averof.html
+- Create Averof, Athens museum report using supplied text and Yasakuni Shrine layout; include visitor details, eleven photographs and four links.
 
-disposal-of-princess-margaret.html
-- Apply Yasakuni Shrine header and title font; add photograph under title with caption HMS Princess Margaret, 1919.; replace Washington Treaty with Washington Naval Treaty in article.
+whats-new.html
+- Add linked Averof report at top of Recent Updates, dated 21 October 2026; expand Toulon date to 20 October 2026.
+
+index.html
+- Add linked 21 October 2026 - Averof, Athens update at top; remove War Remnants Museum from fifth position and retain five items.
+
+museum-ship-reports.html
+- Link Averof / Velos to new Averof report.
 
 search.html
-- Load search v75 with Batch 104 cache version; retain existing search layout.
+- Load search v76 with Batch 105 cache version.
 
-search-index-comprehensive-v75.js
-- Refresh six page records; preserve unrelated pages and every table row. 312 pages; 43,904 rows.
+search-index-comprehensive-v76.js
+- Index Averof and refresh changed pages. Preserve unrelated pages and all 43,904 table rows. 313 pages total.
