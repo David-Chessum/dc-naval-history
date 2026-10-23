@@ -1,31 +1,31 @@
-Batch 107 - 23 October 2026
+Batch 108 - 23 October 2026
 
-peru-submarine-abtao-museo-naval-del-peru-lima.html
-- Insert Peru into the breadcrumb.
+proposed-sale-of-enchantress-to-romania.html
+- Apply Yasakuni Shrine header and title font; add HMS Enchantress photograph and IWM caption; add 24 June 1935 sale and breaking-up paragraph; italicise Enchantress throughout and remove the two immediately preceding instances of the.
 
-uruguay-naval-museum-montevideo.html
-- Insert Uruguay into the breadcrumb.
+portugal-barracuda.html
+- New NRP Barracuda, Lisbon museum report using supplied document and Yasakuni Shrine template, Portugal breadcrumb, visitor details, links, feature photograph with caption and five additional photographs.
 
-denmark-bangsbo-bunkermuseum.html
-- Apply Yasakuni Shrine museum layout; add visitor details, museum website and feature photo without caption; insert four additional photos at requested positions; remove just from third paragraph.
+museum-ship-reports.html
+- Rename Portugal entry to Barracuda, Lisbon and link new report.
 
-denmark-cold-war-museum-stevnsfort.html
-- Apply Yasakuni Shrine museum layout and Denmark breadcrumb; add website and feature photo without caption; move original photo after first paragraph and add new photo after third paragraph; change WW2 German to German WW2.
-
-naval-arms-control.html
-- Add Admiralty Fleet Orders panel immediately after Admiralty Board Minutes, linking to new index.
-
-admiralty-fleet-orders.html
-- New Admiralty Fleet Orders (AFOs) index with supplied introduction, Paul Bevand attribution and feedback box; 12,983 revised spreadsheet entries; Serial No., Subject, Category and Date filters; pagination above and below; default 50 entries; TNA references normalised and hyperlinked. Sort AWO, AFO, CAFO, then year and serial number.
+preserved-warships.html
+- Set NRP Barracuda class to Daphne; add Report link to new page and Museum Website link to cultura.marinha.pt/en.
 
 whats-new.html
-- Add linked Admiralty Fleet Orders entry dated 23 October 2026 at top of Recent Updates.
+- Add linked Submarine Barracuda, Lisbon entry at top of Recent Updates, dated 23 October 2026, with supplied description and italicised ship name.
 
 index.html
-- Add linked 23 October 2026 Admiralty Fleet Orders item at top of home news; remove Vartiovenne 55 and retain five entries.
+- Add linked 23 October 2026 - Submarine Barracuda, Lisbon item at top of home news; remove fifth Paris museum item and retain five updates.
+
+estonia-eesti-meremuseum-tallinn.html
+- Apply Yasakuni Shrine museum layout and Estonia breadcrumb; move first photograph to feature position with supplied Lembit caption; add museum website in top box and first in links; insert three new photos in original first-photo position with 152917 first; restore six stranded full stops to preceding paragraphs.
+
+finland-sveaborg-suomenlinna-fortress-submarine-vessiko-helsinki.html
+- Apply Yasakuni Shrine museum layout; add Finland breadcrumb, visited 31 August 2025, museum website and new feature photograph with caption; add museum and YouTube links first in references; italicise Vesikko and journal titles Warship World and Warship International; retain all three existing photos.
 
 search.html
-- Load search v78 with Batch 107 cache version.
+- Load search v79 with Batch 108 cache version.
 
-search-index-comprehensive-v78.js
-- Add AFO page and all 12,983 table entries; refresh changed pages, preserving all existing rows and unrelated pages. Total 315 pages and 56,887 table rows.
+search-index-comprehensive-v79.js
+- Add Barracuda report; refresh changed pages and Barracuda table entry; preserve all other pages and table rows. 316 pages and 56,887 rows.
