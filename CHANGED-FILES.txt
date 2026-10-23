@@ -1,25 +1,31 @@
-Batch 106 - 22 October 2026
+Batch 107 - 23 October 2026
 
-norway-bmm.html
-- New Bergen Maritime Museum / Bergens Sjøfartsmuseum report using Yasakuni Shrine layout, visitor details, seven embedded photographs and museum link.
+peru-submarine-abtao-museo-naval-del-peru-lima.html
+- Insert Peru into the breadcrumb.
 
-museum-ship-reports.html
-- Link Bergen Maritime Museum to the new report.
+uruguay-naval-museum-montevideo.html
+- Insert Uruguay into the breadcrumb.
+
+denmark-bangsbo-bunkermuseum.html
+- Apply Yasakuni Shrine museum layout; add visitor details, museum website and feature photo without caption; insert four additional photos at requested positions; remove just from third paragraph.
+
+denmark-cold-war-museum-stevnsfort.html
+- Apply Yasakuni Shrine museum layout and Denmark breadcrumb; add website and feature photo without caption; move original photo after first paragraph and add new photo after third paragraph; change WW2 German to German WW2.
+
+naval-arms-control.html
+- Add Admiralty Fleet Orders panel immediately after Admiralty Board Minutes, linking to new index.
+
+admiralty-fleet-orders.html
+- New Admiralty Fleet Orders (AFOs) index with supplied introduction, Paul Bevand attribution and feedback box; 12,983 revised spreadsheet entries; Serial No., Subject, Category and Date filters; pagination above and below; default 50 entries; TNA references normalised and hyperlinked. Sort AWO, AFO, CAFO, then year and serial number.
 
 whats-new.html
-- Add linked Bergen Maritime Museum entry at top of Recent Updates, dated 22 October 2026, with supplied description.
+- Add linked Admiralty Fleet Orders entry dated 23 October 2026 at top of Recent Updates.
 
 index.html
-- Add linked 22 October 2026 - Bergen Maritime Museum entry at top of What's New; remove sixth Vienna item and retain five entries.
-
-denmark-tirpitz-museum-oksby.html
-- Apply Yasakuni Shrine museum layout, Denmark breadcrumb and website top-box entry; use P4020285 as feature photo without caption; retain original photo and append remaining four supplied photos.
-
-sale-of-robin-to-a-cantonese-merchant.html
-- Apply Yasakuni Shrine header and title font; retain article content and links.
+- Add linked 23 October 2026 Admiralty Fleet Orders item at top of home news; remove Vartiovenne 55 and retain five entries.
 
 search.html
-- Load search v77 with Batch 106 cache version.
+- Load search v78 with Batch 107 cache version.
 
-search-index-comprehensive-v77.js
-- Index Bergen and refresh changed pages. Preserve unrelated pages and all 43,904 table rows. 314 pages total.
+search-index-comprehensive-v78.js
+- Add AFO page and all 12,983 table entries; refresh changed pages, preserving all existing rows and unrelated pages. Total 315 pages and 56,887 table rows.
