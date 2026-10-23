@@ -1,31 +1,46 @@
-Batch 108 - 23 October 2026
+Batch 109 - 23 October 2026
 
-proposed-sale-of-enchantress-to-romania.html
-- Apply Yasakuni Shrine header and title font; add HMS Enchantress photograph and IWM caption; add 24 June 1935 sale and breaking-up paragraph; italicise Enchantress throughout and remove the two immediately preceding instances of the.
+lnc-35-documents.html
+- Add Admiralty Fleet Orders table after UK Cabinet Papers, with AFO 1810/37, title The London Naval Treaty (1936), date 26 Aug 1937 and linked ADM 182/75; add contents link.
 
-portugal-barracuda.html
-- New NRP Barracuda, Lisbon museum report using supplied document and Yasakuni Shrine template, Portugal breadcrumb, visitor details, links, feature photograph with caption and five additional photographs.
+admiralty-fleet-orders.html
+- Display all dates as d mmm yyyy; retain original data and sorting; allow date filter to match formatted and ISO dates.
 
-museum-ship-reports.html
-- Rename Portugal entry to Barracuda, Lisbon and link new report.
+cruisers-for-brazil-and-argentina.html
+- Apply Yasakuni header/title; italicise Omaha; add photograph below title with supplied US Navy/NARA caption.
+
+finland-forum-marinum-turku.html
+- Apply Yasakuni museum layout, Finland breadcrumb, visit dates 1-2 September 2025 and website in top box and first in Links; add feature photo and caption; italicise listed ship names; retain original photos.
 
 preserved-warships.html
-- Set NRP Barracuda class to Daphne; add Report link to new page and Museum Website link to cultura.marinha.pt/en.
+- Set Karjala class to Turunmaa; add museum website links for Karjala, Tyrsky and Nuoli 8.
 
-whats-new.html
-- Add linked Submarine Barracuda, Lisbon entry at top of Recent Updates, dated 23 October 2026, with supplied description and italicised ship name.
+finland-hameenlinna-tank-museum-military-museum.html
+- Apply Yasakuni museum layout, Finland breadcrumb, museum website and new feature photo without caption; retain report and original photos.
 
-index.html
-- Add linked 23 October 2026 - Submarine Barracuda, Lisbon item at top of home news; remove fifth Paris museum item and retain five updates.
+france-submarine-espadon-saint-nazaire.html
+- Apply Yasakuni museum layout and France breadcrumb; move first photograph to feature with supplied caption; add museum website to top box.
 
-estonia-eesti-meremuseum-tallinn.html
-- Apply Yasakuni Shrine museum layout and Estonia breadcrumb; move first photograph to feature position with supplied Lembit caption; add museum website in top box and first in links; insert three new photos in original first-photo position with 152917 first; restore six stranded full stops to preceding paragraphs.
+germany-technik-museum-speyer.html
+- Apply Yasakuni museum layout, Germany breadcrumb and website; move first photo to feature with supplied caption, add DSC02439 in its old position and three model photos at bottom; rotate original fourth photo 90 degrees clockwise; standardise U-9 and italicise U-9 and U-17.
 
-finland-sveaborg-suomenlinna-fortress-submarine-vessiko-helsinki.html
-- Apply Yasakuni Shrine museum layout; add Finland breadcrumb, visited 31 August 2025, museum website and new feature photograph with caption; add museum and YouTube links first in references; italicise Vesikko and journal titles Warship World and Warship International; retain all three existing photos.
+the-penstemon-and-the-inconstant.html
+- Apply Yasakuni header/title; rename to Patria, Penstemon and Inconstant with italic ship names; italicise opening Patria in second paragraph; append supplied treaty-compliance sentence; use standard hyphens in second paragraph.
+
+warship-export-case-studies.html
+- Update the three Patria, Penstemon and Inconstant Case Study Link labels to the new title with italic ship names, retaining destinations.
+
+attempts-by-chinese-squadrons-to-procure-second-hand-warships-from-britain-and-japan.html
+- Apply Yasakuni header and title font; preserve article.
+
+brunei-royal-brunei-armed-forces-museum.html
+- Insert Brunei into breadcrumb.
+
+indonesia-submarine-pasopati-surubaya.html
+- Insert Indonesia into breadcrumb.
 
 search.html
-- Load search v79 with Batch 108 cache version.
+- Load search v80 with Batch 109 cache version.
 
-search-index-comprehensive-v79.js
-- Add Barracuda report; refresh changed pages and Barracuda table entry; preserve all other pages and table rows. 316 pages and 56,887 rows.
+search-index-comprehensive-v80.js
+- Refresh changed pages, six changed table rows and one new LNC 35 AFO entry. Preserve all unrelated content. Total 316 pages and 56,888 rows.

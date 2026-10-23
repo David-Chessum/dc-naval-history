@@ -141,7 +141,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 <label>Filter by Serial No.<input id="filterSerial" type="text" placeholder="e.g. AFO 100/39"/></label>
 <label>Filter by Subject<input id="filterSubject" type="text" placeholder="Contains..."/></label>
 <label>Filter by Category<select id="filterCategory"><option value="">All categories</option></select></label>
-<label>Filter by Date<input id="filterDate" type="text" placeholder="e.g. 1939 or 1939-04"/></label>
+<label>Filter by Date<input id="filterDate" type="text" placeholder="e.g. 3 Sep 1939 or 1939"/></label>
 <label><span aria-hidden="true"> </span><button id="clearFilters" type="button">Clear Filters</button></label>
 </div></section>
 <div class="table-meta">
@@ -179,17 +179,18 @@ const body=document.getElementById('minutesBody'),size=document.getElementById('
 const filters=['filterSerial','filterSubject','filterCategory','filterDate'].map(id=>document.getElementById(id));
 let page=1, filtered=DATA;
 for(const value of [...new Set(DATA.map(r=>r[2]).filter(Boolean))].sort()) {const o=document.createElement('option');o.value=value;o.textContent=value;filters[2].append(o);}
+function displayDate(value){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(value);return m?Number(m[3])+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Number(m[2])-1]+' '+m[1]:value;}
 function render(){
  const n=Number(size.value)||filtered.length||1, pages=Math.max(1,Math.ceil(filtered.length/n));page=Math.max(1,Math.min(page,pages));body.replaceChildren();
  for(const row of filtered.slice((page-1)*n,page*n)){
-  const tr=document.createElement('tr');row.slice(0,5).forEach((v,i)=>{const td=document.createElement('td');if(i===4&&row[5]){const a=document.createElement('a');a.href=row[5];a.textContent=v;a.target='_blank';a.rel='noopener';td.append(a);}else td.textContent=v;if(i===0||i===3||i===4)td.style.whiteSpace='nowrap';tr.append(td);});body.append(tr);
+  const tr=document.createElement('tr');row.slice(0,5).forEach((v,i)=>{const td=document.createElement('td');if(i===4&&row[5]){const a=document.createElement('a');a.href=row[5];a.textContent=v;a.target='_blank';a.rel='noopener';td.append(a);}else td.textContent=i===3?displayDate(v):v;if(i===0||i===3||i===4)td.style.whiteSpace='nowrap';tr.append(td);});body.append(tr);
  }
  if(!filtered.length){const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=5;td.textContent='No matching entries.';tr.append(td);body.append(tr);}
  document.getElementById('resultCount').textContent=filtered.length.toLocaleString()+' of '+DATA.length.toLocaleString()+' entries';
  document.querySelectorAll('.page-status').forEach(e=>e.textContent='Page '+page+' of '+pages);
  document.querySelectorAll('[data-page]').forEach(b=>b.disabled=['first','prev'].includes(b.dataset.page)?page===1:page===pages);
 }
-function apply(){const q=filters.map(e=>e.value.trim().toLowerCase());filtered=DATA.filter(r=>r[0].toLowerCase().includes(q[0])&&r[1].toLowerCase().includes(q[1])&&(!q[2]||r[2].toLowerCase()===q[2])&&r[3].toLowerCase().includes(q[3]));page=1;render();}
+function apply(){const q=filters.map(e=>e.value.trim().toLowerCase());filtered=DATA.filter(r=>r[0].toLowerCase().includes(q[0])&&r[1].toLowerCase().includes(q[1])&&(!q[2]||r[2].toLowerCase()===q[2])&&(r[3].toLowerCase().includes(q[3])||displayDate(r[3]).toLowerCase().includes(q[3])));page=1;render();}
 filters.forEach(e=>e.addEventListener(e.tagName==='SELECT'?'change':'input',apply));
 size.addEventListener('change',()=>{page=1;render();});
 document.getElementById('clearFilters').addEventListener('click',()=>{filters.forEach(e=>e.value='');apply();});
