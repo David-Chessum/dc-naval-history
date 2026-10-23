@@ -1,46 +1,28 @@
-Batch 109 - 23 October 2026
+Batch 111 - 24 October 2026
 
-lnc-35-documents.html
-- Add Admiralty Fleet Orders table after UK Cabinet Papers, with AFO 1810/37, title The London Naval Treaty (1936), date 26 Aug 1937 and linked ADM 182/75; add contents link.
+norway-krigsminnemuseum.html
+- New Lofoten Krigsminnemuseum report using Yasakuni layout, visit information, feature image, three additional photographs and reference links.
 
-admiralty-fleet-orders.html
-- Display all dates as d mmm yyyy; retain original data and sorting; allow date filter to match formatted and ISO dates.
+museum-ship-reports.html
+- Link Lofoten Krigsminnemuseum to the new report.
 
-cruisers-for-brazil-and-argentina.html
-- Apply Yasakuni header/title; italicise Omaha; add photograph below title with supplied US Navy/NARA caption.
+whats-new.html
+- Add Lofoten Krigsminnemuseum at the top of Recent Updates, dated 24 October 2026.
 
-finland-forum-marinum-turku.html
-- Apply Yasakuni museum layout, Finland breadcrumb, visit dates 1-2 September 2025 and website in top box and first in Links; add feature photo and caption; italicise listed ship names; retain original photos.
+index.html
+- Add Lofoten at the top of home news; remove Toulon, retaining five entries.
 
-preserved-warships.html
-- Set Karjala class to Turunmaa; add museum website links for Karjala, Tyrsky and Nuoli 8.
+sweden-malmo-technic-museum-u-3.html
+- Apply Yasakuni museum layout, website and Sweden breadcrumb; move current image to feature with supplied caption; italicise U-3; add six photos and Guidebook Sweden link.
 
-finland-hameenlinna-tank-museum-military-museum.html
-- Apply Yasakuni museum layout, Finland breadcrumb, museum website and new feature photo without caption; retain report and original photos.
+sweden-swedish-navy-museum-karlskrona.html
+- Apply Yasakuni layout, website and Sweden breadcrumb; add Hajen feature image and caption; add two photos after original fourth; italicise requested vessel names; split bonus paragraph and add Links heading.
 
-france-submarine-espadon-saint-nazaire.html
-- Apply Yasakuni museum layout and France breadcrumb; move first photograph to feature with supplied caption; add museum website to top box.
-
-germany-technik-museum-speyer.html
-- Apply Yasakuni museum layout, Germany breadcrumb and website; move first photo to feature with supplied caption, add DSC02439 in its old position and three model photos at bottom; rotate original fourth photo 90 degrees clockwise; standardise U-9 and italicise U-9 and U-17.
-
-the-penstemon-and-the-inconstant.html
-- Apply Yasakuni header/title; rename to Patria, Penstemon and Inconstant with italic ship names; italicise opening Patria in second paragraph; append supplied treaty-compliance sentence; use standard hyphens in second paragraph.
-
-warship-export-case-studies.html
-- Update the three Patria, Penstemon and Inconstant Case Study Link labels to the new title with italic ship names, retaining destinations.
-
-attempts-by-chinese-squadrons-to-procure-second-hand-warships-from-britain-and-japan.html
-- Apply Yasakuni header and title font; preserve article.
-
-brunei-royal-brunei-armed-forces-museum.html
-- Insert Brunei into breadcrumb.
-
-indonesia-submarine-pasopati-surubaya.html
-- Insert Indonesia into breadcrumb.
+sweden-maritmuseum-gothenburg.html
+- Apply Yasakuni layout and museum website; add 190150 feature image and caption; italicise vessel names; insert upper before deck; rearrange photos around report paragraphs; replace third body photo and insert 135050 first in body.
 
 search.html
-- Load search v80 with Batch 109 cache version.
+- Load refreshed search index v81 with Batch 111 cache version.
 
-search-index-comprehensive-v80.js
-- Refresh changed pages, six changed table rows and one new LNC 35 AFO entry. Preserve all unrelated content. Total 316 pages and 56,888 rows.
+search-index-comprehensive-v81.js
+- Index new and updated pages, including deployed Batch 110 Romanian MTB content. Total 317 pages and 56,888 table rows.
