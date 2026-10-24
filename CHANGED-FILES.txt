@@ -1,28 +1,34 @@
-Batch 111 - 24 October 2026
+Batch 112 - 24 October 2026
 
-norway-krigsminnemuseum.html
-- New Lofoten Krigsminnemuseum report using Yasakuni layout, visit information, feature image, three additional photographs and reference links.
+germany-deutsches-museum-munich.html
+- Apply Yasakuni museum layout, Germany breadcrumb, museum website in top box and first in Links; add Markgraf model feature photo and caption; italicise and standardise U-1; retain original photographs.
 
-museum-ship-reports.html
-- Link Lofoten Krigsminnemuseum to the new report.
+proposed-sale-of-almirante-latorre.html
+- Apply Yasakuni header and title font; add battleship photograph below title with supplied Library of Congress caption.
 
-whats-new.html
-- Add Lofoten Krigsminnemuseum at the top of Recent Updates, dated 24 October 2026.
+germany-international-maritimes-museum-hamburg.html
+- Apply Yasakuni museum layout, Germany breadcrumb and website in top box; add feature photograph without caption; retain report and existing photographs.
 
-index.html
-- Add Lofoten at the top of home news; remove Toulon, retaining five entries.
+germany-u-boot-museum-hamburg.html
+- Apply Yasakuni museum layout, Germany breadcrumb and website in top box; move original photo to feature with B-515 caption; add four photographs below report text.
 
-sweden-malmo-technic-museum-u-3.html
-- Apply Yasakuni museum layout, website and Sweden breadcrumb; move current image to feature with supplied caption; italicise U-3; add six photos and Guidebook Sweden link.
+soviet-interest-in-buying-chilean-cruisers.html
+- Apply Yasakuni header and title font.
 
-sweden-swedish-navy-museum-karlskrona.html
-- Apply Yasakuni layout, website and Sweden breadcrumb; add Hajen feature image and caption; add two photos after original fourth; italicise requested vessel names; split bonus paragraph and add Links heading.
+the-hussard.html
+- Apply Yasakuni header and title font; rename title to Hussard; add photograph and Navypedia caption; add supplied opening paragraph; remove completed in 1912 from following paragraph.
 
-sweden-maritmuseum-gothenburg.html
-- Apply Yasakuni layout and museum website; add 190150 feature image and caption; italicise vessel names; insert upper before deck; rearrange photos around report paragraphs; replace third body photo and insert 135050 first in body.
+warship-export-case-studies.html
+- Change The Hussard table label to Hussard, retaining its existing link.
+
+dentrecasteaux.html
+- Apply Yasakuni header and title font; add wheel photograph and caption linked to Gdynia Naval Museum report; replace article with supplied six-paragraph account.
+
+ex-french-destroyers-for-brazil.html
+- Apply Yasakuni header and title font.
 
 search.html
-- Load refreshed search index v81 with Batch 111 cache version.
+- Load search v82 with Batch 112 cache version.
 
-search-index-comprehensive-v81.js
-- Index new and updated pages, including deployed Batch 110 Romanian MTB content. Total 317 pages and 56,888 table rows.
+search-index-comprehensive-v82.js
+- Refresh nine changed pages and Hussard table label. Preserve all unrelated pages and rows, including Batch 110 Romanian MTB content. Total 317 pages and 56,888 rows.
