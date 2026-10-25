@@ -1,19 +1,31 @@
-Batch 113 - 24 October 2026
+Batch 114 - 25 October 2026
 
-desaix.html
-- Apply Yasakuni header and title font; replace Section B-5 in ninth paragraph with here linked to Destroyers for Chile.
+tna-adm-files.html
+- Update 30 references: four matching entries updated, 26 new entries added. Total 4,165 rows. Remove stray backtick after 1-1712.
 
-french-sloops-for-ecuador.html
-- Apply Yasakuni header and title font; add Inconstant photograph below title with Naval History & Heritage Command caption.
+post-war-articles.html
+- Add five Warship International Vol. 63, No. 3, September 2026 articles. Total 6,279 articles.
 
-germany-german-navy-memorial-deutscher-marinebund-laboe.html
-- Apply Yasakuni museum layout, Germany breadcrumb and museum website; move original U-995 image to feature with supplied caption; add nine photos below report; add supplied history sentence; consolidate Links into Links and References.
+spain-museo-naval.html
+- New Museo Naval, Madrid report using Yasakuni template, Spain breadcrumb, visit information, museum website, feature model photograph and caption, three additional photographs and supplied links.
 
-preserved-warships.html
-- Rename U-995 to U-995, ex-KNM Kaura.
+museum-ship-reports.html
+- Link Museo Naval Madrid to new report.
+
+whats-new.html
+- Add Museo Naval, Madrid at top of Recent Updates, dated 25 October 2026.
+
+index.html
+- Add linked Museo Naval, Madrid at top of home news, dated 25 October 2026; remove Averof, retaining five items.
+
+germany-u-boot-museum-fehmarn-island.html
+- Apply Yasakuni museum layout, Germany breadcrumb and museum website; add photo 133239 as feature without caption; add seven photos beneath original report photograph.
+
+warships-for-spain.html
+- Apply Yasakuni header and title font; add supplied opening paragraph; add Alessandro Poerio photograph and caption beneath title.
 
 search.html
-- Load search v83 with Batch 113 cache version.
+- Load refreshed search v84 with Batch 114 cache version.
 
-search-index-comprehensive-v83.js
-- Refresh four changed pages and U-995 table entry. Preserve all unrelated pages and rows, including Batch 110 Romanian MTB content. Total 317 pages and 56,888 rows.
+search-index-comprehensive-v84.js
+- Refresh changed pages and complete TNA ADM and post-war article tables; add Madrid report. Preserve unrelated search content. Total 318 pages and 56,919 rows.
