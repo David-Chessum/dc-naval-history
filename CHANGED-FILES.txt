@@ -1,31 +1,28 @@
-Batch 114 - 25 October 2026
+Batch 115 - 26 October 2026
 
-tna-adm-files.html
-- Update 30 references: four matching entries updated, 26 new entries added. Total 4,165 rows. Remove stray backtick after 1-1712.
+cid-memoranda.html
+- Add ten B Series and eight C Series entries; update supplied titles, dates, TNA references and links, and NAA references with RecordSearch links. Preserve Paper No. ordering. Extend C Series heading to 1902-1935. Totals: 196 B Series and 259 C Series entries.
 
-post-war-articles.html
-- Add five Warship International Vol. 63, No. 3, September 2026 articles. Total 6,279 articles.
-
-spain-museo-naval.html
-- New Museo Naval, Madrid report using Yasakuni template, Spain breadcrumb, visit information, museum website, feature model photograph and caption, three additional photographs and supplied links.
+turkey-deniz-muzesi.html
+- New Deniz Müzesi, Istanbul museum report using the Yasakuni template, Turkey breadcrumb, visit details, website and reference links. Three embedded photos; IMAG0652 is feature without caption.
 
 museum-ship-reports.html
-- Link Museo Naval Madrid to new report.
+- Correct Deniz Müzesi, Istanbul name and link to new report.
 
 whats-new.html
-- Add Museo Naval, Madrid at top of Recent Updates, dated 25 October 2026.
+- Add linked Deniz Müzesi, Istanbul entry at top of Recent Updates, dated 26 October 2026.
 
 index.html
-- Add linked Museo Naval, Madrid at top of home news, dated 25 October 2026; remove Averof, retaining five items.
+- Add linked 26 October 2026 - Deniz Müzesi, Istanbul entry first; remove Bergen Maritime Museum, retaining five updates.
 
-germany-u-boot-museum-fehmarn-island.html
-- Apply Yasakuni museum layout, Germany breadcrumb and museum website; add photo 133239 as feature without caption; add seven photos beneath original report photograph.
+germany-u-boot-museum-sassnitz-hms-otus.html
+- Apply Yasakuni museum layout and Germany breadcrumb; museum website in top box; existing photo becomes feature without caption; seven new photos below text. Add Ostsee.de as second reference; change well-presented ship to well-presented boat.
 
-warships-for-spain.html
-- Apply Yasakuni header and title font; add supplied opening paragraph; add Alessandro Poerio photograph and caption beneath title.
+proposed-purchase-of-italian-heavy-cruisers.html
+- Apply Yasakuni header and title font; add Trieste photograph and supplied NH 86003 caption beneath title.
 
 search.html
-- Load refreshed search v84 with Batch 114 cache version.
+- Load search index v85 with Batch 115 cache version.
 
-search-index-comprehensive-v84.js
-- Refresh changed pages and complete TNA ADM and post-war article tables; add Madrid report. Preserve unrelated search content. Total 318 pages and 56,919 rows.
+search-index-comprehensive-v85.js
+- Index the new museum report and updated pages and CID records. 319 pages and 56,937 rows; unrelated search records preserved.
