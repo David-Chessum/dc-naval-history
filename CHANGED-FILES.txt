@@ -1,28 +1,31 @@
-Batch 115 - 26 October 2026
+Batch 116 - 26 October 2026
 
-cid-memoranda.html
-- Add ten B Series and eight C Series entries; update supplied titles, dates, TNA references and links, and NAA references with RecordSearch links. Preserve Paper No. ordering. Extend C Series heading to 1902-1935. Totals: 196 B Series and 259 C Series entries.
+national-archives-australia-files.html
+- Add 30 records and update two existing records from supplied data; correct shifted input columns; include barcode RecordSearch links and eight linked Available digital copies. Total 2,904 rows.
 
-turkey-deniz-muzesi.html
-- New Deniz Müzesi, Istanbul museum report using the Yasakuni template, Turkey breadcrumb, visit details, website and reference links. Three embedded photos; IMAG0652 is feature without caption.
+germany-technikmuseum-u-boot-wilhelm-bauer-bremerhaven.html
+- Apply Yasakuni museum structure; Germany breadcrumb; remove Technikmuseum U-Boot from page heading and opening text; website in top box; existing photograph becomes feature without caption; four new photographs below report; five supplied links after first two references.
 
-museum-ship-reports.html
-- Correct Deniz Müzesi, Istanbul name and link to new report.
+preserved-warships.html
+- Add rightmost Naval Museum Atlas column with 46 supplied links; add USS Sturgeon (SSN 637) sail immediately after original Hunley with museum and Atlas links; set HMAS Advance class to Attack; replace three Museum Report labels with Museum Website; update Oga Kaiten replica museum website. Total 535 rows, 11 columns and 47 Atlas links.
 
-whats-new.html
-- Add linked Deniz Müzesi, Istanbul entry at top of Recent Updates, dated 26 October 2026.
+united-kingdom-portsmouth-historic-dockyard.html
+- Add Naval Museum Atlas as fifth Links and References item.
 
-index.html
-- Add linked 26 October 2026 - Deniz Müzesi, Istanbul entry first; remove Bergen Maritime Museum, retaining five updates.
+chile-museo-maritomo-nacional-valparaiso.html
+- Append Naval Museum Atlas link to Links section.
 
-germany-u-boot-museum-sassnitz-hms-otus.html
-- Apply Yasakuni museum layout and Germany breadcrumb; museum website in top box; existing photo becomes feature without caption; seven new photos below text. Add Ostsee.de as second reference; change well-presented ship to well-presented boat.
+poland-gdynia-naval-museum.html
+- Add Naval Museum Atlas as third link.
 
-proposed-purchase-of-italian-heavy-cruisers.html
-- Apply Yasakuni header and title font; add Trieste photograph and supplied NH 86003 caption beneath title.
+norway-royal-norwegian-navy-museum-horten.html
+- Append Naval Museum Atlas link to Links section.
+
+france-submarine-espadon-saint-nazaire.html
+- Add Naval Museum Atlas as third reference link.
 
 search.html
-- Load search index v85 with Batch 115 cache version.
+- Load refreshed search index v86 with Batch 116 cache version.
 
-search-index-comprehensive-v85.js
-- Index the new museum report and updated pages and CID records. 319 pages and 56,937 rows; unrelated search records preserved.
+search-index-comprehensive-v86.js
+- Refresh eight changed pages and complete NAA/Preserved Warships rows, including Atlas column; retain unrelated search content. Total 319 pages and 56,968 rows.
