@@ -1,31 +1,37 @@
-Batch 116 - 26 October 2026
+Batch 117 - 27 October 2026
 
 national-archives-australia-files.html
-- Add 30 records and update two existing records from supplied data; correct shifted input columns; include barcode RecordSearch links and eight linked Available digital copies. Total 2,904 rows.
+- Add three Australian War Memorial records, with barcode links and available digital-copy links.
 
-germany-technikmuseum-u-boot-wilhelm-bauer-bremerhaven.html
-- Apply Yasakuni museum structure; Germany breadcrumb; remove Technikmuseum U-Boot from page heading and opening text; website in top box; existing photograph becomes feature without caption; four new photographs below report; five supplied links after first two references.
+germany-deutsches-marinemuseum-wilhelmshaven.html
+- Update to museum report template, add Germany breadcrumb, feature photograph, museum website and further links.
 
-preserved-warships.html
-- Add rightmost Naval Museum Atlas column with 46 supplied links; add USS Sturgeon (SSN 637) sail immediately after original Hunley with museum and Atlas links; set HMAS Advance class to Attack; replace three Museum Report labels with Museum Website; update Oga Kaiten replica museum website. Total 535 rows, 11 columns and 47 Atlas links.
+book-list.html
+- Add X3 to X54: The History of the British Midget Submarine by K Hall.
 
-united-kingdom-portsmouth-historic-dockyard.html
-- Add Naval Museum Atlas as fifth Links and References item.
+united-kingdom-hms-belfast.html
+- Add illustrated HMS Belfast museum report, with links and references including Naval Museum Atlas.
 
-chile-museo-maritomo-nacional-valparaiso.html
-- Append Naval Museum Atlas link to Links section.
+museum-ship-reports.html
+- Link HMS Belfast to the new museum report.
 
-poland-gdynia-naval-museum.html
-- Add Naval Museum Atlas as third link.
+whats-new.html
+- Add HMS Belfast report to Recent Updates.
 
-norway-royal-norwegian-navy-museum-horten.html
-- Append Naval Museum Atlas link to Links section.
+index.html
+- Add HMS Belfast to the home page updates and remove the Submarine Barracuda entry.
 
-france-submarine-espadon-saint-nazaire.html
-- Add Naval Museum Atlas as third reference link.
+ex-german-minesweepers-for-albania.html
+- Update header, title styling, article text and add a photograph of Shqipnia.
+
+warship-export-case-studies.html
+- Correct Skanderbeg spelling in the table.
+
+ex-german-minesweepers.html
+- Correct Albanian vessel names, link the service cell, add the commercial service note, and correct the Hungary entry.
 
 search.html
-- Load refreshed search index v86 with Batch 116 cache version.
+- Load the updated search index for Batch 117.
 
-search-index-comprehensive-v86.js
-- Refresh eight changed pages and complete NAA/Preserved Warships rows, including Atlas column; retain unrelated search content. Total 319 pages and 56,968 rows.
+search-index-comprehensive-v87.js
+- Refresh changed pages and table records, preserving unrelated search data.
