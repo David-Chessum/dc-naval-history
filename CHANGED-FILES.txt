@@ -1,37 +1,22 @@
-Batch 117 - 27 October 2026
-
-national-archives-australia-files.html
-- Add three Australian War Memorial records, with barcode links and available digital-copy links.
-
-germany-deutsches-marinemuseum-wilhelmshaven.html
-- Update to museum report template, add Germany breadcrumb, feature photograph, museum website and further links.
-
-book-list.html
-- Add X3 to X54: The History of the British Midget Submarine by K Hall.
-
-united-kingdom-hms-belfast.html
-- Add illustrated HMS Belfast museum report, with links and references including Naval Museum Atlas.
-
-museum-ship-reports.html
-- Link HMS Belfast to the new museum report.
-
-whats-new.html
-- Add HMS Belfast report to Recent Updates.
-
-index.html
-- Add HMS Belfast to the home page updates and remove the Submarine Barracuda entry.
-
-ex-german-minesweepers-for-albania.html
-- Update header, title styling, article text and add a photograph of Shqipnia.
-
-warship-export-case-studies.html
-- Correct Skanderbeg spelling in the table.
+Batch 118 - 28 October 2026
 
 ex-german-minesweepers.html
-- Correct Albanian vessel names, link the service cell, add the commercial service note, and correct the Hungary entry.
+- Correct D36 to F36.
 
-search.html
-- Load the updated search index for Batch 117.
+links.html
+- Add German Warships Database panel to Ship, Fleet and Convoy Databases.
 
-search-index-comprehensive-v87.js
-- Refresh changed pages and table records, preserving unrelated search data.
+germany-deutsches-marinemuseum-wilhelmshaven.html
+- Add postscript about the announced scrapping of Weilheim.
+
+preserved-warships.html
+- Remove Weilheim and set Mölders class to Charles F. Adams.
+
+germany-deutsches-technikmuseum-berlin.html
+- Apply Yasakuni museum layout, Germany breadcrumb, revised report, website, feature photograph, three additional photographs and further links.
+
+soviet-requests-for-italian-warships.html
+- Apply Yasakuni header and title styling; add Tashkent photograph with full Afonsin citation.
+
+search.html and search-index-comprehensive-v88.js
+- Refresh changed pages and Preserved Warships table records.
