@@ -1,9 +1,11 @@
-Batch 118 - 28 October 2026
+Batch 119 - 28 October 2026
 
-Builds on successfully deployed Batch 117.
+Builds on successfully deployed Batch 118.
 
-Upload the eight HTML/JavaScript files to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes and need not be uploaded.
+Upload all 27 HTML/JavaScript files in this ZIP to the website root, replacing matching files. README.txt and CHANGED-FILES.txt are notes and need not be uploaded.
 
-Retain all other website files and assets, including naval-header-image-b.png. Photographs are embedded; no separate photograph files are required.
+Retain all other website files and assets, including naval-header-image-b.png. Photographs are embedded; no separate photo files are required.
 
-Search index v88: 320 pages and 56,971 table rows.
+The existing china-wuhan-museum-ships.html redirect remains unchanged; the breadcrumb correction is in its destination wuhan-st-museum.html.
+
+Search index v89: 322 pages and 56,975 table rows.

@@ -1,22 +1,82 @@
-Batch 118 - 28 October 2026
+Batch 119 - 28 October 2026
 
-ex-german-minesweepers.html
-- Correct D36 to F36.
+malaysia-hang-tuah-lumut.html
+- Add Malaysia to breadcrumb.
 
-links.html
-- Add German Warships Database panel to Ship, Fleet and Convoy Databases.
+philippines-corregidor.html
+- Add Philippines to breadcrumb.
 
-germany-deutsches-marinemuseum-wilhelmshaven.html
-- Add postscript about the announced scrapping of Weilheim.
+singapore-fort-siloso-sentosa-island.html
+- Add Singapore to breadcrumb.
+
+singapore-singaporean-navy-museum.html
+- Add Singapore to breadcrumb.
+
+south-korea-seoul-battleship-park.html
+- Add South Korea to breadcrumb.
+
+south-korea-ganghwa-battleship-park.html
+- Add South Korea to breadcrumb.
+
+south-korea-gimpo-marine-park.html
+- Add South Korea to breadcrumb.
+
+south-korea-war-memorial-of-korea.html
+- Add South Korea to breadcrumb.
+
+south-korea-danjin-port-tourism-organisation-sapkyoho-ship-park.html
+- Add South Korea to breadcrumb.
+
+south-korea-korea-naval-academy-museum.html
+- Add South Korea to breadcrumb.
+
+taiwan-destroyer-te-yang-sarsfield-tainan.html
+- Add Taiwan to breadcrumb.
+
+china-aircraft-carrier-kiev-binhai-aircraft-carrier-park-tianjin.html
+- Add China to breadcrumb.
+
+china-aircraft-carrier-minsk-schenzen.html
+- Add China to breadcrumb.
+
+china-gunboat-zhongshan-wuhan.html
+- Add China to breadcrumb.
+
+china-qingdao-navy-museum.html
+- Add China to breadcrumb.
+
+wuhan-st-museum.html
+- Add China to breadcrumb.
+
+denmark-danish-war-museum-copenhagen.html
+- Add Denmark to breadcrumb.
+
+united-kingdom-hms-caroline.html
+- New illustrated HMS Caroline report using the Yasakuni template, with UK breadcrumb, four photographs and references.
+
+whats-new.html
+- Add HMS Caroline and Sale of Italian Warships to Sweden entries, both dated 28 October 2026.
+
+index.html
+- Add HMS Caroline and Sale of Italian Warships to Sweden to the top of the updates; remove Admiralty Fleet Orders and Lofoten Krigsminnemuseum; retain five items.
+
+museum-ship-reports.html
+- Link HMS Caroline to the new report.
 
 preserved-warships.html
-- Remove Weilheim and set Mölders class to Charles F. Adams.
+- Add DC Naval History Report links for HMS Caroline and HMS Belfast.
 
-germany-deutsches-technikmuseum-berlin.html
-- Apply Yasakuni museum layout, Germany breadcrumb, revised report, website, feature photograph, three additional photographs and further links.
+warship-export-case-studies.html
+- Correct receiving nation to Sweden, expand Italian ship list, type and status, link to new Sweden article, and revise Colleoni case study link text.
 
-soviet-requests-for-italian-warships.html
-- Apply Yasakuni header and title styling; add Tashkent photograph with full Afonsin citation.
+italian-attempts-to-sell-light-cruisers.html
+- Apply Yasakuni header/title styling, replace article with Colleoni text, rename title and breadcrumb, add NH 80948 photograph.
 
-search.html and search-index-comprehensive-v88.js
-- Refresh changed pages and Preserved Warships table records.
+sale-of-italian-warships-to-sweden.html
+- New illustrated case study with supplied article, price table and source acknowledgement; standardise Alberico da Barbiano spelling.
+
+search.html
+- Load refreshed Batch 119 search index.
+
+search-index-comprehensive-v89.js
+- Refresh updated pages and table records; index two new pages and four price-table rows. Total 322 pages and 56,975 rows.
