@@ -1,82 +1,31 @@
-Batch 119 - 28 October 2026
-
-malaysia-hang-tuah-lumut.html
-- Add Malaysia to breadcrumb.
-
-philippines-corregidor.html
-- Add Philippines to breadcrumb.
-
-singapore-fort-siloso-sentosa-island.html
-- Add Singapore to breadcrumb.
-
-singapore-singaporean-navy-museum.html
-- Add Singapore to breadcrumb.
-
-south-korea-seoul-battleship-park.html
-- Add South Korea to breadcrumb.
-
-south-korea-ganghwa-battleship-park.html
-- Add South Korea to breadcrumb.
-
-south-korea-gimpo-marine-park.html
-- Add South Korea to breadcrumb.
-
-south-korea-war-memorial-of-korea.html
-- Add South Korea to breadcrumb.
-
-south-korea-danjin-port-tourism-organisation-sapkyoho-ship-park.html
-- Add South Korea to breadcrumb.
-
-south-korea-korea-naval-academy-museum.html
-- Add South Korea to breadcrumb.
-
-taiwan-destroyer-te-yang-sarsfield-tainan.html
-- Add Taiwan to breadcrumb.
-
-china-aircraft-carrier-kiev-binhai-aircraft-carrier-park-tianjin.html
-- Add China to breadcrumb.
-
-china-aircraft-carrier-minsk-schenzen.html
-- Add China to breadcrumb.
-
-china-gunboat-zhongshan-wuhan.html
-- Add China to breadcrumb.
-
-china-qingdao-navy-museum.html
-- Add China to breadcrumb.
-
-wuhan-st-museum.html
-- Add China to breadcrumb.
-
-denmark-danish-war-museum-copenhagen.html
-- Add Denmark to breadcrumb.
-
-united-kingdom-hms-caroline.html
-- New illustrated HMS Caroline report using the Yasakuni template, with UK breadcrumb, four photographs and references.
-
-whats-new.html
-- Add HMS Caroline and Sale of Italian Warships to Sweden entries, both dated 28 October 2026.
-
-index.html
-- Add HMS Caroline and Sale of Italian Warships to Sweden to the top of the updates; remove Admiralty Fleet Orders and Lofoten Krigsminnemuseum; retain five items.
-
-museum-ship-reports.html
-- Link HMS Caroline to the new report.
-
-preserved-warships.html
-- Add DC Naval History Report links for HMS Caroline and HMS Belfast.
-
-warship-export-case-studies.html
-- Correct receiving nation to Sweden, expand Italian ship list, type and status, link to new Sweden article, and revise Colleoni case study link text.
-
-italian-attempts-to-sell-light-cruisers.html
-- Apply Yasakuni header/title styling, replace article with Colleoni text, rename title and breadcrumb, add NH 80948 photograph.
+Batch 120 - 29 October 2026
 
 sale-of-italian-warships-to-sweden.html
-- New illustrated case study with supplied article, price table and source acknowledgement; standardise Alberico da Barbiano spelling.
+- Italicise caption and class names; correct MAS numbers to 506, 508, 511 and 524; replace cruiser discussion and add paragraph on Swedish purchases of Italian cruiser and battleship designs.
+
+swedish-attempt-to-purchase-uss-pensacola.html
+- New case study using supplied text and photograph NH 97838.
+
+warship-export-case-studies.html
+- Add proposed USA-to-Sweden transfer of Pensacola, Heavy Cruiser, 1940, linked to the new article.
+
+whats-new.html
+- Add Pensacola case study at the top of Recent Updates, dated 29 October 2026.
+
+index.html
+- Add Pensacola case study at the top of home page updates; remove Museo Naval, Madrid; retain five items.
+
+taiwan-destroyer-te-yang-sarsfield-tainan.html
+- Apply Yasakuni museum layout; visited 24 December 2024; first photograph becomes feature; website labelled Navy Destroyer Museum in top box and links.
+
+a-training-ship-for-siam-from-the-us.html
+- Apply Yasakuni header and title style; expand final paragraph explaining US treaty objections and link acquisition of ex-HMS Havant.
+
+hms-havant.html
+- Italicise Chao Phya, T-17 and PGM-116 in photograph caption.
 
 search.html
-- Load refreshed Batch 119 search index.
+- Load the refreshed Batch 120 search index.
 
-search-index-comprehensive-v89.js
-- Refresh updated pages and table records; index two new pages and four price-table rows. Total 322 pages and 56,975 rows.
+search-index-comprehensive-v90.js
+- Refresh changed pages and case study table; add Pensacola page and new transfer entry. Total 323 pages and 56,976 table rows.
