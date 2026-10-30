@@ -1,31 +1,16 @@
-Batch 120 - 29 October 2026
+Batch 121 - 30 October 2026
 
-sale-of-italian-warships-to-sweden.html
-- Italicise caption and class names; correct MAS numbers to 506, 508, 511 and 524; replace cruiser discussion and add paragraph on Swedish purchases of Italian cruiser and battleship designs.
+contemporary-articles.html
+- Add Motor Boat for the Navy, anon, Bangkok Times, 13-Aug-23. Total 3,298 records.
 
-swedish-attempt-to-purchase-uss-pensacola.html
-- New case study using supplied text and photograph NH 97838.
+national-archives-australia-files.html
+- Add C3390/1 cruiser estimate and tender records 30570908 and 30570933 with RecordSearch barcode links. Total 2,909 records.
 
-warship-export-case-studies.html
-- Add proposed USA-to-Sweden transfer of Pensacola, Heavy Cruiser, 1940, linked to the new article.
-
-whats-new.html
-- Add Pensacola case study at the top of Recent Updates, dated 29 October 2026.
-
-index.html
-- Add Pensacola case study at the top of home page updates; remove Museo Naval, Madrid; retain five items.
-
-taiwan-destroyer-te-yang-sarsfield-tainan.html
-- Apply Yasakuni museum layout; visited 24 December 2024; first photograph becomes feature; website labelled Navy Destroyer Museum in top box and links.
-
-a-training-ship-for-siam-from-the-us.html
-- Apply Yasakuni header and title style; expand final paragraph explaining US treaty objections and link acquisition of ex-HMS Havant.
-
-hms-havant.html
-- Italicise Chao Phya, T-17 and PGM-116 in photograph caption.
+south-korea-danjin-port-tourism-organisation-sapkyoho-ship-park.html
+- Apply Yasakuni museum layout; add museum website to top box; use PC260092 as feature photograph; retain two existing photographs and add eight more after report; append three links.
 
 search.html
-- Load the refreshed Batch 120 search index.
+- Load refreshed Batch 121 search index.
 
-search-index-comprehensive-v90.js
-- Refresh changed pages and case study table; add Pensacola page and new transfer entry. Total 323 pages and 56,976 table rows.
+search-index-comprehensive-v91.js
+- Refresh three changed pages and both tables, preserving unrelated data. Total 323 pages and 56,979 table rows.
