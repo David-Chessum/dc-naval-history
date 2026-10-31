@@ -1,16 +1,25 @@
-Batch 121 - 30 October 2026
+Batch 122 - 31 October 2026
 
-contemporary-articles.html
-- Add Motor Boat for the Navy, anon, Bangkok Times, 13-Aug-23. Total 3,298 records.
+persian-attempts-to-obtain-second-hand-warships.html
+- Add Persian second-hand warship article with italicised ship names and smaller final note.
 
-national-archives-australia-files.html
-- Add C3390/1 cruiser estimate and tender records 30570908 and 30570933 with RecordSearch barcode links. Total 2,909 records.
+warship-export-case-studies.html
+- Add Germany/Persia FM24 transfer and USA/Persia and Britain/Persia proposals, each linked to new article; preserve all 82 prior entries. Total 85 rows.
 
-south-korea-danjin-port-tourism-organisation-sapkyoho-ship-park.html
-- Apply Yasakuni museum layout; add museum website to top box; use PC260092 as feature photograph; retain two existing photographs and add eight more after report; append three links.
+ex-german-minesweepers.html
+- Link Persian Service cell to new article.
+
+whats-new.html
+- Add Persian article at top of Recent Updates, dated 31 October 2026.
+
+index.html
+- Add Persian article at top of updates; remove Deniz Müzesi and retain five entries.
+
+british-library-asian-and-african-studies.html
+- Add L/PS/12/3776 and L/PS/10/977, with separate TNA Discovery file-number and QDL title links. Total 71 rows.
 
 search.html
-- Load refreshed Batch 121 search index.
+- Load refreshed Batch 122 search index.
 
-search-index-comprehensive-v91.js
-- Refresh three changed pages and both tables, preserving unrelated data. Total 323 pages and 56,979 table rows.
+search-index-comprehensive-v92.js
+- Index new Persian article, six changed pages and five new table records. Total 324 pages and 56,984 table rows.

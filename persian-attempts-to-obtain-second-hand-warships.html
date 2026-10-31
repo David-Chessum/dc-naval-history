@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Persian attempts to obtain second hand warships | Naval History Research</title><style>
+:root {
+    --navy:#17324d;
+    --navy-dark:#102638;
+    --gold:#b08b3e;
+    --paper:#f5f1e8;
+    --ink:#242424;
+    --muted:#5f6770;
+    --line:#d5cfc2;
+    --white:#ffffff;
+}
+* { box-sizing:border-box; }
+body {
+    margin:0;
+    font-family:Georgia,"Times New Roman",serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.65;
+}
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}
+nav { background:var(--navy-dark); }
+.nav-inner {
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 1rem;
+}
+.nav-list {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+}
+.nav-list a {
+    display:block;
+    padding:.85rem .95rem;
+    color:#fff;
+    text-decoration:none;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:.82rem;
+    text-transform:uppercase;
+}
+.nav-list a:hover,.nav-list a:focus {
+    background:var(--gold);
+    outline:none;
+}
+main {
+    max-width:1180px;
+    margin:0 auto;
+    padding:2.5rem 1.5rem 4rem;
+}
+.breadcrumb {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:.85rem;
+    color:var(--muted);
+    margin-bottom:1.5rem;
+}
+.breadcrumb a { color:var(--navy); }
+.intro {
+    max-width:930px;
+}
+h2 {
+    color:var(--navy);
+    font-size:1.9rem;
+    font-weight:normal;
+    border-bottom:2px solid var(--gold);
+    padding-bottom:.35rem;
+    margin:2.8rem 0 1.2rem;
+}
+.intro h2 {
+    margin-top:0;
+    font-size:2rem;
+}
+.lead {
+    font-size:1.18rem;
+    color:#38424a;
+}
+.treaty-quote {
+    margin:1.5rem 0;
+    padding:1.35rem 1.6rem;
+    background:#fff;
+    border-left:5px solid var(--gold);
+    border-top:1px solid var(--line);
+    border-right:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    font-style:italic;
+}
+.intro a {
+    color:var(--navy);
+}
+.case-box {
+    background:#fff;
+    border:1px solid var(--line);
+    border-top:5px solid var(--navy);
+    padding:1.25rem 1.5rem;
+}
+.case-box ul {
+    columns:2;
+    column-gap:3rem;
+    margin:0;
+    padding-left:1.25rem;
+}
+.case-box li {
+    break-inside:avoid;
+    margin:.42rem 0;
+}
+.case-box a {
+    color:var(--navy);
+    text-decoration:none;
+}
+.case-box a:hover {
+    text-decoration:underline;
+}
+footer {
+    background:var(--navy-dark);
+    color:#d9dde0;
+    text-align:center;
+    padding:1.5rem;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:.85rem;
+}
+@media(max-width:700px) {
+    .nav-list a { padding:.7rem .65rem; font-size:.72rem; }
+    .case-box ul { columns:1; }
+}
+
+.article {max-width:930px;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.6rem 2rem 2rem;}
+.article h2 {margin-top:0;}
+.article p {margin:0 0 1.15rem;}
+.article blockquote {margin:1.4rem 0;padding:1rem 1.4rem;background:var(--paper);border-left:5px solid var(--gold);font-style:normal;}
+.article ul {margin:.3rem 0 1.2rem 1.3rem;padding-left:1.2rem;}
+.article li {margin:.35rem 0;}
+.case-nav {display:flex;justify-content:space-between;gap:1rem;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,Helvetica,sans-serif;font-size:.9rem;}
+.case-nav a {color:var(--navy);}
+@media(max-width:700px){.article{padding:1.2rem;}.case-nav{display:block}.case-nav a{display:block;margin:.6rem 0;}}
+
+.footer-links{margin:.15rem 0 .65rem}
+.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+
+.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}
+.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}
+.research-feedback p{margin:0;line-height:1.55}
+
+/* Step 6 feedback placement */
+.research-feedback{
+  display:block !important;
+  background:#fff !important;
+  margin:2rem 0 1.5rem 0 !important;
+  padding:1rem 1.15rem !important;
+  border:1px solid #d6d0c5 !important;
+  border-left:4px solid #244f73 !important;
+  border-radius:6px !important;
+  box-sizing:border-box !important;
+}
+
+.case-study-back{margin:1rem 0 0;font-weight:600}
+
+.article h2{margin:0 0 1.35rem;color:var(--navy);font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
+.case-photo{margin:0 0 1.5rem}.case-photo img{display:block;width:100%;height:auto}.case-photo figcaption{font-size:.86rem;margin-top:.35rem}
+@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.price-table-wrap{overflow-x:auto;margin:1rem 0 1.5rem}.price-table{width:100%;border-collapse:collapse}.price-table th,.price-table td{border:1px solid var(--line);padding:.65rem .8rem;text-align:left;vertical-align:top}.price-table th{background:var(--paper)}.source-note{font-size:.9rem;margin-top:2rem!important}
+</style><meta content="Persian attempts to obtain second-hand warships in the 1920s and 1930s." name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/persian-attempts-to-obtain-second-hand-warships.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="Persian attempts to obtain second hand warships | Naval History Research" property="og:title"/><meta content="Persian attempts to obtain second-hand warships in the 1920s and 1930s." property="og:description"/><meta content="https://dc-naval-history.com/persian-attempts-to-obtain-second-hand-warships.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="Persian attempts to obtain second hand warships | Naval History Research" name="twitter:title"/><meta content="Persian attempts to obtain second-hand warships in the 1920s and 1930s." name="twitter:description"/></head><body>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
+<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
+<li><a href="index.html">Home</a></li><li><a href="naval-arms-control.html">Documents</a></li><li><a href="publications.html">Publications</a></li><li><a href="tables.html">Tables</a></li><li><a href="links.html">Links</a></li><li><a href="library.html">Library</a></li><li><a href="museum-ship-reports.html">Naval Museums</a></li><li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul></div></nav>
+<main><div class="breadcrumb"><a href="index.html">Home</a> / <a href="warship-export-case-studies.html">Second-Hand Warship Export Case Studies</a> / Persian attempts to obtain second hand warships</div>
+<article class="article"><h2>Persian attempts to obtain second hand warships</h2>
+<p>In 1922, the principal units of the Persian Navy were two nineteenth century gunboats employed on revenue duties: <em>Persepolis</em> (1885, 1200t) and <em>Mazaffir</em> (1899, 379t), however by 1925 both of these vessels were immobile hulks.</p>
+<p>By 1924, the Persian Government had been in negotiation with the German government for several years to procure German warships, and a deal was practically closed for the purchase of three old torpedo boats, but when a special representative of the Prime Minister arrived in Berlin to finish the negotiations, he decided instead to acquire the minesweeper <em>FM24</em>. This boat had previously been sold on 7 April 1922 to an unknown buyer in Hamburg. Originally intended for deployment in the Caspian Sea, the Soviet Government refused permission for the gunboat to transit the Volga, so it was eventually transferred to the Persian Gulf, via the Mediterranean where it was armed in Naples, Italy on account of the arms export restrictions imposed upon Germany by the Treaty of Versailles. Initially named <em>Fatiya,</em> she had been renamed <em>Pahlavi</em> by the time she arrived in Iran on 18 December 1924, and subsequently renamed <em>Shahin</em> in 1935.</p>
+<p>On 28 November 1924, General Morteza Khan, the Military Governor of Teheran, sounded the US Charge d’Affaires out as to the possibility of the purchase by the Persian Government of a war vessel from the United States. On 13 January 1925, the State Department advised the Charge d’Affaires that it would not be possible for the United States to negotiate any such sale in view of the provisions of Article 18 of the Washington Naval Treaty.</p>
+<p>In late 1928, the Persian Government privately engaged the services of two Italian reserve naval officers, Commander De Zan and Commander Del Prato to take charge of the organisation, operations, and maintenance of a fleet of revenue cutters and other units which the Persian Government hoped to create in the Persian Gulf.</p>
+<p>An American consular report in February 1929 reported that the Persian Government had announced the intention to rebuild the navy. It was reported that it was hoped to procure five more vessels, and that dockyards would be developed. It was believed that the object of the navy was to chase smugglers - especially of arms, to enforce quarantine regulations, and to suppress the slave trade. It was reported that the Persian Government hoped that by policing the Persian Gulf itself, it would render less necessary the presence there of British patrols and consequently diminish British influence over the independent sheikhs in the region. The 1929-30 Persian budget included funding for “the purchase and repair of boats and expenses of foreign functionaries for the marine.” This ultimately led to the ordering from Italian yards of two 950-ton sloops (<em>Babr</em> and <em>Palang</em>) and four 331-ton motor patrol boats (<em>Charogh</em> class), later supplemented by six small motor gunboats also built in Italy.</p>
+<p>On 20 August 1929, Abdolhossein Teymourtash, Persia’s Minister of Court, in discussion with Sir R. Clive, British Minister in Teheran, made a suggestion that Britain offer the Persian Government free of charge four vessels of 1,000 tons, and six vessels of 200 tons, as one element of the compensation for recognising the independence of Bahrain. This request was re-iterated in writing on 31 March 1930.</p>
+<p>At a meeting on 1 April 1930, Clive told Teymourtash that there could be no question of Britain presenting the Persian Government with any ships at all, as this was precluded under the Washington Naval Treaty.</p>
+<p>It is not clear from the archival records whether Teymourtash was seeking new vessels or second-hand vessels. Discussions within the British Government appear to have interpreted it as a request for new vessels, however the record of the discussion held on 1 April 1930 appears to suggest that provision of second-hand vessels was envisaged. In the event no vessels were obtained from Britain.</p>
+<p class="source-note">Note. There are some discrepancies in the anglicised spelling of Persian warship names. <em>Pahlavi</em> is often spelt <em>Pehlevi</em> in contemporary documents, while <em>Shahin</em> is also sometimes spelt as <em>Shahan</em>.</p></article><section class="research-feedback"><h2>Can you add to this case study?</h2><p>If you have additional information, corrections, or relevant primary or secondary sources concerning these proposed transfers, please use the <a href="contact.html">Contact page</a>.</p></section><p class="case-study-back"><a href="warship-export-case-studies.html">Back to Second-Hand Warship Export Case Studies</a></p></main>
+<footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>© Dr David Chessum. Naval History of Interwar Naval Arms Control.</footer></body></html>
