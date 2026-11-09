@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>US Warships for Mexico | Naval History Research</title><style>
+:root {
+    --navy:#17324d;
+    --navy-dark:#102638;
+    --gold:#b08b3e;
+    --paper:#f5f1e8;
+    --ink:#242424;
+    --muted:#5f6770;
+    --line:#d5cfc2;
+    --white:#ffffff;
+}
+* { box-sizing:border-box; }
+body {
+    margin:0;
+    font-family:Georgia,"Times New Roman",serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.65;
+}
+.site-header {
+    background:var(--navy);
+    color:#fff;
+    border-bottom:5px solid var(--gold);
+}
+.header-inner {
+    max-width:1180px;
+    margin:0 auto;
+    padding:2.3rem 1.5rem 1.9rem;
+}
+.site-title {
+    margin:0;
+    font-size:clamp(1.9rem,3.6vw,3rem);
+    font-weight:normal;
+}
+.site-subtitle {
+    margin:.55rem 0 0;
+    color:#e5dfd2;
+}
+nav { background:var(--navy-dark); }
+.nav-inner {
+    max-width:1180px;
+    margin:0 auto;
+    padding:0 1rem;
+}
+.nav-list {
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+}
+.nav-list a {
+    display:block;
+    padding:.85rem .95rem;
+    color:#fff;
+    text-decoration:none;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:.82rem;
+    text-transform:uppercase;
+}
+.nav-list a:hover,.nav-list a:focus {
+    background:var(--gold);
+    outline:none;
+}
+main {
+    max-width:1180px;
+    margin:0 auto;
+    padding:2.5rem 1.5rem 4rem;
+}
+.breadcrumb {
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:.85rem;
+    color:var(--muted);
+    margin-bottom:1.5rem;
+}
+.breadcrumb a { color:var(--navy); }
+.intro {
+    max-width:930px;
+}
+h2 {
+    color:var(--navy);
+    font-size:1.9rem;
+    font-weight:normal;
+    border-bottom:2px solid var(--gold);
+    padding-bottom:.35rem;
+    margin:2.8rem 0 1.2rem;
+}
+.intro h2 {
+    margin-top:0;
+    font-size:2rem;
+}
+.lead {
+    font-size:1.18rem;
+    color:#38424a;
+}
+.treaty-quote {
+    margin:1.5rem 0;
+    padding:1.35rem 1.6rem;
+    background:#fff;
+    border-left:5px solid var(--gold);
+    border-top:1px solid var(--line);
+    border-right:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    font-style:italic;
+}
+.intro a {
+    color:var(--navy);
+}
+.case-box {
+    background:#fff;
+    border:1px solid var(--line);
+    border-top:5px solid var(--navy);
+    padding:1.25rem 1.5rem;
+}
+.case-box ul {
+    columns:2;
+    column-gap:3rem;
+    margin:0;
+    padding-left:1.25rem;
+}
+.case-box li {
+    break-inside:avoid;
+    margin:.42rem 0;
+}
+.case-box a {
+    color:var(--navy);
+    text-decoration:none;
+}
+.case-box a:hover {
+    text-decoration:underline;
+}
+footer {
+    background:var(--navy-dark);
+    color:#d9dde0;
+    text-align:center;
+    padding:1.5rem;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:.85rem;
+}
+@media(max-width:700px) {
+    .nav-list a { padding:.7rem .65rem; font-size:.72rem; }
+    .case-box ul { columns:1; }
+}
+
+.article {max-width:930px;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.6rem 2rem 2rem;}
+.article h2 {margin-top:0;}
+.article p {margin:0 0 1.15rem;}
+.article blockquote {margin:1.4rem 0;padding:1rem 1.4rem;background:var(--paper);border-left:5px solid var(--gold);font-style:normal;}
+.article ul {margin:.3rem 0 1.2rem 1.3rem;padding-left:1.2rem;}
+.article li {margin:.35rem 0;}
+.article-photos{display:flex;gap:1rem;align-items:flex-start;margin:0 0 1.5rem;}
+.article-photo{flex:1 1 0;margin:0;}
+.article-photo img{display:block;width:100%;height:auto;border:1px solid var(--line);}
+.article-photo figcaption{margin-top:.45rem;font-size:.86rem;line-height:1.35;color:var(--muted);}
+@media(max-width:700px){.article-photos{display:block}.article-photo{margin-bottom:1rem;}}
+
+.case-nav {display:flex;justify-content:space-between;gap:1rem;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,Helvetica,sans-serif;font-size:.9rem;}
+.case-nav a {color:var(--navy);}
+@media(max-width:700px){.article{padding:1.2rem;}.case-nav{display:block}.case-nav a{display:block;margin:.6rem 0;}}
+
+.footer-links{margin:.15rem 0 .65rem}
+.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+
+.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}
+.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}
+.research-feedback p{margin:0;line-height:1.55}
+
+/* Step 6 feedback placement */
+.research-feedback{
+  display:block !important;
+  background:#fff !important;
+  margin:2rem 0 1.5rem 0 !important;
+  padding:1rem 1.15rem !important;
+  border:1px solid #d6d0c5 !important;
+  border-left:4px solid #244f73 !important;
+  border-radius:6px !important;
+  box-sizing:border-box !important;
+}
+
+.case-study-back{margin:1rem 0 0;font-weight:600}
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
+@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+</style><meta content="Case study of Mexican attempts to acquire former US warships and naval guns in 1923-24." name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/us-warships-for-mexico.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="US Warships for Mexico | Naval History Research" property="og:title"/><meta content="Case study of Mexican attempts to acquire former US warships and naval guns in 1923-24." property="og:description"/><meta content="https://dc-naval-history.com/us-warships-for-mexico.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="US Warships for Mexico | Naval History Research" name="twitter:title"/><meta content="Case study of Mexican attempts to acquire former US warships and naval guns in 1923-24." name="twitter:description"/></head><body>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
+<nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
+<li><a href="index.html">Home</a></li><li><a href="naval-arms-control.html">Documents</a></li><li><a href="publications.html">Publications</a></li><li><a href="tables.html">Tables</a></li><li><a href="links.html">Links</a></li><li><a href="library.html">Library</a></li><li><a href="museum-ship-reports.html">Naval Museums</a></li><li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul></div></nav>
+<main><div class="breadcrumb"><a href="index.html">Home</a> / <a href="warship-export-case-studies.html">Second-Hand Warship Export Case Studies</a> / US Warships for Mexico</div><article class="article"><h1 class="page-title">US Warships for Mexico</h1><p>In late 1923/early 1924, the Mexican Navy sought to purchase army equipment and several light naval craft of gunboat or destroyer type in response to a rebellion then occurring in Vera Cruz.</p>
+<p>This was not possible as the WNT specifically forbade the signatory powers from disposing of any war craft in any manner which would permit them to become a part of the naval forces of any country.  Agents of the Mexican government then searched the harbours of the US for privately owned vessels suitable for their naval purposes.  Included in these craft were numerous old destroyers, gunboats and cruisers stricken from the USN lists and sold at auction.  Many of these had been sold in 1919 and 1920, before the Washington Conference, and their sales contracts imposed no restrictions that would have prevented resale to Mexico or any other Government.  Most of these had been sold for scrap, but a few had either been converted for alternate uses, or were still in the same configuration as when they were taken over from the Navy Department.</p>
+<p>On 15 December 1923, the Mexican Foreign Office inquired whether the US would consider the immediate sale to the Mexican government of two discarded naval cruisers. On 17 December the US State Department responded advising that under the Washington Naval Treaty the US Government was prohibited from the sale of any vessel of war to any foreign government.</p>
+<p>On 26 December 1923, the Mexican Chargé d’Affaires met with the US Secretary of State to ask whether the US would be prepared to sell merchant vessels which could be used as vessels of war. The Secretary of State replied that while the Naval Treaty only related to the disposition of vessels of war, the selling of merchant ships with the knowledge that they were acquired and immediately to be used as vessels of war would conflict with the spirit of the treaty which the US Government was very desirous to maintain. The Chargé d’Affaires then asked if the US would be willing to sell Mexico guns which Mexico could put upon ships already owned by the Mexican Government.</p>
+<p>The owners of several ships which the Mexican Government had sought to buy made enquiries with the US Federal Government, asking for an indication of the Governments attitude relative to such sales.  On 22 January the Mexican newspaper <em>El Universal</em>, published a statement that the Mexican Government had purchased “ships sufficient in numbers and strength to clean Mexican waters of shipping that is outside Government Authority.”  This article did not specify where these ships had been obtained, and by 24 January, US Administration Officials were being quoted as indicating that sale to the Government of Mexico by American citizens of vessels intended to be added as fighting craft to the Mexican navy would be in spirit, if not in letter, a violation of the conception of the treaty obligations of the US.  The next day, the <em>New York Times</em> reported that owners of ex-US warships were disposed to defer to the wishes of the US Government in this regard.  The same article also copied a report from Mexico City that naval units were on their way to the US to man destroyers recently purchased.</p>
+<p>On 11 January 1924, a Mexican navy engineer, Manuel Escudero, accompanied by Captain Carlos A. Ferrer of the Mexican navy, arrived in San Antonio under the orders of the Minister of War and Marine of Mexico to inspect and receive three ex-USN destroyers which had been purchased for the Mexican Navy.  The identities and current locations of these destroyers were not disclosed, and Escudero stated that the destroyers would be manned by their present crews until they arrived in a Mexican port, when they would be replaced with Mexican officers and sailors, and the ship re-registered.   Escudero also advised that the destroyers would be used to blockade the port of Vera Cruz, which was held by rebels.</p>
+<p>On 17 January 1924 Mr W.H. Field, who was apparently a promoter in Mexico and Latin-America generally, called at the State Department to present informally a plan of the Mexican Government to borrow some six-inch guns for use on an old Russian cruiser they were negotiating for in New York.  The cruiser, when equipped with the six-inch guns, was to be used at Vera Cruz.  Field reported that he had seen the Secretary of the Navy (Denby), and that Denby was willing to lend the guns if the State Department was willing. Field had also presented his suggestion to the Mexican Consul General at New York, and he was “very enthusiastic” about it.  The identify of this Russian cruiser has not been established, and no such transaction occurred.</p>
+<p>The USS<em> Vulcan (AC-5)</em> was a collier/repair ship built for the United States Navy in 1908-09, which had been sold on 12 December 1923.  On 14 January 1924, the US State Department (Division of Mexican Affairs) received a request from a private US company to arm <em>Vulcan</em> with six-inch guns to be furnished by the US Navy, for sale to the Mexican Government. On 16 January 1924, the State Department advised that they could not approve the sale.</p>
+<p>On 18 January 1924, an American named Donald Campbell followed up with a letter to the US Secretary of State on behalf of the owners of the <em>Vulcan</em>, advising that he had requested the cooperation of the Division of Mexican Affairs to secure six naval guns, ammunition for same, and any action necessary to facilitate the transfer of <em>Vulcan</em> to the recognised Government of Mexico.  These requests had been denied, and Campbell advised that it had been suggested that the proposed sale, while in legal conformity with the terms of the Washington Naval Treaty, may be a moral violation of the terms of that instrument. Campbell asked for reconsideration of his requests, and appropriate steps to be taken to secure the cooperation of the Navy Department in furnishing the guns. On 28 January Campbell followed up with a further letter arguing that <em>Vulcan </em>was not and had never been a vessel of war.</p>
+<p>On 30 January 1924, the State Department replied stating that “in view of the provisions of Article 18 of the Treaty of Limitation of Armaments signed at Washington, and the spirit of that Treaty, this Government cannot view with favor, and is not in a position to approve the proposed sale of the former <em>USS Vulcan </em>of any other former United States naval vessels; nor can this Government approve the sale of United States naval guns for the purpose or arming private vessels which the Mexican Government may purchase in this country.”</p>
+
+<p>On 18 January 1924, the Mexican Government advised that Mr Perry Hitner, representative of the Philadelphia shipowners, had offered for sale to the Mexican Government four former USN destroyers now at Philadelphia, with the understanding that the ownership and acceptance of the vessels, guns and ammunition by the Mexican Government occur in Philadelphia.  The Mexican Government requested that arrangements be made through the US State Department to have these vessels sail from Philadelphia to Tampico under the American flag. On 22 Jan the State Department responded that in view of the Washington Naval Treaty, the US Government was not in a position to approve the proposed sale of former USN destroyers to Mexico, nor could they assist with the delivery of the vessels.</p>
+<p>In parallel with the request from the Mexican government, Hitner wrote directly to the Secretary of State on 21 January 1924, asking for permission to sell to Mexico the four ex-USN destroyers <em>Flusser, Lamson, Reid </em>and <em>Preston</em>, together with the ex-USN cruiser <em>Columbia.  </em>The four destroyers had been sold by the Navy Department in November 1919 without any restriction on the future sale.  <em>Columbia </em>had been sold in 1922.  The purchaser had been advised on 28 January 1922 that the award had been made to them, and an agreement between the purchaser and the Navy Department had been entered into on 24 February 1924.  The sale agreement included a clause that the purchasers agreed not to dispose of <em>Columbia </em>for use in the Navy of any foreign power.  In addition to permission to sell the five vessels to Mexico, Hitner asked for permission to purchase from either private contractors or the Navy Department guns and ammunition provided that they do not exceed in calibre and size the guns originally in place on these vessels, and permission to install any guns that can be so obtained upon the vessels.</p>
+<p>On 22 Jan the State Department responded to the Mexican Government that in view of the Washington Naval Treaty, the US Government was not in a position to approve the proposed sale of former USN destroyers to Mexico, nor could they assist with the delivery of the vessels.  On 23 January the Acting Secretary of State replied to Hitner along the same lines.</p>
+<p>On 23 January the US Chargé d’Affaires in Mexico sent an urgent telegram to the Secretary of State forwarding an inquiry by Mexico as to whether the sale may proceed in spite of the fact that the Government cannot view with favor and is not in a position to approve, etc. and Hitner called on the State Department on Washington the same day with the same question. On 29 January, the Secretary of State replied confirming its decision of 22 January.</p>
+<p>On 25 January, the <em>New York Times</em> reported that Mexican agents that had arrived in Philadelphia with a complete set of officers for the crew of one destroyer. This is believed to be a reference to Hitner.</p>
+<p>On 26 January 1924 Hitner went back with an alternative proposal, requesting permission to purchase for sale to the Mexican Government, not more than four small merchant vessels, which had never been in the service of the Navy of any Government whatsoever, and also permission to purchase from the Navy Department not more than six 3-inch guns, complete with ammunition, for each vessel. On 30 January, the State Department replied that the US Government could not regard with favor or approve the sale of US naval guns for the purpose of arming merchant vessels with a view to their purchase by the Mexican Government.</p>
+<p>But on 18 March 1924 Hitner went back to the State Department with a request for approval to sell to the Mexican Government six 3-inch/23 calibre semi-automatic guns complete with mounts, sights and spare parts, and a total of 3,146 rounds of 3-inch ammunition.  On 26 March 1924, Hitner was advised that his request had been approved. On 28 March, the Mexican Secretary of Foreign Affairs advised the US Ambassador-designate that the guns were desired for the purpose of being mounted on transport vessels to be used in conveying troops to Progreso for the purpose of driving the rebels from Yucatan.</p>
+<p>While Mexico’s attempts to procure warships in the United States in 1923-24 proved to be frustrating, she did achieve success elsewhere. On 19 April 1924, Mexico successfully purchased the old coastal battleship <em><a href="https://dc-naval-history.com/sale-of-coast-defence-ship-deodoro.html">Deodoro</a> </em>from Brazil, which was renamed <em>Anahuac </em>in Mexican service.</p></article><section class="research-feedback"><h2>Can you add to this case study?</h2><p>If you have additional information, corrections, or relevant primary or secondary sources concerning these proposed transfers, please use the <a href="contact.html">Contact page</a>.</p></section><p class="case-study-back"><a href="warship-export-case-studies.html">Back to Second-Hand Warship Export Case Studies</a></p></main>
+<footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>© Dr David Chessum. Naval History of Interwar Naval Arms Control.</footer></body></html>
