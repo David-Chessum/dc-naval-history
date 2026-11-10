@@ -7,3 +7,4 @@ Upload search.html and search-index-comprehensive-v94.js to the website root. Re
 Merge the old minesweeper page address into its current address and refresh its twelve table records. Page-text and matching-table results now appear together in one result. The old website redirect remains unchanged.
 
 Search index v94: 323 distinct pages and 56,984 table records.
+
