@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Documents on British Foreign Policy</title>
+<style>
+:root {
+ --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e;
+ --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2;
+}
+* { box-sizing:border-box; }
+body {
+ margin:0; background:var(--paper); color:var(--ink);
+ font-family:Georgia,"Times New Roman",serif; line-height:1.5;
+}
+.site-header { background:var(--navy); color:white; border-bottom:5px solid var(--gold); }
+.header-inner { max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }
+.site-title { margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }
+.site-subtitle { margin:.55rem 0 0; color:#e5dfd2; }
+nav { background:var(--navy-dark); }
+.nav-inner { max-width:1180px; margin:auto; padding:0 1rem; }
+.nav-list { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }
+.nav-list a {
+ display:block; padding:.85rem .95rem; color:white; text-decoration:none;
+ font-family:Arial,Helvetica,sans-serif; font-size:.82rem; text-transform:uppercase;
+}
+.nav-list a:hover { background:var(--gold); }
+main { max-width:1400px; margin:auto; padding:2.5rem 1.5rem 4rem; }
+.breadcrumb {
+ font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+ color:var(--muted); margin-bottom:1.5rem;
+}
+.breadcrumb a { color:var(--navy); }
+h2 {
+ color:var(--navy); font-size:2rem; font-weight:normal;
+ border-bottom:2px solid var(--gold); padding-bottom:.35rem; margin:0 0 1rem;
+}
+.intro { max-width:1050px; margin-bottom:2rem; }
+.intro a, td a { color:var(--navy); }
+.table-wrap { overflow-x:auto; }
+table {
+ width:100%; border-collapse:collapse; background:white;
+ border:1px solid var(--line); table-layout:fixed;
+}
+th {
+ background:var(--navy); color:white; text-align:left;
+ padding:.75rem .7rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+ border-right:1px solid #c7c0b3;
+}
+th:last-child { border-right:0; }
+td {
+ vertical-align:top; padding:.65rem .7rem;
+ border-bottom:1px solid #e6e0d4; border-right:1px solid var(--line);
+ overflow-wrap:anywhere;
+}
+td:last-child { border-right:0; }
+tbody tr:nth-child(even) td { background:#faf8f3; }
+tbody tr:hover td { background:#f0eadf; }
+th:nth-child(1), td:nth-child(1) { width:18%; }
+th:nth-child(2), td:nth-child(2) { width:7%; }
+th:nth-child(3), td:nth-child(3) { width:75%; }
+.back-link { margin-top:1.5rem; font-family:Arial,Helvetica,sans-serif; }
+.back-link a { color:var(--navy); }
+footer {
+ background:var(--navy-dark); color:#d9dde0; text-align:center;
+ padding:1.5rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+}
+
+.corrections-box{
+  margin:1.5rem 0;
+  padding:1rem 1.2rem;
+  background:#faf8f3;
+  border:1px solid var(--line);
+  border-left:5px solid var(--gold);
+}
+.corrections-box h3{margin:0 0 .45rem;color:var(--navy);font-weight:normal}
+.corrections-box p{margin:0}
+.corrections-box a{color:var(--navy)}
+
+.controls{background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.15rem 1.25rem;margin:1.25rem 0 1.5rem}
+.controls h3{margin:0 0 .85rem;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-size:1rem}
+.control-grid{display:grid;grid-template-columns:minmax(280px,1fr) auto auto;gap:.9rem 1rem;align-items:end}
+.controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-size:.74rem;font-weight:bold;text-transform:uppercase;color:var(--muted)}
+.controls input,.controls select{width:100%;margin-top:.25rem;padding:.62rem .65rem;border:1px solid #b8b2a7;background:#fff;color:var(--ink);font:inherit}
+.controls button{padding:.67rem .9rem;border:1px solid #9d9689;background:#fff;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-weight:bold;cursor:pointer}
+.controls button:hover,.controls button:focus{background:#f0eadf}
+.table-meta{margin:.5rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted)}
+.pagination{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
+.pagination button{min-width:2.2rem;padding:.4rem .55rem}
+@media(max-width:760px){.control-grid{grid-template-columns:1fr}}
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
+<nav aria-label="Main navigation">
+<div class="nav-inner">
+<ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Documents</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Naval Museums</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul>
+</div>
+</nav>
+<main>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / Documents on British Foreign Policy</div>
+<section class="intro"><h1 class="page-title">Documents on British Foreign Policy</h1>
+<p>Documents on British Foreign Policy, 1919-1939 (DBFP) is the official published collection of selected British diplomatic documents covering the interwar period. It comprises 64 volumes published between 1946 and 1986. Drawing principally on Foreign Office records, the collection makes available contemporary correspondence, telegrams, memoranda and records of diplomatic discussions concerning the formulation and conduct of British foreign policy between the aftermath of the First World War and the outbreak of the Second.</p><p>Individual volumes concentrate on particular regions, international conferences or diplomatic questions, rather than providing a single chronological narrative. The collection is arranged in four series:</p><ul><li>Series 1: 1919-25</li><li>Series 1A: 1925-30</li><li>Series 2: 1929-38</li><li>Series 3: 1938-39</li></ul><p>Most of the volumes are available online via Archive.org, and the individual volumes in the list below have been hyperlinked to an Archive.org copy where one has been identified. In the event of broken links, or if you locate an online copy of one that I have missed, please use the <a href="https://dc-naval-history.com/contact.html" target="_blank" rel="noopener">contact page.</a></p></section>
+<section class="controls" aria-label="Documents on British Foreign Policy filters">
+<h3>Search / Sort / Filter</h3>
+<div class="control-grid">
+<label>Filter by Volume Title<input id="filterChapter" placeholder="Enter keyword" type="text"/></label>
+<button id="clearFilter" type="button">Clear Filter</button>
+<label>Entries per page<select id="pageSize"><option>25</option><option selected>50</option><option>100</option><option>250</option><option value="0">All</option></select></label>
+</div>
+</section>
+<div class="table-meta" aria-live="polite" id="resultCount"></div>
+<div class="pagination">
+<button id="topfirstPage" type="button">First</button>
+<button id="topprevPage" type="button">Previous</button>
+<span id="toppageInfo"></span>
+<button id="topnextPage" type="button">Next</button>
+<button id="toplastPage" type="button">Last</button>
+</div>
+<div class="table-wrap">
+<table id="dbfpTable">
+<thead><tr><th>Series</th><th>Volume</th><th>Title</th></tr></thead>
+<tbody id="dbfpBody">
+<tr><td>First Series 1919-1925</td><td>1</td><td><a href="https://dn790006.ca.archive.org/0/items/in.ernet.dli.2015.276400/2015.276400.Documents-On.pdf" target="_blank" rel="noopener">Proceedings of the Supreme Council July-October 1919.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>2</td><td><a href="https://dn721807.ca.archive.org/0/items/in.ernet.dli.2015.276401/2015.276401.Documents-On.pdf" target="_blank" rel="noopener">Proceedings of the Supreme Council October 1919 - January 1920. Meetings in London and Paris of Allied Ministers December 1919 - January 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>3</td><td><a href="https://dn710605.ca.archive.org/0/items/in.ernet.dli.2015.275040/2015.275040.Documents-On.pdf" target="_blank" rel="noopener">Withdrawal of German forces from the Baltic Provinces July-December 1919. Policy of H.M.G. with regard to Russia, May 1919 - March 1920. Eastern Galicia, June - December 1919.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>4</td><td><a href="https://ia801002.us.archive.org/30/items/doc-brit-foreign-policy-1-s-v-4/DocBritForeignPolicy1SV4.pdf" target="_blank" rel="noopener">Adriatic and the Near East 1919 - February 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>5</td><td><a href="https://dn790001.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-5/DocBritForeignPolicy1SV5.pdf" target="_blank" rel="noopener">Western Europe, June 1919 - January 1920 and Viscount Grey&#x27;s mission to Washington, August - December 1919.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>6</td><td><a href="https://dn790002.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-6/DocBritForeignPolicy1SV6.pdf" target="_blank" rel="noopener">Central Europe, June 1919 - January 1920 and HMG&#x27;s Relations with Japan, June 1919 - April 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>7</td><td><a href="https://dn790009.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-7/DocBritForeignPolicy1SV7.pdf" target="_blank" rel="noopener">First Conference of London, February - April 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>8</td><td><a href="https://dn790003.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-8/DocBritForeignPolicy1SV8.pdf" target="_blank" rel="noopener">Conversations and Conferences, 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>9</td><td><a href="https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-9/DocBritForeignPolicy1SV9.pdf" target="_blank" rel="noopener">German Affairs, 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>10</td><td><a href="https://ia600502.us.archive.org/30/items/doc-brit-foreign-policy-1-s-v-10/DocBritForeignPolicy1SV10.pdf" target="_blank" rel="noopener">German Affairs and Plebiscites, 1920.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>11</td><td><a href="https://ia600509.us.archive.org/9/items/doc-brit-foreign-policy-1-s-v-11/DocBritForeignPolicy1SV11.pdf" target="_blank" rel="noopener">Plebiscite in Upper Silesia, January 1920 - March 1921, and Poland, Danzig and the Baltic States, January 1920 - March 1921.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>12</td><td><a href="https://dn720701.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-12/DocBritForeignPolicy1SV12.pdf" target="_blank" rel="noopener">Western and Central Europe and the Balkan States, 1920; Transcaucasia and Russia, February 1920 - March 1921.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>13</td><td><a href="https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-13/DocBritForeignPolicy1SV13.pdf" target="_blank" rel="noopener">Near East, February 1920 - March 1921.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>14</td><td><a href="https://dn760002.eu.archive.org/0/items/doc-brit-foreign-policy-1-s-v-14/DocBritForeignPolicy1SV14.pdf" target="_blank" rel="noopener">Far Eastern affairs 1920-22.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>15</td><td><a href="https://dn710109.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-15/DocBritForeignPolicy1SV15.pdf" target="_blank" rel="noopener">International Conferences and Conversations 1921.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>16</td><td><a href="https://dn760009.eu.archive.org/0/items/doc-brit-foreign-policy-1-s-v-16/DocBritForeignPolicy1SV16.pdf" target="_blank" rel="noopener">Upper Silesia 1921-2 and Germany 1921.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>17</td><td><a href="https://dn760005.eu.archive.org/0/items/doc-brit-foreign-policy-1-s-v-17/DocBritForeignPolicy1SV17.pdf" target="_blank" rel="noopener">Greece and Turkey 1921-22.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>18</td><td><a href="https://ia801408.us.archive.org/27/items/doc-brit-foreign-policy-1-s-v-18/DocBritForeignPolicy1SV18.pdf" target="_blank" rel="noopener">Greece and Turkey 1922-23.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>19</td><td><a href="https://dn790009.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-19/DocBritForeignPolicy1SV19.pdf" target="_blank" rel="noopener">The Conferences of Cannes, Genoa and the Hague 1922.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>20</td><td>German Reparations and Allied Military Control 1922 and Russia, March 1921 - December 1922.</td></tr>
+<tr><td>First Series 1919-1925</td><td>21</td><td><a href="https://dn721909.ca.archive.org/0/items/order1793-searchable/order1793-searchable.pdf" target="_blank" rel="noopener">German Reparations and Military Control 1923.</a></td></tr>
+<tr><td>First Series 1919-1925</td><td>22</td><td>Central Europe and the Balkans 1921 and Albania 1921-2.</td></tr>
+<tr><td>First Series 1919-1925</td><td>23</td><td>Poland and the Balkan states 1921-23.</td></tr>
+<tr><td>First Series 1919-1925</td><td>24</td><td>Anglo-Italian Conversations 1922 and Central Europe and the Balkans 1922-23.</td></tr>
+<tr><td>First Series 1919-1925</td><td>25</td><td>Russia 1923-25 and the Baltic States 1924-25.</td></tr>
+<tr><td>First Series 1919-1925</td><td>26</td><td>Central Europe and the Balkans; German Reparation and Allied Military Control, 1924.</td></tr>
+<tr><td>First Series 1919-1925</td><td>27</td><td><a href="https://dn721805.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-27/DocBritForeignPolicy1SV27.pdf" target="_blank" rel="noopener">Germany 1925 and the Locarno Treaty.</a></td></tr>
+<tr><td>Series 1A 1925-1930</td><td>1</td><td><a href="https://ia903104.us.archive.org/21/items/doc-brit-foreign-policy-1a-s-v-1/DocBritForeignPolicy1ASV1.pdf" target="_blank" rel="noopener">The Aftermath of Locarno 1925-26.</a></td></tr>
+<tr><td>Series 1A 1925-1930</td><td>2</td><td><a href="https://dn760009.eu.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-2/DocBritForeignPolicy1ASV2.pdf" target="_blank" rel="noopener">The Termination of Military Control in Germany and Middle East and American Questions 1926-27.</a></td></tr>
+<tr><td>Series 1A 1925-1930</td><td>3</td><td>European and Naval Questions 1922.</td></tr>
+<tr><td>Series 1A 1925-1930</td><td>4</td><td><a href="https://dn721909.ca.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-4/DocBritForeignPolicy1ASV4.pdf" target="_blank" rel="noopener">European and Security Questions 1927-28.</a></td></tr>
+<tr><td>Series 1A 1925-1930</td><td>5</td><td><a href="https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-5/DocBritForeignPolicy1ASV5.pdf" target="_blank" rel="noopener">European and Security Questions 1928.</a></td></tr>
+<tr><td>Series 1A 1925-1930</td><td>6</td><td><a href="https://ia601409.us.archive.org/6/items/doc-brit-foreign-policy-1a-s-v-6/DocBritForeignPolicy1ASV6.pdf" target="_blank" rel="noopener">The Young Report and the Hague Conference: Security Questions 1928-29.</a></td></tr>
+<tr><td>Series 1A 1925-1930</td><td>7</td><td><a href="https://dn760008.eu.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-7/DocBritForeignPolicy1ASV7.pdf" target="_blank" rel="noopener">German, Austrian and Middle East Questions 1929-30.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>1</td><td><a href="https://dn711002.ca.archive.org/0/items/in.ernet.dli.2015.98557/2015.98557.Documents-On-British-Foreign-Policy-1919-1939.pdf" target="_blank" rel="noopener">London Naval Conference and European affairs 1929-31.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>2</td><td><a href="https://dn790008.ca.archive.org/0/items/in.ernet.dli.2015.100335/2015.100335.Documents-On-British-Foreign-Policy-1919-1939.pdf" target="_blank" rel="noopener">Austrian and German affairs and the world monetary crisis 1931.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>3</td><td><a href="https://dn790007.ca.archive.org/0/items/in.ernet.dli.2015.276398/2015.276398.Documents-On.pdf" target="_blank" rel="noopener">Reparations and disarmament 1931-32.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>4</td><td>The disarmament conference and the internal situation in Germany 1932-33.</td></tr>
+<tr><td>Second Series 1929-1938</td><td>5</td><td><a href="https://dn760004.eu.archive.org/0/items/doc-brit-foreign-policy-2-s-v-5/DocBritForeignPolicy2SV5.pdf" target="_blank" rel="noopener">European affairs and war debts March - October 1933.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>6</td><td><a href="https://dn790000.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-6/DocBritForeignPolicy2SV6.pdf" target="_blank" rel="noopener">European affairs and war debts October 1933 - August 1934.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>7</td><td><a href="https://ia800903.us.archive.org/30/items/doc-brit-foreign-policy-2-s-v-7/DocBritForeignPolicy2SV7.pdf" target="_blank" rel="noopener">Anglo-Soviet relations 1929-34.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>8</td><td><a href="https://dn760106.eu.archive.org/0/items/doc-brit-foreign-policy-2-s-v-8/DocBritForeignPolicy2SV8.pdf" target="_blank" rel="noopener">Chinese affairs and Japanese action in Manchuria 1929-31.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>9</td><td><a href="https://dn721500.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-9/DocBritForeignPolicy2SV9.pdf" target="_blank" rel="noopener">The Far Eastern crisis 1931-32.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>10</td><td><a href="https://dn760104.eu.archive.org/0/items/doc-brit-foreign-policy-2-s-v-10/DocBritForeignPolicy2SV10.pdf" target="_blank" rel="noopener">Far Eastern affairs March - October 1932.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>11</td><td><a href="https://dn790002.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-11/DocBritForeignPolicy2SV11.pdf" target="_blank" rel="noopener">Far Eastern affairs October 1932 - June 1933.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>12</td><td><a href="https://dn721507.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-12/DocBritForeignPolicy2SV12.pdf" target="_blank" rel="noopener">European affairs August 1934 - April 1935.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>13</td><td><a href="https://dn721709.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-13/DocBritForeignPolicy2SV13.pdf" target="_blank" rel="noopener">Naval policy and defence requirements July 1934 - March 1936.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>14</td><td>The Italo-Ethiopian dispute March 1934 - October 1935.</td></tr>
+<tr><td>Second Series 1929-1938</td><td>15</td><td><a href="https://dn790003.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-15/DocBritForeignPolicy2SV15.pdf" target="_blank" rel="noopener">The Italo-Ethiopian war and German affairs October 1935 - February 1936.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>16</td><td><a href="https://dn790007.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-16/DocBritForeignPolicy2SV16.pdf" target="_blank" rel="noopener">The Rhineland crisis and the ending of sanctions March - July 1936.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>17</td><td><a href="https://dn710103.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-17/DocBritForeignPolicy2SV17.pdf" target="_blank" rel="noopener">Western Pact Negotiations: Outbreak of Spanish Civil War, June 1936 - January 1937.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>18</td><td>European Affairs, January - June 1937.</td></tr>
+<tr><td>Second Series 1929-1938</td><td>19</td><td><a href="https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-19/DocBritForeignPolicy2SV19.pdf" target="_blank" rel="noopener">European Affairs, July 1937 - August 1938.</a></td></tr>
+<tr><td>Second Series 1929-1938</td><td>20</td><td>Far Eastern Affairs, May 1933 - November 1936.</td></tr>
+<tr><td>Second Series 1929-1938</td><td>21</td><td>Far Eastern Affairs, November 1936 - July 1938.</td></tr>
+<tr><td>Third Series 1938-1939</td><td>1</td><td><a href="https://ia601604.us.archive.org/1/items/in.ernet.dli.2015.275035/2015.275035.Documents-On.pdf" target="_blank" rel="noopener">The German invasion of Austria and the first phase of the Czechoslovak crisis, March - July 1938.</a></td></tr>
+<tr><td>Third Series 1938-1939</td><td>2</td><td>The Development of the Czechoslovak crisis from the Runciman Mission to the Munich Conference, July - September 1938.</td></tr>
+<tr><td>Third Series 1938-1939</td><td>3</td><td><a href="https://ia601606.us.archive.org/15/items/doc-brit-foreign-policy-3-s-v-3/DocBritForeignPolicy3SV3.pdf" target="_blank" rel="noopener">Polish and Hungarian claims on Czechoslovak territory; the enforcement by Germany of the Munich Agreement; Anglo-Italian Relations: September 1938 - January 1939.</a></td></tr>
+<tr><td>Third Series 1938-1939</td><td>4</td><td><a href="https://dn760007.eu.archive.org/0/items/doc-brit-foreign-policy-3-s-v-4/DocBritForeignPolicy3SV4.pdf" target="_blank" rel="noopener">Hopes of general European appeasement abandoned; attempts are made to form a &#x27;common front&#x27; against further German aggression, January - April 1939.</a></td></tr>
+<tr><td>Third Series 1938-1939</td><td>5</td><td><a href="https://dn760005.eu.archive.org/0/items/doc-brit-foreign-policy-3-s-v-5/DocBritForeignPolicy3SV5.pdf" target="_blank" rel="noopener">Increasing German threats to Poland and British efforts to create a common front against further German and Italian aggression, April - June 1939.</a></td></tr>
+<tr><td>Third Series 1938-1939</td><td>6</td><td>An important phase in Anglo-Franco-Soviet negotiations; Anglo-Turkish negotiations; and the German menace to Poland, June - August 1939.</td></tr>
+<tr><td>Third Series 1938-1939</td><td>7</td><td>Unsuccessful attempts to deter Germany from aggression against Poland; diplomatic exchanges immediately preceding the British declaration of war on Germany, August - September 1939.</td></tr>
+<tr><td>Third Series 1938-1939</td><td>8</td><td><a href="https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-3-s-v-8/DocBritForeignPolicy3SV8.pdf" target="_blank" rel="noopener">Policy in the Far East; attitude of H.M.G. towards the Sino-Japanese conflict; interaction of events in the Far East and Western Europe, August 1938 - April 1939.</a></td></tr>
+<tr><td>Third Series 1938-1939</td><td>9</td><td><a href="https://ia600801.us.archive.org/11/items/doc-brit-foreign-policy-3-s-v-9/DocBritForeignPolicy3SV9.pdf" target="_blank" rel="noopener">Policy in the Far East during the five months preceding the outbreak of war in Europe, April - September 1939.</a></td></tr>
+<tr><td>Third Series 1938-1939</td><td>10</td><td><a href="https://dn790001.ca.archive.org/0/items/doc-brit-foreign-policy-3-s-v-10/DocBritForeignPolicy3SV10.pdf" target="_blank" rel="noopener">Index</a>.</td></tr>
+</tbody>
+</table>
+</div>
+<div class="pagination">
+<button id="firstPage" type="button">First</button>
+<button id="prevPage" type="button">Previous</button>
+<span id="pageInfo"></span>
+<button id="nextPage" type="button">Next</button>
+<button id="lastPage" type="button">Last</button>
+</div>
+<section class="corrections-box" aria-label="Corrections and additions welcome">
+<h3>Corrections and additions welcome</h3>
+<p>If you identify additional entries that are relevant, or have information to correct an entry in this index, please use the <a href="contact.html">Contact page</a>.</p>
+</section>
+<p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
+</main>
+<footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+<script>
+const frusRows=["<tr><td>First Series 1919-1925</td><td>1</td><td><a href=\"https://dn790006.ca.archive.org/0/items/in.ernet.dli.2015.276400/2015.276400.Documents-On.pdf\" target=\"_blank\" rel=\"noopener\">Proceedings of the Supreme Council July-October 1919.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>2</td><td><a href=\"https://dn721807.ca.archive.org/0/items/in.ernet.dli.2015.276401/2015.276401.Documents-On.pdf\" target=\"_blank\" rel=\"noopener\">Proceedings of the Supreme Council October 1919 - January 1920. Meetings in London and Paris of Allied Ministers December 1919 - January 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>3</td><td><a href=\"https://dn710605.ca.archive.org/0/items/in.ernet.dli.2015.275040/2015.275040.Documents-On.pdf\" target=\"_blank\" rel=\"noopener\">Withdrawal of German forces from the Baltic Provinces July-December 1919. Policy of H.M.G. with regard to Russia, May 1919 - March 1920. Eastern Galicia, June - December 1919.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>4</td><td><a href=\"https://ia801002.us.archive.org/30/items/doc-brit-foreign-policy-1-s-v-4/DocBritForeignPolicy1SV4.pdf\" target=\"_blank\" rel=\"noopener\">Adriatic and the Near East 1919 - February 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>5</td><td><a href=\"https://dn790001.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-5/DocBritForeignPolicy1SV5.pdf\" target=\"_blank\" rel=\"noopener\">Western Europe, June 1919 - January 1920 and Viscount Grey&#x27;s mission to Washington, August - December 1919.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>6</td><td><a href=\"https://dn790002.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-6/DocBritForeignPolicy1SV6.pdf\" target=\"_blank\" rel=\"noopener\">Central Europe, June 1919 - January 1920 and HMG&#x27;s Relations with Japan, June 1919 - April 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>7</td><td><a href=\"https://dn790009.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-7/DocBritForeignPolicy1SV7.pdf\" target=\"_blank\" rel=\"noopener\">First Conference of London, February - April 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>8</td><td><a href=\"https://dn790003.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-8/DocBritForeignPolicy1SV8.pdf\" target=\"_blank\" rel=\"noopener\">Conversations and Conferences, 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>9</td><td><a href=\"https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-9/DocBritForeignPolicy1SV9.pdf\" target=\"_blank\" rel=\"noopener\">German Affairs, 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>10</td><td><a href=\"https://ia600502.us.archive.org/30/items/doc-brit-foreign-policy-1-s-v-10/DocBritForeignPolicy1SV10.pdf\" target=\"_blank\" rel=\"noopener\">German Affairs and Plebiscites, 1920.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>11</td><td><a href=\"https://ia600509.us.archive.org/9/items/doc-brit-foreign-policy-1-s-v-11/DocBritForeignPolicy1SV11.pdf\" target=\"_blank\" rel=\"noopener\">Plebiscite in Upper Silesia, January 1920 - March 1921, and Poland, Danzig and the Baltic States, January 1920 - March 1921.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>12</td><td><a href=\"https://dn720701.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-12/DocBritForeignPolicy1SV12.pdf\" target=\"_blank\" rel=\"noopener\">Western and Central Europe and the Balkan States, 1920; Transcaucasia and Russia, February 1920 - March 1921.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>13</td><td><a href=\"https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-13/DocBritForeignPolicy1SV13.pdf\" target=\"_blank\" rel=\"noopener\">Near East, February 1920 - March 1921.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>14</td><td><a href=\"https://dn760002.eu.archive.org/0/items/doc-brit-foreign-policy-1-s-v-14/DocBritForeignPolicy1SV14.pdf\" target=\"_blank\" rel=\"noopener\">Far Eastern affairs 1920-22.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>15</td><td><a href=\"https://dn710109.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-15/DocBritForeignPolicy1SV15.pdf\" target=\"_blank\" rel=\"noopener\">International Conferences and Conversations 1921.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>16</td><td><a href=\"https://dn760009.eu.archive.org/0/items/doc-brit-foreign-policy-1-s-v-16/DocBritForeignPolicy1SV16.pdf\" target=\"_blank\" rel=\"noopener\">Upper Silesia 1921-2 and Germany 1921.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>17</td><td><a href=\"https://dn760005.eu.archive.org/0/items/doc-brit-foreign-policy-1-s-v-17/DocBritForeignPolicy1SV17.pdf\" target=\"_blank\" rel=\"noopener\">Greece and Turkey 1921-22.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>18</td><td><a href=\"https://ia801408.us.archive.org/27/items/doc-brit-foreign-policy-1-s-v-18/DocBritForeignPolicy1SV18.pdf\" target=\"_blank\" rel=\"noopener\">Greece and Turkey 1922-23.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>19</td><td><a href=\"https://dn790009.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-19/DocBritForeignPolicy1SV19.pdf\" target=\"_blank\" rel=\"noopener\">The Conferences of Cannes, Genoa and the Hague 1922.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>20</td><td>German Reparations and Allied Military Control 1922 and Russia, March 1921 - December 1922.</td></tr>", "<tr><td>First Series 1919-1925</td><td>21</td><td><a href=\"https://dn721909.ca.archive.org/0/items/order1793-searchable/order1793-searchable.pdf\" target=\"_blank\" rel=\"noopener\">German Reparations and Military Control 1923.</a></td></tr>", "<tr><td>First Series 1919-1925</td><td>22</td><td>Central Europe and the Balkans 1921 and Albania 1921-2.</td></tr>", "<tr><td>First Series 1919-1925</td><td>23</td><td>Poland and the Balkan states 1921-23.</td></tr>", "<tr><td>First Series 1919-1925</td><td>24</td><td>Anglo-Italian Conversations 1922 and Central Europe and the Balkans 1922-23.</td></tr>", "<tr><td>First Series 1919-1925</td><td>25</td><td>Russia 1923-25 and the Baltic States 1924-25.</td></tr>", "<tr><td>First Series 1919-1925</td><td>26</td><td>Central Europe and the Balkans; German Reparation and Allied Military Control, 1924.</td></tr>", "<tr><td>First Series 1919-1925</td><td>27</td><td><a href=\"https://dn721805.ca.archive.org/0/items/doc-brit-foreign-policy-1-s-v-27/DocBritForeignPolicy1SV27.pdf\" target=\"_blank\" rel=\"noopener\">Germany 1925 and the Locarno Treaty.</a></td></tr>", "<tr><td>Series 1A 1925-1930</td><td>1</td><td><a href=\"https://ia903104.us.archive.org/21/items/doc-brit-foreign-policy-1a-s-v-1/DocBritForeignPolicy1ASV1.pdf\" target=\"_blank\" rel=\"noopener\">The Aftermath of Locarno 1925-26.</a></td></tr>", "<tr><td>Series 1A 1925-1930</td><td>2</td><td><a href=\"https://dn760009.eu.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-2/DocBritForeignPolicy1ASV2.pdf\" target=\"_blank\" rel=\"noopener\">The Termination of Military Control in Germany and Middle East and American Questions 1926-27.</a></td></tr>", "<tr><td>Series 1A 1925-1930</td><td>3</td><td>European and Naval Questions 1922.</td></tr>", "<tr><td>Series 1A 1925-1930</td><td>4</td><td><a href=\"https://dn721909.ca.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-4/DocBritForeignPolicy1ASV4.pdf\" target=\"_blank\" rel=\"noopener\">European and Security Questions 1927-28.</a></td></tr>", "<tr><td>Series 1A 1925-1930</td><td>5</td><td><a href=\"https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-5/DocBritForeignPolicy1ASV5.pdf\" target=\"_blank\" rel=\"noopener\">European and Security Questions 1928.</a></td></tr>", "<tr><td>Series 1A 1925-1930</td><td>6</td><td><a href=\"https://ia601409.us.archive.org/6/items/doc-brit-foreign-policy-1a-s-v-6/DocBritForeignPolicy1ASV6.pdf\" target=\"_blank\" rel=\"noopener\">The Young Report and the Hague Conference: Security Questions 1928-29.</a></td></tr>", "<tr><td>Series 1A 1925-1930</td><td>7</td><td><a href=\"https://dn760008.eu.archive.org/0/items/doc-brit-foreign-policy-1a-s-v-7/DocBritForeignPolicy1ASV7.pdf\" target=\"_blank\" rel=\"noopener\">German, Austrian and Middle East Questions 1929-30.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>1</td><td><a href=\"https://dn711002.ca.archive.org/0/items/in.ernet.dli.2015.98557/2015.98557.Documents-On-British-Foreign-Policy-1919-1939.pdf\" target=\"_blank\" rel=\"noopener\">London Naval Conference and European affairs 1929-31.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>2</td><td><a href=\"https://dn790008.ca.archive.org/0/items/in.ernet.dli.2015.100335/2015.100335.Documents-On-British-Foreign-Policy-1919-1939.pdf\" target=\"_blank\" rel=\"noopener\">Austrian and German affairs and the world monetary crisis 1931.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>3</td><td><a href=\"https://dn790007.ca.archive.org/0/items/in.ernet.dli.2015.276398/2015.276398.Documents-On.pdf\" target=\"_blank\" rel=\"noopener\">Reparations and disarmament 1931-32.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>4</td><td>The disarmament conference and the internal situation in Germany 1932-33.</td></tr>", "<tr><td>Second Series 1929-1938</td><td>5</td><td><a href=\"https://dn760004.eu.archive.org/0/items/doc-brit-foreign-policy-2-s-v-5/DocBritForeignPolicy2SV5.pdf\" target=\"_blank\" rel=\"noopener\">European affairs and war debts March - October 1933.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>6</td><td><a href=\"https://dn790000.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-6/DocBritForeignPolicy2SV6.pdf\" target=\"_blank\" rel=\"noopener\">European affairs and war debts October 1933 - August 1934.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>7</td><td><a href=\"https://ia800903.us.archive.org/30/items/doc-brit-foreign-policy-2-s-v-7/DocBritForeignPolicy2SV7.pdf\" target=\"_blank\" rel=\"noopener\">Anglo-Soviet relations 1929-34.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>8</td><td><a href=\"https://dn760106.eu.archive.org/0/items/doc-brit-foreign-policy-2-s-v-8/DocBritForeignPolicy2SV8.pdf\" target=\"_blank\" rel=\"noopener\">Chinese affairs and Japanese action in Manchuria 1929-31.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>9</td><td><a href=\"https://dn721500.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-9/DocBritForeignPolicy2SV9.pdf\" target=\"_blank\" rel=\"noopener\">The Far Eastern crisis 1931-32.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>10</td><td><a href=\"https://dn760104.eu.archive.org/0/items/doc-brit-foreign-policy-2-s-v-10/DocBritForeignPolicy2SV10.pdf\" target=\"_blank\" rel=\"noopener\">Far Eastern affairs March - October 1932.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>11</td><td><a href=\"https://dn790002.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-11/DocBritForeignPolicy2SV11.pdf\" target=\"_blank\" rel=\"noopener\">Far Eastern affairs October 1932 - June 1933.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>12</td><td><a href=\"https://dn721507.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-12/DocBritForeignPolicy2SV12.pdf\" target=\"_blank\" rel=\"noopener\">European affairs August 1934 - April 1935.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>13</td><td><a href=\"https://dn721709.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-13/DocBritForeignPolicy2SV13.pdf\" target=\"_blank\" rel=\"noopener\">Naval policy and defence requirements July 1934 - March 1936.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>14</td><td>The Italo-Ethiopian dispute March 1934 - October 1935.</td></tr>", "<tr><td>Second Series 1929-1938</td><td>15</td><td><a href=\"https://dn790003.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-15/DocBritForeignPolicy2SV15.pdf\" target=\"_blank\" rel=\"noopener\">The Italo-Ethiopian war and German affairs October 1935 - February 1936.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>16</td><td><a href=\"https://dn790007.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-16/DocBritForeignPolicy2SV16.pdf\" target=\"_blank\" rel=\"noopener\">The Rhineland crisis and the ending of sanctions March - July 1936.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>17</td><td><a href=\"https://dn710103.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-17/DocBritForeignPolicy2SV17.pdf\" target=\"_blank\" rel=\"noopener\">Western Pact Negotiations: Outbreak of Spanish Civil War, June 1936 - January 1937.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>18</td><td>European Affairs, January - June 1937.</td></tr>", "<tr><td>Second Series 1929-1938</td><td>19</td><td><a href=\"https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-2-s-v-19/DocBritForeignPolicy2SV19.pdf\" target=\"_blank\" rel=\"noopener\">European Affairs, July 1937 - August 1938.</a></td></tr>", "<tr><td>Second Series 1929-1938</td><td>20</td><td>Far Eastern Affairs, May 1933 - November 1936.</td></tr>", "<tr><td>Second Series 1929-1938</td><td>21</td><td>Far Eastern Affairs, November 1936 - July 1938.</td></tr>", "<tr><td>Third Series 1938-1939</td><td>1</td><td><a href=\"https://ia601604.us.archive.org/1/items/in.ernet.dli.2015.275035/2015.275035.Documents-On.pdf\" target=\"_blank\" rel=\"noopener\">The German invasion of Austria and the first phase of the Czechoslovak crisis, March - July 1938.</a></td></tr>", "<tr><td>Third Series 1938-1939</td><td>2</td><td>The Development of the Czechoslovak crisis from the Runciman Mission to the Munich Conference, July - September 1938.</td></tr>", "<tr><td>Third Series 1938-1939</td><td>3</td><td><a href=\"https://ia601606.us.archive.org/15/items/doc-brit-foreign-policy-3-s-v-3/DocBritForeignPolicy3SV3.pdf\" target=\"_blank\" rel=\"noopener\">Polish and Hungarian claims on Czechoslovak territory; the enforcement by Germany of the Munich Agreement; Anglo-Italian Relations: September 1938 - January 1939.</a></td></tr>", "<tr><td>Third Series 1938-1939</td><td>4</td><td><a href=\"https://dn760007.eu.archive.org/0/items/doc-brit-foreign-policy-3-s-v-4/DocBritForeignPolicy3SV4.pdf\" target=\"_blank\" rel=\"noopener\">Hopes of general European appeasement abandoned; attempts are made to form a &#x27;common front&#x27; against further German aggression, January - April 1939.</a></td></tr>", "<tr><td>Third Series 1938-1939</td><td>5</td><td><a href=\"https://dn760005.eu.archive.org/0/items/doc-brit-foreign-policy-3-s-v-5/DocBritForeignPolicy3SV5.pdf\" target=\"_blank\" rel=\"noopener\">Increasing German threats to Poland and British efforts to create a common front against further German and Italian aggression, April - June 1939.</a></td></tr>", "<tr><td>Third Series 1938-1939</td><td>6</td><td>An important phase in Anglo-Franco-Soviet negotiations; Anglo-Turkish negotiations; and the German menace to Poland, June - August 1939.</td></tr>", "<tr><td>Third Series 1938-1939</td><td>7</td><td>Unsuccessful attempts to deter Germany from aggression against Poland; diplomatic exchanges immediately preceding the British declaration of war on Germany, August - September 1939.</td></tr>", "<tr><td>Third Series 1938-1939</td><td>8</td><td><a href=\"https://dn790008.ca.archive.org/0/items/doc-brit-foreign-policy-3-s-v-8/DocBritForeignPolicy3SV8.pdf\" target=\"_blank\" rel=\"noopener\">Policy in the Far East; attitude of H.M.G. towards the Sino-Japanese conflict; interaction of events in the Far East and Western Europe, August 1938 - April 1939.</a></td></tr>", "<tr><td>Third Series 1938-1939</td><td>9</td><td><a href=\"https://ia600801.us.archive.org/11/items/doc-brit-foreign-policy-3-s-v-9/DocBritForeignPolicy3SV9.pdf\" target=\"_blank\" rel=\"noopener\">Policy in the Far East during the five months preceding the outbreak of war in Europe, April - September 1939.</a></td></tr>", "<tr><td>Third Series 1938-1939</td><td>10</td><td><a href=\"https://dn790001.ca.archive.org/0/items/doc-brit-foreign-policy-3-s-v-10/DocBritForeignPolicy3SV10.pdf\" target=\"_blank\" rel=\"noopener\">Index</a>.</td></tr>"];
+let currentPage=1;
+function chapterText(row){
+ const cells=row.match(/<td>(.*?)<\/td>/g)||[];
+ return cells[2] ? cells[2].replace(/<[^>]*>/g,' ').replace(/&quot;/g,'"').replace(/&amp;/g,'&').toLowerCase() : '';
+}
+function filteredRows(){
+ const q=document.getElementById('filterChapter').value.trim().toLowerCase();
+ const rows=frusRows.filter(r=>!q||chapterText(r).includes(q));
+ return rows;
+}
+function render(){
+ const filtered=filteredRows();
+ const n=Number(document.getElementById('pageSize').value);
+ const size=n===0?Math.max(filtered.length,1):n;
+ const pages=Math.max(1,Math.ceil(filtered.length/size));
+ if(currentPage>pages)currentPage=pages;
+ const start=(currentPage-1)*size;
+ document.getElementById('dbfpBody').innerHTML=filtered.slice(start,start+size).join('');
+ document.getElementById('resultCount').textContent=`${filtered.length} of ${frusRows.length} records shown`;
+ document.getElementById('toppageInfo').textContent=`Page ${currentPage} of ${pages}`;
+ document.getElementById('pageInfo').textContent=`Page ${currentPage} of ${pages}`;
+ document.getElementById('firstPage').disabled=currentPage<=1;
+ document.getElementById('prevPage').disabled=currentPage<=1;
+ document.getElementById('nextPage').disabled=currentPage>=pages;
+ document.getElementById('lastPage').disabled=currentPage>=pages;
+ ['firstPage','prevPage','nextPage','lastPage'].forEach(id=>{document.getElementById('top'+id).disabled=document.getElementById(id).disabled;});
+}
+document.getElementById('filterChapter').addEventListener('input',()=>{currentPage=1;render();});
+document.getElementById('clearFilter').addEventListener('click',()=>{document.getElementById('filterChapter').value='';currentPage=1;render();});
+document.getElementById('pageSize').addEventListener('change',()=>{currentPage=1;render();});
+document.getElementById('firstPage').addEventListener('click',()=>{currentPage=1;render();});
+document.getElementById('prevPage').addEventListener('click',()=>{if(currentPage>1)currentPage--;render();});
+document.getElementById('nextPage').addEventListener('click',()=>{currentPage++;render();});
+document.getElementById('lastPage').addEventListener('click',()=>{const f=filteredRows(),n=Number(document.getElementById('pageSize').value);currentPage=n===0?1:Math.max(1,Math.ceil(f.length/n));render();});
+['firstPage','prevPage','nextPage','lastPage'].forEach(id=>document.getElementById('top'+id).addEventListener('click',()=>document.getElementById(id).click()));
+render();
+</script>
+</body>
+</html>

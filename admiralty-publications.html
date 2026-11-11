@@ -163,10 +163,6 @@ footer {
   font-size:.86rem;
   color:var(--muted);
 }
-.admiralty-pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif;}
-.admiralty-pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer;font:inherit;}
-.admiralty-pagination button:hover:not([disabled]){background:var(--navy-dark);}
-.admiralty-pagination button[disabled]{opacity:.45;cursor:default;}
 .research-feedback{margin-bottom:1.5rem !important;}
 @media(max-width:1000px){
   .control-grid{grid-template-columns:repeat(2,minmax(180px,1fr))}
@@ -199,7 +195,9 @@ footer {
   z-index:1
 }
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}.pagination{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
+.pagination button{min-width:2.2rem;padding:.4rem .55rem}
+</style>
 <meta content="Index and electronic copies of British Admiralty publications." name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/admiralty-publications.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="Admiralty Publications | Naval History Document Archive" property="og:title"/><meta content="Index and electronic copies of British Admiralty publications." property="og:description"/><meta content="https://dc-naval-history.com/admiralty-publications.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="Admiralty Publications | Naval History Document Archive" name="twitter:title"/><meta content="Index and electronic copies of British Admiralty publications." name="twitter:description"/></head>
 <body>
 <header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
@@ -258,7 +256,8 @@ Admiralty Publications
 <button id="clearFilters" type="button">Clear Filters</button>
 </div>
 </div>
-</section><div class="table-meta"><div aria-live="polite" id="resultCount"></div></div><table id="admiraltyPublicationsTable">
+</section><div class="table-meta"><div aria-live="polite" id="resultCount"></div></div><div class="pagination"><button id="topPageFirst" type="button">First</button><button id="topPagePrevious" type="button">Previous</button><span id="topPageInfo"></span><button id="topPageNext" type="button">Next</button><button id="topPageLast" type="button">Last</button></div>
+<table id="admiraltyPublicationsTable">
 <thead>
 <tr>
 <th>Publication Number</th>
@@ -846,7 +845,7 @@ Admiralty Publications
 <tr><td>CB 04211/45 (6)</td><td>Fighting Experience. Volume III. Part VI</td><td>Nov-45</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2053786" rel="noopener" target="_blank">ADM 239/342</a></td></tr>
 <tr><td>CB 04211/46</td><td>Fighting Experience. Volume IV</td><td>1946</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2053787" rel="noopener" target="_blank">ADM 239/343</a></td></tr>
 <tr><td>CB 4237 (Extract only)</td><td>[Bucknill Report]</td><td></td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2053793" rel="noopener" target="_blank">ADM 239/349</a></td></tr>
-<tr><td>CB 4273 (52) (later BR 1886 (2))</td><td>H.M Ships Damaged or Sunk by Enemy Action 3rd Sept. 1939 to 2nd Sept 1945</td><td>1952</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2096352" rel="noopener" target="_blank">ADM 234/444</a></td></tr>
+<tr><td>CB 4273 (52) (later BR 1886 (2))</td><td><a href="https://archive.org/details/shipsdamagedsunkenemy" rel="noopener" target="_blank">H.M Ships Damaged or Sunk by Enemy Action 3rd Sept. 1939 to 2nd Sept 1945</a></td><td>1952</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2096352" rel="noopener" target="_blank">ADM 234/444</a></td></tr>
 <tr><td>CB 04335</td><td>Aircraft Carrier Handbook</td><td>1943</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2053805" rel="noopener" target="_blank">ADM 239/361</a></td></tr>
 <tr><td>CB 04484</td><td>Guard Cover for Aircraft Carrier Handbook</td><td></td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2053825" rel="noopener" target="_blank">ADM 239/381</a></td></tr>
 <tr><td>CB 04484</td><td>Aircraft Carrier Handbook</td><td>1958</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2053931" rel="noopener" target="_blank">ADM 239/487</a></td></tr>
@@ -1086,13 +1085,15 @@ Admiralty Publications
 <tr><td>NN</td><td><a href="https://archive.org/details/cu31924029543083" rel="noopener" target="_blank">Admiralty Library. Subject Catalogue of Printed Books. Part I. Historical Section</a></td><td>1912</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://dn790002.ca.archive.org/0/items/admiraltymanualoftidesimages/AdmiraltyManualOfTides_Images.pdf" rel="noopener" target="_blank">Admiralty Manual of Tides</a></td><td>1941</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Allied Signal Manual</td><td>1918</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2488724" rel="noopener" target="_blank">ADM 186/744</a></td></tr>
+<tr><td>NN</td><td><a href="https://ia600509.us.archive.org/26/items/arkroyal-etc/ArkRoyalEtc.pdf" rel="noopener" target="_blank"><em>Ark Royal</em>. The Admiralty Account of her Achievement</a></td><td>1942</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Aspects of the German Naval War - Written by two German Naval Staff Officers attached to the Historical Section of the German Naval Headquarters</td><td>1947</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Battle of Jutland. 30th May to 1st June 1916. Official Despatches with Appendices</td><td>n.d.</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C4210968" rel="noopener" target="_blank">CAB 16/37/4</a></td></tr>
 <tr><td>NN</td><td>British Merchant Vessels Lost or Damaged by Enemy Action during Second World War</td><td>1947</td><td>Not found</td></tr>
+<tr><td>NN</td><td><a href="https://ia801404.us.archive.org/27/items/brit-merchantmen-war/BritMerchantmenWar.pdf" rel="noopener" target="_blank">British Merchantmen at War. The Official Story of the Merchant Navy: 1939-1944</a></td><td>1944</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Dock Book. Fourth Edition</td><td>1900</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Drill Signal Table</td><td>1928</td><td>Not found</td></tr>
-<tr><td>NN</td><td>East of Malta. West of Suez. The Admiralty Account of the Naval War in the Eastern Mediterranean: September 1939 to March 1941</td><td>1943</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2709496" rel="noopener" target="_blank">STAT 14/233</a>?</td></tr>
-<tr><td>NN</td><td>Fleet Air Arm. The Admiralty Account of Naval Air Operations</td><td>1943</td><td></td></tr>
+<tr><td>NN</td><td><a href="https://dn721600.ca.archive.org/0/items/emalta-wsuez-39-43/EMaltaWSuez39-43.pdf" rel="noopener" target="_blank">East of Malta. West of Suez. The Admiralty Account of the Naval War in the Eastern Mediterranean: September 1939 to March 1941</a></td><td>1943</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C2709496" rel="noopener" target="_blank">STAT 14/233</a>?</td></tr>
+<tr><td>NN</td><td><a href="https://dn710207.ca.archive.org/0/items/fleetairarm/FleetAirArm.pdf" rel="noopener" target="_blank">Fleet Air Arm. The Admiralty Account of Naval Air Operations</a></td><td>1943</td><td></td></tr>
 <tr><td>NN</td><td>General Instructions for the Hydrographic Surveyors of the Admiralty</td><td>1909</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Grand Fleet Battle Instructions</td><td>1918</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C4115727" rel="noopener" target="_blank">ADM 137/4055</a></td></tr>
 <tr><td>NN</td><td>Gunnery Drill Book for His Majesty's Fleet</td><td>1909</td><td>Not found</td></tr>
@@ -1101,7 +1102,7 @@ Admiralty Publications
 <tr><td>NN</td><td><a href="https://ia800701.us.archive.org/9/items/b21533167/b21533167.pdf" rel="noopener" target="_blank">Handbook of Naval Cookery</a></td><td>1914</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Handbook on Ammunition</td><td>1905</td><td>Not found</td></tr>
 <tr><td>NN</td><td>His Majesty&#x27;s Minesweepers</td><td>1943</td><td>Not found</td></tr>
-<tr><td>NN</td><td>His Majesty&#x27;s Submarines</td><td>1945</td><td>Not found</td></tr>
+<tr><td>NN</td><td><a href="https://archive.org/details/hismajestyssubmarines/page/n11/mode/2up" rel="noopener" target="_blank">His Majesty&#x27;s Submarines</a></td><td>1945</td><td>Not found</td></tr>
 <tr><td>NN</td><td>HMS Duke of York Battle Book</td><td>1945</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://viewer.slv.vic.gov.au/?entity=IE5344850&amp;mode=browse" rel="noopener" target="_blank">HMS Vanguard and the Royal Voyage to South Africa</a></td><td>1946</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Home Fleet Gunnery and Torpedo Orders</td><td>1936</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C3673160" rel="noopener" target="_blank">ADM 116/4204</a></td></tr>
@@ -1113,6 +1114,7 @@ Admiralty Publications
 <tr><td>NN</td><td>List of His Majesty's Ships, Vessels, and Torpedo Boats engaged in the Naval Manoeuvres July 1901</td><td>1901</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://archive.org/details/instructionsickberthstaff1915" rel="noopener" target="_blank">Manual of Instruction for the Royal Naval Sick Berth Staff</a></td><td>1915</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Manual of Seamanship Vol. 1</td><td>1908 (Rev 1915)</td><td>Not found</td></tr>
+<tr><td>NN</td><td><a href="https://dn721602.ca.archive.org/0/items/oceanfront1945/OceanFront1945.pdf" rel="noopener" target="_blank">Ocean Front. The Story of the War in the Pacific</a></td><td>1945</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Papers carried by merchant vessels of the Principal Nations of the World</td><td>1912</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://rosetta.slv.vic.gov.au/delivery/DeliveryManagerServlet?dps_func=stream&amp;dps_pid=FL5508468" rel="noopener" target="_blank">Regulations for Carrying into effect the Act for the Royal Navy Artillery Volunteers</a></td><td>1889</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Regulations for the Royal Naval Reserve (Officers)</td><td>1922</td><td>Not found</td></tr>
@@ -1120,20 +1122,22 @@ Admiralty Publications
 <tr><td>NN</td><td><a href="https://rosetta.slv.vic.gov.au/delivery/DeliveryManagerServlet?dps_func=stream&amp;dps_pid=FL5891271" rel="noopener" target="_blank">Rifle and Field Exercises and Rifle Practice Instruction for Her Majesty's Fleet</a></td><td>1886</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://archive.org/details/rnvrregulations1923/1923RNVRRegulations/page/n3/mode/2up" rel="noopener" target="_blank">Royal Naval Volunteer Reserve [Regulations and Instructions]</a></td><td>1923</td><td></td></tr>
 <tr><td>NN</td><td><a href="https://ia801703.us.archive.org/1/items/rnvrregulations1923/1927RNVRRegulations.pdf" rel="noopener" target="_blank">Royal Naval Volunteer Reserve [Regulations and Instructions]</a></td><td>1927</td><td></td></tr>
-<tr><td>NN</td><td>The Battle of the River Plate</td><td>1940</td><td>Not found</td></tr>
+<tr><td>NN</td><td><a href="https://ia800505.us.archive.org/34/items/battleatlantic/%20BattleAtlantic.pdf" rel="noopener" target="_blank">The Battle of the Atlantic. The Official Account of the Fight Against the U-Boats 1939-1945</a></td><td>1946</td><td>Not found</td></tr>
+<tr><td>NN</td><td><a href="https://archive.org/details/battleriverplate/page/n3/mode/2up" rel="noopener" target="_blank">The Battle of the River Plate</a></td><td>1940</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://babel.hathitrust.org/cgi/pt?id=mdp.39015064563201&amp;seq=13" rel="noopener" target="_blank">The British Signal Manual authorised between His Majesty's Ships and British Merchant Vessels, British Merchant Vessels and one another, and Certain Signal Stations</a></td><td>1912</td><td>Not found</td></tr>
 <tr><td>NN</td><td>The Fleet Tactical Instructions (Home and Mediterranean Fleets)</td><td>1939</td><td><a href="https://discovery.nationalarchives.gov.uk/details/r/C3673160" rel="noopener" target="_blank">ADM 116/4204</a><br/><a href="https://discovery.nationalarchives.gov.uk/details/r/C3673771" rel="noopener" target="_blank">ADM 116/4712</a></td></tr>
 <tr><td>NN</td><td><a href="https://dn720005.ca.archive.org/0/items/royal-navy-regs-1906/RoyalNavyRegs1906.pdf" rel="noopener" target="_blank">The King's Regulations and Admiralty Instructions for the government of His Majesty's Naval Service. 1906</a></td><td>1906</td><td></td></tr>
 <tr><td>NN</td><td><a href="https://www.forposterityssake.ca/RCN-DOCS/KINGS-REGULATIONS-AND-ORDERS-1913.pdf" rel="noopener" target="_blank">The King's Regulations and Admiralty Instructions for the government of His Majesty's Naval Service. 1913. Volume 1</a></td><td>1913</td><td>Not found</td></tr>
 <tr><td>NN</td><td><a href="https://archive.org/details/kingsregadmiraltyv2-1923/page/n5/mode/2up" rel="noopener" target="_blank">The King's Regulations and Admiralty Instructions for the government of His Majesty's Naval Service. 1923. Volume II</a></td><td>1923</td><td></td></tr>
-<tr><td>NN</td><td>The Mediterranean Fleet. Greece to Tripoli. The Admiralty Account of Naval Operations: April 1941 to January 1943</td><td>1944</td><td></td></tr>
+<tr><td>NN</td><td>The Mediterranean Fleet. Greece to Tripoli. The Admiralty Account of Naval Operations: April 1941 to January 1943</td><td>1944</td><td>Not found</td></tr>
 <tr><td>NN</td><td>The Navy and the Y Scheme</td><td>1944</td><td>Not found</td></tr>
 <tr><td>NN</td><td>The Royal Navy Officer's Pocket-Book</td><td>1944</td><td>Not found</td></tr>
+<tr><td>NN</td><td><a href="https://dn710303.ca.archive.org/0/items/townclassdestroyers/TownClassDestroyers.pdf" rel="noopener" target="_blank">The &quot;Town&quot; Class Destroyers. The Story of the &quot;Four-Stackers&quot;. Records of Service of the Fifty Destroyers Transferred from the United States Navy to the Royal Navy or Royal Canadian Navy in September, 1940, for service in the Second World War</a></td><td>1949</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Torpedo Manual for His Majesty's Fleet. Volume I. Electricity and Magnetism, Electric Lighting and Machinery</td><td>1911</td><td>Not found</td></tr>
 <tr><td>NN</td><td>Use of Oil at Sea for modifying the effect of breaking waves</td><td>1886</td><td>Not found</td></tr>
 </tbody>
 </table>
-<div class="admiralty-pagination"><button id="previousPage" type="button">Previous</button><span id="pageInfo"></span><button id="nextPage" type="button">Next</button></div>
+<div class="pagination"><button id="bottomPageFirst" type="button">First</button><button id="bottomPagePrevious" type="button">Previous</button><span id="bottomPageInfo"></span><button id="bottomPageNext" type="button">Next</button><button id="bottomPageLast" type="button">Last</button></div>
 <p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
 <script>
 (function(){
@@ -1158,9 +1162,6 @@ Admiralty Publications
   const pageSize = document.getElementById('pageSize');
   const clearFilters = document.getElementById('clearFilters');
   const resultCount = document.getElementById('resultCount');
-  const previousPage = document.getElementById('previousPage');
-  const nextPage = document.getElementById('nextPage');
-  const pageInfo = document.getElementById('pageInfo');
   let currentPage = 1;
 
   const collator = new Intl.Collator(undefined, {numeric:true, sensitivity:'base'});
@@ -1188,6 +1189,7 @@ Admiralty Publications
     return collator.compare(a.publication,b.publication) || a.originalIndex-b.originalIndex;
   }
 
+  let lastPageNumber=1;
   function apply(resetPage=false){
     if(resetPage) currentPage = 1;
     const q = norm(searchTitle.value);
@@ -1210,15 +1212,22 @@ Admiralty Publications
     const start = (currentPage-1)*size;
     visible.slice(start,start+size).forEach(r => tbody.appendChild(r.tr));
     resultCount.textContent = `${visible.length.toLocaleString()} of ${rows.length.toLocaleString()} publications shown`;
-    pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-    previousPage.disabled = currentPage <= 1;
-    nextPage.disabled = currentPage >= totalPages;
+    ['topPage','bottomPage'].forEach(prefix=>{
+      document.getElementById(prefix+'Info').textContent=`Page ${currentPage} of ${totalPages}`;
+      ['First','Previous'].forEach(action=>document.getElementById(prefix+action).disabled=currentPage<=1);
+      ['Next','Last'].forEach(action=>document.getElementById(prefix+action).disabled=currentPage>=totalPages);
+    });
+    lastPageNumber=totalPages;
   }
 
   [searchTitle,filterPublication,filterTitle,filterTNA].forEach(el => el.addEventListener('input',() => apply(true)));
   [sortBy,pageSize].forEach(el => el.addEventListener('change',() => apply(true)));
-  previousPage.addEventListener('click',() => { if(currentPage > 1){ currentPage--; apply(); } });
-  nextPage.addEventListener('click',() => { currentPage++; apply(); });
+  ['topPage','bottomPage'].forEach(prefix=>{
+    document.getElementById(prefix+'First').addEventListener('click',()=>{currentPage=1;apply();});
+    document.getElementById(prefix+'Previous').addEventListener('click',()=>{currentPage=Math.max(1,currentPage-1);apply();});
+    document.getElementById(prefix+'Next').addEventListener('click',()=>{currentPage=Math.min(lastPageNumber,currentPage+1);apply();});
+    document.getElementById(prefix+'Last').addEventListener('click',()=>{currentPage=lastPageNumber;apply();});
+  });
   clearFilters.addEventListener('click',() => {
     searchTitle.value = '';
     filterPublication.value = '';
