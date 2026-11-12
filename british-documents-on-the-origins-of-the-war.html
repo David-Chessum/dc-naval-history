@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>British Documents on the Origins of the War</title>
+<style>
+:root {
+ --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e;
+ --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2;
+}
+* { box-sizing:border-box; }
+body {
+ margin:0; background:var(--paper); color:var(--ink);
+ font-family:Georgia,"Times New Roman",serif; line-height:1.5;
+}
+.site-header { background:var(--navy); color:white; border-bottom:5px solid var(--gold); }
+.header-inner { max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }
+.site-title { margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }
+.site-subtitle { margin:.55rem 0 0; color:#e5dfd2; }
+nav { background:var(--navy-dark); }
+.nav-inner { max-width:1180px; margin:auto; padding:0 1rem; }
+.nav-list { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }
+.nav-list a {
+ display:block; padding:.85rem .95rem; color:white; text-decoration:none;
+ font-family:Arial,Helvetica,sans-serif; font-size:.82rem; text-transform:uppercase;
+}
+.nav-list a:hover { background:var(--gold); }
+main { max-width:1400px; margin:auto; padding:2.5rem 1.5rem 4rem; }
+.breadcrumb {
+ font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+ color:var(--muted); margin-bottom:1.5rem;
+}
+.breadcrumb a { color:var(--navy); }
+h2 {
+ color:var(--navy); font-size:2rem; font-weight:normal;
+ border-bottom:2px solid var(--gold); padding-bottom:.35rem; margin:0 0 1rem;
+}
+.intro { max-width:1050px; margin-bottom:2rem; }
+.intro a, td a { color:var(--navy); }
+.table-wrap { overflow-x:auto; }
+table {
+ width:100%; border-collapse:collapse; background:white;
+ border:1px solid var(--line); table-layout:fixed;
+}
+th {
+ background:var(--navy); color:white; text-align:left;
+ padding:.75rem .7rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+ border-right:1px solid #c7c0b3;
+}
+th:last-child { border-right:0; }
+td {
+ vertical-align:top; padding:.65rem .7rem;
+ border-bottom:1px solid #e6e0d4; border-right:1px solid var(--line);
+ overflow-wrap:anywhere;
+}
+td:last-child { border-right:0; }
+tbody tr:nth-child(even) td { background:#faf8f3; }
+tbody tr:hover td { background:#f0eadf; }
+th:nth-child(1), td:nth-child(1) { width:15%; }
+th:nth-child(2), td:nth-child(2) { width:85%; }
+.back-link { margin-top:1.5rem; font-family:Arial,Helvetica,sans-serif; }
+.back-link a { color:var(--navy); }
+footer {
+ background:var(--navy-dark); color:#d9dde0; text-align:center;
+ padding:1.5rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
+}
+
+.corrections-box{
+  margin:1.5rem 0;
+  padding:1rem 1.2rem;
+  background:#faf8f3;
+  border:1px solid var(--line);
+  border-left:5px solid var(--gold);
+}
+.corrections-box h3{margin:0 0 .45rem;color:var(--navy);font-weight:normal}
+.corrections-box p{margin:0}
+.corrections-box a{color:var(--navy)}
+
+.controls{background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.15rem 1.25rem;margin:1.25rem 0 1.5rem}
+.controls h3{margin:0 0 .85rem;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-size:1rem}
+.control-grid{display:grid;grid-template-columns:minmax(280px,1fr) auto auto;gap:.9rem 1rem;align-items:end}
+.controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-size:.74rem;font-weight:bold;text-transform:uppercase;color:var(--muted)}
+.controls input,.controls select{width:100%;margin-top:.25rem;padding:.62rem .65rem;border:1px solid #b8b2a7;background:#fff;color:var(--ink);font:inherit}
+.controls button{padding:.67rem .9rem;border:1px solid #9d9689;background:#fff;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-weight:bold;cursor:pointer}
+.controls button:hover,.controls button:focus{background:#f0eadf}
+.table-meta{margin:.5rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted)}
+.pagination{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
+.pagination button{min-width:2.2rem;padding:.4rem .55rem}
+@media(max-width:760px){.control-grid{grid-template-columns:1fr}}
+.site-header{
+  background:#17324d;
+  color:#fff;
+  border-bottom:5px solid var(--gold);
+  position:relative;
+  overflow:hidden
+}
+.site-header:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:max(0px,calc((100% - 1180px)/2));
+  right:0;
+  background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 1.5rem;
+  min-height:min(27.536vw,325px);
+  position:relative;
+  z-index:1
+}
+.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
+<nav aria-label="Main navigation">
+<div class="nav-inner">
+<ul class="nav-list">
+<li><a href="index.html">Home</a></li>
+<li><a href="naval-arms-control.html">Documents</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="tables.html">Tables</a></li>
+<li><a href="links.html">Links</a></li>
+<li><a href="library.html">Library</a></li>
+<li><a href="museum-ship-reports.html">Naval Museums</a></li>
+<li><a href="warship-export-case-studies.html">Warship Export Case Studies</a></li>
+<li><a href="search.html">Search</a></li><li><a href="contact.html">Contact</a></li><li><a href="blog.html">Blog</a></li></ul>
+</div>
+</nav>
+<main>
+<div class="breadcrumb"><a href="index.html">Home</a> / <a href="naval-arms-control.html">Naval History Document Archive</a> / British Documents on the Origins of the War</div>
+<section class="intro"><h1 class="page-title">British Documents on the Origins of the War</h1><p>British Documents on the Origins of the War, 1898-1914 is the official published collection of selected British diplomatic documents concerning the international developments leading up to World War I. Drawing on Foreign Office records, the collection documents Britain’s emergence from diplomatic isolation, the formation of alliances and understandings, and the successive international crises that shaped British foreign policy before 1914.</p><p>The collection comprises eleven numbered volumes, with Volumes IX and X each divided into two parts. These are organised around major diplomatic questions, including the Anglo-Japanese Alliance, relations with France and Russia, Anglo-German tensions, the Moroccan crises and developments in the Balkans and Near East. Volume XI, The Outbreak of War, covers the final crisis of 1914.</p><p>The collection provides an important primary source for studying the diplomatic origins of the war.</p><p>The volumes are all available online via Archive.Org, and copies have been linked in the listing below.</p></section>
+
+
+
+<div class="table-wrap">
+<table id="originsTable">
+<thead><tr><th>Volume</th><th>Title</th></tr></thead>
+<tbody id="originsBody">
+<tr><td>I</td><td><a href="https://dn760107.eu.archive.org/0/items/in.ernet.dli.2015.172858/2015.172858.British-Documents-Of-The-Origins-Of-The-War-Vol-i.pdf" target="_blank" rel="noopener">The End of British Isolation</a></td></tr>
+<tr><td>II</td><td><a href="https://dn720401.ca.archive.org/0/items/bwb_KU-709-508_2/bwb_KU-709-508_2.pdf" target="_blank" rel="noopener">The Anglo-Japanese Alliance and the Franco-British Entente</a></td></tr>
+<tr><td>III</td><td><a href="https://dn760006.eu.archive.org/0/items/britishdocuments0003gpgo/britishdocuments0003gpgo.pdf" target="_blank" rel="noopener">The Testing of the Entente 1904-6</a></td></tr>
+<tr><td>IV</td><td><a href="https://dn760103.eu.archive.org/0/items/britishdocuments04grea/britishdocuments04grea.pdf" target="_blank" rel="noopener">The Anglo-Russian Rapprochement 1903-7</a></td></tr>
+<tr><td>V</td><td><a href="https://dn790002.ca.archive.org/0/items/britishdocuments05gpgo/britishdocuments05gpgo.pdf" target="_blank" rel="noopener">The Macedonian Problem and the Annexation of Bosnia 1903-9</a></td></tr>
+<tr><td>VI</td><td><a href="https://dn760008.eu.archive.org/0/items/britishdocuments06grea/britishdocuments06grea.pdf" target="_blank" rel="noopener">Anglo-German Tension 1907-12</a></td></tr>
+<tr><td>VII</td><td><a href="https://dn760101.eu.archive.org/0/items/in.ernet.dli.2015.172860/2015.172860.British-Documents-On-The-Origins-Of-The-War-1898-1914-Vol-vii.pdf" target="_blank" rel="noopener">The Agadir Crisis</a></td></tr>
+<tr><td>VIII</td><td><a href="https://dn790003.ca.archive.org/0/items/in.ernet.dli.2015.151576/2015.151576.British-Documents-On-The-Origins-Of-The-War-1898-1914.pdf" target="_blank" rel="noopener">Arbitration, Neutrality and Security</a></td></tr>
+<tr><td>IX Part I</td><td><a href="https://ia800401.us.archive.org/12/items/britishdocuments91grea/britishdocuments91grea.pdf" target="_blank" rel="noopener">The Balkan Wars, The Prelude; the Tripoli War</a></td></tr>
+<tr><td>IX Part II</td><td><a href="https://ia800601.us.archive.org/12/items/britishdocuments92grea/britishdocuments92grea.pdf" target="_blank" rel="noopener">The Balkan Wars, The League and Turkey</a></td></tr>
+<tr><td>X Part I</td><td><a href="https://dn720006.ca.archive.org/0/items/britishdocuments101grea/britishdocuments101grea.pdf" target="_blank" rel="noopener">The Near and Middle East on the Eve of War</a></td></tr>
+<tr><td>X Part II</td><td><a href="https://dn760108.eu.archive.org/0/items/britishdocuments102grea/britishdocuments102grea.pdf" target="_blank" rel="noopener">The Last Years of Peace</a></td></tr>
+<tr><td>XI</td><td><a href="https://dn760109.eu.archive.org/0/items/britishdocuments06gpgo/britishdocuments06gpgo.pdf" target="_blank" rel="noopener">The Outbreak of War</a></td></tr>
+</tbody>
+</table>
+</div>
+
+<section class="corrections-box" aria-label="Corrections and additions welcome">
+<h3>Corrections and additions welcome</h3>
+<p>If you identify additional entries that are relevant, or have information to correct an entry in this index, please use the <a href="contact.html">Contact page</a>.</p>
+</section>
+<p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
+</main>
+<footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
+<p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
+<p><em>Ego sum nauta</em></p>
+</footer>
+
+</body>
+</html>
