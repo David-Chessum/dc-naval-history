@@ -1,44 +1,13 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Post-War Articles</title><style>
-:root { --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e; --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2; }
-*{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.55}
-.site-header{background:var(--navy);color:white;border-bottom:5px solid var(--gold)} .header-inner{max-width:1180px;margin:auto;padding:2.3rem 1.5rem 1.9rem}.site-title{margin:0;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.55rem 0 0;color:#e5dfd2}
-nav{background:var(--navy-dark)}.nav-inner{max-width:1180px;margin:auto;padding:0 1rem}.nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}.nav-list a{display:block;padding:.85rem .95rem;color:white;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;text-transform:uppercase}.nav-list a:hover{background:var(--gold)}
-main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}.breadcrumb a{color:var(--navy)}h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1rem}.intro{max-width:900px;margin-bottom:1.5rem}
-.controls{margin:1.25rem 0;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.25rem}.controls label{font-family:Arial,Helvetica,sans-serif;font-weight:bold;color:var(--navy)}#search{flex:1;min-width:260px;max-width:560px;padding:.7rem .8rem;border:1px solid #a9a397;background:white;font-size:1rem}.count{font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
-.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{padding:.65rem .7rem;text-align:left;vertical-align:top;border-bottom:1px solid #e3ded4}th{position:sticky;top:0;background:var(--navy);color:white;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;letter-spacing:.02em}th.sortable{padding:0}th.sortable button{width:100%;border:0;background:transparent;color:white;text-align:left;padding:.65rem .7rem;font:inherit;cursor:pointer}th.sortable button:hover,th.sortable button:focus{background:var(--gold);outline:none}.sort-indicator{float:right;margin-left:.4rem}tbody tr:nth-child(even){background:#faf8f3}tbody tr:hover{background:#f1eadc}td:nth-child(1){min-width:300px}td:nth-child(2){min-width:150px}td:nth-child(3){min-width:180px}td:nth-child(4){min-width:115px;white-space:nowrap}td:nth-child(5),td:nth-child(6){white-space:nowrap}.no-results{display:none;padding:1rem;font-family:Arial,Helvetica,sans-serif;color:var(--muted)}
-.back-link{margin-top:1.6rem;font-family:Arial,Helvetica,sans-serif}.back-link a{color:var(--navy)}footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem}@media(max-width:650px){main{padding:1.8rem .8rem 3rem}.header-inner{padding-left:1rem;padding-right:1rem}table{font-size:.86rem}}
-
-.controls{margin-bottom:1.5rem}
-.table-meta{display:flex;justify-content:space-between;align-items:center;width:100%}
-.page-size{margin-left:auto;text-align:right}
-
-.feedback-box{background:#fff;border:1px solid var(--line);border-left:4px solid #24557d;border-radius:5px;padding:1rem 1.15rem;margin:1.25rem 0}
-.feedback-box h3{margin:0 0 .55rem;color:var(--navy);font-size:1.15rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.25rem}
-.feedback-box p{margin:.45rem 0 0}.feedback-box a{color:#551a8b}
-.footer-links{margin:.15rem 0 .65rem}
-.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
-.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
-
-.command-controls{background:#fff;border:1px solid var(--line,#d8d1c2);padding:1rem 1.15rem;margin:1rem 0 1.25rem}
-.command-controls h2{margin:0 0 .8rem}
-.pw-row{display:grid;gap:.8rem 1rem;align-items:end;margin-bottom:.8rem}
-.pw-row-top{grid-template-columns:2fr 1fr 1fr}
-.pw-row-bottom{grid-template-columns:repeat(4,1fr)}
-.command-controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:.9rem;margin-bottom:.25rem}
-.command-controls input,.command-controls select{width:100%;box-sizing:border-box;padding:.5rem .6rem;font:inherit;border:1px solid #bfc5ca;background:#fff}
-.pw-clear button{width:100%;padding:.58rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer;font:inherit;font-weight:700}
-.command-table-meta{font-family:Arial,Helvetica,sans-serif;font-size:.9rem;margin-top:.4rem}
-@media(max-width:760px){.pw-row-top,.pw-row-bottom{grid-template-columns:1fr}}
-.site-header{
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Post-War Articles</title><style>:root{ --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e; --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2; }*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,"Times New Roman",serif;line-height:1.55}.site-header{background:var(--navy);color:white;border-bottom:5px solid var(--gold)}.header-inner{max-width:1180px;margin:auto;padding:2.3rem 1.5rem 1.9rem}.site-title{margin:0;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.55rem 0 0;color:#e5dfd2}nav{background:var(--navy-dark)}.nav-inner{max-width:1180px;margin:auto;padding:0 1rem}.nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}.nav-list a{display:block;padding:.85rem .95rem;color:white;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;text-transform:uppercase}.nav-list a:hover{background:var(--gold)}main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}.breadcrumb a{color:var(--navy)}h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1rem}.intro{max-width:900px;margin-bottom:1.5rem}.controls{margin:1.25rem 0;background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.25rem}.controls label{font-family:Arial,Helvetica,sans-serif;font-weight:bold;color:var(--navy)}#search{flex:1;min-width:260px;max-width:560px;padding:.7rem .8rem;border:1px solid #a9a397;background:white;font-size:1rem}.count{font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;font-size:.92rem}th,td{padding:.65rem .7rem;text-align:left;vertical-align:top;border-bottom:1px solid #e3ded4}th{position:sticky;top:0;background:var(--navy);color:white;font-family:Arial,Helvetica,sans-serif;font-size:.82rem;letter-spacing:.02em}th.sortable{padding:0}th.sortable button{width:100%;border:0;background:transparent;color:white;text-align:left;padding:.65rem .7rem;font:inherit;cursor:pointer}th.sortable button:hover,th.sortable button:focus{background:var(--gold);outline:none}.sort-indicator{float:right;margin-left:.4rem}tbody tr:nth-child(even){background:#faf8f3}tbody tr:hover{background:#f1eadc}td:nth-child(1){min-width:300px}td:nth-child(2){min-width:150px}td:nth-child(3){min-width:180px}td:nth-child(4){min-width:115px;white-space:nowrap}td:nth-child(5),td:nth-child(6){white-space:nowrap}.no-results{display:none;padding:1rem;font-family:Arial,Helvetica,sans-serif;color:var(--muted)}.back-link{margin-top:1.6rem;font-family:Arial,Helvetica,sans-serif}.back-link a{color:var(--navy)}footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem}@media(max-width:650px){main{padding:1.8rem .8rem 3rem}.header-inner{padding-left:1rem;padding-right:1rem}table{font-size:.86rem}}.controls{margin-bottom:1.5rem}.table-meta{display:flex;justify-content:space-between;align-items:center;width:100%}.page-size{margin-left:auto;text-align:right}.feedback-box{background:#fff;border:1px solid var(--line);border-left:4px solid #24557d;border-radius:5px;padding:1rem 1.15rem;margin:1.25rem 0}.feedback-box h3{margin:0 0 .55rem;color:var(--navy);font-size:1.15rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.25rem}.feedback-box p{margin:.45rem 0 0}.feedback-box a{color:#551a8b}.footer-links{margin:.15rem 0 .65rem}.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}.command-controls{background:#fff;border:1px solid var(--line,#d8d1c2);padding:1rem 1.15rem;margin:1rem 0 1.25rem}.command-controls h2{margin:0 0 .8rem}.pw-row{display:grid;gap:.8rem 1rem;align-items:end;margin-bottom:.8rem}.pw-row-top{grid-template-columns:2fr 1fr 1fr}.pw-row-bottom{grid-template-columns:repeat(4,1fr)}.command-controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:.9rem;margin-bottom:.25rem}.command-controls input,.command-controls select{width:100%;box-sizing:border-box;padding:.5rem .6rem;font:inherit;border:1px solid #bfc5ca;background:#fff}.pw-clear button{width:100%;padding:.58rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer;font:inherit;font-weight:700}.command-table-meta{font-family:Arial,Helvetica,sans-serif;font-size:.9rem;margin-top:.4rem}
+@media(max-width:760px){.pw-row-top,.pw-row-bottom{grid-template-columns:1fr}}.site-header{
   background:#17324d;
   color:#fff;
   border-bottom:5px solid var(--gold);
   position:relative;
   overflow:hidden
-}
-.site-header:after{
+}.site-header:after{
   content:"";
   position:absolute;
   top:0;
@@ -46,18 +15,19 @@ main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-fa
   left:max(0px,calc((100% - 1180px)/2));
   right:0;
   background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
-}
-.header-inner{
+}.header-inner{
   max-width:1180px;
   margin:0 auto;
   padding:0 1.5rem;
   min-height:min(27.536vw,325px);
   position:relative;
   z-index:1
-}
-.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
+}.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
 @media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
 </style></head><body>
 <header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
 <nav aria-label="Main navigation"><div class="nav-inner"><ul class="nav-list">
@@ -96,13 +66,7 @@ main{max-width:1180px;margin:auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-fa
 </section><div class="table-meta">
 <div aria-live="polite" id="resultCount"></div>
 
-</div><div class="table-wrap"><table id="articlesTable"><thead><tr><th class="sortable" data-field="Title">Title <span class="sortmark"></span></th><th class="sortable" data-field="Author">Author <span class="sortmark"></span></th><th class="sortable" data-field="Journal">Journal <span class="sortmark"></span></th><th class="sortable" data-field="Volume">Volume <span class="sortmark"></span></th><th class="sortable" data-field="Date">Date <span class="sortmark"></span></th><th class="sortable" data-field="Pages">Pages <span class="sortmark"></span></th></tr></thead><tbody id="articlesBody"></tbody></table></div><div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div><p class="back-link"><a href="journal-articles.html">← Back to Journal and Newspaper Articles</a></p></main>
+</div><div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageStatusTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div><div class="table-wrap"><table id="articlesTable"><thead><tr><th class="sortable" data-field="Title">Title <span class="sortmark"></span></th><th class="sortable" data-field="Author">Author <span class="sortmark"></span></th><th class="sortable" data-field="Journal">Journal <span class="sortmark"></span></th><th class="sortable" data-field="Volume">Volume <span class="sortmark"></span></th><th class="sortable" data-field="Date">Date <span class="sortmark"></span></th><th class="sortable" data-field="Pages">Pages <span class="sortmark"></span></th></tr></thead><tbody id="articlesBody"></tbody></table></div><div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageStatus"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div><p class="back-link"><a href="journal-articles.html">← Back to Journal and Newspaper Articles</a></p></main>
 <footer>
 <p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p>
 <p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
@@ -245,4 +209,4 @@ document.getElementById("lastPage").addEventListener("click",()=>{
 });
 
 render();
-</script></body></html>
+</script><script>(()=>{const ids=['firstPage','prevPage','nextPage','lastPage'];function sync(){for(const id of ids)document.getElementById(id+'Top').disabled=document.getElementById(id).disabled;document.getElementById('pageStatusTop').textContent=document.getElementById('pageStatus').textContent;}for(const id of ids)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});new MutationObserver(sync).observe(document.getElementById('pageStatus').parentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body></html>

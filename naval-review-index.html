@@ -1,67 +1,32 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Naval Review Index | Naval History Research</title><style>
-:root {
+<title>Naval Review Index | Naval History Research</title><style>:root{
  --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e;
  --paper:#f5f1e8; --ink:#242424; --muted:#5f6770; --line:#d5cfc2;
-}
-* { box-sizing:border-box; }
-body {
+}*{ box-sizing:border-box; }body{
  margin:0; background:var(--paper); color:var(--ink);
  font-family:Georgia,"Times New Roman",serif; line-height:1.55;
-}
-.site-header { background:var(--navy); color:white; border-bottom:5px solid var(--gold); }
-.header-inner { max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }
-.site-title { margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }
-.site-subtitle { margin:.55rem 0 0; color:#e5dfd2; }
-nav { background:var(--navy-dark); }
-.nav-inner { max-width:1180px; margin:auto; padding:0 1rem; }
-.nav-list { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }
-.nav-list a {
+}.site-header{ background:var(--navy); color:white; border-bottom:5px solid var(--gold); }.header-inner{ max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }.site-title{ margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }.site-subtitle{ margin:.55rem 0 0; color:#e5dfd2; }nav{ background:var(--navy-dark); }.nav-inner{ max-width:1180px; margin:auto; padding:0 1rem; }.nav-list{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }.nav-list a{
  display:block; padding:.85rem .95rem; color:white; text-decoration:none;
  font-family:Arial,Helvetica,sans-serif; font-size:.82rem; text-transform:uppercase;
-}
-.nav-list a:hover { background:var(--gold); }
-main { max-width:1180px; margin:auto; padding:2.5rem 1.5rem 4rem; }
-.breadcrumb {
+}.nav-list a:hover{ background:var(--gold); }main{ max-width:1180px; margin:auto; padding:2.5rem 1.5rem 4rem; }.breadcrumb{
  font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
  color:var(--muted); margin-bottom:1.5rem;
-}
-.breadcrumb a { color:var(--navy); }
-h2 {
+}.breadcrumb a{ color:var(--navy); }h2{
  color:var(--navy); font-size:2rem; font-weight:normal;
  border-bottom:2px solid var(--gold); padding-bottom:.35rem; margin:0 0 1rem;
-}
-.intro { max-width:900px; margin-bottom:2rem; }
-.panel-grid {
+}.intro{ max-width:900px; margin-bottom:2rem; }.panel-grid{
  display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
  gap:1rem;
-}
-.panel {
+}.panel{
  display:block; background:white; border:1px solid var(--line);
  border-top:4px solid var(--gold); padding:1.25rem 1.2rem;
  text-decoration:none; min-height:110px;
-}
-.panel:hover { background:#faf8f3; }
-.panel h3 {
+}.panel:hover{ background:#faf8f3; }.panel h3{
  margin:0; color:var(--navy); font-size:1.15rem; font-weight:normal;
-}
-.back-link { margin-top:1.6rem; font-family:Arial,Helvetica,sans-serif; }
-.back-link a { color:var(--navy); }
-footer {
+}.back-link{ margin-top:1.6rem; font-family:Arial,Helvetica,sans-serif; }.back-link a{ color:var(--navy); }footer{
  background:var(--navy-dark); color:#d9dde0; text-align:center;
  padding:1.5rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
-}
-.panel.pending{cursor:default}.panel.pending:hover{background:white}
-
-.footer-links{margin:.15rem 0 .65rem}
-.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
-.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
-
-.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}
-.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}
-.research-feedback p{margin:0;line-height:1.55}
-
-/* Step 6 feedback placement */
+}.panel.pending{cursor:default}.panel.pending:hover{background:white}.footer-links{margin:.15rem 0 .65rem}.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}.research-feedback p{margin:0;line-height:1.55}/* Step 6 feedback placement */
 .research-feedback{
   display:block !important;
   background:#fff !important;
@@ -71,44 +36,16 @@ footer {
   border-left:4px solid #244f73 !important;
   border-radius:6px !important;
   box-sizing:border-box !important;
-}
-
-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);table-layout:fixed}
-th{background:var(--navy);color:#fff;text-align:left;padding:.75rem .7rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;border-right:1px solid #c7c0b3}
-td{vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid #e6e0d4;border-right:1px solid var(--line);overflow-wrap:anywhere}
-tbody tr:nth-child(even) td{background:#faf8f3}
-
-.research-feedback{display:block;background:#fff;margin:2rem 0 1.5rem 0;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;box-sizing:border-box}
-.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}
-.research-feedback p{margin:0;line-height:1.55}
-.controls{background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.15rem 1.25rem;margin:1.25rem 0 1.5rem}
-.controls h3{margin:0 0 .85rem;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-size:1rem}
-.control-grid{display:grid;grid-template-columns:minmax(260px,1fr) auto auto;gap:.9rem 1rem;align-items:end}
-.controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-size:.74rem;font-weight:bold;text-transform:uppercase;color:var(--muted)}
-.controls input,.controls select{width:100%;margin-top:.25rem;padding:.62rem .65rem;border:1px solid #b8b2a7;background:#fff;color:var(--ink);font:inherit}
-.controls button{padding:.67rem .9rem;border:1px solid #9d9689;background:#fff;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-weight:bold;cursor:pointer}
-.controls button:hover,.controls button:focus{background:#f0eadf}
-.table-meta{display:flex;justify-content:space-between;align-items:center;margin:.5rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted)}
-.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line)}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button{min-width:2.2rem;padding:.4rem .55rem}
-@media(max-width:760px){.control-grid{grid-template-columns:1fr}}
-
-#articlesTable th:nth-child(1),#articlesTable td:nth-child(1){width:70%}
-#articlesTable th:nth-child(2),#articlesTable td:nth-child(2){width:10%}
-#articlesTable th:nth-child(3),#articlesTable td:nth-child(3){width:12%}
-#articlesTable th:nth-child(4),#articlesTable td:nth-child(4){width:8%}
-@media(max-width:760px){
-  #articlesTable{min-width:700px}
-}
-.site-header{
+}table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);table-layout:fixed}th{background:var(--navy);color:#fff;text-align:left;padding:.75rem .7rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;border-right:1px solid #c7c0b3}td{vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid #e6e0d4;border-right:1px solid var(--line);overflow-wrap:anywhere}tbody tr:nth-child(even) td{background:#faf8f3}.research-feedback{display:block;background:#fff;margin:2rem 0 1.5rem 0;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;box-sizing:border-box}.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}.research-feedback p{margin:0;line-height:1.55}.controls{background:#fff;border:1px solid var(--line);border-top:5px solid var(--navy);padding:1.15rem 1.25rem;margin:1.25rem 0 1.5rem}.controls h3{margin:0 0 .85rem;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-size:1rem}.control-grid{display:grid;grid-template-columns:minmax(260px,1fr) auto auto;gap:.9rem 1rem;align-items:end}.controls label{display:block;font-family:Arial,Helvetica,sans-serif;font-size:.74rem;font-weight:bold;text-transform:uppercase;color:var(--muted)}.controls input,.controls select{width:100%;margin-top:.25rem;padding:.62rem .65rem;border:1px solid #b8b2a7;background:#fff;color:var(--ink);font:inherit}.controls button{padding:.67rem .9rem;border:1px solid #9d9689;background:#fff;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-weight:bold;cursor:pointer}.controls button:hover,.controls button:focus{background:#f0eadf}.table-meta{display:flex;justify-content:space-between;align-items:center;margin:.5rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted)}.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line)}
+@media(max-width:760px){.control-grid{grid-template-columns:1fr}}#articlesTable th:nth-child(1),#articlesTable td:nth-child(1){width:70%}#articlesTable th:nth-child(2),#articlesTable td:nth-child(2){width:10%}#articlesTable th:nth-child(3),#articlesTable td:nth-child(3){width:12%}#articlesTable th:nth-child(4),#articlesTable td:nth-child(4){width:8%}
+@media(max-width:760px){#articlesTable{min-width:700px}
+}.site-header{
   background:#17324d;
   color:#fff;
   border-bottom:5px solid var(--gold);
   position:relative;
   overflow:hidden
-}
-.site-header:after{
+}.site-header:after{
   content:"";
   position:absolute;
   top:0;
@@ -116,17 +53,18 @@ tbody tr:nth-child(even) td{background:#faf8f3}
   left:max(0px,calc((100% - 1180px)/2));
   right:0;
   background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
-}
-.header-inner{
+}.header-inner{
   max-width:1180px;
   margin:0 auto;
   padding:0 1.5rem;
   min-height:min(27.536vw,325px);
   position:relative;
   z-index:1
-}
-.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+}.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
 </style>
 <meta content="Selected index of articles published in The Naval Review from 1914 to 1948." name="description"/>
 <link href="https://dc-naval-history.com/naval-review-index.html" rel="canonical"/></head><body>
@@ -152,14 +90,8 @@ tbody tr:nth-child(even) td{background:#faf8f3}
 </div>
 </section>
 <div class="table-meta"><div aria-live="polite" id="resultCount"></div></div>
-<div class="table-wrap"><table id="articlesTable" aria-label="Naval Review article index"><thead><tr><th>Title</th><th>Volume</th><th>Year</th><th>Page</th></tr></thead><tbody id="articlesBody"></tbody></table></div>
-<div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div>
+<div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageStatusTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div><div class="table-wrap"><table id="articlesTable" aria-label="Naval Review article index"><thead><tr><th>Title</th><th>Volume</th><th>Year</th><th>Page</th></tr></thead><tbody id="articlesBody"></tbody></table></div>
+<div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageStatus"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div>
 <p class="back-link"><a href="journal-articles.html">← Back to Journal and Newspaper Articles</a></p></main>
 <footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p><p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p><p><em>Ego sum nauta</em></p></footer>
 <script>
@@ -190,4 +122,4 @@ document.getElementById("nextPage").addEventListener("click",()=>{state.page++;r
 document.getElementById("lastPage").addEventListener("click",()=>{const total=filtered().length;state.page=Math.max(1,Math.ceil(total/state.pageSize));render();});
 render();
 </script>
-</body></html>
+<script>(()=>{const ids=['firstPage','prevPage','nextPage','lastPage'];function sync(){for(const id of ids)document.getElementById(id+'Top').disabled=document.getElementById(id).disabled;document.getElementById('pageStatusTop').textContent=document.getElementById('pageStatus').textContent;}for(const id of ids)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});new MutationObserver(sync).observe(document.getElementById('pageStatus').parentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body></html>

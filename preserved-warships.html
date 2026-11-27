@@ -4,47 +4,11 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Preserved Warships | Naval History Research</title>
-<style>
-:root{--navy:#17324d;--navy-dark:#102638;--gold:#b08b3e;--paper:#f5f1e8;--ink:#242424;--muted:#5f6770;--line:#d5cfc2;--white:#fff}
-*{box-sizing:border-box} body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.6}
-.site-header{background:var(--navy);color:#fff;border-bottom:5px solid var(--gold)} .header-inner{max-width:1400px;margin:0 auto;padding:2.3rem 1.5rem 1.9rem}
-.site-title{margin:0;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal} .site-subtitle{margin:.55rem 0 0;color:#e5dfd2}
-nav{background:var(--navy-dark)} .nav-inner{max-width:1400px;margin:0 auto;padding:0 1rem} .nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}
-.nav-list a{display:block;padding:.85rem .95rem;color:#fff;text-decoration:none;font-family:Arial,sans-serif;font-size:.82rem;text-transform:uppercase} .nav-list a:hover,.nav-list a:focus{background:var(--gold);outline:none}
-main{max-width:1600px;margin:0 auto;padding:2.5rem 1.5rem 4rem} .breadcrumb{font-family:Arial,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem} .breadcrumb a,.back-link a{color:var(--navy)}
-h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1.2rem} .intro{max-width:1050px} .intro a,.research-feedback a,td a{color:var(--navy)}
-.research-feedback{margin:2rem 0 1.5rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#fff;max-width:1050px} .research-feedback h2{margin:0 0 .55rem;font-size:1.15rem} .research-feedback p{margin:0}
-.controls{margin:1.6rem 0 1rem;padding:1rem;background:#fff;border:1px solid var(--line);border-radius:6px;font-family:Arial,Helvetica,sans-serif}
-.controls-row{display:grid;grid-template-columns:minmax(280px,2fr) auto;gap:.8rem;align-items:end}
-.filter-grid{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:.8rem;margin-top:.8rem}
-.controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}
-.controls input,.controls button,.page-size select,.pagination button{font:inherit}
-.controls input{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.5rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}
-.controls button,.pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}
-.controls button:hover,.pagination button:hover:not([disabled]){background:var(--navy-dark)}
-.table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
-.page-size{margin-left:auto;text-align:right;white-space:nowrap}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button[disabled]{opacity:.45;cursor:default}
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
-.table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line)} table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:.82rem} th{background:var(--navy);color:#fff;text-align:center;padding:.55rem .4rem;border-right:1px solid #50667a;font-family:Arial,sans-serif;vertical-align:top;white-space:normal;overflow-wrap:break-word;word-break:normal;line-height:1.25} td{padding:.42rem;border-top:1px solid #e6e0d4;border-right:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere} tbody tr:nth-child(even) td{background:#faf8f3} tbody tr:hover td{background:#f0eadf}
-#warshipTable th:nth-child(1){width:14%}
-#warshipTable th:nth-child(2){width:10%}
-#warshipTable th:nth-child(3){width:8%}
-#warshipTable th:nth-child(4){width:15%}
-#warshipTable th:nth-child(5){width:8%}
-#warshipTable th:nth-child(6){width:7%}
-#warshipTable th:nth-child(7){width:8%}
-#warshipTable th:nth-child(8){width:10%}
-#warshipTable th:nth-child(9){width:10%}
-#warshipTable th:nth-child(10){width:10%}
-@media(max-width:1200px){table{min-width:1180px;font-size:.82rem}}
-.back-link{margin-top:1.6rem;font-family:Arial,Helvetica,sans-serif} footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem} .footer-links{margin:.15rem 0 .65rem} .footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px} .footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
-@media(max-width:700px){.nav-list a{padding:.7rem .65rem;font-size:.72rem} main{padding-left:.8rem;padding-right:.8rem}}
+<style>:root{--navy:#17324d;--navy-dark:#102638;--gold:#b08b3e;--paper:#f5f1e8;--ink:#242424;--muted:#5f6770;--line:#d5cfc2;--white:#fff}*{box-sizing:border-box}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.6}.site-header{background:var(--navy);color:#fff;border-bottom:5px solid var(--gold)}.header-inner{max-width:1400px;margin:0 auto;padding:2.3rem 1.5rem 1.9rem}.site-title{margin:0;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.55rem 0 0;color:#e5dfd2}nav{background:var(--navy-dark)}.nav-inner{max-width:1400px;margin:0 auto;padding:0 1rem}.nav-list{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap}.nav-list a{display:block;padding:.85rem .95rem;color:#fff;text-decoration:none;font-family:Arial,sans-serif;font-size:.82rem;text-transform:uppercase}.nav-list a:hover,.nav-list a:focus{background:var(--gold);outline:none}main{max-width:1600px;margin:0 auto;padding:2.5rem 1.5rem 4rem}.breadcrumb{font-family:Arial,sans-serif;font-size:.85rem;color:var(--muted);margin-bottom:1.5rem}.breadcrumb a,.back-link a{color:var(--navy)}h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem;margin:0 0 1.2rem}.intro{max-width:1050px}.intro a,.research-feedback a,td a{color:var(--navy)}.research-feedback{margin:2rem 0 1.5rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#fff;max-width:1050px}.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}.research-feedback p{margin:0}.controls{margin:1.6rem 0 1rem;padding:1rem;background:#fff;border:1px solid var(--line);border-radius:6px;font-family:Arial,Helvetica,sans-serif}.controls-row{display:grid;grid-template-columns:minmax(280px,2fr) auto;gap:.8rem;align-items:end}.filter-grid{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:.8rem;margin-top:.8rem}.controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}.controls input,.controls button,.page-size select{font:inherit}.controls input{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.5rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}.controls button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}.controls button:hover{background:var(--navy-dark)}.table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}.page-size{margin-left:auto;text-align:right;white-space:nowrap}.table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line)}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:.82rem}th{background:var(--navy);color:#fff;text-align:center;padding:.55rem .4rem;border-right:1px solid #50667a;font-family:Arial,sans-serif;vertical-align:top;white-space:normal;overflow-wrap:break-word;word-break:normal;line-height:1.25}td{padding:.42rem;border-top:1px solid #e6e0d4;border-right:1px solid var(--line);vertical-align:top;overflow-wrap:anywhere}tbody tr:nth-child(even) td{background:#faf8f3}tbody tr:hover td{background:#f0eadf}#warshipTable th:nth-child(1){width:14%}#warshipTable th:nth-child(2){width:10%}#warshipTable th:nth-child(3){width:8%}#warshipTable th:nth-child(4){width:15%}#warshipTable th:nth-child(5){width:8%}#warshipTable th:nth-child(6){width:7%}#warshipTable th:nth-child(7){width:8%}#warshipTable th:nth-child(8){width:10%}#warshipTable th:nth-child(9){width:10%}#warshipTable th:nth-child(10){width:10%}
+@media(max-width:1200px){table{min-width:1180px;font-size:.82rem}}.back-link{margin-top:1.6rem;font-family:Arial,Helvetica,sans-serif}footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}.footer-links{margin:.15rem 0 .65rem}.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
+@media(max-width:700px){.nav-list a{padding:.7rem .65rem;font-size:.72rem}main{padding-left:.8rem;padding-right:.8rem}}
 @media(max-width:900px){.filter-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:700px){.controls-row,.filter-grid{grid-template-columns:1fr}.table-meta{align-items:flex-start;flex-direction:column}.page-size{margin-left:0;text-align:left}}
-
-.page-title{
+@media(max-width:700px){.controls-row,.filter-grid{grid-template-columns:1fr}.table-meta{align-items:flex-start;flex-direction:column}.page-size{margin-left:0;text-align:left}}.page-title{
   margin:0 0 1.35rem;
   color:var(--navy);
   font-family:Georgia,"Times New Roman",serif;
@@ -53,16 +17,13 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
   font-weight:normal;
   border-bottom:2px solid var(--gold);
   padding-bottom:.35rem;
-}
-
-.site-header{
+}.site-header{
   background:#17324d;
   color:#fff;
   border-bottom:5px solid var(--gold);
   position:relative;
   overflow:hidden
-}
-.site-header:after{
+}.site-header:after{
   content:"";
   position:absolute;
   top:0;
@@ -70,18 +31,19 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
   left:max(0px,calc((100% - 1180px)/2));
   right:0;
   background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
-}
-.header-inner{
+}.header-inner{
   max-width:1180px;
   margin:0 auto;
   padding:0 1.5rem;
   min-height:min(27.536vw,325px);
   position:relative;
   z-index:1
-}
-.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}
+}.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}
 @media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
 </style>
 <meta content="A searchable list of preserved warships, replicas and relevant remains, with links to naval museum reports, MuseumShips.us and museum websites." name="description">
 <link href="https://dc-naval-history.com/preserved-warships.html" rel="canonical">
@@ -100,7 +62,7 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
 <div class="filter-grid"><label>Filter Name<input class="column-filter" data-col="0" placeholder="Contains..." type="text"></label><label>Filter Type<input class="column-filter" data-col="1" placeholder="Contains..." type="text"></label><label>Filter Class<input class="column-filter" data-col="2" placeholder="Contains..." type="text"></label><label>Filter Museum<input class="column-filter" data-col="3" placeholder="Contains..." type="text"></label><label>Filter City<input class="column-filter" data-col="4" placeholder="Contains..." type="text"></label><label>Filter State/Province<input class="column-filter" data-col="5" placeholder="Contains..." type="text"></label><label>Filter Country<input class="column-filter" data-col="6" placeholder="Contains..." type="text"></label></div>
 </section>
 <div class="table-meta"><div aria-live="polite" id="resultCount"></div><div class="page-size"><label for="pageSize">Rows per page</label> <select id="pageSize"><option>25</option><option selected>50</option><option>100</option><option value="0">All</option></select></div></div>
-<div class="pagination"><button aria-label="First page" id="firstPageTop" type="button">«</button><button aria-label="Previous page" id="prevPageTop" type="button">‹</button><span class="page-status" id="pageStatusTop"></span><button aria-label="Next page" id="nextPageTop" type="button">›</button><button aria-label="Last page" id="lastPageTop" type="button">»</button></div>
+<div class="pagination"><button aria-label="First page" id="firstPageTop" type="button">First</button><button aria-label="Previous page" id="prevPageTop" type="button">Previous</button><span class="page-status" id="pageStatusTop"></span><button aria-label="Next page" id="nextPageTop" type="button">Next</button><button aria-label="Last page" id="lastPageTop" type="button">Last</button></div>
 <div class="table-wrap"><table id="warshipTable"><colgroup><col style="width:14%"><col style="width:10%"><col style="width:8%"><col style="width:15%"><col style="width:8%"><col style="width:8%"><col style="width:8%"><col style="width:10%"><col style="width:10%"><col style="width:9%"><col style="width:10%"></colgroup><thead><tr><th>Name</th><th>Type</th><th>Class</th><th>Museum</th><th>City</th><th>State/Province</th><th>Country</th><th>DC Naval History</th><th>MuseumShips.us</th><th>Museum Website</th><th>Naval Museum Atlas</th></tr></thead><tbody><tr><td>Mikasa</td><td>Battleship</td><td></td><td>Mikasa Historical Memorial Warship</td><td>Yokosuka</td><td>Kanagawa</td><td>Japan</td><td><a href="japan-mikasa.html">Report</a></td><td><a href="https://museumships.us/japan/mikasa" rel="noopener" target="_blank">MuseumShips.us</a></td><td><a href="https://www.kinenkan-mikasa.or.jp/en/" rel="noopener" target="_blank">Museum Website</a></td><td></td></tr>
 <tr><td>USS Alabama (BB-60)</td><td>Battleship</td><td>South Dakota</td><td>Battleship Memorial Park</td><td>Mobile</td><td>AL</td><td>USA</td><td></td><td><a href="https://www.museumships.us/battleship/alabama" rel="noopener" target="_blank">MuseumShips.us</a></td><td><a href="https://www.ussalabama.com/" rel="noopener" target="_blank">Museum Website</a></td><td></td></tr>
 <tr><td>USS Iowa (BB-61)</td><td>Battleship</td><td>Iowa</td><td>National Museum of the Surface Navy</td><td>San Pedro</td><td>CA</td><td>USA</td><td></td><td><a href="https://www.museumships.us/battleship/iowa" rel="noopener" target="_blank">MuseumShips.us</a></td><td><a href="https://pacificbattleship.com/" rel="noopener" target="_blank">Museum Website</a></td><td><a href="https://navalmuseumatlas.com/museum/battleship-uss-iowa" rel="noopener" target="_blank">Naval museum atlas</a></td></tr>
@@ -639,7 +601,7 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
 <tr><td>PA 33-4</td><td>Landing Craft</td><td>Higgins</td><td>Utah Beach D-Day Museum</td><td>Sainte-Marie-du-Mont</td><td>Normandy</td><td>France</td><td></td><td></td><td><a href="https://utah-beach.com/en/museum/" rel="noopener" target="_blank">Museum Website</a></td><td></td></tr>
 <tr><td>PA 13-22</td><td>Landing Craft (Replica)</td><td>Higgins</td><td>Utah Beach D-Day Museum</td><td>Sainte-Marie-du-Mont</td><td>Normandy</td><td>France</td><td></td><td></td><td><a href="https://utah-beach.com/en/museum/" rel="noopener" target="_blank">Museum Website</a></td><td></td></tr>
 <tr><td>Lappedykkeren</td><td>Training Ship</td><td></td><td>Bangsbo Bunkermuseum</td><td>Frederikshavn</td><td></td><td>Denmark</td><td><a href="https://dc-naval-history.com/denmark-bangsbo-bunkermuseum.html" rel="noopener" target="_blank">Report</a></td><td></td><td></td><td></td></tr></tbody></table></div>
-<div class="pagination"><button aria-label="First page" id="firstPage" type="button">«</button><button aria-label="Previous page" id="prevPage" type="button">‹</button><span class="page-status" id="pageStatus"></span><button aria-label="Next page" id="nextPage" type="button">›</button><button aria-label="Last page" id="lastPage" type="button">»</button></div>
+<div class="pagination"><button aria-label="First page" id="firstPage" type="button">First</button><button aria-label="Previous page" id="prevPage" type="button">Previous</button><span class="page-status" id="pageStatus"></span><button aria-label="Next page" id="nextPage" type="button">Next</button><button aria-label="Last page" id="lastPage" type="button">Last</button></div>
 <p class="back-link"><a href="museum-ship-reports.html">← Back to Naval Museums</a></p>
 </main>
 <footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p><p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p><p><em>Ego sum nauta</em></p></footer>

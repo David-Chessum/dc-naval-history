@@ -5,116 +5,49 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Theses wanted | Naval History Research</title>
-<style>
-:root {
+<style>:root{
   --navy:#17324d; --navy-dark:#102638; --gold:#b08b3e;
   --paper:#f5f1e8; --ink:#242424; --muted:#5f6770;
   --line:#d5cfc2; --white:#ffffff;
-}
-* { box-sizing:border-box; }
-body {
+}*{ box-sizing:border-box; }body{
   margin:0; font-family:Georgia,"Times New Roman",serif;
   color:var(--ink); background:var(--paper); line-height:1.5;
-}
-.site-header { background:var(--navy); color:#fff; border-bottom:5px solid var(--gold); }
-.header-inner { max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }
-.site-title { margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }
-.site-subtitle { margin:.55rem 0 0; color:#e5dfd2; }
-nav { background:var(--navy-dark); }
-.nav-inner { max-width:1180px; margin:auto; padding:0 1rem; }
-.nav-list { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }
-.nav-list a {
+}.site-header{ background:var(--navy); color:#fff; border-bottom:5px solid var(--gold); }.header-inner{ max-width:1180px; margin:auto; padding:2.3rem 1.5rem 1.9rem; }.site-title{ margin:0; font-size:clamp(1.9rem,3.6vw,3rem); font-weight:normal; }.site-subtitle{ margin:.55rem 0 0; color:#e5dfd2; }nav{ background:var(--navy-dark); }.nav-inner{ max-width:1180px; margin:auto; padding:0 1rem; }.nav-list{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; }.nav-list a{
   display:block; padding:.85rem .95rem; color:#fff; text-decoration:none;
   font-family:Arial,Helvetica,sans-serif; font-size:.82rem; text-transform:uppercase;
-}
-.nav-list a:hover,.nav-list a:focus { background:var(--gold); outline:none; }
-main { max-width:1400px; margin:auto; padding:2.5rem 1.5rem 4rem; }
-.breadcrumb { font-family:Arial,Helvetica,sans-serif; font-size:.85rem; color:var(--muted); margin-bottom:1.5rem; }
-.breadcrumb a { color:var(--navy); }
-h2 {
+}.nav-list a:hover,.nav-list a:focus{ background:var(--gold); outline:none; }main{ max-width:1400px; margin:auto; padding:2.5rem 1.5rem 4rem; }.breadcrumb{ font-family:Arial,Helvetica,sans-serif; font-size:.85rem; color:var(--muted); margin-bottom:1.5rem; }.breadcrumb a{ color:var(--navy); }h2{
   color:var(--navy); font-size:2rem; font-weight:normal;
   border-bottom:2px solid var(--gold); padding-bottom:.35rem; margin:0 0 1rem;
-}
-.intro { max-width:900px; }
-.controls {
+}.intro{ max-width:900px; }.controls{
   display:flex; gap:.8rem; align-items:center; flex-wrap:wrap;
   margin:1.4rem 0; font-family:Arial,Helvetica,sans-serif;
-}
-.controls label { font-weight:bold; color:var(--navy); }
-.controls input {
+}.controls label{ font-weight:bold; color:var(--navy); }.controls input{
   flex:1 1 350px; max-width:650px; padding:.7rem .8rem;
   border:1px solid var(--line); background:#fff; font-size:1rem;
-}
-.count { color:var(--muted); font-size:.9rem; }
-.table-wrap { background:#fff; border:1px solid var(--line); width:100%; }
-table { width:100%; border-collapse:collapse; table-layout:fixed; }
-thead th {
+}.count{ color:var(--muted); font-size:.9rem; }.table-wrap{ background:#fff; border:1px solid var(--line); width:100%; }table{ width:100%; border-collapse:collapse; table-layout:fixed; }thead th{
   background:var(--navy); color:#fff; text-align:left; padding:.8rem .7rem;
   font-family:Arial,Helvetica,sans-serif; font-size:.82rem; text-transform:uppercase;
-}
-tbody td {
+}tbody td{
   vertical-align:top; padding:.65rem .7rem; border-bottom:1px solid #e6e0d4;
   overflow-wrap:anywhere;
-}
-tbody tr:nth-child(even) { background:#faf8f3; }
-tbody tr:hover { background:#f0eadf; }
-th:nth-child(1), td:nth-child(1) { width:40%; }
-th:nth-child(2), td:nth-child(2) { width:14%; }
-th:nth-child(3), td:nth-child(3) { width:9%; }
-th:nth-child(4), td:nth-child(4) { width:29%; }
-th:nth-child(5), td:nth-child(5) { width:8%; }
-.back-link { margin-top:1.5rem; font-family:Arial,Helvetica,sans-serif; }
-.back-link a { color:var(--navy); }
-footer {
+}tbody tr:nth-child(even){ background:#faf8f3; }tbody tr:hover{ background:#f0eadf; }th:nth-child(1),td:nth-child(1){ width:40%; }th:nth-child(2),td:nth-child(2){ width:14%; }th:nth-child(3),td:nth-child(3){ width:9%; }th:nth-child(4),td:nth-child(4){ width:29%; }th:nth-child(5),td:nth-child(5){ width:8%; }.back-link{ margin-top:1.5rem; font-family:Arial,Helvetica,sans-serif; }.back-link a{ color:var(--navy); }footer{
   background:var(--navy-dark); color:#d9dde0; text-align:center;
   padding:1.5rem; font-family:Arial,Helvetica,sans-serif; font-size:.85rem;
 }
-@media (max-width:800px) {
-  thead { display:none; }
-  table, tbody, tr, td { display:block; width:100% !important; }
-  tbody tr {
+@media (max-width:800px) {thead{ display:none; }table,tbody,tr,td{ display:block; width:100% !important; }tbody tr{
     margin:0 0 1rem; border:1px solid var(--line); background:#fff !important;
     padding:.5rem .8rem;
-  }
-  tbody td {
+  }tbody td{
     border:0; border-bottom:1px solid #eee7db; padding:.45rem .2rem .45rem 8.5rem;
     position:relative; min-height:2rem;
-  }
-  tbody td:last-child { border-bottom:0; }
-  tbody td::before {
+  }tbody td:last-child{ border-bottom:0; }tbody td::before{
     content:attr(data-label); position:absolute; left:.2rem; top:.45rem;
     width:7.7rem; font-family:Arial,Helvetica,sans-serif; font-weight:bold;
     color:var(--navy);
-  }
-  .nav-list a { padding:.7rem .65rem; font-size:.72rem; }
-}
-
-.controls{margin:1.4rem 0 1.5rem;padding:1rem;background:#fff;border:1px solid var(--line);border-radius:6px;font-family:Arial,Helvetica,sans-serif}
-.controls-row{display:grid;grid-template-columns:minmax(260px,2fr) minmax(170px,.8fr) auto;gap:.8rem;align-items:end}
-.filter-grid{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:.8rem;margin-top:.8rem}
-.controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}
-.controls input,.controls select,.controls button,.page-size select,.pagination button{font:inherit}
-.controls input,.controls select{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.48rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}
-.controls button,.pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}
-.controls button:hover,.pagination button:hover:not([disabled]){background:var(--navy-dark)}
-.table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
-.page-size{margin-left:auto;text-align:right;white-space:nowrap}
-.table-wrap{overflow-x:auto}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button[disabled]{opacity:.45;cursor:default}
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
+  }.nav-list a{ padding:.7rem .65rem; font-size:.72rem; }
+}.controls{margin:1.4rem 0 1.5rem;padding:1rem;background:#fff;border:1px solid var(--line);border-radius:6px;font-family:Arial,Helvetica,sans-serif}.controls-row{display:grid;grid-template-columns:minmax(260px,2fr) minmax(170px,.8fr) auto;gap:.8rem;align-items:end}.filter-grid{display:grid;grid-template-columns:repeat(4,minmax(160px,1fr));gap:.8rem;margin-top:.8rem}.controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}.controls input,.controls select{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.48rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}.table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}.page-size{margin-left:auto;text-align:right;white-space:nowrap}.table-wrap{overflow-x:auto}
 @media(max-width:900px){.controls-row{grid-template-columns:1fr 1fr}.filter-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:520px){.controls-row,.filter-grid{grid-template-columns:1fr}.table-meta{align-items:flex-start;flex-direction:column}.page-size{margin-left:0;text-align:left}}
-
-.footer-links{margin:.15rem 0 .65rem}
-.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}
-.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}
-
-.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}
-.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}
-.research-feedback p{margin:0;line-height:1.55}
-
-/* Step 6 feedback placement */
+@media(max-width:520px){.controls-row,.filter-grid{grid-template-columns:1fr}.table-meta{align-items:flex-start;flex-direction:column}.page-size{margin-left:0;text-align:left}}.footer-links{margin:.15rem 0 .65rem}.footer-links a{color:#fff;text-decoration:underline;text-underline-offset:2px}.footer-feedback{margin:.25rem auto .9rem;max-width:850px;line-height:1.5;color:#e5dfd2}.research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}.research-feedback h2{margin:0 0 .55rem;font-size:1.15rem}.research-feedback p{margin:0;line-height:1.55}/* Step 6 feedback placement */
 .research-feedback{
   display:block !important;
   background:#fff !important;
@@ -124,15 +57,13 @@ footer {
   border-left:4px solid #244f73 !important;
   border-radius:6px !important;
   box-sizing:border-box !important;
-}
-.site-header{
+}.site-header{
   background:#17324d;
   color:#fff;
   border-bottom:5px solid var(--gold);
   position:relative;
   overflow:hidden
-}
-.site-header:after{
+}.site-header:after{
   content:"";
   position:absolute;
   top:0;
@@ -140,18 +71,19 @@ footer {
   left:max(0px,calc((100% - 1180px)/2));
   right:0;
   background:url("naval-header-image-b.png") left center/auto 100% no-repeat;
-}
-.header-inner{
+}.header-inner{
   max-width:1180px;
   margin:0 auto;
   padding:0 1.5rem;
   min-height:min(27.536vw,325px);
   position:relative;
   z-index:1
-}
-.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
+}.site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
 @media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
 </style>
 <meta content="Index of academic theses relating to naval history or naval arms control that are still sought." name="description"/><meta content="index,follow" name="robots"/><link href="https://dc-naval-history.com/theses-wanted.html" rel="canonical"/><meta content="website" property="og:type"/><meta content="The Naval History of Interwar Naval Arms Control" property="og:site_name"/><meta content="Theses wanted | Naval History Research" property="og:title"/><meta content="Index of academic theses relating to naval history or naval arms control that are still sought." property="og:description"/><meta content="https://dc-naval-history.com/theses-wanted.html" property="og:url"/><meta content="summary" name="twitter:card"/><meta content="Theses wanted | Naval History Research" name="twitter:title"/><meta content="Index of academic theses relating to naval history or naval arms control that are still sought." name="twitter:description"/></head>
 <body>
@@ -213,7 +145,7 @@ footer {
 </select>
 </div>
 </div>
-<div class="table-wrap">
+<div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageStatusTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div><div class="table-wrap">
 <table id="thesesTable">
 <thead>
 <tr>
@@ -227,13 +159,7 @@ footer {
 <tbody id="thesesBody"></tbody>
 </table>
 </div>
-<div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div>
+<div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageStatus"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div>
 <p class="back-link"><a href="library.html">← Back to Library</a></p>
 </main>
 <footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
@@ -358,5 +284,5 @@ document.getElementById("lastPage").addEventListener("click",()=>{
 });
 
 render();
-</script></body>
+</script><script>(()=>{const ids=['firstPage','prevPage','nextPage','lastPage'];function sync(){for(const id of ids)document.getElementById(id+'Top').disabled=document.getElementById(id).disabled;document.getElementById('pageStatusTop').textContent=document.getElementById('pageStatus').textContent;}for(const id of ids)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});new MutationObserver(sync).observe(document.getElementById('pageStatus').parentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body>
 </html>
