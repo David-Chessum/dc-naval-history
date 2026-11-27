@@ -58,10 +58,6 @@ td.source{min-width:210px}
 td.notes{min-width:230px}
 a.cell-link{color:var(--navy);word-break:break-all}
 .empty{color:#8a8a8a}
-
-
-
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
 .back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
 .back-link a{color:var(--navy)}
 footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}
@@ -114,7 +110,13 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
 .site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
 @media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
-.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font: .85rem Arial,sans-serif}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;flex-wrap:wrap}
+
+/* Match the A-series pager, including its unstyled native buttons. */
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
 </style>
 </head>
 <body>

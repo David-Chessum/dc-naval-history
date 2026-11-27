@@ -19,7 +19,6 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
 table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);table-layout:fixed}th{background:var(--navy);color:#fff;text-align:left;padding:.75rem .7rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;border-right:1px solid #c7c0b3}
 td{vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid #e6e0d4;border-right:1px solid var(--line);overflow-wrap:anywhere}tbody tr:nth-child(even) td{background:#faf8f3}tbody tr:hover td{background:#f0eadf}
 #papersTable th:nth-child(1),#papersTable td:nth-child(1){width:10%}#papersTable th:nth-child(2),#papersTable td:nth-child(2){width:43%}#papersTable th:nth-child(3),#papersTable td:nth-child(3){width:12%}#papersTable th:nth-child(4),#papersTable td:nth-child(4){width:13%}#papersTable th:nth-child(5),#papersTable td:nth-child(5){width:8%}#papersTable th:nth-child(6),#papersTable td:nth-child(6){width:14%}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}.pagination button{min-width:2.2rem;padding:.4rem .55rem}
 .back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}.back-link a{color:var(--navy)}footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem}.footer-links a{color:#fff}
 @media(max-width:900px){.control-grid{grid-template-columns:1fr 1fr}#papersTable{min-width:950px}}@media(max-width:600px){.control-grid{grid-template-columns:1fr}}
 .site-header{
@@ -47,7 +46,11 @@ td{vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid #e6e0d4;borde
   z-index:1
 }
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;flex-wrap:wrap}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}.pagination span{all:revert;font:inherit;line-height:inherit}
+</style>
 <meta content="Index of United States Navy General Board papers and serials held by the US National Archives, Washington DC." name="description"/>
 <link href="https://dc-naval-history.com/usn-general-board-papers.html" rel="canonical"/></head>
 <body>
@@ -63,8 +66,9 @@ td{vertical-align:top;padding:.65rem .7rem;border-bottom:1px solid #e6e0d4;borde
 <button id="clearFilters" type="button">Clear Filters</button>
 </div></section>
 <div class="table-meta" aria-live="polite" id="resultCount"></div>
+<div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageInfoTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div>
 <div class="table-wrap"><table id="papersTable"><thead><tr><th>Serial Number</th><th>Subject</th><th>File</th><th>Date</th><th>Box</th><th>Notes</th></tr></thead><tbody id="papersBody"></tbody></table></div>
-<div class="pagination"><button id="firstPage">First</button><button id="prevPage">Previous</button><span id="pageInfo"></span><button id="nextPage">Next</button><button id="lastPage">Last</button></div>
+<div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageInfo"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div>
 <p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p></main>
 <footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p>Corrections, additions and information about relevant sources are welcome.</p><p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p><p><em>Ego sum nauta</em></p></footer>
 <script>
@@ -86,4 +90,4 @@ document.getElementById('firstPage').disabled=currentPage<=1;document.getElement
 ['filterSubject','filterFile'].forEach(id=>document.getElementById(id).addEventListener('input',()=>{currentPage=1;render();}));document.getElementById('sortBy').addEventListener('change',()=>{currentPage=1;render();});
 document.getElementById('clearFilters').addEventListener('click',()=>{document.getElementById('filterSubject').value='';document.getElementById('filterFile').value='';document.getElementById('sortBy').value='default';currentPage=1;render();});
 document.getElementById('firstPage').onclick=()=>{currentPage=1;render();};document.getElementById('prevPage').onclick=()=>{if(currentPage>1)currentPage--;render();};document.getElementById('nextPage').onclick=()=>{currentPage++;render();};document.getElementById('lastPage').onclick=()=>{currentPage=Math.max(1,Math.ceil(filteredSorted().length/pageSize));render();};render();
-</script></body></html>
+</script><script>(()=>{const pairs=["firstPage", "prevPage", "nextPage", "lastPage"],info="pageInfo";function sync(){for(const id of pairs){const a=document.getElementById(id),b=document.getElementById(id+'Top');b.disabled=a.disabled;}document.getElementById(info+'Top').textContent=document.getElementById(info).textContent;}for(const id of pairs)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});const bottom=document.getElementById(info).parentElement;new MutationObserver(sync).observe(bottom,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body></html>

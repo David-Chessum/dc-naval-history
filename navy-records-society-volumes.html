@@ -27,10 +27,7 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
 .controls-row{display:grid;grid-template-columns:minmax(280px,2fr) auto;gap:.8rem;align-items:end}
 .filter-grid{display:grid;grid-template-columns:repeat(3,minmax(180px,1fr));gap:.8rem;margin-top:.8rem}
 .controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}
-.controls input,.controls button,.page-size select,.pagination button{font:inherit}
 .controls input{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.5rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}
-.controls button,.pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}
-.controls button:hover,.pagination button:hover:not([disabled]){background:var(--navy-dark)}
 .table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
 .page-size{margin-left:auto;text-align:right;white-space:nowrap}
 .table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line)}
@@ -43,9 +40,6 @@ th:nth-child(1),td:nth-child(1){width:7%}
 th:nth-child(2),td:nth-child(2){width:51%}
 th:nth-child(3),td:nth-child(3){width:28%}
 th:nth-child(4),td:nth-child(4){width:14%}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button[disabled]{opacity:.45;cursor:default}
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
 .back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
 .back-link a{color:var(--navy)}
 footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}
@@ -79,7 +73,14 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
   z-index:1
 }
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;flex-wrap:wrap}
+
+/* Match the A-series pager, including its unstyled native buttons. */
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
+</style>
 <meta content="Index of Navy Records Society volumes containing primary source documents on naval history." name="description"/>
 <meta content="index,follow" name="robots"/>
 <link href="https://dc-naval-history.com/navy-records-society-volumes.html" rel="canonical"/>
@@ -145,7 +146,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </div>
 </div>
 
-<div class="table-wrap">
+<div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageStatusTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div><div class="table-wrap">
 <table id="nrsTable">
 <thead><tr>
 <th>No</th>
@@ -157,13 +158,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </table>
 </div>
 
-<div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div>
+<div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageStatus"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div>
 
 <p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
 </main>
@@ -260,5 +255,5 @@ document.getElementById("lastPage").addEventListener("click", () => {
 
 render();
 </script>
-</body>
+<script>(()=>{const ids=['firstPage','prevPage','nextPage','lastPage'];function sync(){for(const id of ids)document.getElementById(id+'Top').disabled=document.getElementById(id).disabled;document.getElementById('pageStatusTop').textContent=document.getElementById('pageStatus').textContent;}for(const id of ids)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});new MutationObserver(sync).observe(document.getElementById('pageStatus').parentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body>
 </html>

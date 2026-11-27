@@ -25,10 +25,7 @@ h2{color:var(--navy);font-size:2rem;font-weight:normal;border-bottom:2px solid v
 .controls-row{display:flex;justify-content:flex-end;gap:.8rem;align-items:end}
 .filter-grid{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:.8rem;margin-top:.8rem}
 .controls label{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.03em;font-weight:bold;color:var(--navy)}
-.controls input,.controls button,.page-size select,.pagination button{font:inherit}
 .controls input{width:100%;box-sizing:border-box;margin-top:.28rem;padding:.5rem .55rem;border:1px solid #aeb5ba;background:#fff;color:var(--ink)}
-.controls button,.pagination button{padding:.5rem .75rem;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer}
-.controls button:hover,.pagination button:hover:not([disabled]){background:var(--navy-dark)}
 .table-meta{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.8rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.88rem;color:var(--muted)}
 .page-size{margin-left:auto;text-align:right;white-space:nowrap}
 .table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line)}
@@ -42,9 +39,6 @@ th:nth-child(2),td:nth-child(2){width:31%}
 th:nth-child(3),td:nth-child(3){width:18%}
 th:nth-child(4),td:nth-child(4){width:10%}
 th:nth-child(5),td:nth-child(5){width:10%}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button[disabled]{opacity:.45;cursor:default}
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
 .research-feedback{margin:2rem 0 1rem;padding:1rem 1.15rem;border:1px solid #d6d0c5;border-left:4px solid #244f73;border-radius:6px;background:#f7f5f0}
 .research-feedback h3{margin:0 0 .55rem;color:var(--navy);font-size:1.15rem}
 .research-feedback p{margin:0;line-height:1.55}
@@ -84,6 +78,8 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
 .site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}
 @media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}.pagination span{all:revert;font:inherit;line-height:inherit}
 </style>
 <meta content="Index of holdings of personal papers for individuals relevant to naval history and interwar naval arms control research." name="description"/>
 <meta content="index,follow" name="robots"/>
@@ -153,11 +149,11 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </div>
 
 <div class="pagination" aria-label="Pagination above table">
-<button aria-label="First page" data-page-action="first" type="button">«</button>
-<button aria-label="Previous page" data-page-action="previous" type="button">‹</button>
+<button aria-label="First page" data-page-action="first" type="button">First</button>
+<button aria-label="Previous page" data-page-action="previous" type="button">Previous</button>
 <span class="page-status" aria-live="polite"></span>
-<button aria-label="Next page" data-page-action="next" type="button">›</button>
-<button aria-label="Last page" data-page-action="last" type="button">»</button>
+<button aria-label="Next page" data-page-action="next" type="button">Next</button>
+<button aria-label="Last page" data-page-action="last" type="button">Last</button>
 </div>
 
 <div class="table-wrap">
@@ -174,11 +170,11 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </div>
 
 <div class="pagination" aria-label="Pagination below table">
-<button aria-label="First page" data-page-action="first" type="button">«</button>
-<button aria-label="Previous page" data-page-action="previous" type="button">‹</button>
+<button aria-label="First page" data-page-action="first" type="button">First</button>
+<button aria-label="Previous page" data-page-action="previous" type="button">Previous</button>
 <span class="page-status" aria-live="polite"></span>
-<button aria-label="Next page" data-page-action="next" type="button">›</button>
-<button aria-label="Last page" data-page-action="last" type="button">»</button>
+<button aria-label="Next page" data-page-action="next" type="button">Next</button>
+<button aria-label="Last page" data-page-action="last" type="button">Last</button>
 </div>
 
 <section class="research-feedback" aria-label="Corrections and additions welcome">

@@ -88,8 +88,6 @@ footer {
 .controls button{padding:.67rem .9rem;border:1px solid #9d9689;background:#fff;color:var(--navy);font-family:Arial,Helvetica,sans-serif;font-weight:bold;cursor:pointer}
 .controls button:hover,.controls button:focus{background:#f0eadf}
 .table-meta{margin:.5rem 0;font-family:Arial,Helvetica,sans-serif;font-size:.85rem;color:var(--muted)}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.45rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button{min-width:2.2rem;padding:.4rem .55rem}
 @media(max-width:760px){.control-grid{grid-template-columns:1fr}}
 .site-header{
   background:#17324d;
@@ -116,7 +114,11 @@ footer {
   z-index:1
 }
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;flex-wrap:wrap}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}.pagination span{all:revert;font:inherit;line-height:inherit}
+</style>
 </head>
 <body>
 <header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
@@ -151,6 +153,7 @@ footer {
 </div>
 </section>
 <div class="table-meta" aria-live="polite" id="resultCount"></div>
+<div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageInfoTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div>
 <div class="table-wrap">
 <table id="frusTable">
 <thead><tr><th>Year</th><th>Volume</th><th>Chapter Title</th><th>Pages</th></tr></thead>
@@ -231,13 +234,7 @@ footer {
 </tbody>
 </table>
 </div>
-<div class="pagination">
-<button id="firstPage" type="button">First</button>
-<button id="prevPage" type="button">Previous</button>
-<span id="pageInfo"></span>
-<button id="nextPage" type="button">Next</button>
-<button id="lastPage" type="button">Last</button>
-</div>
+<div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageInfo"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div>
 <section class="corrections-box" aria-label="Corrections and additions welcome">
 <h3>Corrections and additions welcome</h3>
 <p>If you identify additional entries that are relevant, or have information to correct an entry in this index, please use the <a href="contact.html">Contact page</a>.</p>
@@ -283,5 +280,5 @@ document.getElementById('nextPage').addEventListener('click',()=>{currentPage++;
 document.getElementById('lastPage').addEventListener('click',()=>{const f=filteredRows(),n=Number(document.getElementById('pageSize').value);currentPage=n===0?1:Math.max(1,Math.ceil(f.length/n));render();});
 render();
 </script>
-</body>
+<script>(()=>{const pairs=["firstPage", "prevPage", "nextPage", "lastPage"],info="pageInfo";function sync(){for(const id of pairs){const a=document.getElementById(id),b=document.getElementById(id+'Top');b.disabled=a.disabled;}document.getElementById(info+'Top').textContent=document.getElementById(info).textContent;}for(const id of pairs)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});const bottom=document.getElementById(info).parentElement;new MutationObserver(sync).observe(bottom,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body>
 </html>

@@ -47,10 +47,6 @@ td.title{width:52%}
 td.date{width:14%}
 td.tna{width:20%}
 a.cell-link{color:var(--navy)}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button{min-width:2.35rem;padding:.45rem .6rem}
-.pagination button[disabled]{opacity:.45;cursor:default}
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
 .back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
 .back-link a{color:var(--navy)}
 footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,Helvetica,sans-serif;font-size:.85rem}
@@ -84,7 +80,11 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
   z-index:1
 }
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;flex-wrap:wrap}
+
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}.pagination span{all:revert;font:inherit;line-height:inherit}
+</style>
 <meta content="Selected interwar United Kingdom Cabinet Papers relating to naval history and disarmament, with links to The National Archives." name="description"/>
 <meta content="index,follow" name="robots"/>
 <link href="https://dc-naval-history.com/uk-cabinet-papers.html" rel="canonical"/>
@@ -166,19 +166,14 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </div>
 </div>
 
+<div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageStatusTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div>
 <div class="table-wrap">
 <table id="cabinetTable">
 <thead><tr><th>Document No.</th><th>Title</th><th>Date</th><th>TNA File Ref</th></tr></thead>
 <tbody id="cabinetBody"></tbody>
 </table>
 </div>
-<div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div>
+<div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageStatus"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div>
 
 <p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p>
 </main>
@@ -269,5 +264,5 @@ document.getElementById('lastPage').addEventListener('click', () => {
 });
 render();
 </script>
-</body>
+<script>(()=>{const pairs=["firstPage", "prevPage", "nextPage", "lastPage"],info="pageStatus";function sync(){for(const id of pairs){const a=document.getElementById(id),b=document.getElementById(id+'Top');b.disabled=a.disabled;}document.getElementById(info+'Top').textContent=document.getElementById(info).textContent;}for(const id of pairs)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});const bottom=document.getElementById(info).parentElement;new MutationObserver(sync).observe(bottom,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body>
 </html>

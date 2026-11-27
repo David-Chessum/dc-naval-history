@@ -58,10 +58,6 @@ td.source{min-width:210px}
 td.notes{min-width:230px}
 a.cell-link{color:var(--navy);word-break:break-all}
 .empty{color:#8a8a8a}
-.pagination{display:flex;justify-content:center;align-items:center;gap:.5rem;margin:1rem 0;font-family:Arial,Helvetica,sans-serif}
-.pagination button{min-width:2.35rem;padding:.45rem .6rem}
-.pagination button[disabled]{opacity:.45;cursor:default}
-.page-status{padding:0 .4rem;color:var(--muted);font-size:.9rem}
 .back-link{margin-top:1.5rem;font-family:Arial,Helvetica,sans-serif}
 .back-link a{color:var(--navy)}
 footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5rem;font-family:Arial,sans-serif;font-size:.85rem}
@@ -112,7 +108,14 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
   z-index:1
 }
 .site-title{margin:0;visibility:hidden;font-size:clamp(1.9rem,3.6vw,3rem);font-weight:normal}
-.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}</style>
+.site-subtitle{margin:.5rem 0 0;visibility:hidden;color:#e5dfd2}.page-title{margin:0 0 1.35rem;color:var(--navy);font-size:clamp(2.35rem,4vw,3.2rem);line-height:1.15;font-weight:normal;border-bottom:2px solid var(--gold);padding-bottom:.35rem}@media(max-width:800px){.site-header:after{width:45%;opacity:.35}}
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;flex-wrap:wrap}
+
+/* Match the A-series pager, including its unstyled native buttons. */
+.pagination{display:flex;justify-content:center;gap:.45rem;align-items:center;margin:1rem 0;font:.85rem Arial,sans-serif;line-height:1.55;flex-wrap:wrap}
+.pagination button,.pagination button:hover,.pagination button:focus,.pagination button:disabled{all:revert}
+.pagination span{all:revert;font:inherit;line-height:inherit}
+</style>
 </head>
 <body>
 <header class="site-header"><div class="header-inner"><h1 class="site-title">The Naval History of Interwar Naval Arms Control</h1><p class="site-subtitle">Research · Resources · Museums · Ships · People</p></div></header>
@@ -138,7 +141,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 <option>25</option><option selected="">50</option><option>100</option><option>250</option><option value="0">All</option>
 </select>
 </div>
-</div><div class="table-wrap">
+</div><div class="pagination" aria-label="Top pagination"><button type="button" id="firstPageTop">First</button><button type="button" id="prevPageTop">Previous</button><span id="pageStatusTop"></span><button type="button" id="nextPageTop">Next</button><button type="button" id="lastPageTop">Last</button></div><div class="table-wrap">
 <table class="tna-table" id="matrixTable">
 <thead>
 <tr>
@@ -150,13 +153,7 @@ footer{background:var(--navy-dark);color:#d9dde0;text-align:center;padding:1.5re
 </thead>
 <tbody id="matrixBody"></tbody>
 </table>
-</div><div class="pagination">
-<button aria-label="First page" id="firstPage" type="button">«</button>
-<button aria-label="Previous page" id="prevPage" type="button">‹</button>
-<span class="page-status" id="pageStatus"></span>
-<button aria-label="Next page" id="nextPage" type="button">›</button>
-<button aria-label="Last page" id="lastPage" type="button">»</button>
-</div><section class="research-feedback"><h2>Corrections and additions welcome</h2><p>If you identify any errors or omissions in this table, I would be pleased to hear from you. Please use the <a href="contact.html">Contact page</a>.</p></section><p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p></main>
+</div><div class="pagination" aria-label="Bottom pagination"><button type="button" id="firstPage">First</button><button type="button" id="prevPage">Previous</button><span id="pageStatus"></span><button type="button" id="nextPage">Next</button><button type="button" id="lastPage">Last</button></div><section class="research-feedback"><h2>Corrections and additions welcome</h2><p>If you identify any errors or omissions in this table, I would be pleased to hear from you. Please use the <a href="contact.html">Contact page</a>.</p></section><p class="back-link"><a href="naval-arms-control.html">← Back to Naval History Document Archive</a></p></main>
 <footer><p class="footer-links"><a href="contact.html">Contact</a> | <a href="whats-new.html">What's New</a></p><p class="footer-feedback">Corrections, additions and information about relevant sources are welcome.</p>
 <p>© Dr David Chessum | The Naval History of Interwar Naval Arms Control</p>
 <p><em>Ego sum nauta</em></p>
@@ -298,5 +295,5 @@ document.getElementById("lastPage").addEventListener("click", () => {
 });
 
 render();
-</script></body>
+</script><script>(()=>{const ids=['firstPage','prevPage','nextPage','lastPage'];function sync(){for(const id of ids)document.getElementById(id+'Top').disabled=document.getElementById(id).disabled;document.getElementById('pageStatusTop').textContent=document.getElementById('pageStatus').textContent;}for(const id of ids)document.getElementById(id+'Top').addEventListener('click',()=>{document.getElementById(id).click();sync();});new MutationObserver(sync).observe(document.getElementById('pageStatus').parentElement,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['disabled']});sync();})();</script></body>
 </html>
